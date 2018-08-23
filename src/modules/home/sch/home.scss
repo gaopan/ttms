@@ -1,0 +1,73 @@
+.main {
+
+	header {
+		display: block;
+		position: relative;
+		z-index: 15;
+    overflow: visible;
+    background-image: linear-gradient(to bottom, $PrimaryColor 100%, #342e88 100%);
+		background-repeat: repeat-x;
+		box-shadow: 0 0 2px 1px #7d7d7d;
+
+    .advert {
+    	display: none;
+    	overflow: hidden;
+
+    	img {
+    		display: block;
+    		height: 99px;
+    	}
+    }
+
+    h1 {
+    	margin: 0;
+    	padding: 20px 15px 10px;
+    }
+
+    .navbar {
+    	margin-left: 15px;
+    	display: inline-block;
+    	margin: 0;
+    }
+	}
+
+	.content {
+		display: block;
+		padding: 15px;
+		background-image: linear-gradient(to top, $PrimaryColor 0, #342e88 100%);
+		background-repeat: repeat-x;
+		/*background-color: #DFEDFA;*/
+		/*background-color: $PrimaryColor;*/
+	}
+}
+
+@media (min-width: 768px) {
+	.main {
+		header {
+			
+			.advert {
+				display: block;
+			}
+
+
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.main {
+		header {
+			white-space: nowrap;
+			h1 {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			.navbar {
+				float: right;
+				margin-top: 30px;
+				vertical-align: middle;
+			}
+		}
+	}
+}

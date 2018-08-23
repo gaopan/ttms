@@ -1,0 +1,131 @@
+nav {
+  border: none;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 700;
+  width: 100%;
+  margin-bottom: 0;
+  background-color: #000;
+  color: #fff;
+
+  .title {
+    margin: 0;
+    padding: 0 0 0 15px;
+    height: 50px;
+    float: left;
+    
+    .logo {
+      display: inline-block;
+      height: 28px;
+      margin-top: 10px;
+      cursor:pointer;
+    }
+    .logo.clickable {
+      cursor: pointer;
+    }
+    .logo.disabled {
+      cursor: not-allowed;
+    }
+
+    .logo-text {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 0px 15px 0 10px;
+      font-size: 14px;
+      color: #eee;
+      vertical-align: top;
+      border-right: 1px solid #424242;
+      cursor:pointer;
+    }
+
+    .logo-text-line{
+      display: inline-block;
+      margin-top: 8px;
+      padding: 8px 30px 0 10px;
+      font-size: 14px;
+      color: #eee;
+      vertical-align: top;
+      cursor:pointer;
+    }
+  }
+
+  .btn-nav {
+    color: #fff;
+    padding: 15px;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 15px;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      color: #ffed00;
+      background-color: transparent;
+      outline: none;
+    }
+
+    &.disabled {
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .navbar-right {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height:50px;
+
+    >.dropdown {
+      &.open>a {
+        background-color: transparent;
+        color: #fff;
+      }
+
+      >a {
+        color: #fff;
+      }
+    }
+  }
+
+  .glyphicon{
+    font-size: 14px;
+    top:6px;
+  }
+  
+  .dropdown-menu {
+    right: -7px;
+    border-radius: 0;
+    margin-top: 10px;
+    padding: 10px 0;
+    width: 200px;
+    border: #000000 solid 2px;
+
+    &:after {
+      position: absolute;
+      top: -10px;
+      right: 15px;
+      display: inline-block;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #fff;
+      border-left: 10px solid transparent;
+      content: "";
+    }
+
+    >li>a {
+      padding: 10px 20px;
+    }
+
+    >li>a:hover,
+    >li>a:focus {
+      text-decoration: none;
+      color: #262626;
+      background-color: #F5F5F5;
+      font-weight: bolder;
+    }
+  }
+}

@@ -1,0 +1,252 @@
+.index {
+  display: block;
+  text-align: center;
+
+  .about-container {
+    text-align: left;
+  }
+
+  .logen {
+  	display: block;
+  	border: 5px solid #BC7E4E;
+  	border-radius: 3px;
+  	padding: 15px;
+    position: relative;
+  	background-color: #fff;
+    z-index: 9;
+
+  	.schools {
+  		display: inline-block;
+
+  		span {
+  			display: inline-block;
+  			vertical-align: middle;
+  			white-space: nowrap;
+
+  			&:first-child {
+  				margin-right: 50px;
+  			}
+
+  			img {
+  				display: inline-block;
+  				height: 60px;
+  				vertical-align: middle;
+  			}
+
+  			b {
+  				margin-left: 10px;
+  				font-size: 24px;
+  				vertical-align: middle;
+          white-space: normal;
+  			}
+  		}
+  	}
+
+  	.title {
+  		margin-top: 20px;
+  		font-weight: 1000;
+  		label {
+  			display: inline-block;
+  			line-height: 1;
+  			vertical-align: middle;
+  			padding: 5px 10px;
+  			font-size: 24px;
+  			background-color: $PrimaryColor;
+  			color: #fff;
+  			margin: 0;
+  		}
+  		span {
+  			display: inline-block;
+  			margin-left: 10px;
+  			vertical-align: middle;
+  			line-height: 1;
+  			font-size: 32px;
+  		}
+  	}
+  }
+
+  .oxford-desc {
+  	margin-top: 20px;
+  	padding: 0;
+  	.caption {
+  		text-align: left;
+  		display: block;
+  		width: 100%;
+  		font-size: 16px;
+  		line-height: 1.8;
+  		color: #fff;
+  	}
+  	.img-section {
+  		padding-left: 0;
+
+  		img {
+  			display: block;
+  			width: 100%;
+  		}
+
+  		.alt {
+  			color: #fff;
+  			margin-top: 5px;
+  			padding: 5px 10px;
+  		}
+  	}
+  }
+
+  .news {
+  	margin-top: 20px;
+  	padding: 0;
+  	margin-left: 0;
+  	margin-right: 0;
+  	background-color: #fff;
+  	text-align: left;
+
+    .xsfz, .zxhb {
+      z-index: 9;
+      position: relative;
+      margin-bottom: 15px;
+    }
+
+  	h3 {
+  		font-weight: bold;
+      margin-bottom: 10px;
+  	}
+
+  	.desc {
+  		line-height: 1.8;
+  	}
+
+  	ul {
+  		li {
+  			margin-bottom: 5px;
+  		}
+  	}
+  }
+
+  .cz-desc {
+  	margin-top: 30px;
+  	padding: 0;
+  	text-align: left;
+  	position: relative;
+
+    &>.mode {
+      position: relative;
+    }
+
+    &>.mode>.separator {
+      display: block;
+      position: absolute;
+      left: 15px;
+      right: 15px;
+      bottom: 0;
+      height: 1px;
+      background-color: #7d7d7d;
+    }
+
+    >div[class*=col-] {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+  	img {
+  		display: block;
+  		width: 100%;
+  	}
+  	.alt {
+  		margin-bottom: 5px;
+  		padding: 5px 10px;
+  		text-align: center;
+  	}
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      position: relative;
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -5px;
+        height: 2px;
+        background-color: #7d7d7d;
+      }
+    }
+
+  	ul {
+  		font-size: 16px;
+
+      li {
+        padding: 5px 0;
+      }
+  	}
+
+    .name {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    .target {
+      font-size: 14px;
+    }
+    .mode {
+      padding: 5px 0;
+      margin-bottom: 15px;
+    }
+    .mode-r {
+      white-space: nowrap;
+      margin-bottom: 10px;
+      padding-right: 15px;
+      text-align: right;
+      margin-top: 10px;
+      i {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+        color: #5CB85C;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      span {
+        font-size: 18px;
+        font-weight: bold;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      label {
+        font-size: 18px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        border-radius: 0;
+      }
+    }
+
+    .ty-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .kc {
+      h4 {
+        margin-bottom: 5px;
+        font-size: 18px;
+      }
+
+      table {
+        margin-bottom: 15px;
+      }
+    }
+
+    table tbody tr:not(.red) td {
+      color: #fff;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .index {
+  }
+}

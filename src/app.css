@@ -1,0 +1,60 @@
+/* This the application level css that will be global to all application module */
+
+@import "./assets/styles/color-switcher.css";
+@import "./assets/styles/font-awesome.min.css";
+@import "./assets/styles/owl.carousel.css";
+@import "./assets/styles/jquery-ui.css";
+@import "./assets/styles/meanmenu.min.css";
+@import "./assets/styles/animate.css";
+@import "./assets/styles/animated-headlines.css";
+@import "./lib/nivo-slider/css/nivo-slider.css";
+@import "./lib/nivo-slider/css/preview.css";
+@import "./assets/styles/material-design-iconic-font.css";
+@import "./assets/styles/material-design-iconic-font.min.css";
+@import "./assets/styles/slick.css";
+@import "./assets/styles/jquery.mb.YTPlayer.css";
+@import "./assets/styles/style.css";
+@import "./assets/styles/color.css";
+@import "./assets/styles/responsive.css";
+
+/*the whole page's scroll bar style*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E0E0E0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B3B3B3;
+  border-radius: 10px;
+}
+
+
+
+
+
+/* Common Styles for Input Placeholder */
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #cccccc;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #cccccc;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #cccccc;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #cccccc;
+}
