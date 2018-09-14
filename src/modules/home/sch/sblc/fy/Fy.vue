@@ -17,46 +17,32 @@
               <table>
                 <thead>
                   <th>年级</th>
-                  <th>学费（港币）</th>
-                  <th>捐赠（港币）</th>
-                  <th>合计</th>
+                  <th>收费（港币）</th>
                 </thead>
                 <tbody>
                   <tr>
                     <td>8</td>
                     <td>148,000</td>
-                    <td>60,000</td>
-                    <td>208,000</td>
                   </tr>
                   <tr>
                     <td>9</td>
                     <td>148,000</td>
-                    <td>60,000</td>
-                    <td>208,000</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>148,000</td>
-                    <td>60,000</td>
-                    <td>208,000</td>
                   </tr>
                   <tr>
                     <td>11</td>
                     <td>148,000</td>
-                    <td>60,000</td>
-                    <td>208,000</td>
                   </tr>
                   <tr>
                     <td>12</td>
                     <td>168,000</td>
-                    <td>100,000</td>
-                    <td>268,000</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>168,000</td>
-                    <td>100,000</td>
-                    <td>268,000</td>
                   </tr>
                 </tbody>
               </table>
