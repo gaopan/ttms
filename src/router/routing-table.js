@@ -10,623 +10,227 @@ let routerTable = {
       default: () =>
         import ('@/modules/home/Home.vue')
     },
-    redirect: '/tch',
+    redirect: '/index',
     children: [{
-      path: 'tch',
-      name: 'HomeTch',
+      name: 'Home Index',
+      path: 'index',
       components: {
         default: () =>
-          import ('@/modules/home/tch/Home.vue')
+          import ('@/modules/home/index/Index.vue')
+      }
+    }, {
+      path: 'njgx',
+      name: 'Njgx',
+      components: {
+        default: () =>
+          import ('@/modules/home/njgx/Njgx.vue')
       },
-      redirect: '/tch/index',
+      redirect: '/njgx/vision',
       children: [{
-        path: 'index',
-        name: 'HomeTchIndex',
+          path: 'vision',
+          name: 'Vision',
+          components: {
+            default: () =>
+              import ('@/modules/home/njgx/vision/Vision.vue')
+          }
+        },
+        {
+          path: 'academic',
+          name: 'Academic',
+          components: {
+            default: () =>
+              import ('@/modules/home/njgx/academic/Academic.vue')
+          }
+        },
+        {
+          path: 'career',
+          name: 'Career',
+          components: {
+            default: () =>
+              import ('@/modules/home/njgx/career/Career.vue')
+          }
+        },
+        {
+          path: 'development',
+          name: 'Development',
+          components: {
+            default: () =>
+              import ('@/modules/home/njgx/development/Development.vue')
+          }
+        },
+        {
+          path: 'sport',
+          name: 'Sport',
+          components: {
+            default: () =>
+              import ('@/modules/home/njgx/sport/Sport.vue')
+          }
+        },
+        {
+          path: 'ambassador',
+          name: 'Ambassador',
+          components: {
+            default: () =>
+              import ('@/modules/home/njgx/ambassador/Ambassador.vue')
+          }
+        }
+      ]
+    }, {
+      path: 'czzx',
+      name: 'Czzx',
+      components: {
+        default: () =>
+          import ('@/modules/home/czzx/Czzx.vue')
+      },
+      redirect: '/czzx/cxzl',
+      children: [{
+        name: "CxzlTch",
+        path: "cxzl",
         components: {
           default: () =>
-            import ('@/modules/home/tch/index/Index.vue')
+            import ('@/modules/home/czzx/cxzl/Cxzl.vue')
         }
       }, {
-        path: 'njgx',
-        name: 'NjgxTch',
+        name: "CzzhTch",
+        path: "czzh",
         components: {
           default: () =>
-            import ('@/modules/home/tch/njgx/Njgx.vue')
-        },
-        redirect: '/tch/njgx/vision',
-        children: [{
-            path: 'vision',
-            name: 'VisionTch',
-            components: {
-              default: () =>
-                import ('@/modules/home/tch/njgx/vision/Vision.vue')
-            }
-          },
-          {
-            path: 'academic',
-            name: 'AcademicTch',
-            components: {
-              default: () =>
-                import ('@/modules/home/tch/njgx/academic/Academic.vue')
-            }
-          },
-          {
-            path: 'career',
-            name: 'CareerTch',
-            components: {
-              default: () =>
-                import ('@/modules/home/tch/njgx/career/Career.vue')
-            }
-          },
-          {
-            path: 'development',
-            name: 'DevelopmentTch',
-            components: {
-              default: () =>
-                import ('@/modules/home/tch/njgx/development/Development.vue')
-            }
-          },
-          {
-            path: 'sport',
-            name: 'SportTch',
-            components: {
-              default: () =>
-                import ('@/modules/home/tch/njgx/sport/Sport.vue')
-            }
-          },
-          {
-            path: 'ambassador',
-            name: 'AmbassadorTch',
-            components: {
-              default: () =>
-                import ('@/modules/home/tch/njgx/ambassador/Ambassador.vue')
-            }
-          }
-        ]
+            import ('@/modules/home/czzx/czzh/Czzh.vue')
+        }
       }, {
-        path: 'czzx',
-        name: 'CzzxTch',
+        name: "SheshiTch",
+        path: "sheshi",
         components: {
           default: () =>
-            import ('@/modules/home/tch/czzx/Czzx.vue')
-        },
-        redirect: '/tch/czzx/cxzl',
-        children: [{
-          name: "CxzlTch",
-          path: "cxzl",
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/czzx/cxzl/Cxzl.vue')
-          }
-        }, {
-          name: "CzzhTch",
-          path: "czzh",
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/czzx/czzh/Czzh.vue')
-          }
-        }, {
-          name: "SheshiTch",
-          path: "sheshi",
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/czzx/sheshi/Sheshi.vue')
-          }
-        }, {
-          name: "XueshuTch",
-          path: "xueshu",
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/czzx/xueshu/Xueshu.vue')
-          }
-        }, {
-          name: "LinianTch",
-          path: "linian",
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/czzx/linian/Linian.vue')
-          }
-        }, {
-          name: "ZiliaoTch",
-          path: "ziliao",
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/czzx/ziliao/Ziliao.vue')
-          }
-        }]
+            import ('@/modules/home/czzx/sheshi/Sheshi.vue')
+        }
       }, {
-        name: 'KcglTch',
-        path: 'kcgl',
+        name: "XueshuTch",
+        path: "xueshu",
         components: {
           default: () =>
-            import ('@/modules/home/tch/kcgl/Kcgl.vue')
-        },
-        children: [{
-          name: 'KcglTch Low',
-          path: 'low',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/kcgl/low/Low.vue')
-          }
-        }, {
-          name: 'KcglTch High',
-          path: 'high',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/kcgl/high/High.vue')
-          }
-        }]
+            import ('@/modules/home/czzx/xueshu/Xueshu.vue')
+        }
       }, {
-        name: 'SblcTch',
-        path: 'sblc',
-        redirect: '/tch/sblc/sqzl',
+        name: "LinianTch",
+        path: "linian",
         components: {
           default: () =>
-            import ('@/modules/home/tch/sblc/Sblc.vue')
-        },
-        children: [{
-          //   name: 'Bmfy',
-          //   path: 'bmfy',
-          //   components: {
-          //     default: () =>
-          //       import ('@/modules/home/tch/sblc/bmfy/Bmfy.vue')
-          //   }
-          // }, {
-          //   name: 'Kcsf',
-          //   path: 'kcsf',
-          //   components: {
-          //     default: () =>
-          //       import ('@/modules/home/tch/sblc/kcsf/Kcsf.vue')
-          //   }
-          // }, {
-          //   name: 'Msap',
-          //   path: 'msap',
-          //   components: {
-          //     default: () =>
-          //       import ('@/modules/home/tch/sblc/msap/Msap.vue')
-          //   }
-          // }, {
-          //   name: 'Sqzl',
-          //   path: 'sqzl',
-          //   components: {
-          //     default: () =>
-          //       import ('@/modules/home/tch/sblc/sqzl/Sqzl.vue')
-          //   }
-          name: 'SqlcTch',
-          path: 'sqlc',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/sblc/sqlc/Sqlc.vue')
-          }
-        }, {
-          name: 'FyTch',
-          path: 'fy',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/sblc/fy/Fy.vue')
-          }
-        }]
+            import ('@/modules/home/czzx/linian/Linian.vue')
+        }
       }, {
-        name: 'QtsxTch',
-        path: 'qtsx',
-        redirect: '/tch/qtsx/xf',
+        name: "ZiliaoTch",
+        path: "ziliao",
         components: {
           default: () =>
-            import ('@/modules/home/tch/qtsx/Qtsx.vue')
-        },
-        children: [{
-          name: 'XfTch',
-          path: 'xf',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/qtsx/xf/Xf.vue')
-          }
-        }, {
-          name: 'JhrTch',
-          path: 'jhr',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/qtsx/jhr/Jhr.vue')
-          }
-        }, {
-          name: 'JtTch',
-          path: 'jt',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/qtsx/jt/Jt.vue')
-          }
-        }, {
-          name: 'SsTch',
-          path: 'ss',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/qtsx/ss/Ss.vue')
-          }
-        }, {
-          name: 'ZsTch',
-          path: 'zs',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/qtsx/zs/Zs.vue')
-          }
-        }]
-      }, {
-        name: 'ZxkcTch',
-        path: 'zxkc',
-        redirect: '/tch/zxkc/Dxkc',
-        components: {
-          default: () =>
-            import ('@/modules/home/tch/zxkc/Zxkc.vue')
-        },
-        children: [{
-          name: 'DxkcTch',
-          path: 'dxkc',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/zxkc/dxkc/Dxkc.vue')
-          }
-        }, {
-          name: 'XqzxTch',
-          path: 'xqzx',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/zxkc/xqzx/Xqzx.vue')
-          }
-        }, {
-          name: 'YxsyTch',
-          path: 'yxsy',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/zxkc/yxsy/Yxsy.vue')
-          }
-        }, {
-          name: 'YyjxTch',
-          path: 'yyjx',
-          components: {
-            default: () =>
-              import ('@/modules/home/tch/zxkc/yyjx/Yyjx.vue')
-          }
-        }]
+            import ('@/modules/home/czzx/ziliao/Ziliao.vue')
+        }
       }]
     }, {
-      path: 'sch',
-      name: 'HomeSch',
+      name: 'Kcgl',
+      path: 'kcgl',
       components: {
         default: () =>
-          import ('@/modules/home/sch/Home.vue')
+          import ('@/modules/home/kcgl/Kcgl.vue')
       },
-      redirect: '/sch/index',
+      redirect: '/kcgl/low',
       children: [{
-        path: 'index',
-        name: 'HomeTchIndex',
+        name: 'KcglTch Low',
+        path: 'low',
         components: {
           default: () =>
-            import ('@/modules/home/sch/index/Index.vue')
+            import ('@/modules/home/kcgl/low/Low.vue')
         }
       }, {
-        path: 'njgx',
-        name: 'NjgxSch',
+        name: 'KcglTch High',
+        path: 'high',
         components: {
           default: () =>
-            import ('@/modules/home/sch/njgx/Njgx.vue')
-        },
-        redirect: '/sch/njgx/vision',
-        children: [{
-            path: 'vision',
-            name: 'VisionSch',
-            components: {
-              default: () =>
-                import ('@/modules/home/sch/njgx/vision/Vision.vue')
-            }
-          },
-          {
-            path: 'academic',
-            name: 'AcademicSch',
-            components: {
-              default: () =>
-                import ('@/modules/home/sch/njgx/academic/Academic.vue')
-            }
-          },
-          {
-            path: 'career',
-            name: 'CareerSch',
-            components: {
-              default: () =>
-                import ('@/modules/home/sch/njgx/career/Career.vue')
-            }
-          },
-          {
-            path: 'development',
-            name: 'DevelopmentSch',
-            components: {
-              default: () =>
-                import ('@/modules/home/sch/njgx/development/Development.vue')
-            }
-          },
-          {
-            path: 'sport',
-            name: 'SportSch',
-            components: {
-              default: () =>
-                import ('@/modules/home/sch/njgx/sport/Sport.vue')
-            }
-          },
-          {
-            path: 'ambassador',
-            name: 'AmbassadorSch',
-            components: {
-              default: () =>
-                import ('@/modules/home/sch/njgx/ambassador/Ambassador.vue')
-            }
-          }
-        ]
+            import ('@/modules/home/kcgl/high/High.vue')
+        }
       }, {
-        path: 'czzx',
-        name: 'CzzxSch',
-        components: {
-          default: () =>
-            import ('@/modules/home/sch/czzx/Czzx.vue')
-        },
-        redirect: '/sch/czzx/cxzl',
-        children: [{
-          name: "CxzlSch",
-          path: "cxzl",
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/czzx/cxzl/Cxzl.vue')
-          }
-        }, {
-          name: "CzzhSch",
-          path: "czzh",
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/czzx/czzh/Czzh.vue')
-          }
-        }, {
-          name: "SheshiSch",
-          path: "sheshi",
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/czzx/sheshi/Sheshi.vue')
-          }
-        }, {
-          name: "XueshuSch",
-          path: "xueshu",
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/czzx/xueshu/Xueshu.vue')
-          }
-        }, {
-          name: "LinianSch",
-          path: "linian",
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/czzx/linian/Linian.vue')
-          }
-        }, {
-          name: "ZiliaoSch",
-          path: "ziliao",
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/czzx/ziliao/Ziliao.vue')
-          }
-        }]
-      }, {
-        name: 'KcglSch',
-        path: 'kcgl',
-        components: {
-          default: () =>
-            import ('@/modules/home/sch/kcgl/Kcgl.vue')
-        },
-        children: [{
-          name: 'KcglSch Low',
-          path: 'low',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/kcgl/low/Low.vue')
-          }
-        }, {
-          name: 'KcglSch High',
-          path: 'high',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/kcgl/high/High.vue')
-          }
-        }]
-      }, {
-        name: 'SblcSch',
-        path: 'sblc',
-        redirect: '/sch/sblc/sqzl',
-        components: {
-          default: () =>
-            import ('@/modules/home/sch/sblc/Sblc.vue')
-        },
-        children: [{
-          //   name: 'Bmfy',
-          //   path: 'bmfy',
-          //   components: {
-          //     default: () =>
-          //       import ('@/modules/home/sch/sblc/bmfy/Bmfy.vue')
-          //   }
-          // }, {
-          //   name: 'Kcsf',
-          //   path: 'kcsf',
-          //   components: {
-          //     default: () =>
-          //       import ('@/modules/home/sch/sblc/kcsf/Kcsf.vue')
-          //   }
-          // }, {
-          //   name: 'Msap',
-          //   path: 'msap',
-          //   components: {
-          //     default: () =>
-          //       import ('@/modules/home/sch/sblc/msap/Msap.vue')
-          //   }
-          // }, {
-          //   name: 'Sqzl',
-          //   path: 'sqzl',
-          //   components: {
-          //     default: () =>
-          //       import ('@/modules/home/sch/sblc/sqzl/Sqzl.vue')
-          //   }
-          name: 'SqlcSch',
-          path: 'sqlc',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/sblc/sqlc/Sqlc.vue')
-          }
-        }, {
-          name: 'FySch',
-          path: 'fy',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/sblc/fy/Fy.vue')
-          }
-        }]
-      }, {
-        name: 'QtsxSch',
-        path: 'qtsx',
-        redirect: '/sch/qtsx/xf',
-        components: {
-          default: () =>
-            import ('@/modules/home/sch/qtsx/Qtsx.vue')
-        },
-        children: [{
-          name: 'XfSch',
-          path: 'xf',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/qtsx/xf/Xf.vue')
-          }
-        }, {
-          name: 'JhrSch',
-          path: 'jhr',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/qtsx/jhr/Jhr.vue')
-          }
-        }, {
-          name: 'JtSch',
-          path: 'jt',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/qtsx/jt/Jt.vue')
-          }
-        }, {
-          name: 'SsSch',
-          path: 'ss',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/qtsx/ss/Ss.vue')
-          }
-        }, {
-          name: 'ZsSch',
-          path: 'zs',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/qtsx/zs/Zs.vue')
-          }
-        }]
-      }, {
-        name: 'ZxkcSch',
+        name: 'ZxkcTch High',
         path: 'zxkc',
-        redirect: '/sch/zxkc/Dxkc',
         components: {
           default: () =>
-            import ('@/modules/home/sch/zxkc/Zxkc.vue')
-        },
-        children: [{
-          name: 'DxkcSch',
-          path: 'dxkc',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/zxkc/dxkc/Dxkc.vue')
-          }
-        }, {
-          name: 'XqzxSch',
-          path: 'xqzx',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/zxkc/xqzx/Xqzx.vue')
-          }
-        }, {
-          name: 'YxsySch',
-          path: 'yxsy',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/zxkc/yxsy/Yxsy.vue')
-          }
-        }, {
-          name: 'YyjxSch',
-          path: 'yyjx',
-          components: {
-            default: () =>
-              import ('@/modules/home/sch/zxkc/yyjx/Yyjx.vue')
-          }
-        }]
+            import ('@/modules/home/kcgl/zxkc/Zxkc.vue')
+        }
       }]
+    }, {
+      name: 'Sblc',
+      path: 'sblc',
+      redirect: '/sblc/sqzg',
+      components: {
+        default: () =>
+          import ('@/modules/home/sblc/Sblc.vue')
+      },
+      children: [{
+        name: 'Sqlc',
+        path: 'sqlc',
+        components: {
+          default: () =>
+            import ('@/modules/home/sblc/sqlc/Sqlc.vue')
+        }
+      }, {
+        name: 'Bmfy',
+        path: 'bmfy',
+        components: {
+          default: () =>
+            import ('@/modules/home/sblc/bmfy/Bmfy.vue')
+        }
+      }, {
+        name: 'Sqzg',
+        path: 'sqzg',
+        components: {
+          default: () =>
+            import ('@/modules/home/sblc/sqzg/Sqzg.vue')
+        }
+      }, {
+        name: 'Kcsf',
+        path: 'kcsf',
+        components: {
+          default: () =>
+            import ('@/modules/home/sblc/kcsf/Kcsf.vue')
+        }
+      }]
+    }, {
+      name: "Honor",
+      path: "honor",
+      components: {
+        default: () => import('@/modules/home/honor/Honor.vue')
+      }
+    }, {
+      name: "Contact",
+      path: "contact",
+      components: {
+        default: () => import('@/modules/home/contact/Contact.vue')
+      }
+    }, {
+      name: "Search",
+      path: "search",
+      components: {
+        default: () => import('@/modules/home/search/Search.vue')
+      }
+    }, {
+      name: "Images",
+      path: "images",
+      components: {
+        default: () => import('@/modules/home/latest-images/LatestImages.vue')
+      }
+    }, {
+      name: "Yycg",
+      path: "yycg",
+      components: {
+        default: () => import('@/modules/home/yycg/Yycg.vue')
+      }
+    }, {
+      name: "Czgc",
+      path: "czgc",
+      components: {
+        default: () => import('@/modules/home/czgc/Czgc.vue')
+      }
     }]
-
   }]
 }
 
 export default routerTable
-
-
-/*
-{
-      path: '/index',
-      name: 'HomeIndex',
-      components: {
-        default: () => import('@/modules/home/index/Index.vue')
-      }
-    }, {
-      path: '/vision',
-      name: 'Vision',
-      components: {
-        default: () => import('@/modules/home/vision/Vision.vue')
-      }
-    }, {
-      path: '/academic',
-      name: 'Academic',
-      components: {
-        default: () => import('@/modules/home/academic/Academic.vue')
-      }
-    }, {
-      path: '/fee',
-      name: 'Fee',
-      components: {
-        default: () => import('@/modules/home/fee/Fee.vue')
-      }
-    }, {
-      path: '/career',
-      name: 'Career',
-      components: {
-        default: () => import('@/modules/home/career/Career.vue')
-      }
-    }, {
-      path: '/development',
-      name: 'Development',
-      components: {
-        default: () => import('@/modules/home/development/Development.vue')
-      }
-    }, {
-      path: '/sport',
-      name: 'Sport',
-      components: {
-        default: () => import('@/modules/home/sport/Sport.vue')
-      }
-    }, {
-      path: '/ambassador',
-      name: 'Ambassador',
-      components: {
-        default: () => import('@/modules/home/ambassador/Ambassador.vue')
-      }
-    }, {
-      path: '/honor',
-      name: 'Honor',
-      components: {
-        default: () => import('@/modules/home/honor/Honor.vue')
-      }
-    }
-*/

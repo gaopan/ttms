@@ -9,5 +9,10 @@ export default {
       return true;
     });
     return res;
+  },
+  translate: function(key, translator, lang){
+    if(!translator) return "";
+    if(!translator[lang]) return "";
+    return translator[lang][key];
   }
 }

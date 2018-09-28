@@ -8,7 +8,7 @@ function componentRule(to, from, next) {
   next();
 
   setTimeout(function(){
-  	$("html, body").animate({ scrollTop: $('#main').offset().top }, "slow");
+  	// $("html, body").animate({ scrollTop: $('#main').offset().top }, "slow");
   }, 0);
 }
 

@@ -5,6 +5,7 @@ require('imports-loader?window.jQuery=jquery!./lib/jquery.ajaxchimp.min.js')
 require('imports-loader?window.jQuery=jquery!./lib/jquery.counterup.min.js')
 require('imports-loader?window.jQuery=jquery!./lib/slick.min.js')
 require('imports-loader?window.jQuery=jquery!./lib/textilate.js')
+require('imports-loader?window.jQuery=jquery!./lib/responsiveslides.js')
 window.WOW = require('./lib/wow.min.js').WOW;
 
 require('bootstrap-loader')
