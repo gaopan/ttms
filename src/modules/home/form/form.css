@@ -1,0 +1,76 @@
+.form-container{
+	padding-bottom: 30px;
+}
+.form-explanation{
+	padding:14px;
+  line-height: 22px;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+}
+
+.info-title{
+    background-image: linear-gradient(180deg,#b27524 0,#d9ad43);
+    background-repeat: repeat-x;
+    line-height: 36px;
+    padding-left: 22px	
+}
+
+.info-block {
+    margin-left: 20px;
+    width: 300px;
+}
+
+.child-info {
+    border-bottom: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+.child-info-title{
+	  background: #C0C0C0;
+    font-size: 16px;
+    line-height: 27px;
+    padding-left: 20px;
+}
+.delete-child-member{
+	  color: black;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    float: right;
+}
+.add-child {
+    margin: 10px 0 0 20px;
+}
+.form-container button{
+    line-height: 26px;
+}
+.add-child button{
+    width: 70px;
+}
+.submit-info button{
+    display: inline-block;
+    line-height: 26px;
+	width: 100px;
+    background-image: linear-gradient(180deg,#3f358e 0,#2c2645);
+    background-repeat: repeat-x;
+    outline: none;
+    color: white;	  
+}
+.preference-checkbox{
+	margin-left: 20px;
+}
+
+.submit-info {
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-top: 30px;
+    text-align: center;
+}
+.noPaddingTop{
+	padding-top: 0;
+}

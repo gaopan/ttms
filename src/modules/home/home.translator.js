@@ -71,7 +71,15 @@ let zh_hk = {
     name: "光榮榜",
     path: '/honor',
     description: "歷屆榮譽榜"
+  }/*, {
+    name: "信息填写",
+    path: '/form',
+    description: '会议申请'
   }, {
+    name: "登记信息",
+    path: '/child-info',
+    description: '家长和孩子信息'
+  }*/, {
     name: "聯系我們",
     nameHtml: "聯系</br>我們",
     path: '/contact',
