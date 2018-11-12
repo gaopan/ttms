@@ -3,7 +3,7 @@ let zh_cn = {
 	latestImagesAndVideos: "最新图集和影片",
 	latestImages: "最新图集",
 	latestVideos: "最新影片",
-	czgcUpdates: "崇正工程新进展",
+	czgcUpdates: "崇正校内最新资讯",
 	yycg: "线上预约报名"
 };
 
@@ -12,7 +12,7 @@ let zh_hk = {
 	latestImagesAndVideos: "最新圖集和影片",
 	latestImages: "最新圖集",
 	latestVideos: "最新影片",
-	czgcUpdates: "崇正工程新進展",
+	czgcUpdates: "崇正校內最新資訊",
 	yycg: "線上預約報名"
 };
 
@@ -21,7 +21,7 @@ let en = {
 	latestImagesAndVideos: "Latest images and videos",
 	latestImages: "最新圖集",
 	latestVideos: "最新影片",
-	czgcUpdates: "崇正工程新進展",
+	czgcUpdates: "崇正校內最新資訊",
 	yycg: "線上預約報名"
 };
 

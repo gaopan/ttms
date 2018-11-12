@@ -1,6 +1,7 @@
 import Translator from './czgc.translator.js'
 import Data from '@/api/data/czgc/index.js'
 import CommonUtils from '@/utils/common-utils.js'
+import SearchBox from '@/components/search-box/SearchBox.vue'
 import shared from '@/shared.js'
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
 let eventHub = shared.eventHub
@@ -12,6 +13,7 @@ export default {
       translator: Translator
     };
   },
+  components: {SearchBox},
   created() {
     eventHub.$on("changed-lang", this.changedLang);
   },

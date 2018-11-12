@@ -1,9 +1,9 @@
 let zh_cn = {
   name: "崇正牛津国际中学课程",
   address: "香港 九龙 长沙湾 广利道11号",
-  contact: "崇正中学入学部 曾先生",
+  contact: "崇正中学入学部 刘老师",
   contact_tel: "+852 2387 8228",
-  contact_phone: "+852 5716 0001/+86 13229307689",
+  contact_phone: "+852 5989 9418/+86 13041218666",
   email: "info@ttmsedu.onaliyun.com",
   navs: [{
     name: "主页",
@@ -42,9 +42,9 @@ let zh_cn = {
 let zh_hk = {
   name: "崇正牛津國際中學課程",
   address: "香港 九龍 長沙灣 廣利道11號",
-  contact: "崇正中學入學部 曾先生",
+  contact: "崇正中學入學部 劉老師",
   contact_tel: "+852 2387 8228",
-  contact_phone: "+852 5716 0001/+86 13229307689",
+  contact_phone: "+852 5989 9418/+86 13041218666",
   email: "info@ttmsedu.onaliyun.com",
   navs: [{
     name: "主頁",
@@ -83,9 +83,9 @@ let zh_hk = {
 let en = {
   name: "崇正牛津國際中學課程",
   address: "香港 九龍 長沙灣 廣利道11號",
-  contact: "崇正中學入學部 曾先生",
+  contact: "崇正中學入學部 劉先生",
   contact_tel: "+852 2387 8228",
-  contact_phone: "+852 5716 0001/+86 13229307689",
+  contact_phone: "+852 5989 9418/+86 1471 4311 586",
   email: "info@ttmsedu.onaliyun.com",
   navs: [{
     name: "主頁",
