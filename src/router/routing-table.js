@@ -229,7 +229,19 @@ let routerTable = {
       components: {
         default: () => import('@/modules/home/czgc/Czgc.vue')
       }
-    }]
+    }/*, {
+      name: "Xxtx",
+      path: "form",
+      components: {
+        default: () => import('@/modules/home/form/form.vue')
+      }
+    }, {
+      name: "Djxx",
+      path: "child-info",
+      components: {
+        default: () => import('@/modules/home/child-info/child-info.vue')
+      }
+    }*/]
   }]
 }
 
