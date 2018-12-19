@@ -59,4 +59,50 @@ let zh_hk = {
 };
 
 let en = {};
+
+
+let zh_hk_2 = {
+  search: "搜索",
+  section_content: "本節內容",
+  navs: [{
+    name: "創校之路",
+    path: '/czzx/cxzl',
+    href: '/czzx/cxzl'
+  }, {
+    name: "歷史佳績",
+    path: '/czzx/lsjj',
+    href: '/czzx/lsjj'
+  }, {
+    name: "崇正文化",
+    path: '/czzx/czwh',
+    href: '/czzx/czwh'
+  }, {
+    name: "學校管治",
+    path: '/czzx/xxgz',
+    href: '/czzx/xxgz'
+  }]
+};
+
+
+let en_2 = {
+  search: "Search",
+  section_content: "本節內容",
+  navs: [{
+    name: "創校之路",
+    path: '/czzx/cxzl',
+    href: '/czzx/cxzl'
+  }, {
+    name: "歷史佳績",
+    path: '/czzx/lsjj',
+    href: '/czzx/lsjj'
+  }, {
+    name: "崇正文化",
+    path: '/czzx/czwh',
+    href: '/czzx/czwh'
+  }, {
+    name: "學校管治",
+    path: '/czzx/xxgz',
+    href: '/czzx/xxgz'
+  }]  
+};
 export default { zh_cn, zh_hk, en }
