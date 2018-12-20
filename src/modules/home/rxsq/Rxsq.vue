@@ -27,4 +27,4 @@
     </div>
   </div>
 </template>
-<script src="./njgx.js"></script>
+<script src="./rxsq.js"></script>

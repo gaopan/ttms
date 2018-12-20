@@ -2,14 +2,14 @@ import CommonUtils from '@/utils/common-utils.js'
 import HomeTranslator from '../home.translator.js'
 import CzzxTranslator from '../czzx/czzx.translator.js'
 import NjgxTranslator from '../njgx/njgx.translator.js'
-import KcglTranslator from '../kcgl/kcgl.translator.js'
-import SblcTranslator from '../sblc/sblc.translator.js'
+// import KcglTranslator from '../kcgl/kcgl.translator.js'
+// import SblcTranslator from '../sblc/sblc.translator.js'
 
 let translator = {
 	czzx: CzzxTranslator,
 	njgx: NjgxTranslator,
 	kcgl: KcglTranslator,
-	sblc: SblcTranslator
+	// sblc: SblcTranslator
 };
 
 export default {

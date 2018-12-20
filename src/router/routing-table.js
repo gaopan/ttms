@@ -4,6 +4,7 @@ let routerTable = {
   //This is for html5 history mode enablement
   // mode: 'history',
   routes: [{
+    //首页
     path: '/',
     name: 'Home',
     components: {
@@ -19,32 +20,67 @@ let routerTable = {
           import ('@/modules/home/index/Index.vue')
       }
     },  {
+      //香港崇正中学
       path: 'czzx',
       name: 'Czzx',
       components: {
         default: () =>
           import ('@/modules/home/czzx/Czzx.vue')
       },
-      redirect: '/czzx/cxzl',
-      children: []
+      redirect: '/czzx/establishment',
+      children: 
+      [
+        {
+          path: "establishment",
+          components: {
+            default: () =>
+              import ('@/modules/home/czzx/establishment/Establishment.vue')
+          }
+        },{
+          name: "Achievement",
+          path: "achievement",
+          components: {
+            default: () =>
+              import ('@/modules/home/czzx/achievement/Achievement.vue')
+          }
+        },{
+          name: "Culture",
+          path: "culture",
+          components: {
+            default: () =>
+              import ('@/modules/home/czzx/culture/Culture.vue')
+          }
+        },{
+          name: "Governance",
+          path: "governance",
+          components: {
+            default: () =>
+              import ('@/modules/home/czzx/governance/Governance.vue')
+          }
+        }, 
+      ]
     }, {
+      // 英国牛津国际公学
       path: 'njgx',
       name: 'Njgx',
       components: {
         default: () =>
           import ('@/modules/home/njgx/Njgx.vue')
       },
-      redirect: '/njgx/vision',
-      children: [{
-          path: 'vision',
-          name: 'Vision',
+      redirect: '/njgx/history',
+      children: 
+      [
+        {
+          path: 'history',
+          name: 'History',
           components: {
             default: () =>
-              import ('@/modules/home/njgx/vision/Vision.vue')
+              import ('@/modules/home/njgx/history/History.vue')
           }
         }
       ]
     },{
+      //崇正牛津國際中學課程
       name: 'Njkc',
       path: 'njkc',
       components: {
@@ -54,6 +90,7 @@ let routerTable = {
       // redirect: '/njkc/low',
       children: []
     }, {
+      //入學申請
       name: 'Rxsq',
       path: 'rxsq',
       // redirect: '/rxsq/sqzg',
@@ -63,12 +100,24 @@ let routerTable = {
       },
       children: []
     }, {
+      //崇正牛津校園
+      name: 'Njxy',
+      path: 'njxy',
+      // redirect: '/njxy/sqzg',
+      components: {
+        default: () =>
+          import ('@/modules/home/njxy/Njxy.vue')
+      },
+      children: []
+    }, {
+      //光榮榜與傑出學生
       name: "Honor",
       path: "honor",
       components: {
         default: () => import('@/modules/home/honor/Honor.vue')
       }
     }, {
+      //聯繫方法與圖片分享
       name: "Contact",
       path: "contact",
       components: {
@@ -85,18 +134,6 @@ let routerTable = {
       path: "images",
       components: {
         default: () => import('@/modules/home/latest-images/LatestImages.vue')
-      }
-    }, {
-      name: "Yycg",
-      path: "yycg",
-      components: {
-        default: () => import('@/modules/home/yycg/Yycg.vue')
-      }
-    }, {
-      name: "Czgc",
-      path: "czgc",
-      components: {
-        default: () => import('@/modules/home/czgc/Czgc.vue')
       }
     }/*, {
       name: "Xxtx",

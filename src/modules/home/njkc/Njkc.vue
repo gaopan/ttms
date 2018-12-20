@@ -1,3 +1,4 @@
+<!-- 崇正牛津國際中學課程 -->
 <template>
   <div class="content-wrapper">
     <div class="row">
@@ -27,4 +28,4 @@
     </div>
   </div>
 </template>
-<script src="./njgx.js"></script>
+<script src="./njkc.js"></script>

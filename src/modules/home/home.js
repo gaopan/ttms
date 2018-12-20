@@ -10,10 +10,10 @@ export default {
     return {
     	currentLang: shared.defaultLang,
     	translator: HomeTranslator,
-    	langs: [{
+    	langs: [/*{
     		name: '简',
     		value: 'zh_cn'
-    	}, {
+    	}, */{
     		name: "繁",
     		value: 'zh_hk'
     	}, {
@@ -23,11 +23,16 @@ export default {
     	navs: CommonUtils.deepClone(HomeTranslator[shared.defaultLang].navs)
     };
   },
+  created(){
+    console.log(this.$router.currentRoute)
+    console.log(this.navs)
+  },
   methods: {
     imgUrl: function(path) {
       return images('./' + path);
     },
     navTo(item) {
+      console.log(item)
       this.$router.push(item.path);
     },
     isCurrentPath(path) {

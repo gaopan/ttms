@@ -1,4 +1,4 @@
-import Translator from './njgx.translator.js'
+import Translator from './rxsq.translator.js'
 import CommonUtils from '@/utils/common-utils.js'
 import shared from '@/shared.js'
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
