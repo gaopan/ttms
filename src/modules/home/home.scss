@@ -10,6 +10,11 @@
 
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+.info-list li{
+  line-height: 2.5;
+  font-size: 14px; 
+  list-style: none; 
+}
 
 html {
   font-family: sans-serif;
