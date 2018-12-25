@@ -1,15 +1,21 @@
-let zh_cn = {
-  search: "搜索",
-  section_content: "本节内容",
-  navs: []
-};
-
 let zh_hk = {
   search: "搜索",
   section_content: "本節內容",
-  navs: []
+  navs: [{
+    name: "光榮榜",
+    path: '/honor/honorary-list',
+    href: '/honor/honorary-list'
+  },{
+    name: "傑出代表",
+    path: '/honor/candidates',
+    href: '/honor/candidates'
+  }]
 };
 
-let en = {};
+let en = {
+	search: "Search",
+	section_content: "本節內容",
+	navs: []
+};
 
-export default {zh_cn, zh_hk, en}
+export default {zh_hk, en}

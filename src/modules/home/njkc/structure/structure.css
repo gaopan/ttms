@@ -1,0 +1,33 @@
+.njkc-year{
+  left: 0;
+  width: 100%;
+}
+.njkc-year table{
+  width: 80%;
+  margin: 10px auto;
+}
+.njkc-year table th{
+  background: #262162;
+  border:1px solid #b27524;
+  border-bottom: 2px solid #b27524;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+}
+.njkc-year table th.njkc-year-sortnum{
+  width: 15%;
+}
+.njkc-year table th.njkc-year-term{
+  width: 15%;
+}
+.njkc-year table th.njkc-year-course{
+  width: 45%;
+}
+.njkc-year table th.njkc-year-igcse{
+  width: 25%;
+}
+.njkc-year table td{
+  border: 1px solid #b27524;
+  text-align: center;
+  padding: 6px 12px;
+}

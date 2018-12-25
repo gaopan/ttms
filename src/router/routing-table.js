@@ -87,18 +87,125 @@ let routerTable = {
         default: () =>
           import ('@/modules/home/njkc/Njkc.vue')
       },
-      // redirect: '/njkc/low',
-      children: []
+      redirect: '/njkc/assurance',
+      children: [{
+        path: 'assurance',
+        name: 'Assurance',
+        components: {
+          default: () =>
+            import ('@/modules/home/njkc/assurance/Assurance.vue')
+        }
+      },{
+        path: 'articulation',
+        name: 'Articulation',
+        components: {
+          default: () =>
+            import ('@/modules/home/njkc/articulation/Articulation.vue')
+        }
+      },{
+        path: 'cooperation',
+        name: 'Cooperation',
+        components: {
+          default: () =>
+            import ('@/modules/home/njkc/cooperation/Cooperation.vue')
+        }
+      },{
+        path: 'structure',
+        name: 'Structure',
+        components: {
+          default: () =>
+            import ('@/modules/home/njkc/structure/Structure.vue')
+        },
+        redirect:'/njkc/structure/requirements',
+        children:[{
+          path: 'requirements',
+          name: 'Requirements',
+          components: {
+            default: () =>
+              import ('@/modules/home/njkc/structure/requirements/Requirements.vue')
+          }
+        },{
+          path: 'eight-year',
+          name: 'EightYear',
+          components: {
+            default: () =>
+              import ('@/modules/home/njkc/structure/eight-year/EightYear.vue')
+          }
+        },{
+          path: 'nine-year',
+          name: 'NineYear',
+          components: {
+            default: () =>
+              import ('@/modules/home/njkc/structure/nine-year/NineYear.vue')
+          }
+        },{
+          path: 'ten-year',
+          name: 'TenYear',
+          components: {
+            default: () =>
+              import ('@/modules/home/njkc/structure/ten-year/TenYear.vue')
+          }
+        },{
+          path: 'eleven-year',
+          name: 'ElevenYear',
+          components: {
+            default: () =>
+              import ('@/modules/home/njkc/structure/eleven-year/ElevenYear.vue')
+          }
+        },{
+          path: 'twelve-year',
+          name: 'TwelveYear',
+          components: {
+            default: () =>
+              import ('@/modules/home/njkc/structure/twelve-year/TwelveYear.vue')
+          }
+        },{
+          path: 'twelve-thirteen-year',
+          name: 'TwelveThirteenYear',
+          components: {
+            default: () =>
+              import ('@/modules/home/njkc/structure/twelve-thirteen-year/TwelveThirteenYear.vue')
+          }
+        }]
+      },{
+        path: 'associations',
+        name: 'Associations',
+        components: {
+          default: () =>
+            import ('@/modules/home/njkc/associations/Associations.vue')
+        }
+      }]
     }, {
       //入學申請
       name: 'Rxsq',
       path: 'rxsq',
-      // redirect: '/rxsq/sqzg',
       components: {
         default: () =>
           import ('@/modules/home/rxsq/Rxsq.vue')
       },
-      children: []
+      redirect: '/rxsq/requirements',
+      children: [{
+          path: "requirements",
+          name: "Requirements",
+          components: {
+            default: () =>
+              import ('@/modules/home/rxsq/requirements/Requirements.vue')
+          }
+        },{
+          path: "procedures",
+          name: "Procedures",
+          components: {
+            default: () =>
+              import ('@/modules/home/rxsq/procedures/Procedures.vue')
+          }
+        },{
+          path: "fees",
+          name: "Fees",
+          components: {
+            default: () =>
+              import ('@/modules/home/rxsq/fees/Fees.vue')
+          }
+        }]
     }, {
       //崇正牛津校園
       name: 'Njxy',
@@ -108,14 +215,59 @@ let routerTable = {
         default: () =>
           import ('@/modules/home/njxy/Njxy.vue')
       },
-      children: []
+      redirect:'/njxy/structure',
+      children: [{
+          path: "structure",
+          name: "Structure",
+          components: {
+            default: () =>
+              import ('@/modules/home/njxy/structure/Structure.vue')
+          }
+        },{
+          path: "facilities",
+          name: "Facilities",
+          components: {
+            default: () =>
+              import ('@/modules/home/njxy/facilities/Facilities.vue')
+          }
+        },{
+          path: "surrounding",
+          name: "Surrounding",
+          components: {
+            default: () =>
+              import ('@/modules/home/njxy/surrounding/Surrounding.vue')
+          }
+        },{
+          path: "transportation",
+          name: "Transportation",
+          components: {
+            default: () =>
+              import ('@/modules/home/njxy/transportation/Transportation.vue')
+          }
+        }]
     }, {
       //光榮榜與傑出學生
       name: "Honor",
       path: "honor",
       components: {
         default: () => import('@/modules/home/honor/Honor.vue')
-      }
+      },
+      redirect:'/honor/honorary-list',
+      children:[{
+          path: "honorary-list",
+          name: "HonoraryList",
+          components: {
+            default: () =>
+              import ('@/modules/home/honor/honorary-list/HonoraryList.vue')
+          }
+        },{
+          path: "candidates",
+          name: "Candidates",
+          components: {
+            default: () =>
+              import ('@/modules/home/honor/candidates/Candidates.vue')
+          }
+        }]
     }, {
       //聯繫方法與圖片分享
       name: "Contact",

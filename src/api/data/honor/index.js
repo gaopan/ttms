@@ -219,6 +219,102 @@
 // `;
 
 // let en = ``;
+// grade:'等级'
+// college:'大学'
+// course:'學位課程'
+// A*A*A   University of OxfordMedicine   牛津大學  醫學
+// A*A*A*AA   University of BirminghamClassics   伯明罕大學古典   文學
+// A*A*A   University College London (UCL)Biochemistry   倫敦大學學院   生物化學
+// A*AA   University of SheffieldBiochemistry   謝菲爾德大學   生物化學
+// A*AA   University College London (UCL)Medicine   倫敦大學學院   醫學
+// A*AA   University of GlasgowMedicine   格拉斯哥大學   醫學
+// A*AA   University College London (UCL)Engineering   倫敦大學學院   工程學
+// A*AA   University of WarwickMathematics   華威大學   數學
+// A*AB   University of BristolComputer Science   布裏斯托大學   電腦科學
+// AAB   University of EdinburghArchitecture   愛丁堡大學   建築學
+// A*A*A   University of WarwickLaw   華威大學   法學
+// A*A*A   University College London (UCL)Mathematics with Management Studies   倫敦大學學院   管理數學
+// A*A*A*A*A   University College London (UCL)Biomedical Science   倫敦大學學院   生物醫學
+// A*A*A   University of NewcastleMedicine   紐卡斯爾大學   醫學
+// A*AAA   University College London (UCL)Biomedical Science   倫敦大學學院   生物醫學
+// A*AA   University College London (UCL)Economics   倫敦大學學院   經濟學
+// A*AA   University College London (UCL)Computer Science   倫敦大學學院   電腦科學
+// AAA   University of SurreyVeterinary Medicine and Science   薩裏大學   獸醫
+let honorary_list = {
+	data: [{
+		grade:'A*A*A',
+		college:'牛津大學',
+		course:'醫學'
+	},{
+		grade:'A*A*A*AA',
+		college:'伯明罕大學古典',
+		course:'文學'
+	},{
+		grade:'A*A*A',
+		college:'倫敦大學學院',
+		course:'生物化學'
+	},{
+		grade:'A*AA',
+		college:'謝菲爾德大學',
+		course:'生物化學'
+	},{
+		grade:'A*AA',
+		college:'倫敦大學學院',
+		course:'醫學'
+	},{
+		grade:'A*AA',
+		college:'格拉斯哥大學',
+		course:'醫學'
+	},{
+		grade:'A*AA',
+		college:'倫敦大學學院',
+		course:'工程學'
+	},{
+		grade:'A*AA',
+		college:'華威大學',
+		course:'數學'
+	},{
+		grade:'A*AB',
+		college:'布裏斯托大學',
+		course:'電腦科學'
+	},{
+		grade:'AAB',
+		college:'愛丁堡大學',
+		course:'建築學'
+	},{
+		grade:'A*A*A',
+		college:'華威大學',
+		course:'法學'
+	},{
+		grade:'A*A*A',
+		college:'倫敦大學學院',
+		course:'管理數學'
+	},{
+		grade:'A*A*A*A*A',
+		college:'倫敦大學學院',
+		course:'生物醫學'
+	},{
+		grade:'A*A*A',
+		college:'紐卡斯爾大學',
+		course:'醫學'
+	},{
+		grade:'A*AAA',
+		college:'倫敦大學學院',
+		course:'生物醫學'
+	},{
+		grade:'A*AA',
+		college:'倫敦大學學院',
+		course:'經濟學'
+	},{
+		grade:'A*AA',
+		college:'倫敦大學學院',
+		course:'電腦科學'
+	},{
+		grade:'AAA',
+		college:'薩裏大學',
+		course:'獸醫'
+	}]
+}
 
 let zh_cn, zh_hk, en;
 zh_cn = zh_hk = en = "";
