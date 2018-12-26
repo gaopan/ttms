@@ -274,7 +274,21 @@ let routerTable = {
       path: "contact",
       components: {
         default: () => import('@/modules/home/contact/Contact.vue')
-      }
+      },
+      redirect:'/contact/contacts',
+      children: [{
+        name: "Contacts",
+        path: "contacts",
+        components: {
+          default: () => import('@/modules/home/contact/contacts/Contacts.vue')
+        }
+      },{
+        name: "Photo",
+        path: "photo",
+        components: {
+          default: () => import('@/modules/home/contact/photo/Photo.vue')
+        }
+      }]
     }, {
       name: "Search",
       path: "search",

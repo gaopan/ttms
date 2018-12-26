@@ -18,7 +18,19 @@ let zh_hk = {
 
 let en = {
   search: "Search",
-  section_content: "本節內容",
-  navs: []  
+  section_content: "Content of this section",
+  navs: [{
+    name: "Admission Requirements",
+    path: '/rxsq/requirements',
+    href: '/rxsq/requirements'
+  },{
+    name: "Application Procedures",
+    path: '/rxsq/procedures',
+    href: '/rxsq/procedures'
+  },{
+    name: "Fees and Arrangement",
+    path: '/rxsq/fees',
+    href: '/rxsq/fees'
+  }]  
 }
 export default { zh_hk, en }

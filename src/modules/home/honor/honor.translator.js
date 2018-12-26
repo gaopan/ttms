@@ -14,8 +14,16 @@ let zh_hk = {
 
 let en = {
 	search: "Search",
-	section_content: "本節內容",
-	navs: []
+	section_content: "Content of this section",
+	navs: [{
+    name: "Honorary List",
+    path: '/honor/honorary-list',
+    href: '/honor/honorary-list'
+  },{
+    name: "Outstanding Candidates",
+    path: '/honor/candidates',
+    href: '/honor/candidates'
+  }]
 };
 
 export default {zh_hk, en}
