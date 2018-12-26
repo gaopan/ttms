@@ -1,8 +1,7 @@
 <template>
   <div class="content-wrapper">
     <div class="row">
-      <main class="content-main" role="main" v-html="content">
-      </main>
+      <router-view></router-view>
       <aside class="content-left" role="complementary">
         <form class="form-horizontal search" id="search-2" name="search">
           <div class="form-group">

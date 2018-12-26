@@ -58,3 +58,13 @@
   /* Firefox 18- */
   color: #cccccc;
 }
+
+
+/* reset css */
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
