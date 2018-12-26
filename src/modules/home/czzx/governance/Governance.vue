@@ -1,205 +1,354 @@
 <template>
   <main class="content-main" role="main">
-		
-		<div class="teacher-introduce">
-      <div class="teacher-introduce-left">
-        
-        <div class="teacher-photo-wrapper">       
-          <div class="stripe-background stripe-background-one"></div>       
-          <div class="teacher-photo teacher-photo-one">
-            <img :src="imgUrl('zzl.png')">
-          </div>
-        </div>
-        
-        <div class = "teacher-name-wrapper">
-          <span class="teacher-title">课程总监</span>
-          <span class="teacher-title">張紫伶博士</span>
-          <!-- <span>Programme Director</span> -->
-        </div>
-      </div>
-      <div class = "teacher-info">
-        <p class="name">張紫伶博士 /Dr.Sammi Yu</p>
-        <p class = "motto">“自信，專注，獨立，熱誠"</p>
-
-        <p class="sentence">-我們相倌學生們應該在不同議題上秉持獨立的見解，不論是涉及全球或民族層面的议題，亦或是涉及當地或個人層面的事項。為了幫助學生擁有兼容東西方文化的價值觀，我們專注於培養他們的自信心、專注力、獨立性和熱誠。</p>
-      </div>
-    </div>
-
-    <div class="teacher-experience">
-      <ul class="experience-list-one info-list">
-        <li>
-            <p><span class="square"></span>學士 加牟大哥倫比亞大學 </p>
-            <p class="sub-list-item">BA- 主修音樂，副修中文</p>
-        </li>
-
-        <li>
-            <p><span class="square"></span>碩士 香港中文大學 </p>
-            <p class="sub-list-item">MA -文化管理</p>
-        </li>
-        <li>
-            <p><span class="square"></span>博士 -中國藝術研究院 </p>
-            <p class="sub-list-item">PhD - 戲曲理論</p> 
-        </li>
-
-        <li><span class="square"></span>創始人港澳非物質文化遺産發展研究會(2016)</li>
-        <li><span class="square"></span>客席教授，中國戯曲學校（2015)</li>
-        <li><span class="square"></span>技術僱問，僱貝再培訓局(2008-2012) </li>
-        <li><span class="square"></span>講師（學科）香港演藝學院(2012-2018)</li>
-        <li><span class="square"></span>課程經理 香港公閬大學(2008-2012)</li>
-
-
-        <!-- <li>Universrty of British Columbia</li> 
-        <li>Major in Music, Minor in Chinese
-        <li>Chinese University Hong Kong</li>
-        <li>Cultural Management</li>
-        <li>National Academy of Arts</li> 
-        <li>Research in Chinese Opera</li> 
-        <li>Founder, Hong Kong and Macau InUmgible Cultural Heritage Research Centre (2016)</li> 
-        <li>Visiting Professor, National Academy of Chinese Theatre Arts (2015)</li> 
-        <li>Technical Consultant, Employees Retraining Board (2013)</li> 
-        <li>Lecturer (Academic), Hong Kong Academy of the Performing Arts (2012-2018)</li> 
-        <li>Programme Manager, The Open University of Hong Kong (2008-2012)</li>  -->
-        
-      </ul>
-      <div class="experience-photo">
-        <img :src="imgUrl('clock.png')">
-      </div>
-    </div>
-
-  	<div class="teacher-introduce">
-
-			<div class = "teacher-title-picture">
-				<img :src="imgUrl('44.png')">
-			</div>
-
-		 	<div class="teacher-introduce-right">
-		 		
-		 		<div class="teacher-photo-wrapper">				
-					<div class="stripe-background stripe-background-two"></div>	 			
-					<div class="teacher-photo teacher-photo-two">
-						<img :src="imgUrl('lxc.png')">
-					</div>
-		 		</div>
-		 		
-				<div class = "teacher-name-wrapper teacher-name-wrapper-two">
-					<span class="teacher-title">素質保證總顧問</span>
-					<span class="teacher-title">林絢琛博士</span>
-					<!-- <span>Programme Director</span> -->
-				</div>
-		 	</div>			
-  	</div>
-
-		<div class="teacher-experience">
-			<div class="teacher-info-aside">
-
-        <p class = "motto">“質棄保證個性發展”</p>
-
-        <p class="sentence">-從历史發展來看，香港在提供跨地域的國際教育課程上是世界上做的最好的地區。它能夠在適應當地文化的同時，保證教學質量，這是跨地域的國際教育課程面對的最嚴峻挑戰。我們不僅重視智慧,還重視毎位學生個別的智慧、體力和文化發展。我們相信保證“個性發展”是人生成功的唯一途徑。</p>
-        <p class="name">林絢琛博士</p>
-
-      </div>
-	    
-			<!-- <div class="teacher-info-aside">
-			
-	    	<p class = "motto">“Quality Assurance”</p>
-
-        <p class="sentence">-One of the toughest challenge for international education programme is to maintain the teaching and learning quality while adapting local culture, and Hong Kong is the best in the world in offering for its historical background. We value not just intelligence but also intellectual, physical, cultural development of each individual student. We believe "individuality” is the only way for life success.</p>
-        <p class="name">Dr. Michael Lam</p>
-
-      </div> -->
 	
-			<ul class="experience-list-two info-list">
-				<li>
-            <p>英國諾桑比亞大學商學院<span class="square"></span></p>
-            <p class="sub-list-item">課程總監/教授</p>
-				</li>
+		<div class="teacher-member">
+			<div class="teacher-introduce">
 
-				<li>
-	          <p>英國雪菲爾哈倫大學健康學院<span class="square"></span></p>
-	          <p class="sub-list-item">課程總監/教授</p>
-				</li>
+	      <div class="teacher-one-photo">        
+	        <div class="teacher-photo-wrapper">       
+	          <div class="stripe-background stripe-background-one"></div>       
+	          <div class="teacher-headPhoto teacher-headPhoto-one">
+	            <img :src="imgUrl('zzl.png')">
+	          </div>
+	        </div>        
+	        <div class = "teacher-name-wrapper">
+	          <span class="teacher-title">课程总监</span>
+	          <span class="teacher-title">張紫伶博士</span>
+	          <!-- <span>Programme Director</span> -->
+	        </div>
+	      </div>
 
-				<li>
-	          <p>香港政府學歷及資歷評審局委任專家<span class="square"></span></p>
-	          <p class="sub-list-item">(香港政府委任)</p>
-				</li>
+	      <div class = "teacher-info">
+	        <p class="name">張紫伶博士 /Dr.Sammi Yu</p>
+	        <p class = "motto">“自信，專注，獨立，熱誠"</p>
 
-				<li>香港運動教學會會長及院士</li>
-			 
-				<li>
-	          <p>香港高等科技教育學院學士<span class="square"></span></p>
-	          <p class="sub-list-item">課程編輯委員</p>
-				</li>
+	        <p class="sentence">-我們相倌學生們應該在不同議題上秉持獨立的見解，不論是涉及全球或民族層面的议題，亦或是涉及當地或個人層面的事項。為了幫助學生擁有兼容東西方文化的價值觀，我們專注於培養他們的自信心、專注力、獨立性和熱誠。</p>
+	      </div>
+	    </div>
 
-				<li>福建省莆田市政協委員</li>
+	    <div class="teacher-experience">
+	      <ul class="experience-list-one info-list">
+	        <li>
+	            <p><span class="square"></span>學士 加牟大哥倫比亞大學 </p>
+	            <p class="sub-list-item">BA- 主修音樂，副修中文</p>
+	        </li>
 
-				<!-- Curriculum Director of Business School of 
-								University of Northumbria of UK, Professor
-								 
-								Curriculum Director of Health College of 
-								Sheffield Hallam University of UK, Professor
-								
-								Appointed expert of the Hong Kong Council 
-								for Accreditation of Academic and Vocational 
-								Qualification (appointed by the Hong Kong
-								Government)
-								
-								President and Academician of the Hong Kong 
-								Sports Teaching Association
-								
-								Member of Bachelor Degree Course Editorial 
-								Board of Technological and Higher Education 
-								Institute of Hong Kong
-								
-								Member of Putian People's Political 
-								Consultative Conference, Fujian Province.
-								Mainland China -->				
-			</ul>
+	        <li>
+	            <p><span class="square"></span>碩士 香港中文大學 </p>
+	            <p class="sub-list-item">MA -文化管理</p>
+	        </li>
+	        <li>
+	            <p><span class="square"></span>博士 -中國藝術研究院 </p>
+	            <p class="sub-list-item">PhD - 戲曲理論</p> 
+	        </li>
 
+	        <li><span class="square"></span>創始人港澳非物質文化遺産發展研究會(2016)</li>
+	        <li><span class="square"></span>客席教授，中國戯曲學校（2015)</li>
+	        <li><span class="square"></span>技術僱問，僱貝再培訓局(2008-2012) </li>
+	        <li><span class="square"></span>講師（學科）香港演藝學院(2012-2018)</li>
+	        <li><span class="square"></span>課程經理 香港公閬大學(2008-2012)</li>
+
+
+	        <!-- <li>Universrty of British Columbia</li> 
+	        <li>Major in Music, Minor in Chinese
+	        <li>Chinese University Hong Kong</li>
+	        <li>Cultural Management</li>
+	        <li>National Academy of Arts</li> 
+	        <li>Research in Chinese Opera</li> 
+	        <li>Founder, Hong Kong and Macau InUmgible Cultural Heritage Research Centre (2016)</li> 
+	        <li>Visiting Professor, National Academy of Chinese Theatre Arts (2015)</li> 
+	        <li>Technical Consultant, Employees Retraining Board (2013)</li> 
+	        <li>Lecturer (Academic), Hong Kong Academy of the Performing Arts (2012-2018)</li> 
+	        <li>Programme Manager, The Open University of Hong Kong (2008-2012)</li>  -->
+	        
+	      </ul>
+	      <div class="experience-photo">
+	        <img :src="imgUrl('clock.png')">
+	      </div>
+	    </div>
 		</div>
 
+		<div class="teacher-member">
+	  	<div class="teacher-introduce">
+
+				<div class = "teacher-title-photo">
+					<img :src="imgUrl('44.png')">
+				</div>
+
+			 	<div class="teacher-introduce-right">
+			 		
+			 		<div class="teacher-photo-wrapper">				
+						<div class="stripe-background stripe-background-two"></div>	 			
+						<div class="teacher-headPhoto teacher-headPhoto-two">
+							<img :src="imgUrl('lxc.png')">
+						</div>
+			 		</div>
+			 		
+					<div class = "teacher-name-wrapper teacher-name-wrapper-two">
+						<span class="teacher-title">素質保證總顧問</span>
+						<span class="teacher-title">林絢琛博士</span>
+						<!-- <span>Programme Director</span> -->
+					</div>
+			 	</div>			
+	  	</div>
+
+			<div class="teacher-experience">
+				<div class="teacher-info-aside">
+
+	        <p class = "motto">“質棄保證個性發展”</p>
+
+	        <p class="sentence">-從历史發展來看，香港在提供跨地域的國際教育課程上是世界上做的最好的地區。它能夠在適應當地文化的同時，保證教學質量，這是跨地域的國際教育課程面對的最嚴峻挑戰。我們不僅重視智慧,還重視毎位學生個別的智慧、體力和文化發展。我們相信保證“個性發展”是人生成功的唯一途徑。</p>
+	        <p class="name">林絢琛博士</p>
+
+	      </div>
+		    
+				<!-- <div class="teacher-info-aside">
+				
+		    	<p class = "motto">“Quality Assurance”</p>
+
+	        <p class="sentence">-One of the toughest challenge for international education programme is to maintain the teaching and learning quality while adapting local culture, and Hong Kong is the best in the world in offering for its historical background. We value not just intelligence but also intellectual, physical, cultural development of each individual student. We believe "individuality” is the only way for life success.</p>
+	        <p class="name">Dr. Michael Lam</p>
+
+	      </div> -->
+		
+				<ul class="experience-list-two info-list">
+					<li>
+	            <p>英國諾桑比亞大學商學院<span class="square"></span></p>
+	            <p class="sub-list-item">課程總監/教授</p>
+					</li>
+
+					<li>
+		          <p>英國雪菲爾哈倫大學健康學院<span class="square"></span></p>
+		          <p class="sub-list-item">課程總監/教授</p>
+					</li>
+
+					<li>
+		          <p>香港政府學歷及資歷評審局委任專家<span class="square"></span></p>
+		          <p class="sub-list-item">(香港政府委任)</p>
+					</li>
+
+					<li>香港運動教學會會長及院士<span class="square"></span></li>
+				 
+					<li>
+		          <p>香港高等科技教育學院學士<span class="square"></span></p>
+		          <p class="sub-list-item">課程編輯委員</p>
+					</li>
+
+					<li>福建省莆田市政協委員</li>
+
+					<!-- Curriculum Director of Business School of 
+									University of Northumbria of UK, Professor
+									 
+									Curriculum Director of Health College of 
+									Sheffield Hallam University of UK, Professor
+									
+									Appointed expert of the Hong Kong Council 
+									for Accreditation of Academic and Vocational 
+									Qualification (appointed by the Hong Kong
+									Government)
+									
+									President and Academician of the Hong Kong 
+									Sports Teaching Association
+									
+									Member of Bachelor Degree Course Editorial 
+									Board of Technological and Higher Education 
+									Institute of Hong Kong
+									
+									Member of Putian People's Political 
+									Consultative Conference, Fujian Province.
+									Mainland China -->				
+				</ul>
+			</div>
+		</div>
+
+		<div class="teacher-member teacher-member-three">
+			<div class="teacher-introduce-three">
+	      
+	      <div class="teacher-three-photo">
+	        
+	        <div class="teacher-photo-wrapper">       
+	          <div class="stripe-background stripe-background-three"></div>       
+	          <div class="teacher-headPhoto teacher-headPhoto-three">
+	            <img :src="imgUrl('xbl.png')">
+	          </div>
+	        </div>
+	        
+	        <div class = "teacher-name-wrapper teacher-three-name-wrapper">
+	          <span class="teacher-title">中國傅統文化藝術鑣顧間</span>
+	          <span class="teacher-title">謝柏粱教授</span>
+	        </div>
+	      </div>
+
+	      <ul class="experience-list-three info-list">
+	        <li>
+	            <p><span class="square"></span>北京市高創針进领軍人物</p>
+	            <p class="sub-list-item">國務院政府特殊津貼專家</p>
+	        </li>
+
+	        <li>
+	            <p><span class="square"></span>中國戯曲學院戲文系主任</p>
+	            <p class="sub-list-item">中文藝評論基地主任</p>
+	        </li>
+
+	        <li>
+	            <p><span class="square"></span>中國戯曲學會常務理事</p>
+	            <p class="sub-list-item">中國戯劇文學學會副會長</p>
+	        </li>
+
+	        <li>
+	            <p><span class="square"></span>上海交通大學跨文化交流與研究中心主任</p>
+	            <p class="sub-list-item">中文系主任、教授(2002-2008)</p>
+	        </li>
+
+	        <li>
+	            <p><span class="square"></span>南京師範大學特聘教授</p>
+	            <p class="sub-list-item">戯劇影視學科帶頭人、博士生導師(2000-2005)</p>
+	        </li>
+
+	        <li><span class="square"></span>美國佛薩大學、加州大學柏克萊分校、斯坦福大學(1999-2000)等校訪問與講座教授</li>
+
+
+
+
+
+					<!-- <li><span class="square"></span>A leading figure of Beijing's High-level Innovation and Entrepreneurial Talents Supporting Plan, State Council Special Allowance Expert</li>
+					
+					<li><span class="square"></span>Director of the Drama Department of National Academy of Chinese Theatre Arts, Director of the Center for Chinese Literary and Arts Criticism</li>
+					<li><span class="square"></span>Managing Director of the Chinese Opera Society, Vice President of the Chinese Theatre Literature Association</li>
+					<li><span class="square"></span>Director of the Intercultural Communication and Research Center of Shanghai Jiao Tong UniversityDirector and Professor of the Chinese Department (2002-2008)</li>
+					<li><span class="square"></span>Distinguished Professor of Nanjing Normal University, Leader of Drama and Film, PHD Supervisor (2〇〇〇-2〇〇5)</li>
+					<li><span class="square"></span>Visiting and Chair Professor at the University of Florida, University of California at Berkeley, and Stanford University (1999-2000)</li> -->
+	        
+	      </ul>      
+
+			</div>
+
+			<div class="teacher-title-photo-three">
+				<div class="photo">
+					<img :src="imgUrl('title-photo-3.png')">
+				</div>
+				<div class="background-color"></div>
+			</div>
+		</div>
+
+		<div class="teacher-member teacher-member-four">
+			
+			<div class = "top-part">
+				<div class="picture-1">
+					<img :src="imgUrl('teacher141.png')">
+				</div>
+
+				<div class="member-four-experience">
+					<div class="teacher-headPhoto-four">
+							<img :src="imgUrl('JustinLiu.png')">
+					</div>
+
+					<div class="teacher-name-wrapper teacher-four-name-wrapper">
+						<span class="teacher-title">首席招生官</span> 
+						<span class="teacher-title">劉博微教授</span>
+					</div>
+
+		      <ul class="experience-list-four info-list">
+		        <li>
+		            <p>牛津國際（香港）教育集團<span class="square"></span></p>
+		            <p class="sub-list-item">首席執行官</p>
+		        </li>
+
+		        <li>
+		        	香港中文大學、香港浸會大學雙碩士<span class="square"></span>
+		        </li>
+
+		        <li>
+		            <p>亞太國際教育交流協會<span class="square"></span></p>
+		            <p class="sub-list-item">執行委貝會主席</p>
+		        </li>
+
+						<!-- Oxford International (Hong Kong) Education 
+						Group Chief Executive Officer
+						Double Master CUHK\HKBU
+						
+						Asia-Pacific International Education Exchange 
+						Association President Of the Executive
+						Committee -->	        
+		      </ul>  					
+				</div>
+			</div>
+				
+			<div class = "bottom-part">   
+				<div class="member-four-teacher-info">
+					<p class="name">劉博微教授/Prot Justin Liu</p>      
+					<p class="motto">“面向未來培育人才”</p>      
+					<p class="sentence"> 
+						-通過幫助超過一千位學生入讀理想大學的經驗，我們相信离中教育十分重要的使命是培養出學生的“自主學習意識”和“自學能力”。在融合了西方科學的教育模式與東方鎪典的文化箱®以後，我們相信所有學生都能面向未來進行全面發展，從而收穫藤盛的人生。     
+					</p>   
+				</div>   
+				<!-- “Nourish the
+				Future"   With the experience in helping more than 1,000 students going
+				to their    designated University, we believe that one importance
+				mission of High    School education is to cultivate students' setf-
+				motivated learning attitude    and independent learning
+				ability.Integrated the western scientific education    models and
+				eastern sophisticated culture heritages, we believe all students    will
+				be well-rounded nourished and articulate to their flourish future. -->
+					
+				<div class="picture-2">
+					<img :src="imgUrl('teacher142.png')">
+				</div>
+				
+			</div>
+		</div>
 
   </main>
 </template>
 <script src="./governance.js"></script>
 <style>
 
+	.teacher-member{
+    margin-right: 120px;
+    margin-bottom: 100px;		
+	}
+
+	.teacher-member .info-list p{
+		margin-bottom: 6px;
+	}
+
 	.teacher-introduce{
-		padding-right: 120px;
 	}
 	.stripe-background{
     width: 300px;
-    height: 300px;
     line-height: 2.5;
     background-size: auto 6px;
     background-origin: content-box;
 	}
 	.stripe-background-one{
+    height: 300px;
     transform: rotate(90deg) translateX(0px) translateY(-50px);
     background-image: linear-gradient(#A87C44 50%,transparent 3px);
 	}
 
-	.teacher-introduce-left,
-	.teacher-photo,
+	.teacher-one-photo,
+	.teacher-headPhoto,
 	.teacher-name-wrapper,
 	.teacher-info{
 		display: inline-block;
 	}
-	.teacher-introduce-left{
-    position: relative;
+	.teacher-one-photo{
+    /* position: relative; */
     vertical-align: top;
     width: 348px;
     height: 300px;		
 	}
 	.teacher-photo-wrapper{
-		 margin-bottom: 20px;	
+    height: 300px;
+    position: relative;
+    margin-bottom: 30px;	
 	}
-	.teacher-photo{
+	.teacher-headPhoto{
     width: 142px;
     transform: translateX(0);
     position: absolute;
 	}
-	.teacher-photo-one{
+	.teacher-headPhoto-one{
     left: 0px;
     bottom: 0px;
 	}
@@ -226,6 +375,11 @@
 	.teacher-info .name,
 	.teacher-info .motto,
 	.teacher-info .sentence,
+	
+	.member-four-teacher-info .name,
+	.member-four-teacher-info .motto,
+	.member-four-teacher-info .sentence,
+
 	.teacher-info-aside .name,
 	.teacher-info-aside .motto,
 	.teacher-info-aside .sentence {
@@ -233,12 +387,19 @@
 	    line-height: 22px;
 	}
 
-	.teacher-info .name,
-	.teacher-info-aside .name {
+	.member-four-teacher-info .name,
+	.teacher-info .name{
 	  font-size: 20px;
 	}	
 
+	.teacher-info-aside .name {
+    font-size: 16px;
+    direction: rtl;
+    margin-top: 40px;		
+	}
+
 	.teacher-info .motto,
+	.member-four-teacher-info .motto,
 	.teacher-info-aside .motto {
     font-size: 24px;
     font-weight: bold;
@@ -247,6 +408,7 @@
 	}
 
 	.teacher-info .sentence,
+	.member-four-teacher-info .sentence,
 	.teacher-info-aside .sentence {
     font-size: 16px;
     line-height: 28px;
@@ -256,22 +418,12 @@
 /* bottom */
 .teacher-experience {
     display: flex;
-    padding-right: 120px;
-    margin-bottom: 100px;
 }
 
 .teacher-experience li{
 	margin-bottom: 40px;
 	line-height: normal;
 }
-
-.teacher-experience .experience-sub-list li{
-	margin-top: 10px;
-}
-.teacher-experience .experience-sub-list li+li{
-	margin-bottom: 20px;
-}
-
 
 .experience-list-one {
     flex: 1;
@@ -288,7 +440,7 @@
 
 
 /* teacher 2 */
-.teacher-title-picture {
+.teacher-title-photo {
     display: inline-block;
     width: 600px;
     vertical-align: top;
@@ -300,13 +452,14 @@
 }
 
 .stripe-background-two{
+    height: 300px;
     transform: rotate(90deg) translateX(0) translateY(3px);
     background-image: linear-gradient(#A87E74 50%,transparent 3px);
 }
 
-.teacher-photo-two {
+.teacher-headPhoto-two {
     right: -50px;
-    bottom: 80px;
+    bottom: 0px;
 }
 
 .teacher-name-wrapper-two{
@@ -324,4 +477,112 @@
 	width: 422px;
 }
 
+/* teacher 3 */
+.teacher-member-three{
+	display: flex;
+}
+
+.teacher-introduce-three {
+    display: inline-block;
+    vertical-align: top;
+    flex:1;
+}
+
+.teacher-three-photo{
+	position: relative;
+}
+
+.teacher-headPhoto-three {
+    left: 0;
+    bottom: 0px;
+}
+
+.teacher-three-name-wrapper {
+    margin-bottom: 40px;
+}
+
+.teacher-member .experience-list-three li{
+    margin-bottom: 40px;
+}
+
+.teacher-title-photo-three {
+    width: 520px;
+    display: inline-block;
+}
+
+.stripe-background-three {
+    height: 360px;
+    transform: rotate(90deg) translateX(-30px) translateY(-101px);
+    background-image: linear-gradient(#a87c44 50%,transparent 3px);
+}
+.background-color{
+    background: #a87c44;
+    height: 300px;	
+}
+/* teacher 4 */
+.teacher-member-four{
+    background: #111836;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.top-part {
+    display: flex;
+}
+.teacher-member-four .picture-1 {
+    width: 520px;
+    display: inline-block;
+}
+
+.member-four-experience {
+    background: #111836;
+    display: inline-block;
+    vertical-align: top;
+    flex: 1;
+    padding-right: 100px;
+}
+
+.teacher-headPhoto-four{
+	/*padding-right: 100px;*/
+  text-align: right;	
+}
+.teacher-four-name-wrapper{
+    text-align: right;
+    float: right;
+    margin: 32px 0 50px 0;	
+}
+
+.experience-list-four{
+    float: right;
+    color: #fff;
+    direction: rtl;
+}
+.teacher-member  .experience-list-four li{
+	margin-bottom: 40px;
+}
+
+.member-four-teacher-info {
+  padding: 40px 30px 0 70px;
+  display: inline-block;
+  flex: 1;
+  color: #fff;
+  background: #A87C44;
+}
+
+
+.bottom-part{
+	display: flex;
+}
+
+.teacher-member-four .picture-2 {
+    /* display: inline-block; */
+    width: 428px;
+    height: 430px;
+}
+.teacher-member-four .picture-2 img{
+	width: 430px;
+  height: 430px;
+}
+.experience-list-four .square{
+	background: #fff;
+}
 </style>

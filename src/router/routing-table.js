@@ -77,7 +77,28 @@ let routerTable = {
             default: () =>
               import ('@/modules/home/njgx/history/History.vue')
           }
-        }
+        },{
+          path: 'objective',
+          name: 'Objective',
+          components: {
+            default: () =>
+              import ('@/modules/home/njgx/objective/Objective.vue')
+          }
+        },{
+          path: 'programme',
+          name: 'Programme',
+          components: {
+            default: () =>
+              import ('@/modules/home/njgx/programme/Programme.vue')
+          }
+        },{
+          path: 'achievement',
+          name: 'Achievement',
+          components: {
+            default: () =>
+              import ('@/modules/home/njgx/achievement/Achievement.vue')
+          }
+        },
       ]
     },{
       //崇正牛津國際中學課程
