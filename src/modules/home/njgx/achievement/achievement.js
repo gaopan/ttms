@@ -8,10 +8,14 @@ export default {
   name: 'achievement',
   data(){
     return {
-      currentLang: shared.defaultLang
+      currentLang: shared.defaultLang,
+      bgPhoto:{
+        backgroundImage:`url(${this.imgUrl('2.4.1.png')})`
+      }
     };
   },
   created() {
+    console.log(this.bgPhoto)
     eventHub.$on("changed-lang", this.changedLang);
   },
   computed: {
