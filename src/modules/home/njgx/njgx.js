@@ -1,6 +1,9 @@
 import Translator from './njgx.translator.js'
 import CommonUtils from '@/utils/common-utils.js'
 import shared from '@/shared.js'
+
+import SearchBox from '@/components/search-box/SearchBox.vue'
+
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
 let eventHub = shared.eventHub
 
@@ -14,6 +17,8 @@ export default {
   created() {
     eventHub.$on("changed-lang", this.changedLang);
   },
+  components: {SearchBox},  
+
   computed: {
     navs(){
       return CommonUtils.deepClone(Translator[this.currentLang].navs);

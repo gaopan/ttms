@@ -23,16 +23,12 @@ export default {
     	navs: CommonUtils.deepClone(HomeTranslator[shared.defaultLang].navs)
     };
   },
-  created(){
-    console.log(this.$router.currentRoute)
-    console.log(this.navs)
-  },
+  created(){},
   methods: {
     imgUrl: function(path) {
       return images('./' + path);
     },
     navTo(item) {
-      console.log(item)
       this.$router.push(item.path);
     },
     isCurrentPath(path) {

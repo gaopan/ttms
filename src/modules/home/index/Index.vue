@@ -1,12 +1,7 @@
 <template>
   <div class="content-wrapper">
-    <form class="form-horizontal search" id="search" name="search">
-      <div class="form-group">
-        <label for="searchsite" class="label-control">{{'search' | translate(translator, currentLang)}} : </label>
-        <input name="word" type="text" class="form-control" id="searchsite" value="" :placeholder="'search' | translate(translator, currentLang)">
-        <input class="search-btn" name="search-btn" type="submit" id="search-btn" value="Sign Up">
-      </div>
-    </form>
+    <search-box></search-box>
+
     <!-- InstanceBeginEditable name="banner" -->
     <section>
       <div class="banner">

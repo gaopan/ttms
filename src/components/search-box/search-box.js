@@ -19,11 +19,14 @@ export default {
       this.currentLang = lang;
     },
     submit(){
-      // debugger
-    	this.$router.push({
-    		name: "Search",
-    		params: { search: this.searchText }
-    	});
+
+      if(this.searchText && !!this.searchText.trim()){
+      	this.$router.push({
+      		name: "Search",
+      		params: { search: this.searchText }
+      	});
+      }
+
     }
   },
   beforeDestroy(){

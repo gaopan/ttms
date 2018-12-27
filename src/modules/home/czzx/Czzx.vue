@@ -4,6 +4,7 @@
       <router-view></router-view>
       <aside class="content-left" role="complementary">
         <search-box></search-box>
+        
         <!-- InstanceBeginEditable name="leftmenu" -->
         <div class="box">
           <h2>{{'section_content' | translate(translator, currentLang)}}</h2>

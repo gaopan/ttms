@@ -3,18 +3,16 @@ import Translator from './search.translator.js'
 import CommonUtils from '@/utils/common-utils.js'
 import IndexData from './index-data.js'
 import shared from '@/shared.js'
+
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
 let eventHub = shared.eventHub
 
-console.log(IndexData)
-console.log(shared.defaultLang)
 export default {
   data(){
     return {
       currentLang: shared.defaultLang,
       translator: Translator,
       searchText: this.$router.currentRoute.params.search,
-      // indexData: IndexData.fetchData(shared.defaultLang),
       indexData: IndexData,
       searchResult: [],
       dataBase:null
@@ -24,11 +22,10 @@ export default {
     eventHub.$on("changed-lang", this.changedLang);
 
     this.dataBase = this.getDataBase(this.indexData, this.currentLang);
-    // this.search(this.searchText);
 
     this.searchResult = this.searchDataBase(this.dataBase, this.searchText);
 
-    console.log(this.searchResult)
+    console.log("searchResult", this.searchResult)
   },
   watch: {
     "searchText": function(val){
@@ -71,20 +68,21 @@ export default {
 
       return searchResult;
     },
+
     imgUrl: function(path) {
       return images('./' + path);
     },
+
     navTo(path){
       this.$router.push(path);
     },
+
     changedLang(lang) {
       this.currentLang = lang;
-      // this.indexData = IndexData.fetchData(lang);
     },
 
     submit(){
-      if(!!this.searchText.trim()){
-        console.log(this.searchText.trim)
+      if(this.searchText && !!this.searchText.trim()){
         this.searchDataBase(this.dataBase, this.searchText);
       }
     }

@@ -2,6 +2,10 @@ import Translator from './honor.translator.js'
 import Data from '@/api/data/honor/index.js'
 import CommonUtils from '@/utils/common-utils.js'
 import shared from '@/shared.js'
+
+import SearchBox from '@/components/search-box/SearchBox.vue'
+
+  
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
 let eventHub = shared.eventHub
 
@@ -23,6 +27,7 @@ export default {
       return Data[this.currentLang];
     }
   },
+  components: {SearchBox},  
   methods: {
     imgUrl: function(path) {
       return images('./' + path);
