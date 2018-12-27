@@ -19,6 +19,7 @@ export default {
       this.currentLang = lang;
     },
     submit(){
+      // debugger
     	this.$router.push({
     		name: "Search",
     		params: { search: this.searchText }
