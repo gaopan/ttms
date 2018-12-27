@@ -26,7 +26,27 @@ let zh_hk = {
 
 let en = {
   search: "Search",
-  section_content: "本節內容",
-  navs: []  
+  section_content: "Content of this section",
+  navs: [{
+    name: "Quality Assurance",
+    path: '/njkc/assurance',
+    href: '/njkc/assurance'
+  },{
+    name: "Programme Curriculum",
+    path: '/njkc/structure',
+    href: '/njkc/structure'
+  },{
+    name: "Programme Articulation",
+    path: '/njkc/articulation',
+    href: '/njkc/articulation'
+  },{
+    name: "Professional Associations",
+    path: '/njkc/associations',
+    href: '/njkc/associations'
+  },{
+    name: "Exchange and Cooperation",
+    path: '/njkc/cooperation',
+    href: '/njkc/cooperation'
+  }]  
 }
 export default { zh_hk, en }

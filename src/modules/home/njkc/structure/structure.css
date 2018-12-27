@@ -1,3 +1,42 @@
+.njkc-structure .structure-title{
+  /*border: 2px solid #dcb454;*/
+  /*padding: 10px 10px 0px;*/
+}
+.njkc-structure .structure-title li{
+  margin-bottom: 10px;
+}
+.njkc-structure .structure-title li.structure-tip{
+  padding: 6px 12px;
+  background: #dcb454;
+  margin-bottom: 10px;
+}
+.njkc-structure .structure-nav{
+  zoom:1;
+  line-height: 32px;
+  background: #b27524;
+  margin-bottom: 0;
+}
+.njkc-structure .structure-nav:after{
+  content:'';
+  height: 0;
+  clear: both;
+  display: block;
+  visibility:hidden;
+}
+.njkc-structure .structure-nav li{
+  float: left;
+  margin-left: 10px;
+}
+.njkc-structure .structure-nav li a{
+  color: #fff; 
+  text-decoration: none;
+}
+.njkc-structure .structure-nav li a:hover{
+  text-decoration: underline;
+}
+.njkc-structure .structure-nav li .router-link-active{
+  text-decoration: underline;
+}
 .njkc-year{
   left: 0;
   width: 100%;

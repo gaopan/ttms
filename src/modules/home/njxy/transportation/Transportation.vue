@@ -1,10 +1,23 @@
 <template>
-  <main class="content-main" role="main">
-  	<ul>
-  		<li>學校對面有停車場。</li>
-  		<li>步行三分鐘到達蘇屋巴士總站。</li>
-  		<li>七分鐘到達長沙灣港鐵站。</li>
+  <main class="content-main njxy-transportation" role="main">
+  	<ul v-html="content">
+  		
   	</ul>
   </main>
 </template>
 <script src="./transportation.js"></script>
+<style>
+.njxy-transportation ul li{
+	margin-bottom: 10px;
+}
+.njxy-transportation ul li.transportation-img img{
+	width: 500px;
+  border:2px solid #b27524;
+}
+.njxy-transportation ul li.transportation-title{
+	background: #b27524;
+	width: 30%;
+	color: #fff;
+	padding: 6px 12px;
+}
+</style>

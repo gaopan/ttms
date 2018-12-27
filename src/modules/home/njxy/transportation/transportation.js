@@ -1,4 +1,4 @@
-import Data from '@/api/data/czzx/index.js'
+import Data from '@/api/data/njxy/transportation.js'
 import CommonUtils from '@/utils/common-utils.js'
 import shared from '@/shared.js'
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
@@ -8,17 +8,20 @@ export default {
   name: 'transportation',
   data(){
     return {
-      currentLang: shared.defaultLang
+      currentLang: shared.defaultLang,
     };
   },
   created() {
-    console.log(this.content)
     eventHub.$on("changed-lang", this.changedLang);
   },
   computed: {
     content(){
-      return "transportation";
+      // return "transportation";
+      return Data[this.currentLang]
       // return Data.cxzl[this.currentLang];
+    },
+    imgs(){
+      return this.imgUrl('MTR-station')
     }
   },
   methods: {

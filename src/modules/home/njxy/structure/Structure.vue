@@ -1,15 +1,28 @@
 <template>
-  <main class="content-main" role="main">
-  <!-- <main class="content-main" role="main" v-html="content"> -->
-  	<ul>
-  		<li>自建五層標準校舍，具園林景色，環境優美。</li>
-  		<li>臨近九龍“蘇屋”巴士總站，距離 長沙灣港鐵站約10數分鐘，交通方便。</li>
-  		<li>第一層設有3,000呎禮堂及會議室</li>
-  		<li>第二層至第四層每層設有一間多功 能房</li>
-  		<li>第二層至第五層為課室，共12間 課室</li>
-  		<li>第五層設有平台花園</li>
-  		<li>每層均分別有男女洗手間，設有浴室。</li>
-  	</ul>
+  <main class="content-main njxy-structure" role="main">
+  	<div v-html="content">
+      
+  	</div>
   </main>
 </template>
 <script src="./structure.js"></script>
+<style>
+.njxy-structure ul.structure-introduce{
+  background: #b27524;
+  width: 80%;
+  margin-left:20%;
+  padding:10px 10px 100px;
+}
+.njxy-structure ul.structure-introduce li{
+  margin-bottom: 10px;
+  color: #fff;
+}
+.njxy-structure .structure-school{
+  margin-top: -100px;
+}
+.njxy-structure .structure-school img{
+  display: block;
+  width: 90%;
+  border: 10px solid #b27524;
+}
+</style>

@@ -1,4 +1,4 @@
-import Data from '@/api/data/czzx/index.js'
+import Data from '@/api/data/rxsq/procedures.js'
 import CommonUtils from '@/utils/common-utils.js'
 import shared from '@/shared.js'
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
@@ -12,12 +12,12 @@ export default {
     };
   },
   created() {
-    console.log(this.content)
     eventHub.$on("changed-lang", this.changedLang);
   },
   computed: {
     content(){
-      return "procedures";
+      // return "procedures";
+      return Data[this.currentLang]
       // return Data.cxzl[this.currentLang];
     }
   },

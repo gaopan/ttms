@@ -22,7 +22,23 @@ let zh_hk = {
 
 let en = {
   search: "Search",
-  section_content: "本節內容",
-  navs: []  
+  section_content: "Content of this section",
+  navs: [{
+    name: "Site and Buildings",
+    path: '/njxy/structure',
+    href: '/njxy/structure'
+  },{
+    name: "Design and Facilities",
+    path: '/njxy/facilities',
+    href: '/njxy/facilities'
+  },{
+    name: "Surrounding",
+    path: '/njxy/surrounding',
+    href: '/njxy/surrounding'
+  },{
+    name: "Transportation",
+    path: '/njxy/transportation',
+    href: '/njxy/transportation'
+  }]  
 }
 export default { zh_hk, en }

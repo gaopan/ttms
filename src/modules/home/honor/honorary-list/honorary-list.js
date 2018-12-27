@@ -1,4 +1,4 @@
-import Data from '@/api/data/czzx/index.js'
+import Data from '@/api/data/honor/index.js'
 import CommonUtils from '@/utils/common-utils.js'
 import shared from '@/shared.js'
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
@@ -8,7 +8,10 @@ export default {
   name: 'honorary-list',
   data(){
     return {
-      currentLang: shared.defaultLang
+      currentLang: shared.defaultLang,
+      years:[2017,2018],
+      isYear:2018,
+      honoraryList:Data['zh_hk'][1].data
     };
   },
   created() {
@@ -16,7 +19,7 @@ export default {
   },
   computed: {
     content(){
-      return "honorary-list";
+      return this.honoraryList
       // return Data.cxzl[this.currentLang];
     }
   },
@@ -29,6 +32,10 @@ export default {
     },
     changedLang(lang){
       this.currentLang = lang;
+    },
+    turn_year(year){
+      this.isYear = year
+      this.honoraryList = Data['zh_hk'].filter(elem=>elem.year == year)[0].data
     }
   },
   beforeDestroy(){
