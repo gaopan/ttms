@@ -13,6 +13,19 @@ let zh_hk = `<li class="associations-title">香港地匾</li>
   		<li class="associations-title">東南亞</li>
   		<li>新加坡國立大學、南洋理工大學、東京大學、首爾大學</li>`;
 
-let en = ``;
+let en = `<li class="associations-title">Hong Kong</li>
+      <li>University of Hong Kong, Hong Kong University of Science and Technology, Chinese University of Hong Kong, City University of Hong Kong, Hong Kong Polytechnic University, Hong Kong Baptist University, Lingnan University of Hong Kong, Shuren University of Hong Kong, Hong Kong Academy of Performing Arts, Open University of Hong Kong</li>
+      <li class="associations-title">China</li>
+      <li>Peking University, Tsinghua University, Zhejiang University, Shanghai Jiaotong University, Fudan University, Sun Yat-sen University, Wuhan University, Shandong University, Beijing Film Academy, Central Theatre Academy, Beijing Sports University</li>
+      <li class="associations-title">English</li>
+      <li>Oxford University, Cambridge University, Imperial College of Technology, London University College, London School of Political Economy, Edinburgh University, Manchester University</li>
+      <li class="associations-title">America</li>
+      <li>California Institute of Technology, Stanford University, Harvard University, Columbia University, Boston University, Julia Conservatory of Music, Berkeley Conservatory of Music, Pretty College of Art</li>
+      <li class="associations-title">Canada</li>
+      <li>University of Toronto, University of British Columbia, McGill University</li>
+      <li class="associations-title">Australia</li>
+      <li>Australian National University, University of Melbourne, University of Sydney, University of Queensland, University of New South Wales, University of Monash, University of Western Australia, University of Adelaide</li>
+      <li class="associations-title">Southeast Asia</li>
+      <li>National University of Singapore, Nanyang Polytechnic University, Tokyo University, Seoul University</li>`;
 
 export default {zh_hk, en}

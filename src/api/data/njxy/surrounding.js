@@ -12,6 +12,18 @@ let zh_hk = `<li class="surrounding-title">校内運動場</li>
   			<img src="../../../../assets/imgs/tomb.png" alt="">
   		</li>`;
 
-let en = ``;
+let en = `<li class="surrounding-title">Campus Playgroung</li>
+      <li class="surrounding-img">
+        <img src="../../../../assets/imgs/playground.png" alt="">
+      </li>
+      <li class="surrounding-title">Basketball Feild</li>
+      <li class="surrounding-img">
+        <img src="../../../../assets/imgs/playground1.png" alt="">
+      </li>
+      <li class="surrounding-title">There is a swimming pool three minutes walk from the school.</li>
+      <li class="surrounding-title">There is a museum of Lei Cheng Uk Han Tomb near the school.</li>
+      <li class="surrounding-img">
+        <img src="../../../../assets/imgs/tomb.png" alt="">
+      </li>`;
 
 export default {zh_hk, en}

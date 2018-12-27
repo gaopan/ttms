@@ -45,7 +45,7 @@ export default {
   },
   computed: {
     content(){
-      return Data['zh_hk']
+      return Data[this.currentLang]
     }
   },
   methods: {

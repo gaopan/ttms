@@ -10,6 +10,16 @@ let zh_hk = `<ul>
   		<li class="associations-foottip">參與社团另行收費。</li>
   	</ul>`;
 
-let en = ``;
+let en = `<ul>
+      <li class="associations-title">Performing Art Association</li>
+      <li>This association aims to help students develop creativity and relax through art work. This is a great opportunity to develop artistic skills, while giving students the opportunity to take time out of academic study and enjoy the arts! All students who want to express themselves through artistic performance are welcome.</li>
+      <li class="associations-title">Medical And Health Association</li>
+      <li>Students in the medical and non-medical fields are welcome to participate in conversations and discussions on various issues affecting current medicine (including the controversial national medical service system and medical ethics), from different perspectives such as medical, economics and engineering, medical insurance. This is a great opportunity to develop transferable skills such as interpersonal skills, communication skills, teamwork and college interview preparation.</li>
+      <li class="associations-title">Financial and Economical Association</li>
+      <li>Activities include the following: discussing current events, dealing with statistical issues, debates, game theory issues, stock challenges, Oxford incentives, and guest speakers.</li>
+      <li class="associations-title">English Advancement Class</li>
+      <li>Arrange according to the situation of the students' level.</li>
+      <li class="associations-foottip">Participating the associations will have additional charges.</li>
+    </ul>`;
 
 export default {zh_hk, en}

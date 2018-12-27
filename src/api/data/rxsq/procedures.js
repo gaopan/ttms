@@ -12,6 +12,18 @@ let zh_hk = `<li>通過線上報名收到入學申請表，請填妥入學申請
         <li>報名費繳款證明：接受郵寄劃線支票拾頭為「星光88有限公司」或轉帳到中國銀行（香港）戶口 ： 012-611-0-013044-8</li>
       </ul>`;
 
-let en = ``;
+let en = `<li>Register online to receive the application form.Please complete the application form and send the following relevant documents in person or by post to: <span class="procedures-address">Hong Kong Tsung Tsin Middle School (International Programme Admissions Office), No.11 Kwong Lee Road, Cheung Sha Wan, Kowloon, Hong Kong.</span></li>
+      <li>a. After receiving admissions application, the school will check the relevant documents submitted by the applicant and arrange an interview. The notice of interview will be sent within 7 working days.</li>
+      <li>b. The interview is divided into two parts: admission test and interview test.</li>
+      <li>c. The interview results will be announced within 14 working days after the interview.</li>
+      <li>d. Applicants who have obtained the admissions will pay a deposit of HK$10,000<span class="procedures-color-red">*</span>(non-refundable) for place reservation.</li>
+      <li>e. The Programme Fee of the 1st semester, the 2nd semester and related payments must be paid by the specified date in the Offer Letter.</li>
+      <ul class="procedures-files">
+        <h3>The relevant documents are as follows</h3>
+        <li>Copy of ID card and passport</li>
+        <li>Copy of academic certificate in recent three years</li>
+        <li>Copy of relevant supporting documents (please refer to the application form)</li>
+        <li>Proof of payment of Registration Fee: Crossed cheque of the registration fee (payable to "Star Light 88 Limited") / registration fee payment receive to Bank of China (HK) account: 012-611-0-013044-8</li>
+      </ul>`;
 
 export default {zh_hk, en}

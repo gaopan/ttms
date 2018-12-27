@@ -48,6 +48,54 @@ let zh_hk = `<li>
         <li>校外活動和一些可選的課外活動</li>
   		</ul>`;
 
-let en = ``;
+let en = `<li>
+        <table class="fees-table">
+          <tr>
+            <th>Year</th>
+            <th>Fees (HK$)</th>
+            <th>Year</th>
+            <th>Fees (HK$)</th>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>148,000</td>
+            <td>11</td>
+            <td>158,000</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>148,000</td>
+            <td>12</td>
+            <td>168,000</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>158,000</td>
+            <td>13</td>
+            <td>168,000</td>
+          </tr>
+        </table>
+      </li>
+      <ul class="fees-content">
+        <h3>Programme Fees include: </h3>
+        <li>school uniform, learning materials</li>
+        <li>Registration Fee: HK$300(non-refundable)<span class="fees-content-red">*</span></li>
+        <ul>
+          <li>Scholarship Scheme</li>
+          <div class="fees-scheme">
+            <li>TTMS-OIC Scholarship $1000 per</li>
+            <li>Director’ s Award $800 per Semester</li>
+          </div>
+        </ul>
+        <li>2 students per semester can be awarded the above scholarships with certificate from the school.</li>
+        <h3>The following fees are not included in the Programme Fees:</h3>
+        <li>OIC Programme Administrative Fee, Application Fee, Donation Fee, Debenture Fee or other expenses.</li>
+        <li>Student Insurance is a compulsory unless an alternative cover is provided. Please note that the school does not provide an insuranceschemetocoverfeerefunds. Parents are encouraged to make their own arrangements.</li>
+        <li>IELTS test (if needed)</li>
+        <li>Public examination fee</li>
+        <li>Additional one-to-one classes (for examples: A-level, IELTS and music lessons)</li>
+        <li>School Professional Society and its activities</li>
+        <li>Off-campus activities and some optional extracurricular activities</li>
+      </ul>`;
 
 export default {zh_hk, en}

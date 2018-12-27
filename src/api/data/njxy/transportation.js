@@ -5,6 +5,11 @@ let zh_hk = `<li class="transportation-title">學校對面有停車場。</li>
   			<img :src="imgs" alt="">
   		</li>`;
 
-let en = ``;
+let en = `<li class="transportation-title">There is a parking lot opposite the school.</li>
+  		<li class="transportation-title">Three minutes' walk to the So Uk Bus Terminal.</li>
+  		<li class="transportation-title">7 minutes' walk to Cheung Sha Wan MTR station.</li>
+  		<li class="transportation-img">
+  			<img :src="imgs" alt="">
+  		</li>`;
 
 export default {zh_hk, en}
