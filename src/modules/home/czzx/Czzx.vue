@@ -23,3 +23,30 @@
   </div>
 </template>
 <script src="./czzx.js"></script>
+<style type="text/css">
+   .part1-1,
+   .part1-2,
+   .part1-3{
+      margin-top: 70px;
+   }
+
+   .part1-1 .info-list li,
+   .part1-2 .info-list li,
+   .part1-3 .info-list li{
+      font-size: 18px;
+    
+   }
+
+   .part1-1 .info-list,
+   .part1-2 .info-list,
+   .part1-3 .info-list{
+      padding-right: 260px;
+      line-height: 28px;
+   }
+
+   .part1-1 .info-list .square,
+   .part1-2 .info-list .square,
+   .part1-3 .info-list .square{
+      margin-left: -20px;
+   }   
+</style>

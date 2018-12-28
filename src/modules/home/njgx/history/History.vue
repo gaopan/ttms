@@ -93,24 +93,34 @@
 					<span class="teacher-title">崇正牛津國際課程項目總負貴人</span>
    			</div>
    			<div class="part2-1-3-bottomRight">
-   				
-   			</div>
-  			
+          <ul class="info-list">
+            <li><span class="square"></span>紐西闌奧塔哥大學</li>
+            <li><span class="square"></span>西澳大利亞大學聖喬治學院的住宅地理/地理學導師（擔任多年）</li>
+            <li><span class="square"></span>任教於英國海明頓Wycombe Abbey女子學院，擔任倫敦的獨立中學副院長</li>
+            <li><span class="square"></span>擔任牛津國際公學的校友與首席運營官（2011年10月開始）</li>
+          </ul>    				
+   			</div>  			
   		</div>
-
   	</div>
 
-    <div class="part2-1 part2-1-3">
-  		<div class="part2-1-3-top">
+    <div class="part2-1 part2-1-4">
+  		<div class="part2-1-4-top">
   			<img :src="imgUrl('2.1.5.png')">
   		</div>
-   		<div class="part2-1-3-bottom darkBule">
-   			<div class="part2-1-3-bottomLeft teacher-name-wrapper">
+   		<div class="part2-1-4-bottom darkBule">
+   			<div class="part2-1-4-bottomLeft teacher-name-wrapper">
 					<span class="teacher-title">優思明•薩沃爾女士</span> 
 					<span class="teacher-title">首席教育官</span>
    			</div>
-   			<div class="part2-1-3-bottomRight">
-   				
+   			<div class="part2-1-4-bottomRight">
+          <ul class="info-list">
+            <li><span class="square"></span>2011年度英國科學科導師</li>
+            <li><span class="square"></span>2015年度威爾士傑出女性</li>
+            <li><span class="square"></span>2015年度諾貝爾傑出教育家</li>
+            <li><span class="square"></span>英國頂尖醫學院面試小組成員</li>
+            <li><span class="square"></span>2016年度TEDx演說家</li>
+            <li><span class="square"></span>連續8年A-Level 成績排名記錄保持者</li>
+          </ul>    				
    			</div>
   			
   		</div>
@@ -184,16 +194,47 @@
 	height: 1205px;
 }
 
+.part2-1-4-bottom,
 .part2-1-3-bottom{
-  height: 400px;
-  width: 100%;
-  padding: 50px 80px 0 80px;
+    width: 100%;
+    padding: 50px 80px 50px;
+    display: flex;
 }
 
+.part2-1-4-bottomLeft.teacher-name-wrapper,
+.part2-1-3-bottomLeft.teacher-name-wrapper {
+    width: 300px;
+}
+
+.part2-1-4-bottomRight,
+.part2-1-3-bottomRight {
+    text-align: right;
+    margin-left: 70px;
+}
+.part2-1-4-bottomRight,
+.part2-1-3-bottomRight{
+  flex: 1;
+}
+.part2-1-4-bottomRight .info-list li,
+.part2-1-3-bottomRight .info-list li{
+  font-size: 18px;
+}
+
+.part2-1-4-bottomRight a,
+.part2-1-4-bottomRight .info-list{
+  color: #fff;
+}
+.part2-1-4-bottomRight .square{
+  background: #fff;
+}
+
+
+.part2-1-4-bottom.darkBule,
 .part2-1-3-bottom.darkBule{
   background: #111836;
 }
 
+.part2-1-4-bottom .teacher-title ,
 .part2-1-3-bottom .teacher-title {
     font-size: 20px;
 }

@@ -403,6 +403,7 @@
     margin-top: 10px;
     margin-bottom: 40px;
     text-indent: 36px;
+    line-height: 28px;
 	}
 
 	.achievement-table {
@@ -542,13 +543,15 @@
    margin-left: -24px;
 }
 .part2-4-3 .teacher-introduce {
+	 line-height: 28px;
    margin-left: 24px;
+   font-size: 16px;
 }
 .part2-4-3 .course-item-wrapper .course-teacher {
-    /* margin-left: -30px; */
-    background: #A87C44;
-    padding-left: 20px;
-    line-height: 30px;
+	font-size: 18px;
+  background: #a87c44;
+  padding-left: 20px;
+  line-height: 36px;
 }
 
 
@@ -591,6 +594,7 @@
 
 .part2-4-4 p.part244-teacher-experience{
 	margin-left: 24px;
+	font-size: 16px;
 }
 
 .part2-4-4-course .square{
