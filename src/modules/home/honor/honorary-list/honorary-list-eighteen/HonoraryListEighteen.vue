@@ -1,0 +1,28 @@
+<template>
+  <main class="content-main honorary-list-years" role="main">
+  	<table>
+		<tr><th>大學</th><th>學位課程</th></tr>
+		<tr><td>牛津大學</td><td>醫學</td></tr>
+		<tr><td>劍橋大學</td><td>醫學，土木工程學，經濟學</td></tr>
+		<tr><td>伯明罕大學</td><td>醫學，物理學</td></tr>
+		<tr><td>倫敦大學學院</td><td>醫學，土木工程學，經濟學</td></tr>
+		<tr><td>謝菲爾德大學</td><td>生物醫學，物理學</td></tr>
+		<tr><td>帝國理工學院</td><td>醫學，土木工程學</td></tr>
+		<tr><td>格拉斯哥大學</td><td>牙科，社會學</td></tr>
+		<tr><td>倫敦國王學院</td><td>醫學，藥劑學</td></tr>
+		<tr><td>華威大學</td><td>生物醫學科學</td></tr>
+		<tr><td>布裏斯托大學</td><td>電氣工程</td></tr>
+		<tr><td>愛丁堡大學</td><td>電氣工程</td></tr>
+		<tr><td>愛爾蘭皇家外科醫學院</td><td>醫學</td></tr>
+		<tr><td>赫瑞瓦特大學</td><td>精算學</td></tr>
+		<tr><td>中央蘭開夏大學</td><td>醫學及手術</td></tr>
+		<tr><td>紐卡斯爾大學</td><td>醫學，牙科，社會學</td></tr>
+		<tr><td>埃塞克斯大學</td><td>管理與市場學</td></tr>
+		<tr><td>香港大學</td><td>國際商務與全球管理</td></tr>
+		<tr><td>曼徹斯特大學</td><td>精算學及數學</td></tr>
+		<tr><td>薩裏大學</td><td>商業管理</td></tr>
+	</table>
+  </main>
+</template>
+<script src="./honorary-list-eighteen.js"></script>
+<style src='../honorary-list.css'></style>
