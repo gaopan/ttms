@@ -1,18 +1,18 @@
 <template>
-  <div :id="$router.currentRoute.path == '/index' ? 'home' : 'inside'">
+  <div :id="$router.currentRoute.path == '/index' ? 'home' : 'inside'" class = "page-container-wrapper">
     <header role="banner">
       <div class="advert"><img style="display: block; margin-left: auto; margin-right: auto;height:100px;" :src="imgUrl('oxcoll_banner.png')" alt="Oxford International College" title="Oxford International College"></div>
       <div class="navbar navbar-inverse" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <div itemscope="" itemtype="http://schema.org/Organization">
+            <div  class="school-log-wrapper" itemscope="" itemtype="http://schema.org/Organization">
               <a itemprop="url" class="navbar-brand" href="/">
-						<img style="display: inline-block;height: 90px;" :src="imgUrl('czzx-logo.png')" />
-						<span></span>
-					</a>
+    						<img :src="imgUrl('czzx-logo.png')" />
+    					</a>
+              <p class="school-title" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">{{'schoolName' | translate(translator, currentLang)}}</p>
             </div>
             <div class="brand-strap">
-              <div>
+              <div class="school-info">
                 <p class="big">{{'name' | translate(translator, currentLang)}}</p>
                 <p>
                   {{'address' | translate(translator, currentLang)}}
@@ -31,22 +31,27 @@
               <span class="icon-bar"></span>
             </button>
           </div>
-          <nav role="navigation" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li :class="{active: isCurrentPath(nav.path)}" v-for="nav in navs">
-                <a href="javascript:void(0)" @click="navTo(nav)" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
-              		<span v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
-              		<span v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
-              		<img v-if="nav.imgUrl" :src="imgUrl(nav.imgUrl)" :class="nav.imgClass" />
-              		{{nav.imgUrl ? "" : nav.description}}
-              	</a>
-              </li>
-            </ul>
-          </nav>
+
           <!--/.nav-collapse -->
          </div>
       </div>
     </header>
+    <nav role="navigation" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <!-- <li :class="{active: isCurrentPath(nav.path)}" @mouseenter = "switchSubLevel(nav,'show')" @mouseleave = "switchSubLevel(nav,'hide')" v-for="nav in navs"> -->
+        <li :class="{active: isCurrentPath(nav.path)}" @click="navTo(nav)" v-for="nav in navs">
+          <a href="javascript:void(0)" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
+            <span class = "nav-itemName" v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
+            <span class = "nav-itemName" v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
+            <img v-if="nav.imgUrl" :src="imgUrl(nav.imgUrl)" :class="nav.imgClass" />
+            <span class = "nav-description">{{nav.imgUrl ? "" : nav.description}}</span>
+          </a>
+          <!-- <ul v-show = "nav.bShow" class="sub-nav-list">
+            <li v-for = "subPath in nav.subPath" @click="navTo(subPath)">{{subPath.name}}</li>
+          </ul> -->
+        </li>
+      </ul>
+    </nav>    
     <router-view></router-view>
     <footer role="contentinfo">
       <div class="container">
@@ -113,4 +118,4 @@
   </div>
 </template>
 <script src="./home.js"></script>
-<style src="./home.scss" lang="scss"></style>
+<style src="./home.css"></style>

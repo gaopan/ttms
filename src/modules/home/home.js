@@ -28,6 +28,21 @@ export default {
     imgUrl: function(path) {
       return images('./' + path);
     },
+    switchSubLevel(nav,type){
+      if(type == 'hide'){
+        this.switchSubLevel.Timer =  setTimeout(()=>{
+          nav.bShow = false;
+          clearTimeout(this.switchSubLevel.Timer);
+        },200);
+      }else if(type == 'show'){
+        this.navs.forEach(d=>{
+          d.bShow = false;
+        })
+        
+        if(this.switchSubLevel.Timer)clearTimeout(this.switchSubLevel.Timer);
+        nav.bShow = true;
+      }
+    },
     navTo(item) {
       this.$router.push(item.path);
     },

@@ -1,6 +1,6 @@
 
 let en = {
-  schoolName: "香港崇正中學",
+  schoolName: "Tsung Tsin Middle School",
   name: "Hong Kong Tsung Tsin Middle School",
   address: "香港 九龙 长沙湾 广利道11号",
   contact: "Tsung Tsin Middle School Admission Department Mrs Liu",
@@ -65,15 +65,57 @@ let zh_hk = {
       name: "主頁",
       path: '/index',
       imgUrl: 'home-icon.png',
-      notDisplayName: true
+      notDisplayName: true,
+      subPath:[]
     }, {
       name: "香港崇正中學",
       path: '/czzx',
-      description: "創校之路，歷史佳績 ..."
+      description: "創校之路，歷史佳績 ...",
+      bShow : false,
+      subPath:
+      [
+        {
+          name: "創校之路",
+          path: '/czzx/establishment',
+          href: '/czzx/establishment'
+        }, {
+          name: "歷史佳績",
+          path: '/czzx/achievement',
+          href: '/czzx/achievement'
+        }, {
+          name: "崇正文化",
+          path: '/czzx/culture',
+          href: '/czzx/culture'
+        }, {
+          name: "學校管治",
+          path: '/czzx/governance',
+          href: '/czzx/governance'
+        }
+      ]      
     }, {
       name: "英國牛津國際公學",
       path: '/njgx',
-      description: "創辦歷史，教育理念 ..."
+      description: "創辦歷史，教育理念 ...",
+      subPath:  
+      [
+        {
+          name: "創辦歷史",
+          path: '/njgx/history',
+          href: '/njgx/history'
+        }, {
+          name: "教育理念",
+          path: '/njgx/objective',
+          href: '/njgx/objective'
+        }, {
+          name: "延伸課程",
+          path: '/njgx/programme',
+          href: '/njgx/programme'
+        }, {
+          name: "屢創佳績",
+          path: '/njgx/achievement',
+          href: '/njgx/achievement'
+        }
+      ]
     },{
       name: "崇正牛津國際中學課程",
       path: '/njkc',

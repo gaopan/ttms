@@ -38,7 +38,7 @@
     <div class="row">
       <main class="content-main" role="main">
         <!-- InstanceBeginEditable name="content" -->
-        <h1 class="page-title">Home</h1>
+
         <div class="box"><img :title="'czgcUpdates' | translate(translator, currentLang)" :src="imgUrl('image013.jpg')" alt="" width="480">
           <div class="box-inner">
             <div class="box-dark">
