@@ -46,7 +46,7 @@
   width: 70%;
   color: #b27524;
   line-height: 3;
-  border-bottom: 4px solid #b27524;
+  /*border-bottom: 4px solid #b27524;*/
   font-weight: bold;
   font-size: 22px;
 }

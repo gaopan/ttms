@@ -83,6 +83,7 @@
   left: 0;
   width: 100%;
   background: #b27524;
+  margin-top: 0 !important;
 }
 .njkc-year table th.njkc-year-sortnum{
   width: 15%;

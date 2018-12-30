@@ -38,7 +38,7 @@
   font-size: 18px;
   font-weight: bold;
   width: 70%;
-  border-bottom: 4px solid #b27524;
+  /*border-bottom: 4px solid #b27524;*/
 }
 .njxy-facilities p span.glyphicon-stop{
   margin-right: 10px;

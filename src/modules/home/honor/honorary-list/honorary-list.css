@@ -29,6 +29,9 @@
 }
 
 .honorary-list-years{
+  margin-top: 0 !important;
+}
+.honorary-list-years{
 	left: 0;
 	width: 100%;
 	background: #b27524;

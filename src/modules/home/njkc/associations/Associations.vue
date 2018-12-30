@@ -1,7 +1,7 @@
 <template>
   <main class="content-main njkc-associations" role="main">
   	<div class="row associations-content">
-  		<!-- <img :src="imgUrl('art.png')" alt=""> -->
+  		<img :src="imgUrl('art.png')" alt="">
   		<div class="col-md-6">
   			<p class="associations-title">表演藝術社團</p>
   			<p class="associations-info">藝術社團旨在幫助學生發展創造力，通過藝術作品放鬆身心。這是一個發展藝術技能的好機會，同時讓學生有機會從學術學習中抽出時間，享受藝 術！歡迎所有想希望通過藝術表演體現自我的學生。</p>
@@ -34,7 +34,7 @@
 	width: 70%;
 	color: #b27524;
 	line-height: 3;
-	border-bottom: 4px solid #b27524;
+	/*border-bottom: 4px solid #b27524;*/
 	font-weight: bold;
 	font-size: 22px;
 }
