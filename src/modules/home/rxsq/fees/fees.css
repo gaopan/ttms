@@ -1,0 +1,74 @@
+.rxsq-fees .fees-top{
+  padding-bottom: 20px;
+  border-bottom: 4px solid #b27524;
+}
+.rxsq-fees .fees-top table.fees-table{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.rxsq-fees .fees-top table.fees-table th{
+  background: #342e88;
+  line-height: 3;
+  border:1px solid #b27524;
+  color: #fff;
+  text-align: center;
+}
+.rxsq-fees .fees-top table.fees-table td{
+  line-height: 2;
+  border:1px solid #b27524;
+}
+.rxsq-fees .fees-top .fees-scheme{
+  background: url(/static/img/delfi-de-la-rua-140752-unsplash.9e87b37.jpg);
+  background-size: cover;
+  padding: 0;
+  color: #b27524;
+  box-shadow: 0 0 10px #000;
+}
+.rxsq-fees .fees-top .fees-scheme h2{
+  font-weight: 700;
+  background: rgba(255,255,255,.5);
+  padding: 20px 20px 10px;
+  font-size: 20px;
+}
+.rxsq-fees .fees-top .fees-scheme .fees-amount{
+  font-size: 50px;
+  margin: 0;
+  font-weight: 700;
+  background: rgba(255,255,255,.5);
+  padding: 20px 20px 16px;
+}
+.rxsq-fees .fees-top .fees-scheme .fees-tip{
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  background: rgba(255,255,255,.5);
+  padding: 0 20px 20px;
+}
+
+.rxsq-fees .fees-bottom{
+  padding-top: 20px;
+  background: #b27524;
+  color: #fff;
+  padding: 10px;
+}
+.rxsq-fees .fees-bottom .fees-include{
+  margin-bottom: 60px;
+}
+.rxsq-fees .fees-bottom .fees-include h3,.rxsq-fees .fees-bottom .fees-notinclude h3{
+  font-size: 26px;
+  padding:10px;
+  width: 50%;
+  border-bottom: 4px solid #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.rxsq-fees .fees-bottom p{
+  padding-left: 10px;
+}
+.rxsq-fees .fees-bottom p span.glyphicon-stop{
+  margin-right: 10px;
+}
+.rxsq-fees .fees-bottom p span.fees-include-red{
+  color: red;
+}

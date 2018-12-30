@@ -1,0 +1,57 @@
+.honor-honorary-list{
+  background: #b27524;
+  border-bottom: 4px solid #131132;
+}
+.honor-honorary-list:after{
+  height: 0;
+  content:'';
+  clear: both;
+  visibility: hidden;
+  display: block;
+}
+.honor-honorary-list a{
+  line-height: 60px;
+  color: #fff;
+  text-decoration: none;
+  height: 60px;
+  display: block;
+  float: left;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.honor-honorary-list a:hover{
+  border-bottom: 4px solid #131132;
+  color: #131132;
+}
+.honor-honorary-list a.router-link-active{
+  border-bottom: 4px solid #131132;
+  color: #131132;
+}
+
+.honorary-list-years{
+  margin-top: 0 !important;
+}
+.honorary-list-years{
+	left: 0;
+	width: 100%;
+	background: #b27524;
+	padding-top: 20px;
+}
+.honorary-list-years table{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+.honorary-list-years table th{
+	text-align: center;
+	border:1px solid #fff;
+	background: #131132;
+	line-height: 4;
+	color: #fff;
+	font-weight: bold;
+}
+.honorary-list-years table td{
+	border:1px solid #fff;
+	line-height: 3;
+}

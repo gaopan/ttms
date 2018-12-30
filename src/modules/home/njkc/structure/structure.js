@@ -10,10 +10,6 @@ export default {
     return {
       currentLang: shared.defaultLang,
       structureNavs:[{
-        name:'Requirements',
-        path:'requirements',
-        title:'飽讀大學要求'
-      },{
         name:'EightYear',
         path:'eight-year',
         title:'八年級'

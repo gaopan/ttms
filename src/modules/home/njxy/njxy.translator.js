@@ -10,10 +10,6 @@ let zh_hk = {
     path: '/njxy/facilities',
     href: '/njxy/facilities'
   },{
-    name: "運動場與鄰近環境",
-    path: '/njxy/surrounding',
-    href: '/njxy/surrounding'
-  },{
     name: "交通路線",
     path: '/njxy/transportation',
     href: '/njxy/transportation'
@@ -31,10 +27,6 @@ let en = {
     name: "Design and Facilities",
     path: '/njxy/facilities',
     href: '/njxy/facilities'
-  },{
-    name: "Surrounding",
-    path: '/njxy/surrounding',
-    href: '/njxy/surrounding'
   },{
     name: "Transportation",
     path: '/njxy/transportation',
