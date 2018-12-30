@@ -131,11 +131,15 @@
 <script src="./history.js"></script>
 <style type="text/css">
 .part2-1{
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .part2-1-1 {
   display: flex;
+  
+}
+.part2-1-1 .history-content{
+  text-indent: 20px;  
 }
 
 .part2-1-1-left {
@@ -217,6 +221,7 @@
 .part2-1-4-bottomRight .info-list li,
 .part2-1-3-bottomRight .info-list li{
   font-size: 18px;
+  line-height: 30px;
 }
 
 .part2-1-4-bottomRight a,
@@ -236,8 +241,57 @@
 .part2-1-4-bottom .teacher-title ,
 .part2-1-3-bottom .teacher-title {
     font-size: 20px;
+    line-height: 30px;
 }
 
+@media(max-width:767px){
+  .part2-1-1-right{
+    display: none;
+  }
+  .left-bottom-pic{
+    display: inline-block;
+    position: static;
+    margin-right: 0;
+  }
+
+  .history-content{
+    padding:0;
+    height: 430px;
+  }
+
+  /* part2 */ 
+  .part2-1-2-left{
+    display: none;
+  }
+  .member-four-experience{
+    padding:20px;
+  }
+  .part2-1-2-right .teacher-headPhoto-four{
+    margin-top: 20px;
+  }
+
+  /* part3 */
+  .part2-1-3-bottomRight, .part2-1-4-bottomRight{
+    text-align: left;
+    margin-left: 0;
+    width: 100%;
+    line-height: 30px;
+  }
+  .part2-1-3-bottom, .part2-1-4-bottom{
+    padding: 20px;
+    display: block;    
+  }
+
+  .part2-1-3-bottom .teacher-title, .part2-1-4-bottom .teacher-title{
+    margin-bottom: 10px;
+  }
+  .part2-1-3-bottomLeft.teacher-name-wrapper, .part2-1-4-bottomLeft.teacher-name-wrapper{
+    margin-bottom: 30px;
+    margin-top: 30px;    
+  }
+
+
+}
 @media(min-width:768px) and (max-width: 1200px){
   .member-four-experience{
 

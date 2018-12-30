@@ -597,4 +597,43 @@
 .part2-4-4-course .square{
 	margin-left: -24px;
 }
+
+@media(max-width: 767px){
+	.part2-4-sentence-1{
+		font-size: 14px;
+	}
+	.part2-4-4-course{
+		padding-left: 0;
+	}
+	.part244-course-item{
+    width: 42%;
+    margin-left: 20px;		
+	}
+	.part2-4-4 p.part244-course-name{
+		 font-size: 20px;
+	}
+	.part244-teacher-name,
+	.part244-teacher-experience{
+		font-size: 14px;
+	}
+
+
+	.part2-4-3{
+		padding: 40px 20px 0;
+	}
+	.part2-4-3-title{
+		margin-bottom: 40px;
+	}
+	.part2-4-3-title .name, .part2-4-4-title .name{
+		 font-size: 28px;
+	}
+	.part2-4-3 .course-item-wrapper{
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+
+	.part2-4-3 .teacher-introduce{
+		font-size: 14px;
+	}
+}
 </style>

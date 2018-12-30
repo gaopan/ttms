@@ -63,12 +63,20 @@
 
 .teacher-info{
     flex: 1;
-    height: 430px;
+    /*height: 430px;*/
     background: #a87c44;
     color: #fff;
-    padding: 80px 30px 60px 30px;
+    
     transform: translateX(0);
 }
+@media (min-width: 768px) {
+    .teacher-info{
+        padding: 80px 30px 60px 30px;
+    }
+    
+}
+
+
 
 .teacher-info .name,
 .teacher-info .motto,
@@ -113,9 +121,6 @@
     text-indent: 40px;
 }
 
-.teacher-info-aside .sentence {
-    width: 440px;
-}
 .teacher-info-aside .sentence,
 .teacher-info-aside .name,
 .teacher-info-aside .motto {
@@ -190,7 +195,7 @@
 .experience-list-two .square{
     background: #fff;
 }
-.experience-list-two{
+.experience-list-two.part1-3-2-experience1{
 	direction: rtl;
 	margin-left: 20px;
     color:#fff;
@@ -312,29 +317,126 @@
         width: 970px;
     }
 } */
-@media(min-width:480px) and (max-width: 768px){
-    .experience-photo {
+
+@media(min-width:768px){
+    .teacher-introduce.part1-3-2-introduce1{
+        display: flex;
+    }  
+    .teacher-introduce.part1-3-2-introduce2  {
+        display: none;
+    } 
+    .experience-list-one.part1-3-2-experience1  {
+        display: block;
+    }  
+    .experience-list-one.part1-3-2-experience2  {
+        display: none;
+    } 
+
+
+}
+
+@media(max-width: 767px){
+    .teacher-one-photo {
+        vertical-align: top;
+        width: 134px;
+    }
+
+    .teacher-photo-wrapper{
+        height: 200px;
+    }
+
+    .teacher-headPhoto-one {
+        top: 0;
+    }
+    .teacher-headPhoto {
+        width: 134px;
+    }
+    .stripe-background-one {
         display: none;
     }
-.teacher-one-photo {
-    vertical-align: top;
-    width: 320px;
+    .experience-photo {
+        display: none;
+    } 
+    .experience-list-one{
+        margin-top: 50px;
+    } 
+    .teacher-introduce.part1-3-2-introduce1  {
+        display: none;
+    }
+    .teacher-introduce.part1-3-2-introduce2  {
+        display: flex;
+    } 
+
+    .part1-3-2-experience1  {
+        display: none;
+    }  
+    .experience-list-one.part1-3-2-experience2  {
+        display: block;
+        color:white;
+    }
+    .experience-list-one.part1-3-2-experience2 .square {
+        background: white;
+    }
+
+    .teacher-info-aside{
+        display: none;
+    }     
+
+    .teacher-member-two{
+        padding: 60px 20px;
+
+    } 
+
+    .teacher-title{
+        font-size: 18px;
+    } 
+
+    .teacher-info {
+        padding:0 30px;
+    } 
+    .teacher-info .name{
+        display: none;
+    }
+
+    /* part 3 */
+    .teacher-title-photo-three{
+        display: none;
+    }
+    .teacher-three-photo{
+        display:flex;
+        position: static;
+    }
+    .teacher-headPhoto{
+        position: static;
+    }
+
+    .teacher-introduce-three .teacher-photo-wrapper{
+        display: inline-block;
+    }
+    .stripe-background-three{
+        display: none;
+    }
+   .teacher-name-wrapper.teacher-three-name-wrapper{
+        color: #fff;
+        vertical-align: top;
+        display: inline-block;
+        padding-top: 20px;
+        padding-left: 30px;
+        background: #a87c44;
+        flex: 1;
+        height: 168px;    
+   }
+   /* part-4 */
+    .teacher-member-four .picture-1 {
+        display: none;
+    } 
+
+    .teacher-member-four .picture-2{
+        display: none;
+    }
+
 }
 
-.teacher-headPhoto-one {
-    bottom: 30px;
-}
-.teacher-headPhoto {
-    width: 134px;
-}
-
-.stripe-background-one {
-    width: 270px;
-    height: 260px;
-    transform: rotate(90deg) translateX(5px) translateY(-55px);
-}
-
-}
 @media(min-width:768px) and (max-width: 1200px){
 
     .teacher-one-photo{

@@ -70,7 +70,8 @@
 		</div>
 
 		<div class="teacher-member teacher-member-two">
-	  	<div class="teacher-introduce">
+	  	
+	  	<div class="teacher-introduce part1-3-2-introduce1">
 
 				<div class = "teacher-title-photo">
 					<img :src="imgUrl('44.png')">
@@ -93,6 +94,29 @@
 			 	</div>			
 	  	</div>
 
+			<div class="teacher-introduce part1-3-2-introduce2">
+
+	      <div class="teacher-one-photo">        
+	        <div class="teacher-photo-wrapper">       
+	          <div class="teacher-headPhoto teacher-headPhoto-one">
+	            <img :src="imgUrl('lxc.png')">
+	          </div>
+	        </div>        
+	        <div class = "teacher-name-wrapper">
+	          <span class="teacher-title">素質保證總顧問</span>
+	          <span class="teacher-title">林絢琛博士</span>
+	          <!-- <span>Programme Director</span> -->
+	        </div>
+	      </div>
+
+	      <div class = "teacher-info">
+	        <p class="name">林絢琛博士</p>
+	        <p class = "motto">“質棄保證個性發展”</p>
+
+	        <p class="sentence">-從历史發展來看，香港在提供跨地域的國際教育課程上是世界上做的最好的地區。它能夠在適應當地文化的同時，保證教學質量，這是跨地域的國際教育課程面對的最嚴峻挑戰。我們不僅重視智慧,還重視毎位學生個別的智慧、體力和文化發展。我們相信保證“個性發展”是人生成功的唯一途徑。</p>
+	      </div>
+	    </div>
+
 			<div class="teacher-experience">
 				<div class="teacher-info-aside">
 
@@ -112,7 +136,7 @@
 
 	      </div> -->
 		
-				<ul class="experience-list-two info-list">
+				<ul class="experience-list-two info-list part1-3-2-experience1">
 					<li>
 	            <p>英國諾桑比亞大學商學院<span class="square"></span></p>
 	            <p class="sub-list-item">課程總監/教授</p>
@@ -159,6 +183,45 @@
 									Consultative Conference, Fujian Province.
 									Mainland China -->				
 				</ul>
+
+	      <ul class="experience-list-one info-list part1-3-2-experience2">
+	        <li>
+	            <p><span class="square"></span>英國諾桑比亞大學商學院</p>
+	            <p class="sub-list-item">課程總監/教授</p>
+	        </li>
+
+	        <li>
+	            <p><span class="square"></span>英國雪菲爾哈倫大學健康學院</p>
+	            <p class="sub-list-item">課程總監/教授</p>
+	        </li>
+	        <li>
+	            <p><span class="square"></span>香港政府學歷及資歷評審局委任專家</p>
+	            <p class="sub-list-item">(香港政府委任)</p> 
+	        </li>
+
+	        <li><span class="square"></span>香港運動教學會會長及院士</li>
+
+	        <li>
+	            <p><span class="square"></span>香港高等科技教育學院學士</p>
+	            <p class="sub-list-item">課程編輯委員</p> 
+	        </li>
+
+	        <li><span class="square"></span>福建省莆田市政協委員</li>
+
+
+	        <!-- <li>Universrty of British Columbia</li> 
+	        <li>Major in Music, Minor in Chinese
+	        <li>Chinese University Hong Kong</li>
+	        <li>Cultural Management</li>
+	        <li>National Academy of Arts</li> 
+	        <li>Research in Chinese Opera</li> 
+	        <li>Founder, Hong Kong and Macau InUmgible Cultural Heritage Research Centre (2016)</li> 
+	        <li>Visiting Professor, National Academy of Chinese Theatre Arts (2015)</li> 
+	        <li>Technical Consultant, Employees Retraining Board (2013)</li> 
+	        <li>Lecturer (Academic), Hong Kong Academy of the Performing Arts (2012-2018)</li> 
+	        <li>Programme Manager, The Open University of Hong Kong (2008-2012)</li>  -->
+	        
+	      </ul>				
 			</div>
 		</div>
 

@@ -33,7 +33,6 @@
  .part1-1 .info-list,
  .part1-2 .info-list,
  .part1-3 .info-list{
-    padding-right: 260px;
     line-height: 28px;
  }
 
@@ -53,7 +52,7 @@
 
 }
 
-@media(max-width:480px){
+@media(max-width:768px){
    .part1-1 .info-list .square,
    .part1-2 .info-list .square,
    .part1-3 .info-list .square{
@@ -68,7 +67,7 @@
       margin-top: 20px;
       padding-right: 0;
   }
-@media(min-width:481px){
+@media(min-width:768px){
   .part1-2 .info-list{
       padding-right: 0;
     }

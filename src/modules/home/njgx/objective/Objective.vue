@@ -53,5 +53,18 @@
 
   }
 
+  @media(max-width: 767px){
+    .part2-2{
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+    .part2-2 .part2-2-2-bottom{
+      padding:20px;
+    }
+    .part2-2 p.part222-prog{
+      font-size: 16px;
+    }
+  }
+
 
 </style>
