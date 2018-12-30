@@ -27,59 +27,57 @@
   			<img :src="imgUrl('2.1.3.png')">
   		</div>
 
-  		<div class="part2-1-2-right">
-				<div class="member-four-experience">
-					<div class="teacher-headPhoto-four">
-							<img :src="imgUrl('23.jpg')">
-					</div>
+			<div class="member-four-experience part2-1-2-right">
+				<div class="teacher-headPhoto-four">
+						<img :src="imgUrl('23.jpg')">
+				</div>
 
-					<div class="teacher-name-wrapper teacher-four-name-wrapper">
-						<span class="teacher-title">馬裏奧•皮特斯博士</span> 
-						<span class="teacher-title">牛津國隙公學創始人</span>
-					</div>
+				<div class="teacher-name-wrapper teacher-four-name-wrapper">
+					<span class="teacher-title">馬裏奧•皮特斯博士</span> 
+					<span class="teacher-title">牛津國隙公學創始人</span>
+				</div>
 
-		      <ul class="experience-list-four info-list">
-		        <li>
-		          學士 - 倫敦大學學院|英國第4，世界第15<span class="square"></span>
-		        </li>
-		        <li>
-		        	碩士 - 爱丁堡大學丨英國第6，世界第27<span class="square"></span>
-		        </li>
-		        <li>
-		          博士 - 牛津大學丨英國第1，世界第1<span class="square"></span>
-		        </li>		    
-		        <li>
-	      	  	牛津大學 - 空問物理研究员(1989-1999)<span class="square"></span>
-		        </li>
-		        <li>
-	      	  	創始人，牛津科學研究(1997)<span class="square"></span>
-		        </li>
-		        <li>
-	      	  	創始人，牛津國際公學(2003)<span class="square"></span>
-		        </li>
-		        <li>
-	      	  	創始人，牛津暑假學院(2010)<span class="square"></span>
-		        </li>
-		        <li>
-	      	  	創始人 ，靑年領導Trust(2012)<span class="square"></span>
-		        </li>
-		        <li>
-	      	  	創始人 ，Plan8網球學院，深圳(2013)<span class="square"></span>
-		        </li>
+	      <ul class="experience-list-four info-list">
+	        <li>
+	          學士 - 倫敦大學學院|英國第4，世界第15<span class="square"></span>
+	        </li>
+	        <li>
+	        	碩士 - 爱丁堡大學丨英國第6，世界第27<span class="square"></span>
+	        </li>
+	        <li>
+	          博士 - 牛津大學丨英國第1，世界第1<span class="square"></span>
+	        </li>		    
+	        <li>
+      	  	牛津大學 - 空問物理研究员(1989-1999)<span class="square"></span>
+	        </li>
+	        <li>
+      	  	創始人，牛津科學研究(1997)<span class="square"></span>
+	        </li>
+	        <li>
+      	  	創始人，牛津國際公學(2003)<span class="square"></span>
+	        </li>
+	        <li>
+      	  	創始人，牛津暑假學院(2010)<span class="square"></span>
+	        </li>
+	        <li>
+      	  	創始人 ，靑年領導Trust(2012)<span class="square"></span>
+	        </li>
+	        <li>
+      	  	創始人 ，Plan8網球學院，深圳(2013)<span class="square"></span>
+	        </li>
 
-						<!-- BSc - University College Lonck>n
-						(UkNo.4:WoddNo1$)
-						MSc - Edinburgh (i* n〇.8: wortd No.27)
-						DPhil - Oxford (UkN〇.i: wortd no 1>
-						Oxford University - Researcher in Space Physics (i9e»-i99«)
-						Founder, Oxford Science Studies (1997>
-						Founder, Oxford International College (2〇〇3)
-						Founder, Oxford Summer Academy (2〇i〇)
-						Founder, Youth Leadership Taist (2〇i2)
-						Founder, Plan8 Tennis Academy.Shenzhen (2013) -->       
-		      </ul>  					
-				</div>  			
-  		</div>
+					<!-- BSc - University College Lonck>n
+					(UkNo.4:WoddNo1$)
+					MSc - Edinburgh (i* n〇.8: wortd No.27)
+					DPhil - Oxford (UkN〇.i: wortd no 1>
+					Oxford University - Researcher in Space Physics (i9e»-i99«)
+					Founder, Oxford Science Studies (1997>
+					Founder, Oxford International College (2〇〇3)
+					Founder, Oxford Summer Academy (2〇i〇)
+					Founder, Youth Leadership Taist (2〇i2)
+					Founder, Plan8 Tennis Academy.Shenzhen (2013) -->       
+	      </ul>  					
+			</div>  			
   	</div>
 
   	<div class="part2-1 part2-1-3">
@@ -133,7 +131,6 @@
 <script src="./history.js"></script>
 <style type="text/css">
 .part2-1{
-  margin-right: 120px;
   margin-bottom: 200px;
 }
 
@@ -197,13 +194,13 @@
 .part2-1-4-bottom,
 .part2-1-3-bottom{
     width: 100%;
-    padding: 50px 80px 50px;
+    padding: 50px;
     display: flex;
 }
 
 .part2-1-4-bottomLeft.teacher-name-wrapper,
 .part2-1-3-bottomLeft.teacher-name-wrapper {
-    width: 300px;
+    flex: 1;
 }
 
 .part2-1-4-bottomRight,
@@ -213,7 +210,9 @@
 }
 .part2-1-4-bottomRight,
 .part2-1-3-bottomRight{
-  flex: 1;
+    text-align: right;
+    margin-left: 20px;
+    width: 390px;
 }
 .part2-1-4-bottomRight .info-list li,
 .part2-1-3-bottomRight .info-list li{
@@ -238,4 +237,17 @@
 .part2-1-3-bottom .teacher-title {
     font-size: 20px;
 }
+
+@media(min-width:768px) and (max-width: 1200px){
+  .member-four-experience{
+
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media(min-width:992px) and (max-width: 1500px){
+
+}
+
 </style>

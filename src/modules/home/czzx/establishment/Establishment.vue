@@ -11,6 +11,9 @@
   	</div> -->
     <!-- <div class="establishment-list">
     </div> -->
+    <div class="part1-1-picture">      
+      <img :src="imgUrl('cz_bg.png')">      
+    </div>
 		<ul class="info-list">
 			<li><span class="square"></span>崇正中學為乔港崇正總會屬下之中學；</li>
 

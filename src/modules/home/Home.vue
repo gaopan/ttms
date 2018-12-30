@@ -24,6 +24,11 @@
               	<div :class="{active: lang.value==currentLang}" class="lang" v-for="lang in langs" @click="changedLang(lang)">{{lang.name}}</div>
               </div>
             </div>
+
+            <div class="search-box-top">
+              <search-box></search-box>
+            </div>            
+            
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
