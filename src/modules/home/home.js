@@ -1,6 +1,7 @@
 import HomeTranslator from './home.translator.js'
 import CommonUtils from '@/utils/common-utils.js'
 import shared from '@/shared.js'
+import SearchBox from '@/components/search-box/SearchBox.vue'
 
 let eventHub = shared.eventHub
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
@@ -24,6 +25,8 @@ export default {
     };
   },
   created(){},
+  components: {SearchBox},
+  
   methods: {
     imgUrl: function(path) {
       return images('./' + path);

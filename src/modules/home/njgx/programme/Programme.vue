@@ -5,7 +5,7 @@
 				在英网牛津國際公學，學生將遵循他們個人專屬的全面性戰略規劃道路，最大限度地提高他們進入世界一流大學的檐會。“全面性敝略規劃’’課程涉及畢生的學術、職業和個人發展。學校的延展課程包括親善大使計劃、 愛丁堡公爵計劃等。
 			</p>
 			<div class="part2-programme-1">
-				<div class="programme-item">
+				<div class="programme-item mR">
 					<p class="programme-name">親善大使計劃</p>
 					<p class="programme-description">為學生提供了獨特的機會，通過製作作 品集，參與科學、實驗項目和其他專 業人員的實際工作，讓他們能夠真實 地接觸未來的學位課程。</p>
 				</div>
@@ -18,7 +18,7 @@
 			<p class="part2-others-programme">其他活動包括</p>
 
 			<div class="part2-programme-2">
-				<div class="programme-item">
+				<div class="programme-item mR">
 					<p class="programme-name">學術競赛</p>
 					<p class="programme-description">學生將被強烈鼓勵參加學術競賽，並 將得到導師的支持。比賽有助於確保 學生在他們想要申請的大學入學名額 中獲得一席之地，同時還可以提高他 們的寫作技巧和團隊合作能力。</p>
 				</div>
@@ -26,7 +26,7 @@
 					<p class="programme-name">哲學</p>
 					<p class="programme-description">對於所有學生來說，無論將來他要成 為醫療人員、律師還是工程師，哲學 都是一個永恆的課題。我們的課堂上 充滿了對倫理問題甚至是人類存在問 題的爭論。學生們被鼓勵去用他們以 前從未想過的方式思考，涉及的主題 可能包括：人類是否自由？電腦能否 思考？我們如何明辨是非？</p>
 				</div>
-				<div class="programme-item">
+				<div class="programme-item mR">
 					<p class="programme-name">辩諭</p>
 					<p class="programme-description">辯論俱樂部對所有學生而言都是一次 令人興奮的機會。學生將學會分析案 例，並就現實關聯性及頂尖大學非常 重視的技能問題進行研究和討論。學 生還將參加牛津和劍橋學校的辯論賽。</p>
 				</div>
@@ -34,7 +34,7 @@
 					<p class="programme-name">编程</p>
 					<p class="programme-description">由牛津大學博士生開設的編程課，教授寶貴的技能，無論學生未來選擇哪种職業道路，這門技術都將十分有用。</p>
 				</div>
-				<div class="programme-item">
+				<div class="programme-item mR">
 					<p class="programme-name">企業模擬</p>
 					<p class="programme-description">企業模擬公司計劃為學生提供了獨特的機會，讓他們在團隊中創造、經營自己的企業。他們不僅可以得到有助於大學申請的技能和經驗，而且還可 以賺取他們的成果。</p>
 				</div>
@@ -100,10 +100,12 @@
   .part2-3{
     margin-bottom: 200px;
   }
+  .mR{
+  	margin-right:14%;
+  }
 
 .part2-3 p.part2-3-1-title {
     font-size: 16px;
-    margin-right: 106px;
     padding: 20px;
     background: #A87C44;
     margin-bottom: 50px;
@@ -115,7 +117,6 @@
     display: inline-block;
     width: 38%;
     vertical-align: top;
-    margin-right: 100px;
     margin-bottom: 30px;
 }
 

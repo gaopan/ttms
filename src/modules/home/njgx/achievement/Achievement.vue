@@ -394,7 +394,6 @@
 <script src="./achievement.js"></script>
 <style type="text/css">
   .part2-4{
-    margin-right: 120px;
     margin-bottom: 200px;
   }
 
@@ -500,7 +499,7 @@
 .part2-4-3 {
     background: #111836;
     margin-top: 100px;
-    padding: 70px 0px 0 50px;
+    padding: 70px 50px 0 50px;
 }
 
 .part2-4-3-title {
@@ -531,10 +530,8 @@
     display: inline-block;
     width: 40%;
     display: inline-block;
-    width: 38%;
     color: #fff;
     vertical-align: top;
-    margin-right: 70px;
     margin-bottom: 30px;
     margin-left: 32px;
 }

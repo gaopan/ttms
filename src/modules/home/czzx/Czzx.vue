@@ -3,7 +3,10 @@
     <div class="row">
       <router-view></router-view>
       <aside class="content-left" role="complementary">
-        <search-box></search-box>
+        <div class="search-box-left">
+          <search-box></search-box>
+        </div>
+        
         
         <!-- InstanceBeginEditable name="leftmenu" -->
         <div class="box">
@@ -24,10 +27,56 @@
 </template>
 <script src="./czzx.js"></script>
 <style type="text/css">
-   .part1-1,
-   .part1-2,
-   .part1-3{
+ .part1-2{
+    margin-top: 70px;
+ }
+ .part1-1 .info-list,
+ .part1-2 .info-list,
+ .part1-3 .info-list{
+    padding-right: 260px;
+    line-height: 28px;
+ }
+
+ .search-box-left{
+   display: none;
+ }
+
+/* @media (min-width: 992px){
+    .teacher-member {
+        width: 970px;
+    }
+} */
+@media(min-width:768px){
+  .search-box-left{
+    display: inline-block;
+  }
+
+}
+
+@media(max-width:480px){
+   .part1-1 .info-list .square,
+   .part1-2 .info-list .square,
+   .part1-3 .info-list .square{
+      margin-left: 10px;
+   }   
+  .part1-1 .info-list li, .part1-2 .info-list li, .part1-3 .info-list li {
+      font-size: 14px;
+      line-height: 18px;
+  }  
+}
+  .part1-1 .info-list, .part1-3 .info-list {
+      margin-top: 20px;
+      padding-right: 0;
+  }
+@media(min-width:481px){
+  .part1-2 .info-list{
+      padding-right: 0;
+    }
+
+   .part1-3 .info-list,
+   .part1-1 .info-list{
       margin-top: 70px;
+      padding-left: 20px;
    }
 
    .part1-1 .info-list li,
@@ -37,16 +86,13 @@
     
    }
 
-   .part1-1 .info-list,
-   .part1-2 .info-list,
-   .part1-3 .info-list{
-      padding-right: 260px;
-      line-height: 28px;
-   }
-
    .part1-1 .info-list .square,
    .part1-2 .info-list .square,
    .part1-3 .info-list .square{
-      margin-left: -20px;
-   }   
+      margin-left: 20px;
+   }      
+
+}
+
+
 </style>

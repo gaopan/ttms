@@ -1,0 +1,398 @@
+.teacher-member{
+    margin-right: 0px;
+    margin-bottom: 100px;		
+}
+
+.teacher-member .info-list p{
+	margin-bottom: 6px;
+}
+
+.teacher-introduce {
+    display: flex;
+}
+.stripe-background{
+    
+    line-height: 2.5;
+    background-size: auto 6px;
+    background-origin: content-box;
+}
+.stripe-background-one{
+    width: 300px;
+    height: 370px;
+    transform: rotate(90deg) translateX(-34px) translateY(-95px);
+    background-image: linear-gradient(#a87c44 50%,transparent 3px);
+}
+
+.teacher-one-photo,
+.teacher-headPhoto,
+.teacher-name-wrapper,
+.teacher-info{
+	display: inline-block;
+}
+.teacher-one-photo{
+/* position: relative; */
+    vertical-align: top;
+    width: 430px;
+    height: 300px;		
+}
+.teacher-photo-wrapper{
+    height: 300px;
+    position: relative;
+    margin-bottom: 30px;	
+}
+.teacher-headPhoto{
+    width: 142px;
+    transform: translateX(0);
+    position: absolute;
+}
+.teacher-headPhoto-one{
+    left: 0px;
+    bottom: 0px;
+}
+
+.teacher-name-wrapper{
+	color: rgb(168,124,68);
+}
+
+.teacher-title{
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;		
+}
+
+.teacher-info{
+    flex: 1;
+    height: 430px;
+    background: #a87c44;
+    color: #fff;
+    padding: 80px 30px 60px 30px;
+    transform: translateX(0);
+}
+
+.teacher-info .name,
+.teacher-info .motto,
+.teacher-info .sentence,
+
+.member-four-teacher-info .name,
+.member-four-teacher-info .motto,
+.member-four-teacher-info .sentence,
+
+.teacher-info-aside .name,
+.teacher-info-aside .motto,
+.teacher-info-aside .sentence {
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+
+.member-four-teacher-info .name,
+.teacher-info .name{
+    font-size: 20px;
+}	
+
+.teacher-info-aside .name {
+    font-size: 16px;
+    direction: rtl;
+    margin-top: 40px;		
+}
+
+.teacher-info .motto,
+.member-four-teacher-info .motto,
+.teacher-info-aside .motto {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.teacher-info .sentence,
+.member-four-teacher-info .sentence,
+.teacher-info-aside .sentence {
+    font-size: 16px;
+    line-height: 28px;
+    text-indent: 40px;
+}
+
+.teacher-info-aside .sentence {
+    width: 440px;
+}
+.teacher-info-aside .sentence,
+.teacher-info-aside .name,
+.teacher-info-aside .motto {
+    color:#fff;
+}
+
+
+/* bottom */
+.teacher-experience {
+    display: flex;
+}
+
+.teacher-experience li{
+	margin-bottom: 40px;
+	line-height: normal;
+}
+
+.experience-list-one {
+    flex: 1;
+}
+
+.sub-list-item {
+    margin-left: 20px;
+}
+
+.experience-photo {
+  width: 530px;
+}
+
+
+
+/* teacher 2 */
+.teacher-member-two{
+
+    background: #111836;
+    padding: 60px;
+}
+
+.teacher-title-photo {
+    display: inline-block;
+    width: 550px;
+    vertical-align: top;
+}
+
+.teacher-introduce-right {
+    display: inline-block;
+    
+    width: 390px;
+}
+
+.stripe-background-two{
+    height: 330px;
+    width: 300px;
+    transform: rotate(90deg) translateX(-16px) translateY(-14px);
+    background-image: linear-gradient(#a87e74 50%,transparent 3px);
+}
+
+.teacher-headPhoto-two {
+    right: 0px;
+    bottom: 0px;
+}
+
+.teacher-name-wrapper-two{
+	direction: rtl;
+    width: 100%
+}
+
+.teacher-info-aside{
+	flex: 1;
+}
+
+.experience-list-two .square{
+    background: #fff;
+}
+.experience-list-two{
+	direction: rtl;
+	margin-left: 20px;
+    color:#fff;
+    width: 320px;
+}
+
+/* teacher 3 */
+.teacher-member-three{
+	display: flex;
+}
+
+.teacher-introduce-three {
+    display: inline-block;
+    vertical-align: top;
+    flex:1;
+}
+
+.teacher-three-photo{
+	position: relative;
+}
+
+.teacher-headPhoto-three {
+    left: 0;
+    bottom: 0px;
+}
+
+.teacher-three-name-wrapper {
+    margin-bottom: 40px;
+}
+
+.teacher-member .experience-list-three li{
+    margin-bottom: 40px;
+}
+
+.teacher-title-photo-three {
+    width: 580px;
+    display: inline-block;
+    transform: translateX(0);
+}
+
+.stripe-background-three {
+    height: 390px;
+    width: 300px;
+    transform: rotate(90deg) translateX(-45px) translateY(-132px);
+    background-image: linear-gradient(#a87c44 50%,transparent 3px);
+}
+.background-color{
+    background: #a87c44;
+    height: 300px;	
+}
+/* teacher 4 */
+.teacher-member-four{
+    background: #111836;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.top-part {
+    display: flex;
+}
+.teacher-member-four .picture-1 {
+    width: 520px;
+    display: inline-block;
+}
+
+.member-four-experience {
+    background: #111836;
+    display: inline-block;
+    vertical-align: top;
+    flex: 1;
+    padding-right: 100px;
+}
+
+.teacher-headPhoto-four{
+    text-align: right;	
+}
+.teacher-four-name-wrapper{
+    text-align: right;
+    float: right;
+    margin: 32px 0 50px 0;	
+    width: 100%;
+}
+
+.experience-list-four{
+    color: #fff;
+    direction: rtl;
+}
+.teacher-member  .experience-list-four li{
+	margin-bottom: 40px;
+}
+
+.member-four-teacher-info {
+    padding: 40px 30px 0 70px;
+    display: inline-block;
+    flex: 1;
+    color: #fff;
+    background: #A87C44;
+}
+
+
+.bottom-part{
+	display: flex;
+}
+
+.teacher-member-four .picture-2 {
+    /* display: inline-block; */
+    width: 428px;
+    height: 430px;
+}
+.teacher-member-four .picture-2 img{
+	width: 430px;
+    height: 430px;
+}
+.experience-list-four .square{
+	background: #fff;
+}
+
+/* @media (min-width: 992px){
+    .teacher-member {
+        width: 970px;
+    }
+} */
+@media(min-width:480px) and (max-width: 768px){
+    .experience-photo {
+        display: none;
+    }
+.teacher-one-photo {
+    vertical-align: top;
+    width: 320px;
+}
+
+.teacher-headPhoto-one {
+    bottom: 30px;
+}
+.teacher-headPhoto {
+    width: 134px;
+}
+
+.stripe-background-one {
+    width: 270px;
+    height: 260px;
+    transform: rotate(90deg) translateX(5px) translateY(-55px);
+}
+
+}
+@media(min-width:768px) and (max-width: 1200px){
+
+    .teacher-one-photo{
+        width: 300px;
+    }  
+
+    .teacher-headPhoto{
+        width: 120px;
+    }    
+
+    .experience-photo {
+        width: 430px;
+    }
+    .teacher-title-photo {
+        width: 360px;
+    } 
+    .teacher-introduce-right {
+        width: 200px;
+    } 
+
+    .stripe-background-two {
+        height: 200px;
+        width: 220px;
+        transform: rotate(90deg) translateX(10px) translateY(8px);
+        background-image: linear-gradient(#a87e74 50%,transparent 3px);
+    }
+    
+    .teacher-headPhoto-two {
+        right: -50px;
+        bottom: 80px;
+    }  
+
+    .stripe-background-three {
+        height: 280px;
+        width: 240px;
+        transform: rotate(90deg) translateX(-18px) translateY(-80px);
+        background-image: linear-gradient(#a87c44 50%,transparent 3px);
+    }
+
+    .teacher-title-photo-three {
+        width: 580px;
+    }  
+
+    .teacher-headPhoto-three {
+        bottom: 58px;
+    }
+
+    .teacher-member-four .picture-1 {
+        width: 380px;
+    }  
+    
+    .teacher-member-four .picture-2 img {
+        width: 300px;
+        height: 397px;
+    }
+
+    .teacher-member-four .picture-2 {
+        width: 300px;
+        height: 300px;
+    }    
+}

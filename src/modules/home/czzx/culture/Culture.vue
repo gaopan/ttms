@@ -1,7 +1,9 @@
 <template>
   <!-- <main class="content-main" role="main" v-html="content"> -->
   <main class="content-main part1-3" role="main">
-
+		<div class="part1-3-picture">
+			<img :src="imgUrl('motto.png')">
+		</div>
   	<ul class="info-list">
 			<li><span class="square"></span>重視學子“全球化”與“本地化”的融合發展。</li>
 			<li><span class="square"></span> 重点培养學子”獨立學晋能力”及”自主學習能力”的素质</li>

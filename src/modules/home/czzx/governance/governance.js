@@ -1,6 +1,7 @@
 import Data from '@/api/data/czzx/index.js'
 import CommonUtils from '@/utils/common-utils.js'
 import shared from '@/shared.js'
+
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
 let eventHub = shared.eventHub
 
