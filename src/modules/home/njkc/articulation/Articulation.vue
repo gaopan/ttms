@@ -80,6 +80,7 @@
 	border-bottom: 0px;
 	padding: 10px;
 	background: #dcb454;
+  line-height: 24px;
 }
 .njkc-articulation table td.borderleft2{
 	border-left: 30px solid #fff;

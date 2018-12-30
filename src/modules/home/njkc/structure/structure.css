@@ -13,6 +13,7 @@
     font-size: 24px;
     margin: 0 auto 40px;
     width: 80%;
+    line-height: 32px;
 }
 .njkc-structure .structure-requirements{
   background: #b27524;
@@ -21,6 +22,8 @@
 .njkc-structure .structure-requirements .requirements-content{
   background: #fff;
   padding:20px;
+  margin-left: 0;
+  margin-right: 0;
 }
 .njkc-structure .structure-requirements .requirements-content p.requirements-total{
       width: 60%;
@@ -84,6 +87,7 @@
   width: 100%;
   background: #b27524;
   margin-top: 0 !important;
+  padding-top: 30px;
 }
 .njkc-year table th.njkc-year-sortnum{
   width: 15%;

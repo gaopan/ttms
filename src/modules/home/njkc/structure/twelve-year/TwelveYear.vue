@@ -109,7 +109,7 @@
         <td>Personal Portfolio Workshop</td>
         <td><span class="glyphicon glyphicon-ok"></span></td>
       </tr>
-      < class="years-subtotal">
+      <tr class="years-subtotal">
       	<td></td>
       	<td></td>
         <td>Subtotal</td>
