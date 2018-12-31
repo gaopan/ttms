@@ -66,6 +66,7 @@
     /*height: 430px;*/
     background: #a87c44;
     color: #fff;
+    min-height: 430px;
     
     transform: translateX(0);
 }

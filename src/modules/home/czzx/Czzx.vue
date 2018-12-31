@@ -2,13 +2,13 @@
   <div class="content-wrapper">
     <div class="row">
       <router-view></router-view>
-      <aside class="content-left" role="complementary">
+      <!-- <aside class="content-left" role="complementary">
         <div class="search-box-left">
           <search-box></search-box>
         </div>
         
         
-        <!-- InstanceBeginEditable name="leftmenu" -->
+        InstanceBeginEditable name="leftmenu"
         <div class="box">
           <h2>{{'section_content' | translate(translator, currentLang)}}</h2>
           <ul class="sideNav">
@@ -17,11 +17,11 @@
             </li>
           </ul>
         </div>
-        <!-- InstanceEndEditable -->
-        <!-- InstanceBeginEditable name="leftblock1" -->
+        InstanceEndEditable
+        InstanceBeginEditable name="leftblock1"
         <div class="box"><a title="Oxford International College Prospectus 2018" target="_blank" href="http://www.oxcoll.com/library-assets/oicprospectus2018.pdf"><img style="max-height: 300px; border: 1px solid black;" title="OIC Prospectus 2018" src="http://www.oxcoll.com/library-assets/prospectus-18.jpg" alt="OIC Prospectus 2018"></a></div>
-        <!-- InstanceEndEditable -->
-      </aside>
+        InstanceEndEditable
+      </aside> -->
     </div>
   </div>
 </template>

@@ -9,7 +9,10 @@
               <a itemprop="url" class="navbar-brand" href="/">
     						<img :src="imgUrl('czzx-logo.png')" />
     					</a>
-              <p class="school-title" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">{{'schoolName' | translate(translator, currentLang)}}</p>
+              <div class="school-title-wrapper">
+                <p class="school-title" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">{{'schoolName' | translate(translator, currentLang)}}</p>
+                <p class="school-subtitle-en">Tsung Tsin Middle School</p>
+              </div>
             </div>
             <div class="brand-strap">
               <div class="school-info">
@@ -29,7 +32,7 @@
               <search-box></search-box>
             </div>            
             
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -41,22 +44,44 @@
          </div>
       </div>
     </header>
-    <nav role="navigation" class="navbar-collapse collapse">
+    <nav role="navigation" class="navbar-collapse collapse" ref = "navigator"  v-dropdown = "fnBlur">
       <ul class="nav navbar-nav">
-        <!-- <li :class="{active: isCurrentPath(nav.path)}" @mouseenter = "switchSubLevel(nav,'show')" @mouseleave = "switchSubLevel(nav,'hide')" v-for="nav in navs"> -->
-        <li :class="{active: isCurrentPath(nav.path)}" @click="navTo(nav)" v-for="nav in navs">
+        <li @click="navTo('index',indexNav[currentLang])" :class = "{'active':bIndexPage}">
+          <a href="javascript:void(0)" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
+            <img v-if="indexNav[currentLang].imgUrl" :src="imgUrl(indexNav[currentLang].imgUrl)" :class="indexNav[currentLang].imgClass" />
+          </a>          
+        </li>
+        <li :class="{active: isCurrentPath(nav.path)}" @click = "switchSubNav(nav,outerIndex)"  v-for="(nav,outerIndex) in navs">
+        <!-- <li :class="{active: isCurrentPath(nav.path)}" @click="navTo(nav)" v-for="nav in navs"> -->
           <a href="javascript:void(0)" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
             <span class = "nav-itemName" v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
             <span class = "nav-itemName" v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
             <img v-if="nav.imgUrl" :src="imgUrl(nav.imgUrl)" :class="nav.imgClass" />
             <span class = "nav-description">{{nav.imgUrl ? "" : nav.description}}</span>
           </a>
-          <!-- <ul v-show = "nav.bShow" class="sub-nav-list">
-            <li v-for = "subPath in nav.subPath" @click="navTo(subPath)">{{subPath.name}}</li>
-          </ul> -->
+          <!--  -->
+          <ul v-show = "nav.bShow" class="sub-nav-list">
+            <li v-for = "(subPath, innerIndex) in nav.subPath" @click="navTo('child',subPath,outerIndex,innerIndex)" :class = "{'active':subPath.active}">{{subPath.name}}</li>
+          </ul>
         </li>
       </ul>
-    </nav>    
+    </nav> 
+
+    <nav role="navigation" class="navbar-collapse-1 collapse">
+      <ul class="nav navbar-nav">
+
+        <li :class="{active: isCurrentPath(nav.path)}" @click="navTo('none', nav)" v-for="nav in navs">
+          <a href="javascript:void(0)" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
+            <span class = "nav-itemName" v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
+            <span class = "nav-itemName" v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
+            <img v-if="nav.imgUrl" :src="imgUrl(nav.imgUrl)" :class="nav.imgClass" />
+            <span class = "nav-description">{{nav.imgUrl ? "" : nav.description}}</span>
+          </a>
+        </li>
+      </ul>
+    </nav> 
+
+    <p class = "nav-name-tip" v-show = "navNameTip.subName">{{navNameTip.name}}>>{{navNameTip.subName}}</p>
     <router-view></router-view>
     <footer role="contentinfo">
       <div class="container">
@@ -76,8 +101,8 @@
           </p>
         </div>
         <div id="footer-middle">
-          <img style="display: inline-block;width: 50%;" :src="imgUrl('czzx-logo.png')" alt="TTMS" />
-          <img style="display: inline-block;width: 50%;" :src="imgUrl('footer-logo.png')" alt="Oxford International College" />
+          <img :src="imgUrl('czzx-logo.png')" alt="TTMS" />
+          <img :src="imgUrl('footer-logo.png')" alt="Oxford International College" />
         </div>
         <!-- <div id="footer-right">
           <div class="subscribe">

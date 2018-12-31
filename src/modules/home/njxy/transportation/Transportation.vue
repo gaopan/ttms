@@ -16,10 +16,10 @@
 .njxy-transportation p{
   /*line-height: 3;*/
   padding: 20px 0 10px;
-  color: #b27524;
+  /* color: #b27524; */
   font-size: 18px;
-  font-weight: bold;
-  width: 70%;
+  /* font-weight: bold; */
+  /* width: 70%; */
   /*border-bottom: 4px solid #b27524;*/
 }
 .njxy-transportation p span.glyphicon-stop{

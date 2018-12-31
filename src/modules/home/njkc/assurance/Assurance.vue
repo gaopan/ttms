@@ -22,7 +22,7 @@
 	font-size: 18px;
 }
 .njkc-assurance .assurance-content{
-	border: 4px solid #b27524;
+	/* border: 4px solid #b27524; */
 	padding: 10px;
 }
 </style>
