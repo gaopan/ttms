@@ -2,6 +2,8 @@
 <template>
   <div class="content-wrapper">
     <div class="row">
+      <p class = "nav-name-tip" v-show = "navNameTip.subName">{{navNameTip.name}}>>{{navNameTip.subName}}</p>
+      
       <router-view></router-view>
       <!-- <aside class="content-left" role="complementary">
         <search-box></search-box>

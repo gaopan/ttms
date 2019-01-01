@@ -289,7 +289,7 @@ let zh_hk = {
       ]
     }, {
       name: "聯繫方法與圖片分享",
-      nameHtml: "聯繫<br/>方法",
+      nameHtml: "<span class = 'contact-me'>聯繫</span><span class = 'contact-me'>方法</span>",
       path: '/contact',
       imgUrl: "tick.png",
       imgClass: 'tick',

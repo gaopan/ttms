@@ -5,7 +5,7 @@
       <div class="advert">
         <img class="header-top-bg" :src="imgUrl('oxcoll_banner.png')" alt="Oxford International College" title="Oxford International College">
       </div>
-
+      <!-- school logo, school name, school address -->
       <div class="navbar navbar-inverse" role="navigation">
         <div class="container">
           <div class="navbar-header">
@@ -37,6 +37,7 @@
           <!--/.nav-collapse -->
          </div>
       </div>
+
     </header>
 
     <div class="search_button-nav">
@@ -69,63 +70,37 @@
       </ul>
     </nav> 
     
-   <!--  <div class="switch-navigation" role="navigation">
-   
-     <nav role="navigation" class="navbar-collapse-1 collapse" id="navbarCollapse1">
-       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse1" aria-expanded="false">
-         <span class="sr-only">Toggle navigation</span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-       </button> 
-      <ul class="nav navbar-nav">
-      
-         <li :class="{active: isCurrentPath(nav.path)}" @click="navTo('none', nav)" v-for="nav in navs">
-           <a href="javascript:void(0)" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
-             <span class = "nav-itemName" v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
-             <span class = "nav-itemName" v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
-             <img v-if="nav.imgUrl" :src="imgUrl(nav.imgUrl)" :class="nav.imgClass" />
-             <span class = "nav-description">{{nav.imgUrl ? "" : nav.description}}</span>
-           </a>
-         </li>
-       </ul>
-     </nav> 
-   </div> -->
 
 
-<div class="switch-navigation">
-  <div class="toggle-button-wrapper">
-    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-    </button>
-  </div>  
+    <div class="switch-navigation" ref = "smallNavEle">
+      <div class="toggle-button-wrapper">
+        <button @click = "showSmallNav" class="navbar-toggle" type="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+        </button>
+      </div>  
 
-  <div class="collapse navbar-collapse-2" id="navbarToggleExternalContent">
-       <ul class="nav navbar-nav">
-       
-          <li :class="{active: isCurrentPath(nav.path)}" @click="switchSubNav(nav,outerIndex)" v-for="(nav,outerIndex)  in navs">
-            <a href="javascript:void(0)" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
-              <span class = "nav-itemName" v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
-              <span class = "nav-itemName" v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
-              <img v-if="nav.imgUrl" :src="imgUrl(nav.imgUrl)" :class="nav.imgClass" />
-              <span class = "nav-description">{{nav.imgUrl ? "" : nav.description}}</span>
-            </a>
-            <ul v-show = "nav.bShow" class="sub-nav-list">
-              <li v-for = "(subPath, innerIndex) in nav.subPath" @click="navTo('child',subPath,outerIndex,innerIndex)" :class = "{'active':subPath.active}">{{subPath.name}}</li>
-            </ul>            
-          </li>
-        </ul>
-  </div>
+      <div class="navbar-collapse-2" v-show = "bShowSmallNav" v-dropdown = "fnBlurSmallNav" >
+           <ul class="nav navbar-nav">
+           
+              <li :class="{active: isCurrentPath(nav.path)}" @click="switchSubNav(nav,outerIndex)" v-for="(nav,outerIndex)  in navs">
+                <a href="javascript:void(0)" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
+                  <span class = "nav-itemName" v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
+                  <span class = "nav-itemName" v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
+                  <img v-if="nav.imgUrl" :src="imgUrl(nav.imgUrl)" :class="nav.imgClass" />
+                  <span class = "nav-description">{{nav.imgUrl ? "" : nav.description}}</span>
+                </a>
+                <ul v-show = "nav.bShow" class="sub-nav-list-2">
+                  <li v-for = "(subPath, innerIndex) in nav.subPath" @click="navTo('child',subPath,outerIndex,innerIndex)" :class = "{'active':subPath.active}">{{subPath.name}}</li>
+                </ul>            
+              </li>
+            </ul>
+      </div>
 
+    </div>
 
-
-</div>
-
-
-    <p class = "nav-name-tip" v-show = "navNameTip.subName">{{navNameTip.name}}>>{{navNameTip.subName}}</p>
     <router-view></router-view>
     <footer role="contentinfo">
       <div class="container">

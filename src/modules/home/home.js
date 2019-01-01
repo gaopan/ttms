@@ -12,6 +12,7 @@ let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
 export default {
   data() {
     return {
+      bShowSmallNav:false,
       outerNavIndex:null,
     	currentLang: shared.defaultLang,
     	translator: HomeTranslator,
@@ -65,35 +66,21 @@ export default {
   computed:{
     bIndexPage(){
       return this.$route.path === '/index';
-    },
-    navNameTip(){
-      let navNameTip = { name:null, subName:null };
-
-      HomeTranslator[this.currentLang].navs.every(nav=>{
-        if(navNameTip.name && navNameTip.subName)return false;
-        nav.subPath.every(nav_=>{
-          if(nav_.path === this.$route.path){
-            navNameTip.name = nav.name;
-            navNameTip.subName = nav_.name;
-            return false;
-          }
-          return true;
-        })
-        return true;
-      })
-      return navNameTip;
-
     }
 
   }, 
   methods: {
+    showSmallNav(){
+      console.log(this.bShowSmallNav)
+      this.bShowSmallNav = !this.bShowSmallNav;
+
+      console.log(this.bShowSmallNav)
+    },
     imgUrl: function(path) {
       return images('./' + path);
     },
 
     switchSubNav(nav,outerIndex){
-
-
       let bOpen = nav.bShow
       this.navs.forEach(outer=>{
         outer.bShow = false;
@@ -102,7 +89,7 @@ export default {
       nav.bShow = bOpen ? false:true;
     },
 
-    navTo(type,item,outerIndex,innerIndex) {
+    navTo(type,item,outerIndex,innerIndex,space) {
 
       this.navs.forEach(outer=>{
         outer.subPath.forEach(inner=>{
@@ -123,6 +110,10 @@ export default {
         
       }
 
+      if(space === "small"){
+        this.bShowSmallNav = false;
+      }
+
     },
     isCurrentPath(path) {
       let active = false;
@@ -138,13 +129,29 @@ export default {
     	this.navs = CommonUtils.deepClone(HomeTranslator[this.currentLang].navs);
     	eventHub.$emit('changed-lang', this.currentLang);
     },
-    fnBlur(){
 
-      if(this.$refs.navigator&&!this.$refs.navigator.contains(event.target)){
+
+    fnBlur(){
+      if((this.$refs.navigator && !this.$refs.navigator.contains(event.target))
+          &&(this.$refs.smallNavEle && !this.$refs.smallNavEle.contains(event.target)) 
+        ){
+        console.log("fnBlur1")
         this.navs.forEach(outer=>{
           outer.bShow = false;
         })
+
       }
+    },
+    fnBlurSmallNav(){
+      if((this.$refs.navigator && !this.$refs.navigator.contains(event.target))
+          &&(this.$refs.smallNavEle && !this.$refs.smallNavEle.contains(event.target)) 
+        ){
+        this.navs.forEach(outer=>{
+          outer.bShow = false;
+        })
+
+        this.bShowSmallNav = false;
+      }      
     },
 
     makeNav(nav, currentath){
