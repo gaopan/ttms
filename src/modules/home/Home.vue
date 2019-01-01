@@ -130,54 +130,28 @@
     <footer role="contentinfo">
       <div class="container">
         <div id="footer-left">
-          <p>
-            <strong>{{'name' | translate(translator, currentLang)}}</strong>
-            <br/>{{'address' | translate(translator, currentLang)}}
-            <br/>
-            <br/>
-            <a href="mailto:info@oxcoll.com">info@ttmsedu.onaliyun.com</a>
-            <br/> {{'contact' | translate(translator, currentLang)}}
-            <br/> {{'contact_tel' | translate(translator, currentLang)}}
-            <br/> {{'contact_phone' | translate(translator, currentLang)}}
-            <br/>
-            <img :src="imgUrl('contact-fb.png')">
-            <img :src="imgUrl('contact-we.png')">
-          </p>
+          <img :src="imgUrl('address-big.png')" />
         </div>
         <div id="footer-middle">
-          <img :src="imgUrl('czzx-logo.png')" alt="TTMS" />
-          <img :src="imgUrl('footer-logo.png')" alt="Oxford International College" />
+          <p>
+            <strong>{{'name' | translate(translator, currentLang)}}</strong>
+            <br/>
+            <br/>{{'address' | translate(translator, currentLang)}}
+            <br/> {{'contact' | translate(translator, currentLang)}}
+            <br/> {{'contact_tel' | translate(translator, currentLang)}}
+            <br/> {{'contact_fax' | translate(translator, currentLang)}}
+            <br/> {{'contact_phone' | translate(translator, currentLang)}}
+            <br/>
+            {{'website' | translate(translator, currentLang)}}
+            <a href="www.ttms.edu.hk">www.ttms.edu.hk</a>
+            <br/>
+            {{'email' | translate(translator, currentLang)}}
+            <a href="mailto:info@oxcoll.com">info@ttmsedu.onaliyun.com</a>
+          </p>
         </div>
-        <!-- <div id="footer-right">
-          <div class="subscribe">
-            <p><strong>Join our mailing list</strong></p>
-            <form action="/index.html#subscribe-top" method="post" id="subscribe" name="subscribe" class="form-horizontal">
-              <div class="form-group">
-                <label for="fullname3" class="control-label ">Full Name * : </label>
-                <div class="col-sm-12">
-                  <input name="fullname3" type="text" id="fullname3" class="text  form-control" value="" tabindex="301" placeholder="Name">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="email3" class="control-label ">Email address * : </label>
-                <div class="col-sm-12">
-                  <input name="email3" type="text" id="email3" class="text form-control" value="" tabindex="302" placeholder="Email address">
-                </div>
-              </div>
-              <div class="form-group">
-                <label style="display: block" for="confirm3" class="control-label col-xs-9 longlabel ">For security, please enter the number <strong>4</strong> into the box *</label>
-                <div class="col-xs-3">
-                  <input type="text" class="text form-control" name="confirm3" id="confirm3" tabindex="302" onfocus="clearField3(name);" value="">
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="col-xs-12 col-md-4 col-md-push-8">
-                  <input name="submit3" type="submit" id="submit3" value="Sign Up" tabindex="303" class="btn btn-default">
-                </div>
-              </div>
-            </form>
-          </div>
-        </div> -->
+        <div id="footer-right">
+          <img :src="imgUrl('address.png')" />
+        </div>
       </div>
     </footer>
     <div class="footer-sub">

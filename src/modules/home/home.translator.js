@@ -1,12 +1,14 @@
 
 let en = {
   schoolName: "Tsung Tsin Middle School",
-  name: "Hong Kong Tsung Tsin Middle School",
-  address: "香港 九龙 长沙湾 广利道11号",
-  contact: "Tsung Tsin Middle School Admission Department Mrs Liu",
-  contact_tel: "+852 2387 8228",
-  contact_phone: "+852 9790 6010/+86 13041218666",
-  email: "info@ttmsedu.onaliyun.com",
+  name: "Hong Kong TTMS Oxford International Programme IGCSE A-Level",
+  address: "Address: No.11 Kwong Lee Road, Cheung Sha Wan, Kowloon, Hong Kong",
+  contact: "Contact: Tsung Tsin Middle School Admission Department Mrs Liu",
+  contact_tel: "Tel: +852 2387 8228",
+  contact_fax: "Fax: +852 2360 1293",
+  contact_phone: "Phone: +852 9790 6010/+86 13041218666",
+  website: "Website: ",
+  email: "Email: ",
 
   navs: 
   [
@@ -147,12 +149,14 @@ let en = {
 
 let zh_hk = {
   schoolName: "香港崇正中學",
-  name: "崇正牛津国际中学课程",
-  address: "香港 九龙 长沙湾 广利道11号",
-  contact: "崇正中学入学部 刘老师",
-  contact_tel: "+852 2387 8228",
-  contact_phone: "+852 9790 6010/+86 13041218666",
-  email: "info@ttmsedu.onaliyun.com",  
+  name: "香港崇正中學牛津國際課程IGCSE A-Level",
+  address: "地址： 香港 九龍 長沙灣 廣利道11號",
+  contact: "聯系人： 崇正中學入學部 劉老師",
+  contact_tel: "電話： +852 2387 8228",
+  contact_fax: "傳真： +852 2360 1293",
+  contact_phone: "手機： +852 9790 6010/+86 13041218666",
+  email: "電郵： ",  
+  website: "網站： ", 
   navs: 
   [
     {
