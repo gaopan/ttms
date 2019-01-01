@@ -125,7 +125,7 @@
 </div>
 
 
-    <p class = "nav-name-tip" v-show = "navNameTip.subName">{{navNameTip.name}}>>{{navNameTip.subName}}</p>
+    <p class = "nav-name-tip" v-show = "navNameTip.subName">{{navNameTip.name}} >> {{navNameTip.subName}}</p>
     <router-view></router-view>
     <footer role="contentinfo">
       <div class="container">

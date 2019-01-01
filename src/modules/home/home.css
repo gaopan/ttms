@@ -21,9 +21,9 @@ header {
   position: relative;
   z-index: 15;
   height: 210px;
-  background-image: -webkit-linear-gradient(top, #000 0, #342e88 100%);
-  background-image: -o-linear-gradient(top, #000 0, #342e88 100%);
-  background-image: linear-gradient(to bottom, #000 0, #342e88 100%);
+  background-image: -webkit-linear-gradient(top, #121038 0, #101836 100%);
+  background-image: -o-linear-gradient(top, #121038 0, #101836 100%);
+  background-image: linear-gradient(to bottom, #121038 0, #101836 100%);
   background-repeat: repeat-x;
   overflow: visible
 }
@@ -35,7 +35,7 @@ header {
 }
 
 .advert img {
-  border-bottom: 1px solid #fff
+  /*border-bottom: 1px solid #fff*/
 }
  /* navbar: school name and school logo; */
 .navbar {
@@ -168,7 +168,8 @@ line-height: 1.4 */
   top: 0;
   /*bottom: 15px;*/
   text-align: center;
-  background-image: linear-gradient(180deg,#b27524 0,#d9ad43);
+  /*background-image: linear-gradient(180deg,#fff 0,#101636);*/
+  background-color: #bfbfbf;
 }
 .navbar .brand-strap .langs>.lang {
   display: block;
@@ -221,7 +222,7 @@ line-height: 1.4 */
 
 
 #home .content-wrapper {
-  padding-top: 60px
+  /*padding-top: 60px*/
 }
 
 .content-wrapper {
@@ -242,9 +243,13 @@ line-height: 1.4 */
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    border: 1px solid #a7a4a4a8;
+    /*border: 1px solid #a7a4a4a8;*/
     padding-top: 40px;
     background: #fff;  
+}
+
+.content-wrapper.index {
+  background-color: transparent;
 }
 
 .nav-name-tip{
@@ -266,16 +271,21 @@ line-height: 1.4 */
     position: absolute;
     transform: translateX(0);
     top: 100%;
-    background: #d9ad43;
+    background: #101636;
     z-index: 1;
     font-size: 16px;
     width: 100%;
     min-width: 120px;
+    box-shadow: 0 2px 5px 2px rgba(16, 22, 54, 0.45)
+}
+ 
+.navbar-collapse .navbar-nav .sub-nav-list li {
+  color: #fff;
 }
 
-.sub-nav-list li:hover{
-    background: #111836;
-    color: #fff;  
+.navbar-collapse .navbar-nav .sub-nav-list li:hover{
+    color: #111836;
+    background-color: #fff;  
 }
 .sub-nav-list li {
     padding: 5px 20px;
@@ -440,10 +450,11 @@ legend {
 
 
 body {
-  border-top: 6px solid #2e3192;
+  /*border-top: 6px solid #2e3192;*/
+  background-color: #121038;
 }
 html{
-  font-size: 10px;
+  font-size: 14px;
 }
 
 
@@ -499,7 +510,8 @@ html{
 .navbar-collapse {
   margin: 0 auto;
   clear: both;
-  background-image: linear-gradient(180deg,#b27524 0,#d9ad43);
+  /*background-image: linear-gradient(180deg,#fff 0,#101836);*/
+  background-color: #bfbfbf;
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
@@ -515,7 +527,7 @@ html{
 .navbar-collapse-1 .navbar-nav li,
 .navbar-collapse .navbar-nav li {
     line-height: 30px;
-    color: #fff;
+    color: #101636;
     cursor: pointer;
 }
 
@@ -533,7 +545,7 @@ html{
 .navbar-collapse-1 .navbar-nav li>a,
 .navbar-collapse .navbar-nav li>a {
   padding: 8px 22px;
-  color: #fff;
+  color: #101636;
   text-decoration: none;
   font-weight: 400;
   text-align: center;
@@ -557,9 +569,14 @@ html{
 .navbar-collapse .navbar-nav li>a span.nav-itemName {
   display: block;
   clear: both;
-  color: #fff;
+  color: #101636;
   font-size: 16px;
   font-weight: 700
+}
+
+.navbar-collapse-1 .navbar-nav li.active>a span.nav-itemName,
+.navbar-collapse .navbar-nav li.active>a span.nav-itemName {
+  color: #fff;
 }
 
 .navbar-collapse-1 .navbar-nav li>a .tick,
@@ -642,7 +659,14 @@ ul.nav li.dropdown:hover>ul.dropdown-menu {
 
 .index-picture-wrapper {
     position: relative;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
+}
+
+.index-picture-middle {
+  padding: 40px 30px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
 }
 p.index-picture-description a:hover{
     text-decoration: underline;
@@ -664,8 +688,16 @@ p.index-picture-description {
 
 .welcome-index {
     background: #111038;
-    padding: 60px 10px 60px 30px;
+    padding: 10px 20px;
     margin-bottom: 20px;
+}
+
+.picture-container {
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 p.welcome-p1 {
@@ -705,9 +737,9 @@ footer {
   clear: both;
   position: relative;
   z-index: 5;
-  background-image: -webkit-linear-gradient(top, #3f358e 0, #2c2645 100%);
-  background-image: -o-linear-gradient(top, #3f358e 0, #2c2645 100%);
-  background-image: linear-gradient(to bottom, #3f358e 0, #2c2645 100%);
+  background-image: -webkit-linear-gradient(top, #101836 0, #2c2645 100%);
+  background-image: -o-linear-gradient(top, #101836 0, #2c2645 100%);
+  background-image: linear-gradient(to bottom, #101836 0, #2c2645 100%);
   background-repeat: repeat-x;
   padding: 75px 0 5px
 }
@@ -764,6 +796,7 @@ footer #footer-right {
 .footer-sub {
   margin-right: auto;
   margin-left: auto;
+  background-color: #fff;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 20px;
@@ -867,7 +900,7 @@ footer #footer-right {
     width: 33.33333333%
   }
   .footer-sub {
-    width: 750px
+    /*width: 750px*/
   } 
 
   .navbar-collapse,
@@ -908,7 +941,7 @@ footer #footer-right {
   }
   .footer-sub {
     position: relative;
-    top: -20px;
+    /*top: -20px;*/
     margin-top: 0
   }
   footer #footer-left {
@@ -1065,7 +1098,7 @@ footer #footer-right {
   }
 
   .footer-sub {
-    width: 970px
+    /*width: 970px*/
   }
   .content-wrapper>.navbar-collapse,
   .content-wrapper>.navbar-collapse,
@@ -1109,7 +1142,7 @@ footer #footer-right {
     left: 0
   }
   #home .content-wrapper {
-    padding-top: 45px
+    /*padding-top: 45px*/
   }
 
   #home .search .form-group {
@@ -1142,7 +1175,7 @@ footer #footer-right {
 /* >1200px */
 @media (min-width:1200px) {
   .footer-sub {
-    width: 1170px
+    /*width: 1170px*/
   }
   .navbar-collapse-1 .navbar-nav li>a.zh,
   .navbar-collapse .navbar-nav li>a.zh {

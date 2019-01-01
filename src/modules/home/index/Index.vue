@@ -39,9 +39,14 @@
           <div class="col-md-4">
             <div class="index-picture-wrapper">
               <img :src="imgUrl('index1.png')">
-              <p class="index-picture-description">
-                <router-link to="/czzx">香港崇正中學</router-link>
-              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="index-picture-middle">
+              <div>{{'schoolName' | translate(translator, currentLang)}}</div>
             </div>
           </div>
         </div>

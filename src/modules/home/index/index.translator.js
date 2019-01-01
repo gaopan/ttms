@@ -1,4 +1,6 @@
 let zh_cn = {
+	schoolName: "Tsung Tsin Middle School",
+  name: "Hong Kong Tsung Tsin Middle School",
 	search: "搜索",
 	latestImagesAndVideos: "最新图集和影片",
 	latestImages: "最新图集",
@@ -8,6 +10,8 @@ let zh_cn = {
 };
 
 let zh_hk = {
+	schoolName: "香港崇正中學",
+  name: "崇正牛津国际中学课程",
 	search: "搜索",
 	latestImagesAndVideos: "最新圖集和影片",
 	latestImages: "最新圖集",
