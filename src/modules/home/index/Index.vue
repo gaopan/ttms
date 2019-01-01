@@ -1,9 +1,8 @@
 <template>
-  <div class="content-wrapper">
-    <div class = "index-search">
+  <div class="content-wrapper index">
+    <div class="index-search">
       <search-box></search-box>
     </div>
-    
     <div class="index-container">
       <div class="welcome-index">
         <p class="welcome-p1">Welcome to</p>
@@ -19,62 +18,57 @@
           TTMS OXFORD INTERNATIONAL PROGRAMME IGCSE A-LEVEL
         </p>
       </div>
-      <div class="row picture-row">
-        <div class="col-md-4">
-          <div class="index-picture-wrapper">
-            <img :src="imgUrl('index1.png')">
-            <p class="index-picture-description">
-              <router-link to="/czzx">香港崇正中學</router-link>
-            </p>
+      <div class="container-fluid picture-container">
+        <div class="row picture-row">
+          <div class="col-md-4">
+            <div class="index-picture-wrapper">
+              <img :src="imgUrl('index2.png')">
+              <p class="index-picture-description">
+                <router-link to="/njgx">英國牛津國際公學</router-link>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="index-picture-wrapper">
+              <img :src="imgUrl('index3.png')">
+              <p class="index-picture-description">
+                <router-link to="/njkc">崇正牛津國際中學課程</router-link>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="index-picture-wrapper">
+              <img :src="imgUrl('index1.png')">
+              <p class="index-picture-description">
+                <router-link to="/czzx">香港崇正中學</router-link>
+              </p>
+            </div>
           </div>
         </div>
-        <div class="col-md-4">
-          
-          <div class="index-picture-wrapper">
-            <img :src="imgUrl('index2.png')">
-            <p class="index-picture-description">
-              <router-link to="/njgx">英國牛津國際公學</router-link>
-            </p>          
+        <div class="row picture-row">
+          <div class="col-md-4">
+            <div class="index-picture-wrapper">
+              <img :src="imgUrl('index4.png')">
+              <p class="index-picture-description">
+                <router-link to="/rxsq">入学申请</router-link>
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          
-          <div class="index-picture-wrapper">
-            <img :src="imgUrl('index3.png')">
-            <p class="index-picture-description">
-              <router-link to="/njkc">崇正牛津國際中學課程</router-link>
-            </p>          
+          <div class="col-md-4">
+            <div class="index-picture-wrapper">
+              <img :src="imgUrl('index5.png')">
+              <p class="index-picture-description">
+                <router-link to="/njxy">崇正牛津校園</router-link>
+              </p>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="row picture-row">
-
-        <div class="col-md-4">
-          
-          <div class="index-picture-wrapper">
-            <img :src="imgUrl('index4.png')">
-            <p class="index-picture-description">
-              <router-link to="/rxsq">入学申请</router-link>
-            </p>          
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          
-          <div class="index-picture-wrapper">
-            <img :src="imgUrl('index5.png')">
-            <p class="index-picture-description">
-              <router-link to="/njxy">崇正牛津校園</router-link>
-            </p>          
-          </div>
-        </div>
-        <div class="col-md-4">
-          
-          <div class="index-picture-wrapper">
-            <img :src="imgUrl('index6.png')">
-            <p class="index-picture-description">
-              <router-link to="/honor">光榮榜與傑出學生</router-link>
-            </p>          
+          <div class="col-md-4">
+            <div class="index-picture-wrapper">
+              <img :src="imgUrl('index6.png')">
+              <p class="index-picture-description">
+                <router-link to="/honor">光榮榜與傑出學生</router-link>
+              </p>
+            </div>
           </div>
         </div>
       </div>

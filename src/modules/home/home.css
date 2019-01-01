@@ -94,7 +94,7 @@
   .navbar-collapse,
   .navbar-collapse,
   .container {
-    width: 1500px;
+    /*width: 1500px;*/
   }
 }
 
@@ -121,9 +121,13 @@
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    border: 1px solid #a7a4a4a8;
+    /*border: 1px solid #a7a4a4a8;*/
     padding-top: 40px;
     background: #fff;  
+}
+
+.content-wrapper.index {
+  background-color: transparent;
 }
 
 .nav-name-tip{
@@ -725,16 +729,17 @@ legend {
 
 
 body {
-  border-top: 6px solid #2e3192
+  /*border-top: 6px solid #2e3192*/
+  background-color: #101836;
 }
 
 header {
   position: relative;
   z-index: 15;
   height: 210px;
-  background-image: -webkit-linear-gradient(top, #000 0, #342e88 100%);
-  background-image: -o-linear-gradient(top, #000 0, #342e88 100%);
-  background-image: linear-gradient(to bottom, #000 0, #342e88 100%);
+  background-image: -webkit-linear-gradient(top, #000 0, #101836 100%);
+  background-image: -o-linear-gradient(top, #000 0, #101836 100%);
+  background-image: linear-gradient(to bottom, #000 0, #101836 100%);
   background-repeat: repeat-x;
   overflow: visible
 }
@@ -1662,7 +1667,7 @@ line-height: 1.4 */
 
 .index-picture-wrapper {
     position: relative;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
 }
 p.index-picture-description a:hover{
     text-decoration: underline;
@@ -1684,8 +1689,16 @@ p.index-picture-description {
 
 .welcome-index {
     background: #111038;
-    padding: 60px 10px 60px 30px;
+    padding: 10px 20px;
     margin-bottom: 20px;
+}
+
+.picture-container {
+  background-color: #fff;
+}
+
+.picture-row {
+  
 }
 
 p.welcome-p1 {
@@ -1804,6 +1817,7 @@ footer #footer-right {
 .footer-sub {
   margin-right: auto;
   margin-left: auto;
+  background-color: #fff;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 20px;
@@ -1813,19 +1827,19 @@ footer #footer-right {
 
 @media (min-width:768px) {
   .footer-sub {
-    width: 750px
+    /*width: 750px*/
   }
 }
 
 @media (min-width:992px) {
   .footer-sub {
-    width: 970px
+    /*width: 970px*/
   }
 }
 
 @media (min-width:1200px) {
   .footer-sub {
-    width: 1170px
+    /*width: 1170px*/
   }
 }
 
@@ -1862,7 +1876,6 @@ footer #footer-right {
   }
   .footer-sub {
     position: relative;
-    top: -20px;
     margin-top: 0
   }
 }
