@@ -58,6 +58,9 @@
       margin-right: 0;
       margin-bottom: 0;
     }
+    .part2-2.part2-2-2{
+      margin-top: 46px;
+    }
     .part2-2 .part2-2-2-bottom{
       padding:20px;
     }

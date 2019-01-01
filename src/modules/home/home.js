@@ -43,17 +43,6 @@ export default {
           subPath:[]
         }, 
       },
-      // navNameTip:{
-      //   zh_hk:{
-      //     name:"",
-      //     subName:""
-      //   },
-      //   en:{
-      //     name:"",
-      //     subName:""
-      //   }
-
-      // }
     };
   },
   created(){
