@@ -1,6 +1,6 @@
 <template>
   <main class="content-main njkc-assurance" role="main">
-    <div class="row" v-show="currentLang == 'zh_hk'">
+    <div class="row zh_hk" v-show="currentLang == 'zh_hk'">
   		<div class="col-md-4 assurance-content">
   			<img :src="imgUrl('clock.png')" alt="">
   		</div>
@@ -11,7 +11,7 @@
   			<p>秉持著中西融合的教育理念，學校邀請葉問門派的詠春尹教練開設大師班，學習文化色彩濃厚的詠春拳法。尹教練本身也擔任室内設計專業的大學講師，畢業於美國與香港名校。</p>
   		</div>
   	</div>
-    <div class="row" v-show="currentLang == 'en'">
+    <div class="row en" v-show="currentLang == 'en'">
       <div class="col-md-4 assurance-content">
         <img :src="imgUrl('clock.png')" alt="">
       </div>
@@ -30,8 +30,14 @@
 </template>
 <script src="./assurance.js"></script>
 <style>
-.njkc-assurance p{
-	text-indent:2em;
+.njkc-assurance .zh_hk p{
+  text-indent:2em;
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: 18px;
+}
+.njkc-assurance .en p{
+	/*text-indent:2em;*/
 	margin-bottom: 30px;
 	line-height: 30px;
 	font-size: 18px;
@@ -53,14 +59,23 @@
   .njkc-assurance .assurance-content{
     padding: 0;
   }
-  .njkc-assurance p{
+  .njkc-assurance .zh_hk p{
+  font-size: 16px;
+  margin-bottom: 24px;
+  }
+  .njkc-assurance .en p{
   font-size: 16px;
   margin-bottom: 24px;
   }
 }
 @media (max-width: 480px) {
 
-  .njkc-assurance p{
+  .njkc-assurance .zh_hk p{
+    font-size: 14px;      
+    margin-bottom: 16px;
+    line-height: 24px;
+  }
+  .njkc-assurance .en p{
     font-size: 14px;      
     margin-bottom: 16px;
     line-height: 24px;
