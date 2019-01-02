@@ -64,7 +64,7 @@
           </a>
           <!--  -->
           <ul v-show = "nav.bShow" class="sub-nav-list">
-            <li v-for = "(subPath, innerIndex) in nav.subPath" @click="navTo('child',subPath,outerIndex,innerIndex)" :class = "{'active':subPath.active}">{{subPath.name}}</li>
+            <li v-for = "(subPath, innerIndex) in nav.subPath" @click="navTo('child',subPath,outerIndex,innerIndex)" :class = "{'active':subPath.active, 'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">{{subPath.name}}</li>
           </ul>
         </li>
       </ul>
@@ -94,7 +94,7 @@
                   <!-- <span class="square" v-show = "isCurrentPath(nav.path)"></span> -->
                 </a>
                 <ul v-show = "nav.bShow" class="sub-nav-list-2">
-                  <li v-for = "(subPath, innerIndex) in nav.subPath" @click="navTo('child',subPath,outerIndex,innerIndex)" :class = "{'active':subPath.active}">{{subPath.name}}</li>
+                  <li v-for = "(subPath, innerIndex) in nav.subPath" @click="navTo('child',subPath,outerIndex,innerIndex,'small')" :class = "{'active':subPath.active}">{{subPath.name}}</li>
                 </ul>            
               </li>
             </ul>

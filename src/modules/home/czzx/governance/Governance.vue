@@ -1,6 +1,8 @@
 <template>
   <main class="content-main" role="main">
-
+		<div class="school-construction">
+			<img :src="imgUrl('construction.png')" alt="">
+		</div>
 
 		<div class="teacher-member">
 			<div class="teacher-introduce">
@@ -280,8 +282,8 @@
 	          <span class="teacher-title">謝柏粱教授</span>
 	        </div>
 	        <div class = "teacher-name-wrapper teacher-three-name-wrapper" v-show = "currentLang=='en'">
-	          <span class="teacher-title">中國傅統文化藝術鑣顧間</span>
-	          <span class="teacher-title">謝柏粱教授</span>
+	          <span class="teacher-title">Chinese Traditional Culture and Art Genera General Counselor</span>
+	          <span class="teacher-title">Professor Xie Boliang</span>
 	        </div>
 
 

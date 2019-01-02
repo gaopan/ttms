@@ -1,7 +1,7 @@
 <template>
   <main class="content-main" role="main">
   	<div class="part2-3 part2-3-1" v-show="currentLang=='zh_hk'">
-			<p class="part2-3-1-title">
+			<p class="part2-3-1-title" :class = "currentLang">
 				在英网牛津國際公學，學生將遵循他們個人專屬的全面性戰略規劃道路，最大限度地提高他們進入世界一流大學的檐會。“全面性敝略規劃’’課程涉及畢生的學術、職業和個人發展。學校的延展課程包括親善大使計劃、 愛丁堡公爵計劃等。
 			</p>
 			<div class="part2-programme-1">
@@ -46,7 +46,7 @@
 			</div>			
   	</div>
   	<div class="part2-3 part2-3-1" v-show="currentLang=='en'">
-			<p class="part2-3-1-title">
+			<p class="part2-3-1-title" :class = "currentLang">
 				At Oxford International College in the UK, students will follow their individual and comprehensive strategic planning path to maximize their chances of entering a world-class university.“Strategic Global Pathways" involves the academic, professional emd personal development of students. The out-reached programmes include the Goodwill Ambassador Program, the Duke of Edinburgh Plan and so on.
 			</p>
 			<div class="part2-programme-1">
@@ -105,13 +105,15 @@
   	margin-right:14%;
   }
 
+p.part2-3-1-title.zh_hk {
+    text-indent: 27px;
+}
 .part2-3 p.part2-3-1-title {
     font-size: 16px;
     padding: 20px;
     background: #A87C44;
     margin-bottom: 50px;
     color: #fff;
-    text-indent: 27px;
 }  
 
 .programme-item {

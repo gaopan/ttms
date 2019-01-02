@@ -41,10 +41,7 @@
     font-size: 18px;
     line-height: 28px;
   }
-  .part2-2 p.part222-prog-en {
-      text-indent: 24px;
 
-  }
   .part2-2 p.part222-prog-zh {
       text-indent: 24px;
 
