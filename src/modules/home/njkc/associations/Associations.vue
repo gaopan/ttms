@@ -1,6 +1,6 @@
 <template>
   <main class="content-main njkc-associations" role="main">
-  	<div class="row associations-content" v-show="currentLang == 'zh_hk'">
+  	<div class="row associations-content zh_hk" v-show="currentLang == 'zh_hk'">
   		<img :src="imgUrl('art.png')" alt="">
   		<div class="col-md-6">
   			<p class="associations-title">表演藝術社團</p>
@@ -22,7 +22,7 @@
   			參與社团另行收費。
   		</p>
   	</div>
-    <div class="row associations-content" v-show="currentLang == 'en'">
+    <div class="row associations-content en" v-show="currentLang == 'en'">
       <img :src="imgUrl('art.png')" alt="">
       <div class="col-md-6">
         <p class="associations-title">Performing Art Association</p>
@@ -58,9 +58,14 @@
 	line-height: 3;
 	/*border-bottom: 4px solid #b27524;*/
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 18px;
 }
-.njkc-associations p.associations-info{
+.njkc-associations .zh_hk p.associations-info{
+  text-indent: 2em;
+  margin-bottom: 40px;
+  width: 80%;
+}
+.njkc-associations .en p.associations-info{
 	/*text-indent: 2em;*/
 	margin-bottom: 40px;
 	width: 80%;
@@ -72,12 +77,18 @@
   .njkc-associations p.associations-title{
     width: 94%;
     font-size: 16px;
-    margin: 0 auto
+    margin: 0 auto;
+    line-height: 30px;
   }
-  .njkc-associations p.associations-info{
+  .njkc-associations .zh_hk p.associations-info{
     font-size: 14px;
     width: 94%;
-    margin: 0 auto;
+    margin: 0 auto 30px;
+  }
+  .njkc-associations .en p.associations-info{
+    font-size: 14px;
+    width: 94%;
+    margin: 0 auto 30px;
   }
   .njkc-associations p.associations-foot{
     font-size: 14px;
@@ -91,7 +102,11 @@
     width: 100%;
     font-size: 16px;
   }
-  .njkc-associations p.associations-info{
+  .njkc-associations .zh_hk p.associations-info{
+    font-size: 14px;
+    width: 100%;
+  }
+  .njkc-associations .en p.associations-info{
     font-size: 14px;
     width: 100%;
   }

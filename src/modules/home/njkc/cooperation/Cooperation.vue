@@ -1,6 +1,6 @@
 <template>
   <main class="content-main njkc-cooperation" role="main">
-    <div class="row" v-show="currentLang == 'zh_hk'">
+    <div class="row zh_hk" v-show="currentLang == 'zh_hk'">
       <div class="col-md-6 cooperation-zh">
         <P class="cooperation-title">香港地匾</P>
         <P class="cooperation-info">香港大學、香港科技大學、香港中文大學、香港城市大學、香港理工大學、香港浸會大學、香港嶺南大學、香港樹仁大學、香港演藝學院、香港公開大學</P>
@@ -30,7 +30,7 @@
         <P class="cooperation-info">新加坡國立大學、南洋理工大學、東京大學、首爾大學</P>
       </div>
     </div>
-    <div class="row" v-show="currentLang == 'en'">
+    <div class="row en" v-show="currentLang == 'en'">
       <div class="col-md-6 cooperation-en">
       	<P class="cooperation-title">Hong Kong</P>
         <P class="cooperation-info">University of Hong Kong, Hong Kong University of Science and Technology, Chinese University of Hong Kong, City University of Hong Kong, Hong Kong Polytechnic University, Hong Kong Baptist University, Lingnan University of Hong Kong, Shuren University of Hong Kong, Hong Kong Academy of Performing Arts, Open University of Hong Kong</P>
@@ -82,7 +82,12 @@
   font-weight: bold;
   font-size: 22px;
 }
-.njkc-cooperation p.cooperation-info{
+.njkc-cooperation .zh_hk p.cooperation-info{
+  text-indent: 2em;
+  margin-bottom: 40px;
+  width: 80%;
+}
+.njkc-cooperation .en p.cooperation-info{
   /*text-indent: 2em;*/
   margin-bottom: 40px;
   width: 80%;
@@ -128,7 +133,12 @@
     font-size: 16px;
     margin: 0 auto
   }
-  .njkc-cooperation p.cooperation-info{
+  .njkc-cooperation .zh_hk p.cooperation-info{
+    font-size: 14px;
+    width: 94%;
+    margin: 0 auto;
+  }
+  .njkc-cooperation .en p.cooperation-info{
     font-size: 14px;
     width: 94%;
     margin: 0 auto;
@@ -149,7 +159,11 @@
     width: 100%;
     font-size: 16px;
   }
-  .njkc-cooperation p.cooperation-info{
+  .njkc-cooperation .zh_hk p.cooperation-info{
+    width: 100%;
+    font-size: 14px;
+  }
+  .njkc-cooperation .en p.cooperation-info{
     width: 100%;
     font-size: 14px;
   }
