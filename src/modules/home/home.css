@@ -993,6 +993,7 @@ footer img {
     padding-top: 60px;
   }
 }
+
 @media(min-width:480px) and (max-width: 679px){
   p.welcome-p1{
     font-size: 24px;
@@ -1007,6 +1008,7 @@ footer img {
     letter-spacing: 0px;  
   } 
 }
+
 @media(min-width:680px) and (max-width: 991px){
   p.welcome-p1{
     font-size: 30px; 
@@ -1019,6 +1021,7 @@ footer img {
     font-size: 14px;    
   }  
 }
+
 /* >768px */
 @media (min-width:768px) {
   .info-list li{
@@ -1178,6 +1181,7 @@ footer img {
     width: 10px;
   }   
 }
+
 @media(min-width:768px) and (max-width:992px) {
   .welcome-p3-en {
     font-size: 20px;

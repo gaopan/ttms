@@ -99,6 +99,15 @@
           <td>{{courseYear.semester}}</td>
           <td>{{courseYear.courseTitle}}</td>
           <td>{{courseYear.IGCSE}}</td>
+          <td>
+            <span v-if = "courseYear.IGCSE&&courseYear.IGCSE.type=='icon'">
+              <i :class="courseYear.IGCSE.iconName"></i>
+            </span>
+            <span v-else-if = "courseYear.IGCSE&&courseYear.IGCSE.type=='string'">
+              {{courseYear.IGCSE.value}}
+            </span>
+            <!-- <span v-else-if = ""></span> -->
+          </td>
         </tr>
       </table>     
     </div>

@@ -1,18 +1,28 @@
 .njkc-structure .structure-content{
-  background: #b27524;
+/*   background: #b27524;
+  color: #fff;
+  padding: 20px; */
+
+    background: #b27524;
     color: #fff;
-    padding: 20px;
+    padding: 50px 20px 1px;  
 }
 .njkc-structure .structure-content .structure-title{
       font-weight: bold;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 22px;
+
 
 }
 .njkc-structure .structure-content .structure-info{
-    text-align: center; 
-    font-size: 24px;
-    margin: 0 auto 40px;
-    width: 80%;
+/*     text-align: center; 
+font-size: 24px;
+margin: 0 auto 40px;
+width: 80%;
+line-height: 32px; */
+
+    font-size: 20px;
+    margin: 20px 20px;
     line-height: 32px;
 }
 .njkc-structure .structure-requirements{
@@ -51,8 +61,9 @@
     
 
 .njkc-structure .structure-nav{
-  background: #b27524;
-  border-bottom: 4px solid #131132;
+  margin-top: 60px;
+  /* background: #b27524; */
+  border-bottom: 2px solid #131132;
 }
 .njkc-structure .structure-nav:after{
   height: 0;
@@ -67,17 +78,28 @@
   text-decoration: none;
   display: block;
   float: left;
-  margin-left: 20px;
-  font-weight: bold;
+  /* margin-left: 20px; */
+  /* font-weight: bold; */
   cursor:pointer;
+
+  color: #131132;  
+  border-bottom: 2px solid #fff;  
+}
+
+.njkc-structure .structure-nav a + a{
+    margin-left: 20px;
+
 }
 .njkc-structure .structure-nav a:hover{
-  border-bottom: 4px solid #131132;
+  /* border-bottom: 4px solid #131132; */
+  border-bottom: 2px solid #131132;
   color: #131132;
 }
 .njkc-structure .structure-nav a.structure-nav-active{
-  border-bottom: 4px solid #131132;
+  /* border-bottom: 4px solid #131132; */
   color: #131132;
+  font-weight: 700;
+  border-bottom: 2px solid #131132;  
 }
 
 
@@ -104,8 +126,10 @@
   width: 25%;
 }
 .njkc-year table{
-  width: 80%;
-  margin: 10px auto;
+  /* width: 80%;
+  margin: 10px auto; */
+  
+  width: 100%;
 }
 .njkc-year table th{
   background: #262162;
