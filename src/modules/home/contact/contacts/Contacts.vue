@@ -1,6 +1,6 @@
 <template>
   <main class="content-main contact-contacts" role="main">
-  	<ul>
+  	<ul v-show="currentLang == 'zh_hk'">
 		<li class="contacts-title">更多查詢</li>
 		<li>崇正中學牛津國際課程</li>
 		<table class="contacts-table">
@@ -22,6 +22,32 @@
 			</tr>
 			<tr>
 				<td class="contacts-left">電郵：</td>
+				<td class="contacts-right">info@ttms.edu.hk</td>
+			</tr>
+		</table>
+  	</ul>
+  	<ul v-show="currentLang == 'en'">
+		<li class="contacts-title">For further enquiries</li>
+		<li>Tsung Tsin Middle School (International Programme)</li>
+		<table class="contacts-table">
+			<tr>
+				<td class="contacts-left">Address：</td>
+				<td class="contacts-right">No.11 Kwong Lee Road, Cheung Sha Wan, Kowloon, Hong Kong</td>
+			</tr>
+			<tr>
+				<td class="contacts-left">Tel：</td>
+				<td class="contacts-right">+852 2387 8228</td>
+			</tr>
+			<tr>
+				<td class="contacts-left">Fax：</td>
+				<td class="contacts-right">+852 2360 1293</td>
+			</tr>
+			<tr>
+				<td class="contacts-left">Website：</td>
+				<td class="contacts-right">www.ttms.edu.hk</td>
+			</tr>
+			<tr>
+				<td class="contacts-left">Email：</td>
 				<td class="contacts-right">info@ttms.edu.hk</td>
 			</tr>
 		</table>
@@ -58,6 +84,16 @@
 }
 .contact-contacts table.contacts-table td.contacts-right{
 	text-align: left;
-	line-height: 3;
+	/*line-height: 3;*/
+	line-height: 24px;
+}
+@media (max-width: 480px) {
+	.contact-contacts{
+		width: 100%;
+	}
+    .contact-contacts ul{
+        width: 100%;
+    }
+    
 }
 </style>

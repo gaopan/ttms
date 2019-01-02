@@ -1,6 +1,6 @@
 <template>
   <main class="content-main njkc-associations" role="main">
-  	<div class="row associations-content">
+  	<div class="row associations-content" v-show="currentLang == 'zh_hk'">
   		<img :src="imgUrl('art.png')" alt="">
   		<div class="col-md-6">
   			<p class="associations-title">表演藝術社團</p>
@@ -22,6 +22,28 @@
   			參與社团另行收費。
   		</p>
   	</div>
+    <div class="row associations-content" v-show="currentLang == 'en'">
+      <img :src="imgUrl('art.png')" alt="">
+      <div class="col-md-6">
+        <p class="associations-title">Performing Art Association</p>
+        <p class="associations-info">This association aims to help students develop creativity and relax through art work. This is a great opportunity to develop artistic skills, while giving students the opportunity to take time out of academic study and enjoy the arts! All students who want to express themselves through artistic performance are welcome.</p>
+      </div>
+      <div class="col-md-6">
+        <p class="associations-title">Medical And Health Association</p>
+        <p class="associations-info">Students in the medical and non-medical fields are welcome to participate in conversations and discussions on various issues affecting current medicine (including the controversial national medical service system and medical ethics), from different perspectives such as medical, economics and engineering, medical insurance. This is a great opportunity to develop transferable skills such as interpersonal skills, communication skills, teamwork and college interview preparation.</p>
+      </div>
+      <div class="col-md-6">
+        <p class="associations-title">Financial and Economical Association</p>
+        <p class="associations-info">Activities include the following: discussing current events, dealing with statistical issues, debates, game theory issues, stock challenges, Oxford incentives, and guest speakers.</p>
+      </div>
+      <div class="col-md-6">
+        <p class="associations-title">English Advancement Class</p>
+        <p class="associations-info">Arrange according to the situation of the students' level.</p>
+      </div>
+      <p class="col-md-12 associations-foot">
+        Participating the associations will have additional charges.
+      </p>
+    </div>
   </main>
 </template>
 <script src="./associations.js"></script>
@@ -45,5 +67,16 @@
 }
 .njkc-associations .associations-foot{
 	color: red;
+}
+@media (max-width: 480px) {
+  .njkc-associations p.associations-title{
+    width: 100%;
+    font-size: 16px;
+  }
+  .njkc-associations p.associations-info{
+    font-size: 14px;
+    width: 100%;
+  }
+  
 }
 </style>

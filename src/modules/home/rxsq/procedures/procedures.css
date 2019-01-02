@@ -110,3 +110,35 @@
   top: 35px;
   font-size: 30px;
 }
+@media (max-width: 768px) {
+  .rxsq-procedures .procedures-timeline{
+    width: 71%;
+  }
+}
+@media (max-width: 480px) {
+  .rxsq-procedures ul.procedures-files li, .rxsq-procedures ul.procedures-steps li{
+    font-size: 14px;
+  }
+  .rxsq-procedures ul.procedures-steps li.procedures-steps-address{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .rxsq-procedures ul.procedures-files li.procedures-files-title{
+    width: 100%;
+  }
+  .rxsq-procedures .procedures-timeline{
+    width: 80%;
+  }
+  .rxsq-procedures .procedures-timeline .timeline-total{
+    margin-left: -32px;
+        font-size: 14px;
+    width: 100px;
+  }
+  .rxsq-procedures .procedures-timeline ul li p.timeline-item-title{
+    font-size: 16px;
+  }
+  .rxsq-procedures .procedures-timeline ul li p{
+    font-size: 14px;
+  }
+}

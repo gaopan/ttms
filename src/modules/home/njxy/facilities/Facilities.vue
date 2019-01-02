@@ -1,6 +1,6 @@
 <template>
   <main class="content-main njxy-facilities" role="main">
-    <div class="row">
+    <div class="row" v-show="currentLang == 'zh_hk'">
       <div class="col-md-6">
         <div class="facilities-item">
           <p>學校入口</p>
@@ -43,6 +43,49 @@
         </div>
       </div>
     </div>
+    <div class="row" v-show="currentLang == 'en'">
+      <div class="col-md-6">
+        <div class="facilities-item">
+          <p>Independent Entrance</p>
+          <img :src="imgUrl('gate2.jpg')" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="facilities-item">
+          <p>First-aid comer</p>
+          <img :src="imgUrl('rescure-station.png')" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="facilities-item">
+          <p>Classroom/Lockers</p>
+          <img :src="imgUrl('classroom.png')" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="facilities-item">
+          <p>Campus Playgroung</p>
+          <img :src="imgUrl('playground.png')" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="facilities-item">
+          <p>Basketball Feild</p>
+          <img :src="imgUrl('playground1.png')" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="facilities-itemo">
+          <p><span class="glyphicon glyphicon-stop"></span>There is a swimming pool three minutes walk from the school.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="facilities-item">
+          <p>There is a museum of Lei Cheng Uk Han Tomb near the school.</p>
+          <img :src="imgUrl('tomb.png')" alt="">
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 <script src="./facilities.js"></script>
@@ -63,7 +106,8 @@
   font-weight: bold;
   width: 100%;
   padding-left: 15px;
-  line-height: 3;
+  /*line-height: 3;*/
+  line-height: 26px;
 }
 .njxy-facilities .facilities-item p{
   color: #fff;
@@ -74,8 +118,10 @@
   bottom: 0;
   left: 0;
   background: rgba(0,0,0,.5);
-  padding-left: 15px;
-  line-height: 2;
+  /*padding-left: 15px;*/
+  /*line-height: 2;*/
+  line-height: 26px;
+  padding: 10px 15px;
   margin-bottom: 0;
 }
 .njxy-facilities .facilities-itemo p span.glyphicon-stop{
@@ -85,5 +131,12 @@
   display: block;
   width: 100%;
 }
-
+@media (max-width: 480px) {
+  .njxy-facilities .facilities-item p{
+    font-size: 14px;
+  }
+  .njxy-facilities .facilities-itemo p{
+    font-size: 14px;
+  }
+}
 </style>

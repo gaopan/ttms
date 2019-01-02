@@ -24,4 +24,16 @@
 	margin: 0 auto;
 	border-radius: 10px;
 }
+@media (max-width: 480px) {
+	.contact-photo .photo-item img{
+		width: 100%;
+	}
+    
+}
+@media (max-width: 780px) {
+	.contact-photo .photo-item img{
+		width: 80%;
+	}
+    
+}
 </style>

@@ -1,12 +1,22 @@
 <template>
   <main class="content-main njxy-transportation" role="main">
-    <div class="row">
+    <div class="row" v-show="currentLang == 'zh_hk'">
       <div class="col-md-6">
         <div class="transportation-item">
           <p><span class="glyphicon glyphicon-stop"></span>學校對面有停車場。</p>
           <p><span class="glyphicon glyphicon-stop"></span>步行三分鐘到達蘇屋巴士總站。</p>
           <p><span class="glyphicon glyphicon-stop"></span>七分鐘到達長沙灣港鐵站。</p>
     			<img :src="imgUrl('MTR-station.png')" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="row" v-show="currentLang == 'en'">
+      <div class="col-md-6">
+        <div class="transportation-item">
+          <p><span class="glyphicon glyphicon-stop"></span>There is a parking lot opposite the school.</p>
+          <p><span class="glyphicon glyphicon-stop"></span>Three minutes' walk to the So Uk Bus Terminal.</p>
+          <p><span class="glyphicon glyphicon-stop"></span>7 minutes' walk to Cheung Sha Wan MTR station.</p>
+          <img :src="imgUrl('MTR-station.png')" alt="">
         </div>
       </div>
     </div>
@@ -29,5 +39,10 @@
   display: block;
   width: 100%;
   box-shadow: 0 0 1px #000;
+}
+@media (max-width: 480px) {
+  .njxy-transportation .transportation-item p{
+    font-size: 14px;
+  }
 }
 </style>

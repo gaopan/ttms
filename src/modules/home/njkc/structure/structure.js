@@ -81,6 +81,7 @@ export default {
     },
     changedLang(lang){
       this.currentLang = lang;
+      this.turnYears(this.active)
     },
     turnYears(name){
       this.active = name;

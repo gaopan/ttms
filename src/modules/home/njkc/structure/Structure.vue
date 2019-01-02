@@ -1,12 +1,19 @@
 <template>
   <main class="content-main njkc-structure" role="main">
-  	<div class="structure-content">
-  		<p class="structure-title">八年級至十一年級英國舍考</p>
+    <div class="structure-content" v-show="currentLang == 'zh_hk'">
+      <p class="structure-title">八年級至十一年級英國舍考</p>
       <p class="structure-info">IGCSE與O Level是世界公認的成熟體系，是基於選科的初中教育體系。</p>
       <p class="structure-title">十二至十三年級英圉高考</p>
       <p class="structure-info">英國高中課程，簡稱A level，歷史悠久，認受性廣泛，被幾乎所有英語授課的大學作為招生的入學標準。</p>
+    </div>
+  	<div class="structure-content" v-show="currentLang == 'en'">
+  		<p class="structure-title">Year 8 to Year 11 IGCSE/O Level</p>
+      <p class="structure-info">IGCSE and O Level are worldwide recognized mature systems in the world and are based on the junior high school education system.</p>
+      <p class="structure-title">Year 12 to Year 13 AS + A Level</p>
+      <p class="structure-info">The British General Certificate of Education Advanced Level, referred to as A level, has a long history and wide acceptance, and is accepted as an admission standard by almost all Englishspeaking universities.</p>
   	</div>
-    <div class="structure-requirements">
+
+    <div class="structure-requirements" v-show="currentLang == 'zh_hk'">
       <div class="row requirements-content">
         <p class="requirements-total">報讀大學要求</p>
         <div class="col-md-6">
@@ -27,12 +34,59 @@
         </div>
       </div>
     </div>
-  	<div class="structure-nav">
-  			<a :class="{'structure-nav-active':active == structureNav.name}" v-for="structureNav in structureNavs[0]" @click="turnYears(structureNav.name)">
+    
+    <div class="structure-requirements" v-show="currentLang == 'en'">
+      <div class="row requirements-content">
+        <p class="requirements-total">Requirements for Higher Education</p>
+        <div class="col-md-6">
+          <p class="requirements-title">UK Universities</p>
+          <p class="requirements-info">3-4 A-level subjects UCAS preparation</p>
+        </div>
+        <div class="col-md-6">
+          <p class="requirements-title">US Universities</p>
+          <p class="requirements-info">3-4 A-level subjects ACT/SAT preparation</p>
+        </div>
+        <div class="col-md-6">
+          <p class="requirements-title">Universities of Hong Kong/Singapore</p>
+          <p class="requirements-info">4 A-Level subjects, English as Teaching Language</p>  
+        </div>
+        <div class="col-md-6">
+          <p class="requirements-title">Rest of the world</p>
+          <p class="requirements-info">4 A-level subjects, plus native language if required</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="structure-nav" v-show="currentLang == 'zh_hk'">
+        <a :class="{'structure-nav-active':active == structureNav.name}" v-for="structureNav in structureNavs[0]" @click="turnYears(structureNav.name)">
+          {{structureNav.title}}
+        </a>
+    </div>
+
+  	<div class="structure-nav" v-show="currentLang == 'en'">
+  			<a :class="{'structure-nav-active':active == structureNav.name}" v-for="structureNav in structureNavs[1]" @click="turnYears(structureNav.name)">
   				{{structureNav.title}}
   			</a>
   	</div>
-    <div class="njkc-year">
+
+    <div class="njkc-year" v-show="currentLang == 'zh_hk'">
+      <table ref="njkcTable">
+        <tr>
+          <th class="njkc-year-sortnum">Rank</th>
+          <th class="njkc-year-term">Semester</th>
+          <th class="njkc-year-course">Course Title</th>
+          <th class="njkc-year-igcse">IGCSE</th>
+        </tr>
+        <tr v-for="courseYear in courseYears">
+          <td>{{courseYear.rank}}</td>
+          <td>{{courseYear.semester}}</td>
+          <td>{{courseYear.courseTitle}}</td>
+          <td>{{courseYear.IGCSE}}</td>
+        </tr>
+      </table>     
+    </div>
+
+    <div class="njkc-year" v-show="currentLang == 'en'">
   	  <table ref="njkcTable">
         <tr>
           <th class="njkc-year-sortnum">Rank</th>

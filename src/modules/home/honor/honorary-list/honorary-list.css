@@ -58,3 +58,22 @@
 	border:1px solid #fff;
 	line-height: 3;
 }
+
+@media (max-width: 480px) {
+  .honorary-list-years table{
+    width: 99%;
+    font-size: 12px;
+  }
+  .honor-honorary-list a{
+    /*width: 100px;*/
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-size: 12px;
+    width: 42%;
+  }
+  .honorary-list-years{
+    padding-top: 10px;
+  }
+    
+}

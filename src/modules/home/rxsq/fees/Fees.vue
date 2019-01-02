@@ -1,6 +1,6 @@
 <template>
   <main class="content-main rxsq-fees" role="main">
-    <div class="row fees-top">
+    <div class="row fees-top" v-show="currentLang == 'zh_hk'">
       <div class="col-md-7">
         <table class="fees-table">
           <tr>
@@ -39,7 +39,46 @@
         </div>
       </div>
     </div>
-    <div class="row fees-bottom">
+    <div class="row fees-top" v-show="currentLang == 'en'">
+      <div class="col-md-7">
+        <table class="fees-table">
+          <tr>
+            <th>Year</th>
+            <th>Fees (HK$)</th>
+            <th>Year</th>
+            <th>Fees (HK$)</th>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>148,000</td>
+            <td>11</td>
+            <td>158,000</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>148,000</td>
+            <td>12</td>
+            <td>168,000</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>158,000</td>
+            <td>13</td>
+            <td>168,000</td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-5 ">
+        <div class="fees-scheme">
+          <h2>Scholarship Scheme</h2>
+          <p class="fees-amount">$ 1000</p>
+          <p class="fees-tip">TTMS-OIC Scholarship $1000 per</p>
+          <p class="fees-amount">$ 800</p>
+          <p class="fees-tip">Director’ s Award $800 per Semester</p> 
+        </div>
+      </div>
+    </div>
+    <div class="row fees-bottom" v-show="currentLang == 'zh_hk'">
       <div class="fees-include">
         <h3>收費表中的費用已包括：</h3>
         <p><span class="glyphicon glyphicon-stop"></span>學校校服一件、運動服一套、學習材料</p>
@@ -57,7 +96,47 @@
         <p><span class="glyphicon glyphicon-stop"></span>校外活動和一些可選的課外活動</p>
       </div>
     </div>
+    <div class="row fees-bottom" v-show="currentLang == 'en'">
+      <div class="fees-include">
+        <h3>Programme Fees include: </h3>
+        <p><span class="glyphicon glyphicon-stop"></span>school uniform, learning materials</p>
+        <p><span class="glyphicon glyphicon-stop"></span>Registration Fee: HK$300<span class="fees-include-red">(non-refundable)*</span></p>
+        <p><span class="glyphicon glyphicon-stop"></span>2 students per semester can be awarded the above scholarships with certificate from the school.</p>
+      </div>
+      <div class="fees-notinclude">
+        <h3>The following fees are not included in the Programme Fees:</h3>
+        <p><span class="glyphicon glyphicon-stop"></span>OIC Programme Administrative Fee, Application Fee, Donation Fee, Debenture Fee or other expenses.</p>
+        <p><span class="glyphicon glyphicon-stop"></span>Student Insurance is a compulsory unless an alternative cover is provided. Please note that the school does not provide an insuranceschemetocoverfeerefunds. Parents are encouraged to make their own arrangements.</p>
+        <p><span class="glyphicon glyphicon-stop"></span>IELTS test (if needed)</p>
+        <p><span class="glyphicon glyphicon-stop"></span>Public examination fee</p>
+        <p><span class="glyphicon glyphicon-stop"></span>Additional one-to-one classes (for examples: A-level, IELTS and music lessons)</p>
+        <p><span class="glyphicon glyphicon-stop"></span>School Professional Society and its activities</p>
+        <p><span class="glyphicon glyphicon-stop"></span>Off-campus activities and some optional extracurricular activities</p>
+      </div>
+    </div>
   </main>
 </template>
 <script src="./fees.js"></script>
 <style src='./fees.css'></style>
+
+<ul class="fees-content">
+        <h3>Programme Fees include: </h3>
+        <li>school uniform, learning materials</li>
+        <li>Registration Fee: HK$300(non-refundable)<span class="fees-content-red">*</span></li>
+        <ul>
+          <li>Scholarship Scheme</li>
+          <div class="fees-scheme">
+            <li>TTMS-OIC Scholarship $1000 per</li>
+            <li>Director’ s Award $800 per Semester</li>
+          </div>
+        </ul>
+        <li>2 students per semester can be awarded the above scholarships with certificate from the school.</li>
+        <h3>The following fees are not included in the Programme Fees:</h3>
+        <li>OIC Programme Administrative Fee, Application Fee, Donation Fee, Debenture Fee or other expenses.</li>
+        <li>Student Insurance is a compulsory unless an alternative cover is provided. Please note that the school does not provide an insuranceschemetocoverfeerefunds. Parents are encouraged to make their own arrangements.</li>
+        <li>IELTS test (if needed)</li>
+        <li>Public examination fee</li>
+        <li>Additional one-to-one classes (for examples: A-level, IELTS and music lessons)</li>
+        <li>School Professional Society and its activities</li>
+        <li>Off-campus activities and some optional extracurricular activities</li>
+      </ul>

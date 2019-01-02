@@ -13,3 +13,4 @@ import twelveYear from  './structure/twelve-year.js'
 import twelveThirteenYear from  './structure/twelve-thirteen-year.js'
 
 export default {articulation,associations,assurance,cooperation,eightYear,elevenYear,nineYear,requirements,tenYear,twelveThirteenYear,twelveYear}
+

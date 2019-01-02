@@ -124,3 +124,47 @@
   text-align: center;
   line-height: 2
 }
+
+@media (max-width: 480px) {
+  .njkc-structure .structure-content .structure-title{
+    font-size: 14px;
+  }
+  .njkc-structure .structure-content .structure-info{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .njkc-structure .structure-requirements .requirements-content p.requirements-total{
+    width: 100%;
+    font-size: 18px;
+    line-height: 2
+  }
+  .njkc-structure .structure-requirements .requirements-content p.requirements-title{
+    width: 100%;
+    font-size: 14px;
+  }
+  .njkc-structure .structure-requirements .requirements-content p.requirements-info{
+    width: 100%;
+    font-size: 14px;
+  }
+  .njkc-structure .structure-nav a{
+    font-size: 12px;
+    line-height: 2;
+    height: 30px;
+    margin-left: 6px;
+  }
+  .njkc-year{
+    padding-top: 1px;
+  }
+  .njkc-year table{
+    width: 99%;
+    font-size: 14px;
+  }
+  .njkc-year table th{
+    line-height: 2;
+    font-size: 12px;
+  }
+  .njkc-year table td{
+    line-height: 20px;
+    font-size: 12px;
+  }
+}
