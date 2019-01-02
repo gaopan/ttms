@@ -95,7 +95,7 @@
         <li>e. The Programme Fee of the 1st semester, the 2nd semester and related payments must be paid by the specified date in the Offer Letter.</li>
       </ul>
       <ul class="procedures-files">
-        <li class="procedures-files-title">The relevant documents are as follows</li>
+        <li class="procedures-files-title">The relevant documents</li>
         <li><span class="glyphicon glyphicon-stop"></span>Copy of ID card and passport</li>
         <li><span class="glyphicon glyphicon-stop"></span>Copy of academic certificate in recent three years</li>
         <li><span class="glyphicon glyphicon-stop"></span>Copy of relevant supporting documents (please refer to the application form)</li>

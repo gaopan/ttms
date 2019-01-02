@@ -102,16 +102,17 @@
 }
 .njxy-facilities .facilities-itemo p{
   color: #b27524;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   width: 100%;
   padding-left: 15px;
   /*line-height: 3;*/
   line-height: 26px;
+  margin-top: 20px;
 }
 .njxy-facilities .facilities-item p{
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   width: 100%;
   position: absolute;
@@ -123,6 +124,7 @@
   line-height: 26px;
   padding: 10px 15px;
   margin-bottom: 0;
+  margin-top: 20px;
 }
 .njxy-facilities .facilities-itemo p span.glyphicon-stop{
   margin-right: 10px;
@@ -130,6 +132,14 @@
 .njxy-facilities img{
   display: block;
   width: 100%;
+}
+@media (max-width: 768px) {
+  .njxy-facilities .facilities-item p{
+    font-size: 16px;
+  }
+  .njxy-facilities .facilities-itemo p{
+    font-size: 16px;
+  }
 }
 @media (max-width: 480px) {
   .njxy-facilities .facilities-item p{

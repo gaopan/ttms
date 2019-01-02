@@ -65,7 +65,6 @@
   line-height: 60px;
   color: #fff;
   text-decoration: none;
-  height: 60px;
   display: block;
   float: left;
   margin-left: 20px;
@@ -87,9 +86,9 @@
 .njkc-year{
   left: 0;
   width: 100%;
-  background: #b27524;
+  /*background: #b27524;*/
   margin-top: 0 !important;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 .njkc-year table th.njkc-year-sortnum{
@@ -107,11 +106,10 @@
 .njkc-year table{
   width: 80%;
   margin: 10px auto;
-  color: #fff;
 }
 .njkc-year table th{
   background: #262162;
-  border:1px solid #fff;
+  border:1px solid #b27524;
   color: #fff;
   text-align: center;
   line-height: 3;
@@ -120,12 +118,63 @@
   background: #342e88;
 }
 .njkc-year table td{
-  border: 1px solid #fff;
+  border: 1px solid #b27524;
   text-align: center;
   line-height: 2
 }
-
-@media (max-width: 480px) {
+@media (max-width: 960px) {
+  .njkc-structure .structure-content .structure-title{
+    font-size: 16px;
+  }
+  .njkc-structure .structure-content .structure-info{
+    font-size: 20px;
+  }
+  .njkc-structure .structure-requirements .requirements-content p.requirements-total{
+    line-height: 3;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .njkc-structure .structure-requirements .requirements-content p.requirements-title{
+    font-size: 18px;
+  }
+  .njkc-structure .structure-nav a{
+  line-height: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .njkc-structure .structure-content .structure-title{
+    font-size: 14px;
+  }
+  .njkc-structure .structure-content .structure-info{
+    font-size: 16px;
+  }
+  .njkc-structure .structure-requirements .requirements-content p.requirements-total{
+    line-height: 2;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .njkc-structure .structure-requirements .requirements-content p.requirements-title{
+    font-size: 16px;
+  }
+  .njkc-structure .structure-nav a{
+    font-size: 14px;
+    line-height: 2;
+    height: 30px;
+  }
+    .njkc-year table{
+    width: 80%;
+    font-size: 14px;
+  }
+  .njkc-year table th{
+    line-height: 2;
+    font-size: 14px;
+  }
+  .njkc-year table td{
+    line-height: 20px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) {
   .njkc-structure .structure-content .structure-title{
     font-size: 14px;
   }

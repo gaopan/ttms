@@ -62,6 +62,9 @@
   }
   .njxy-structure .structure-school img{
     width: 100%;
+  }
+  .njxy-structure ul.structure-introduce li{
+    font-size: 16px;
   }  
 }
 @media (max-width: 480px) {

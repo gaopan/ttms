@@ -38,13 +38,23 @@
 .honor-candidates .glyphicon-stop{
 	margin-right: 10px;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 	.honor-candidates ul li.candidates-title{
 		font-size: 16px;
 	}
     .honor-candidates ul li{
+    	margin-bottom: 16px;
 		font-size: 14px;
-    }
-    
+    } 
+}
+@media (max-width: 480px) {
+	.honor-candidates ul li.candidates-title{
+		font-size: 14px;
+	}
+    .honor-candidates ul li{
+		font-size: 14px;
+		margin-bottom: 10px;
+    } 
+
 }
 </style>

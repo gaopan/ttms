@@ -70,7 +70,7 @@
 }
 .contact-contacts ul li.contacts-title{
 	margin-bottom: 40px;
-	font-size: 28px;
+	font-size: 24px;
 	border-bottom: 2px solid #deb95f;
 	padding-bottom: 10px;
 }
@@ -87,12 +87,33 @@
 	/*line-height: 3;*/
 	line-height: 24px;
 }
+@media (max-width: 768px) {
+	.contact-contacts ul li{
+    	font-size: 14px;
+    }
+
+    .contact-contacts ul li.contacts-title{
+    	font-size:18px;
+    }
+    .contact-contacts table.contacts-table td{
+    	font-size: 16px;
+    }
+}
 @media (max-width: 480px) {
 	.contact-contacts{
 		width: 100%;
 	}
     .contact-contacts ul{
         width: 100%;
+    }
+    .contact-contacts ul li{
+    	font-size: 14px;
+    }
+    .contact-contacts ul li.contacts-title{
+    	font-size:16px;
+    }
+    .contact-contacts table.contacts-table td{
+    	font-size: 14px;
     }
     
 }

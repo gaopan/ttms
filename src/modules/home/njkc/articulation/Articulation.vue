@@ -12,18 +12,18 @@
   			<td><i class="glyphicon glyphicon-arrow-up"></i></td>
   		</tr>
   		<tr>
-  			<td>3-4年</td>
-  			<td>3-4年</td>
-  			<td>3-4年</td>
-  			<td class="borderleft2">3年</td>
-  			<td>2年</td>
+  			<td class="fontsize10">3-4年</td>
+  			<td class="fontsize10">3-4年</td>
+  			<td class="fontsize10">3-4年</td>
+  			<td class="borderleft2 fontsize10">3年</td>
+  			<td class="fontsize10">2年</td>
   		</tr>
   		<tr>
-  			<td>香港大學</td>
-  			<td>英國或海外大學</td>
-  			<td>中國或亞洲大學</td>
-  			<td class="borderleft2">英國大學</td>
-  			<td>銜接第三四年香港學位課程</td>
+  			<td><span class="transform90">香港大學</span></td>
+  			<td><span class="transform90">英國或海外大學</span></td>
+  			<td><span class="transform90">中國或亞洲大學</span></td>
+  			<td class="borderleft2"><span class="transform90">英國大學</span></td>
+  			<td><span class="transform90">銜接第三四年香港學位課程</span></td>
   		</tr>
   		<tr class="bordernone">
   			<td><i class="glyphicon glyphicon-arrow-up"></i></td>
@@ -33,9 +33,9 @@
   			<td><i class="glyphicon glyphicon-arrow-up"></i></td>
   		</tr>
   		<tr>
-  			<td colspan="3">2年</td>
-  			<td class="borderleft2">1年</td>
-  			<td>2年</td>
+  			<td colspan="3" class="fontsize10">2年</td>
+  			<td class="borderleft2 fontsize10">1年</td>
+  			<td class="fontsize10">2年</td>
   		</tr>
   		<tr>
   			<td colspan="3">十二年級 ~ 十三年級（選修文科/理科課程）</td>
@@ -77,11 +77,11 @@
         <td><i class="glyphicon glyphicon-arrow-up"></i></td>
       </tr>
       <tr>
-        <td>3-4Y</td>
-        <td>3-4Y</td>
-        <td>3-4Y</td>
-        <td class="borderleft2">3Y</td>
-        <td>2Y</td>
+        <td class="fontsize10">3-4Y</td>
+        <td class="fontsize10">3-4Y</td>
+        <td class="fontsize10">3-4Y</td>
+        <td class="borderleft2 fontsize10">3Y</td>
+        <td class="fontsize10">2Y</td>
       </tr>
       <tr>
         <td>HK University</td>
@@ -98,9 +98,9 @@
         <td><i class="glyphicon glyphicon-arrow-up"></i></td>
       </tr>
       <tr>
-        <td colspan="3">2Y</td>
-        <td class="borderleft2">1Y</td>
-        <td>2Y</td>
+        <td colspan="3" class="fontsize10">2Y</td>
+        <td class="borderleft2 fontsize10">1Y</td>
+        <td class="fontsize10">2Y</td>
       </tr>
       <tr>
         <td colspan="3">Y12 ~ Y13 (Streaming Arts / Science curriculum)</td>
@@ -136,7 +136,7 @@
 <style>
 .njkc-articulation table{
 	width: 60%;
-	margin: 0 auto 60px;
+	margin: 0 auto 30px;
 }
 .njkc-articulation table td{
 	text-align: center;
@@ -168,5 +168,45 @@
 }
 .njkc-articulation table tr.bordernone td.tar{
 	text-align: right
+}
+@media (max-width: 990px) {
+  .njkc-articulation table td{
+    line-height: 22px;
+    font-size: 14px;
+  }
+  .njkc-articulation table td.articulation-final{
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .njkc-articulation table{
+    width: 90%;
+  }
+  .njkc-articulation table td{
+    line-height: 22px;
+    font-size: 12px;
+  }
+  .njkc-articulation table td.articulation-final{
+    font-size: 14px;
+  }
+  .njkc-articulation table td.fontsize10{
+    font-size: 8px;
+  }
+  .njkc-articulation table tr.bordernone i{
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .njkc-articulation table{
+    width: auto;
+  }
+  .njkc-articulation table tr.bordernone i{
+    font-size: 18px;
+  }
+  .njkc-articulation table td span.transform{
+/*     -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg); */
+  transform: rotate(-90deg);
+  }
 }
 </style>

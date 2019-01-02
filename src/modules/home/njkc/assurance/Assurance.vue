@@ -43,11 +43,13 @@
 .njkc-assurance .assurance-title{
   margin-top: 20px;
 }
-
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .njkc-assurance .assurance-content img{
     display: none;
   }
+}
+@media (max-width: 768px) {
+  
   .njkc-assurance .assurance-content{
     padding: 0;
   }
@@ -57,9 +59,6 @@
   }
 }
 @media (max-width: 480px) {
-  .njkc-assurance .assurance-content img{
-    display: none;
-  }
 
   .njkc-assurance p{
     font-size: 14px;      
