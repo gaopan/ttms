@@ -26,7 +26,7 @@
   position: absolute;
   left: 10%;
   top: 100px;
-  background: rgba(255,255,255,.5);
+  background: rgba(255,255,255,.7);
 }
 .rxsq-requirements ul.requirements-content li{
 	     font-size:20px; 

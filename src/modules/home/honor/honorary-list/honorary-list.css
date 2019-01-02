@@ -18,18 +18,20 @@
   float: left;
   margin-left: 20px;
   font-weight: bold;
+  cursor:pointer;
 }
 .honor-honorary-list a:hover{
   border-bottom: 4px solid #131132;
   color: #131132;
 }
-.honor-honorary-list a.router-link-active{
+.honor-honorary-list a.honorary-list-active{
   border-bottom: 4px solid #131132;
   color: #131132;
 }
 
 .honorary-list-years{
   margin-top: 0 !important;
+  padding-bottom: 1px;
 }
 .honorary-list-years{
 	left: 0;

@@ -13,7 +13,7 @@
 	padding:20px;
 }
 .contact-photo .photo-content{
-	width: 1000px;
+	/*width: 1000px;*/
 	margin: 0 auto;
 }
 .contact-photo .photo-item{

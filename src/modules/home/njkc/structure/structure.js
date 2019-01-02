@@ -85,7 +85,6 @@ export default {
     turnYears(name){
       this.active = name;
       this.courseYears = Data[this.currentLang][name]
-      console.log(name)
     }
   },
   beforeDestroy(){

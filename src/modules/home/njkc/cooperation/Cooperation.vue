@@ -30,9 +30,11 @@
         <P class="cooperation-info">新加坡國立大學、南洋理工大學、東京大學、首爾大學</P>
       </div>
     </div>
-    <div class="row cooperation-school">
-      <div v-for="n in 45" class="cooperation-school-item">
-        <img :src="imgUrl(`${n}.png`)" alt="">
+    <div class="row">
+      <div class="cooperation-school">
+        <div v-for="n in 46" class="cooperation-school-item">
+          <img :src="imgUrl(`${n}.png`)" alt="">
+        </div>
       </div>
     </div>
     <!-- <div class="row cooperation-school ">
@@ -62,8 +64,9 @@
   border-radius: 13px;
 }
  .njkc-cooperation .cooperation-school{
-  /*width: 800px;*/
   margin: 0 auto;
+  width: 1117px;
+  /*width: 90.1%;*/
 }
 .njkc-cooperation .cooperation-school:after{
   display: block;

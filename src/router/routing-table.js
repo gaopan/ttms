@@ -273,23 +273,22 @@ let routerTable = {
           components: {
             default: () =>
               import ('@/modules/home/honor/honorary-list/HonoraryList.vue')
-          },
-          redirect:'/honor/honorary-list/honorary-list-eighteen',
-          children:[{
-            path: "honorary-list-seventeen",
-            name: "HonoraryListSeventeen",
-            components: {
-              default: () =>
-                import ('@/modules/home/honor/honorary-list/honorary-list-seventeen/HonoraryListSeventeen.vue')
-            },
-          },{
-            path: "honorary-list-eighteen",
-            name: "HonoraryListEighteen",
-            components: {
-              default: () =>
-                import ('@/modules/home/honor/honorary-list/honorary-list-eighteen/HonoraryListEighteen.vue')
-            },
-          }]
+          }
+          // children:[{
+          //   path: "honorary-list-seventeen",
+          //   name: "HonoraryListSeventeen",
+          //   components: {
+          //     default: () =>
+          //       import ('@/modules/home/honor/honorary-list/honorary-list-seventeen/HonoraryListSeventeen.vue')
+          //   },
+          // },{
+          //   path: "honorary-list-eighteen",
+          //   name: "HonoraryListEighteen",
+          //   components: {
+          //     default: () =>
+          //       import ('@/modules/home/honor/honorary-list/honorary-list-eighteen/HonoraryListEighteen.vue')
+          //   },
+          // }]
         },{
           path: "candidates",
           name: "Candidates",
