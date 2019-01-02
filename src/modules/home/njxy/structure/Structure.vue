@@ -18,6 +18,9 @@
 </template>
 <script src="./structure.js"></script>
 <style>
+.njxy-structure{
+  margin-bottom: 30px;
+}
 .njxy-structure ul.structure-introduce{
   background: #b27524;
   width: 80%;

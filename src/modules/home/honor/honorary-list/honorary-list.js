@@ -1,4 +1,4 @@
-import Data from '@/api/data/honor/index.js'
+import Data from '@/api/data/honor/honorary-list.js'
 import CommonUtils from '@/utils/common-utils.js'
 import shared from '@/shared.js'
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
@@ -9,13 +9,14 @@ export default {
   data(){
     return {
       currentLang: shared.defaultLang,
-      years:[2017,2018],
-      isYear:2018,
-      honoraryList:Data['zh_hk'][1].data
+      honoraryList:'',
+      active:2018
     };
   },
   created() {
     eventHub.$on("changed-lang", this.changedLang);
+    this.honoraryList = Data[this.currentLang]['2018']
+    // console.log(Data[this.currentLang])
   },
   computed: {
     content(){
@@ -33,9 +34,9 @@ export default {
     changedLang(lang){
       this.currentLang = lang;
     },
-    turn_year(year){
-      this.isYear = year
-      this.honoraryList = Data['zh_hk'].filter(elem=>elem.year == year)[0].data
+    turnYear(year){
+      this.active = year
+      this.honoraryList = Data[this.currentLang][year]
     }
   },
   beforeDestroy(){

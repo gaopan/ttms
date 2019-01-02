@@ -137,8 +137,8 @@ let routerTable = {
           default: () =>
             import ('@/modules/home/njkc/structure/Structure.vue')
         },
-        redirect:'/njkc/structure/eight-year',
-        children:[{
+        // redirect:'/njkc/structure',
+        /*children:[{
           path: 'requirements',
           name: 'Requirements',
           components: {
@@ -187,7 +187,7 @@ let routerTable = {
             default: () =>
               import ('@/modules/home/njkc/structure/twelve-thirteen-year/TwelveThirteenYear.vue')
           }
-        }]
+        }]*/
       },{
         path: 'associations',
         name: 'Associations',
@@ -273,23 +273,22 @@ let routerTable = {
           components: {
             default: () =>
               import ('@/modules/home/honor/honorary-list/HonoraryList.vue')
-          },
-          redirect:'/honor/honorary-list/honorary-list-eighteen',
-          children:[{
-            path: "honorary-list-seventeen",
-            name: "HonoraryListSeventeen",
-            components: {
-              default: () =>
-                import ('@/modules/home/honor/honorary-list/honorary-list-seventeen/HonoraryListSeventeen.vue')
-            },
-          },{
-            path: "honorary-list-eighteen",
-            name: "HonoraryListEighteen",
-            components: {
-              default: () =>
-                import ('@/modules/home/honor/honorary-list/honorary-list-eighteen/HonoraryListEighteen.vue')
-            },
-          }]
+          }
+          // children:[{
+          //   path: "honorary-list-seventeen",
+          //   name: "HonoraryListSeventeen",
+          //   components: {
+          //     default: () =>
+          //       import ('@/modules/home/honor/honorary-list/honorary-list-seventeen/HonoraryListSeventeen.vue')
+          //   },
+          // },{
+          //   path: "honorary-list-eighteen",
+          //   name: "HonoraryListEighteen",
+          //   components: {
+          //     default: () =>
+          //       import ('@/modules/home/honor/honorary-list/honorary-list-eighteen/HonoraryListEighteen.vue')
+          //   },
+          // }]
         },{
           path: "candidates",
           name: "Candidates",
