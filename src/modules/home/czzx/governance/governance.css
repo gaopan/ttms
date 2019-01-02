@@ -1,6 +1,5 @@
 .teacher-member{
     margin-right: 0px;
-    margin-bottom: 100px;		
 }
 
 .teacher-member .info-list p{
@@ -32,7 +31,6 @@
 .teacher-one-photo{
 /* position: relative; */
     vertical-align: top;
-    width: 430px;
     height: 300px;		
 }
 .teacher-photo-wrapper{
@@ -112,6 +110,7 @@
     font-weight: bold;
     margin-top: 40px;
     margin-bottom: 32px;
+    line-height: 30px;
 }
 
 .teacher-info .sentence,
@@ -200,7 +199,7 @@
 	direction: rtl;
 	margin-left: 20px;
     color:#fff;
-    width: 320px;
+    width: 540px;
 }
 
 /* teacher 3 */
@@ -313,11 +312,36 @@
 	background: #fff;
 }
 
-/* @media (min-width: 992px){
-    .teacher-member {
-        width: 970px;
+ @media (max-width: 479px){
+    .teacher-introduce{
+        display: block;
     }
-} */
+    .teacher-one-photo{
+        width: auto;
+        height: 200px;        
+    }
+    .teacher-photo-wrapper{
+        display: inline-block;
+        height: 200px;
+        margin-bottom: 0;        
+    }
+    .teacher-name-wrapper{
+        margin-left: 10px;
+    }
+
+    .teacher-introduce.part1-3-2-introduce2{
+        display: block;
+    }
+    .teacher-member-two .teacher-headPhoto {
+        width: 100px;
+    } 
+    .teacher-member {
+        margin-bottom: 50px;
+    }
+    .teacher-title{
+        font-size: 16px;
+    }     
+} 
 
 @media(min-width:768px){
     .teacher-introduce.part1-3-2-introduce1{
@@ -335,12 +359,20 @@
 
 
 }
-
-@media(max-width: 767px){
+@media(min-width: 480px)and(max-width: 767px){
     .teacher-one-photo {
         vertical-align: top;
         width: 134px;
     }
+    .teacher-introduce.part1-3-2-introduce2  {
+        display: flex;
+    }     
+    .teacher-member {
+        margin-bottom: 60px;
+    }    
+}
+
+@media(max-width: 767px){
 
     .teacher-photo-wrapper{
         height: 200px;
@@ -364,9 +396,7 @@
     .teacher-introduce.part1-3-2-introduce1  {
         display: none;
     }
-    .teacher-introduce.part1-3-2-introduce2  {
-        display: flex;
-    } 
+
 
     .part1-3-2-experience1  {
         display: none;
@@ -497,5 +527,16 @@
     .teacher-member-four .picture-2 {
         width: 300px;
         height: 300px;
-    }    
+    } 
+
+    .teacher-member {
+        margin-right: 0;
+        margin-bottom: 80px;
+    }
+}
+
+@media(min-width:1200px) {
+    .teacher-member {
+        margin-bottom: 100px;
+    }  
 }

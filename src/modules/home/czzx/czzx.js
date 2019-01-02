@@ -21,7 +21,7 @@ export default {
   components: {SearchBox},
   watch:{
     currentLang(newV,oldV){
-
+      this.navNameTip = GetRouteName(HomeTranslator, this.currentLang, this.$route);
     },
     '$route.path':{
       handler(newV){

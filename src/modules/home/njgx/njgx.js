@@ -20,12 +20,13 @@ export default {
     };
   },
   created() {
+    this.navNameTip = GetRouteName(HomeTranslator, this.currentLang, this.$route);
     eventHub.$on("changed-lang", this.changedLang);
   },
   components: {SearchBox},  
   watch:{
     currentLang(newV,oldV){
-
+      this.navNameTip = GetRouteName(HomeTranslator, this.currentLang, this.$route);    
     },
     '$route.path':{
       handler(newV){

@@ -12,56 +12,76 @@
 	            <img :src="imgUrl('zzl.png')">
 	          </div>
 	        </div>        
-	        <div class = "teacher-name-wrapper">
+	        <div class = "teacher-name-wrapper" v-show = "currentLang=='zh_hk'">
 	          <span class="teacher-title">课程总监</span>
 	          <span class="teacher-title">張紫伶博士</span>
-	          <!-- <span>Programme Director</span> -->
+	        </div>
+	        <div class = "teacher-name-wrapper" v-show = "currentLang=='en'">
+	          <span class="teacher-title">Programme Director</span>
+	          <span class="teacher-title">Dr.Sammi Yu</span>
 	        </div>
 	      </div>
 
-	      <div class = "teacher-info">
+	      <div class = "teacher-info" v-show = "currentLang=='zh_hk'">
 	        <p class="name">張紫伶博士 /Dr.Sammi Yu</p>
-	        <p class = "motto">“自信，專注，獨立，熱誠"</p>
+	        <p class = "motto">“自信，專注，獨立，熱誠”</p>
 
 	        <p class="sentence">-我們相倌學生們應該在不同議題上秉持獨立的見解，不論是涉及全球或民族層面的议題，亦或是涉及當地或個人層面的事項。為了幫助學生擁有兼容東西方文化的價值觀，我們專注於培養他們的自信心、專注力、獨立性和熱誠。</p>
 	      </div>
+
+	      <div class = "teacher-info" v-show = "currentLang=='en'">
+	        <p class="name">Dr.Sammi Yu</p>
+	        <p class = "motto">"confident Concentration Independent Passion"</p>
+
+	        <p class="sentence">We believe all the student should have their own perspectives on different issues globally, nationally, locally and personally.In order to help student acquires both Eastern and Western culture values, we focus on developing their confidence, concentration, independence and passion characteristics.</p>
+	      </div>
+
+
 	    </div>
 
 	    <div class="teacher-experience">
-	      <ul class="experience-list-one info-list">
-	        <li>
+	      <ul class="experience-list-one info-list"  v-show = "currentLang=='zh_hk'">
+	        <li :class = "currentLang">
 	            <p><span class="square"></span>學士 加牟大哥倫比亞大學 </p>
 	            <p class="sub-list-item">BA- 主修音樂，副修中文</p>
 	        </li>
 
-	        <li>
+	        <li :class = "currentLang">
 	            <p><span class="square"></span>碩士 香港中文大學 </p>
 	            <p class="sub-list-item">MA -文化管理</p>
 	        </li>
-	        <li>
+	        <li :class = "currentLang">
 	            <p><span class="square"></span>博士 -中國藝術研究院 </p>
 	            <p class="sub-list-item">PhD - 戲曲理論</p> 
 	        </li>
 
-	        <li><span class="square"></span>創始人港澳非物質文化遺産發展研究會(2016)</li>
-	        <li><span class="square"></span>客席教授，中國戯曲學校（2015)</li>
-	        <li><span class="square"></span>技術僱問，僱貝再培訓局(2008-2012) </li>
-	        <li><span class="square"></span>講師（學科）香港演藝學院(2012-2018)</li>
-	        <li><span class="square"></span>課程經理 香港公閬大學(2008-2012)</li>
+	        <li :class = "currentLang"><span class="square"></span>創始人港澳非物質文化遺産發展研究會(2016)</li>
+	        <li :class = "currentLang"><span class="square"></span>客席教授，中國戯曲學校（2015)</li>
+	        <li :class = "currentLang"><span class="square"></span>技術僱問，僱貝再培訓局(2008-2012) </li>
+	        <li :class = "currentLang"><span class="square"></span>講師（學科）香港演藝學院(2012-2018)</li>
+	        <li :class = "currentLang"><span class="square"></span>課程經理 香港公閬大學(2008-2012)</li>
+				</ul>
 
+				<ul class="experience-list-one info-list"  v-show = "currentLang=='en'">
+	        <li :class = "currentLang">
+	            <p><span class="square"></span>Universrty of British Columbia</p>
+	            <p class="sub-list-item">Major in Music, Minor in Chinese</p>
+	        </li>
+		      <li :class = "currentLang">
+	            <p><span class="square"></span>Chinese University Hong Kong</p>
+	            <p class="sub-list-item">Cultural Management</p>
+	        </li>
+		      <li :class = "currentLang">
+	            <p><span class="square"></span>National Academy of Arts</p>
+	            <p class="sub-list-item">Research in Chinese Opera</p>
+	        </li>
 
-	        <!-- <li>Universrty of British Columbia</li> 
-	        <li>Major in Music, Minor in Chinese
-	        <li>Chinese University Hong Kong</li>
-	        <li>Cultural Management</li>
-	        <li>National Academy of Arts</li> 
-	        <li>Research in Chinese Opera</li> 
-	        <li>Founder, Hong Kong and Macau InUmgible Cultural Heritage Research Centre (2016)</li> 
-	        <li>Visiting Professor, National Academy of Chinese Theatre Arts (2015)</li> 
-	        <li>Technical Consultant, Employees Retraining Board (2013)</li> 
-	        <li>Lecturer (Academic), Hong Kong Academy of the Performing Arts (2012-2018)</li> 
-	        <li>Programme Manager, The Open University of Hong Kong (2008-2012)</li>  -->
-	        
+	        <li :class = "currentLang"><span class="square"></span>Founder, Hong Kong and Macau InUmgible Cultural Heritage Research Centre (2016)</li> 
+	        <li :class = "currentLang"><span class="square"></span>Visiting Professor, National Academy of Chinese Theatre Arts (2015)</li> 
+	        <li :class = "currentLang"><span class="square"></span>Technical Consultant, Employees Retraining Board (2013)</li> 
+	        <li :class = "currentLang"><span class="square"></span>Lecturer (Academic), Hong Kong Academy of the Performing Arts (2012-2018)</li> 
+	        <li :class = "currentLang"><span class="square"></span>Programme Manager, The Open University of Hong Kong (2008-2012)</li>
+	      
 	      </ul>
 	      <div class="experience-photo">
 	        <img :src="imgUrl('clock.png')">
@@ -71,6 +91,7 @@
 
 		<div class="teacher-member teacher-member-two">
 	  	
+	  	<!-- show in large screen -->
 	  	<div class="teacher-introduce part1-3-2-introduce1">
 
 				<div class = "teacher-title-photo">
@@ -86,14 +107,21 @@
 						</div>
 			 		</div>
 			 		
-					<div class = "teacher-name-wrapper teacher-name-wrapper-two">
+					<div class = "teacher-name-wrapper teacher-name-wrapper-two" v-show = "currentLang=='zh_hk'">
 						<span class="teacher-title">素質保證總顧問</span>
 						<span class="teacher-title">林絢琛博士</span>
 						<!-- <span>Programme Director</span> -->
 					</div>
-			 	</div>			
-	  	</div>
+					<div class = "teacher-name-wrapper teacher-name-wrapper-two" v-show = "currentLang=='en'">
+						<span class="teacher-title">Programme Director</span>
+						<span class="teacher-title">Dr. Michael Lam</span>
+						<!-- <span></span> -->
+					</div>
 
+			 	</div>
+
+	  	</div>
+			<!-- show in low screen -->
 			<div class="teacher-introduce part1-3-2-introduce2">
 
 	      <div class="teacher-one-photo">        
@@ -102,11 +130,16 @@
 	            <img :src="imgUrl('lxc.png')">
 	          </div>
 	        </div>        
-	        <div class = "teacher-name-wrapper">
+	        <div class = "teacher-name-wrapper" v-show = "currentLang=='zh_hk'">
 	          <span class="teacher-title">素質保證總顧問</span>
 	          <span class="teacher-title">林絢琛博士</span>
-	          <!-- <span>Programme Director</span> -->
 	        </div>
+	        <div class = "teacher-name-wrapper" v-show = "currentLang=='en'">
+						<span class="teacher-title">Programme Director</span>
+						<span class="teacher-title">Dr. Michael Lam</span>
+	        </div>
+
+
 	      </div>
 
 	      <div class = "teacher-info">
@@ -118,7 +151,7 @@
 	    </div>
 
 			<div class="teacher-experience">
-				<div class="teacher-info-aside">
+				<div class="teacher-info-aside"  v-show = "currentLang=='zh_hk'">
 
 	        <p class = "motto">“質棄保證個性發展”</p>
 
@@ -127,16 +160,16 @@
 
 	      </div>
 		    
-				<!-- <div class="teacher-info-aside">
+				<div class="teacher-info-aside" v-show = "currentLang=='en'">
 				
 		    	<p class = "motto">“Quality Assurance”</p>
 
 	        <p class="sentence">-One of the toughest challenge for international education programme is to maintain the teaching and learning quality while adapting local culture, and Hong Kong is the best in the world in offering for its historical background. We value not just intelligence but also intellectual, physical, cultural development of each individual student. We believe "individuality” is the only way for life success.</p>
 	        <p class="name">Dr. Michael Lam</p>
 
-	      </div> -->
+	      </div>
 		
-				<ul class="experience-list-two info-list part1-3-2-experience1">
+				<ul class="experience-list-two info-list part1-3-2-experience1"  v-show = "currentLang=='zh_hk'">
 					<li>
 	            <p>英國諾桑比亞大學商學院<span class="square"></span></p>
 	            <p class="sub-list-item">課程總監/教授</p>
@@ -160,31 +193,36 @@
 					</li>
 
 					<li>福建省莆田市政協委員</li>
-
-					<!-- Curriculum Director of Business School of 
-									University of Northumbria of UK, Professor
-									 
-									Curriculum Director of Health College of 
-									Sheffield Hallam University of UK, Professor
-									
-									Appointed expert of the Hong Kong Council 
-									for Accreditation of Academic and Vocational 
-									Qualification (appointed by the Hong Kong
-									Government)
-									
-									President and Academician of the Hong Kong 
-									Sports Teaching Association
-									
-									Member of Bachelor Degree Course Editorial 
-									Board of Technological and Higher Education 
-									Institute of Hong Kong
-									
-									Member of Putian People's Political 
-									Consultative Conference, Fujian Province.
-									Mainland China -->				
 				</ul>
 
-	      <ul class="experience-list-one info-list part1-3-2-experience2">
+				<ul class="experience-list-two info-list part1-3-2-experience1"  v-show = "currentLang=='en'">
+					<li>
+	            <p>Curriculum Director of Business School of University of Northumbria of UK<span class="square"></span></p>
+	            <p class="sub-list-item">Professor</p>
+					</li>
+
+					<li>
+		          <p>Curriculum Director of Health College of Sheffield Hallam University of UK<span class="square"></span></p>
+		          <p class="sub-list-item">Professor</p>
+					</li>
+
+					<li>
+		          <p>Appointed expert of the Hong Kong Council for Accreditation of Academic and Vocational Qualification<span class="square"></span></p>
+		          <p class="sub-list-item">(appointed by the Hong KongGovernment)</p>
+					</li>
+
+					<li>President and Academician of the Hong Kong Sports Teaching Association<span class="square"></span></li>
+				 
+					<li>
+		          <p>Higher Education Institute of Hong Kong<span class="square"></span></p>
+		          <p class="sub-list-item">Member of Bachelor Degree Course Editorial Board of Technological</p>
+					</li>
+
+					<li>Member of Putian People's Political Consultative Conference, Fujian Province.Mainland China.</li>
+				</ul>											
+				
+
+	      <ul class="experience-list-one info-list part1-3-2-experience2"  v-show = "currentLang=='zh_hk'">
 	        <li>
 	            <p><span class="square"></span>英國諾桑比亞大學商學院</p>
 	            <p class="sub-list-item">課程總監/教授</p>
@@ -237,13 +275,19 @@
 	          </div>
 	        </div>
 	        
-	        <div class = "teacher-name-wrapper teacher-three-name-wrapper">
+	        <div class = "teacher-name-wrapper teacher-three-name-wrapper" v-show = "currentLang=='zh_hk'">
 	          <span class="teacher-title">中國傅統文化藝術鑣顧間</span>
 	          <span class="teacher-title">謝柏粱教授</span>
 	        </div>
+	        <div class = "teacher-name-wrapper teacher-three-name-wrapper" v-show = "currentLang=='en'">
+	          <span class="teacher-title">中國傅統文化藝術鑣顧間</span>
+	          <span class="teacher-title">謝柏粱教授</span>
+	        </div>
+
+
 	      </div>
 
-	      <ul class="experience-list-three info-list">
+	      <ul class="experience-list-three info-list"  v-show = "currentLang=='zh_hk'">
 	        <li>
 	            <p><span class="square"></span>北京市高創針进领軍人物</p>
 	            <p class="sub-list-item">國務院政府特殊津貼專家</p>
@@ -270,20 +314,33 @@
 	        </li>
 
 	        <li><span class="square"></span>美國佛薩大學、加州大學柏克萊分校、斯坦福大學(1999-2000)等校訪問與講座教授</li>
-
-
-
-
-
-					<!-- <li><span class="square"></span>A leading figure of Beijing's High-level Innovation and Entrepreneurial Talents Supporting Plan, State Council Special Allowance Expert</li>
-					
-					<li><span class="square"></span>Director of the Drama Department of National Academy of Chinese Theatre Arts, Director of the Center for Chinese Literary and Arts Criticism</li>
-					<li><span class="square"></span>Managing Director of the Chinese Opera Society, Vice President of the Chinese Theatre Literature Association</li>
-					<li><span class="square"></span>Director of the Intercultural Communication and Research Center of Shanghai Jiao Tong UniversityDirector and Professor of the Chinese Department (2002-2008)</li>
-					<li><span class="square"></span>Distinguished Professor of Nanjing Normal University, Leader of Drama and Film, PHD Supervisor (2〇〇〇-2〇〇5)</li>
-					<li><span class="square"></span>Visiting and Chair Professor at the University of Florida, University of California at Berkeley, and Stanford University (1999-2000)</li> -->
 	        
-	      </ul>      
+	      </ul>  
+
+	      <ul class="experience-list-three info-list"  v-show = "currentLang=='en'">
+	        <li>
+	            <p><span class="square"></span>A leading figure of Beijing's High-level Innovation and Entrepreneurial Talents Supporting Plan</p>
+	            <p class="sub-list-item">State Council Special Allowance Expert</p>
+	        </li>	      	
+	        <li>
+	            <p><span class="square"></span>Director of the Drama Department of National Academy of Chinese Theatre Arts</p>
+	            <p class="sub-list-item">Director of the Center for Chinese Literary and Arts Criticismc</p>
+	        </li>	      	
+	        <li>
+	            <p><span class="square"></span>Managing Director of the Chinese Opera Society</p>
+	            <p class="sub-list-item">Vice President of the Chinese Theatre Literature Association</p>
+	        </li>	      	
+	        <li>
+	            <p><span class="square"></span>Director of the Intercultural Communication and Research Center of Shanghai Jiao Tong UniversityDirector</p>
+	            <p class="sub-list-item">Professor of the Chinese Department (2002-2008)</p>
+	        </li>	      	
+	        <li>
+	            <p><span class="square"></span>Distinguished Professor of Nanjing Normal University</p>
+	            <p class="sub-list-item">Leader of Drama and Film, PHD Supervisor (2000-2005)</p>
+	        </li>	      	
+					<li><span class="square"></span>Visiting and Chair Professor at the University of Florida, University of California at Berkeley, and Stanford University (1999-2000)</li>
+	      	
+	      </ul>
 
 			</div>
 
@@ -307,12 +364,17 @@
 							<img :src="imgUrl('JustinLiu.png')">
 					</div>
 
-					<div class="teacher-name-wrapper teacher-four-name-wrapper">
+					<div class="teacher-name-wrapper teacher-four-name-wrapper" v-show = "currentLang=='zh_hk'">
 						<span class="teacher-title">首席招生官</span> 
 						<span class="teacher-title">劉博微教授</span>
 					</div>
 
-		      <ul class="experience-list-four info-list">
+					<div class="teacher-name-wrapper teacher-four-name-wrapper" v-show = "currentLang=='en'">
+						<span class="teacher-title">Chief Executive Officer</span> 
+						<span class="teacher-title">Prot Justin Liu</span>
+					</div>
+
+		      <ul class="experience-list-four info-list"  v-show = "currentLang=='zh_hk'">
 		        <li>
 		            <p>牛津國際（香港）教育集團<span class="square"></span></p>
 		            <p class="sub-list-item">首席執行官</p>
@@ -326,34 +388,45 @@
 		            <p>亞太國際教育交流協會<span class="square"></span></p>
 		            <p class="sub-list-item">執行委貝會主席</p>
 		        </li>
-
-						<!-- Oxford International (Hong Kong) Education 
-						Group Chief Executive Officer
-						Double Master CUHK\HKBU
-						
-						Asia-Pacific International Education Exchange 
-						Association President Of the Executive
-						Committee -->	        
 		      </ul>  					
+		      <ul class="experience-list-four info-list"  v-show = "currentLang=='en'">
+		        <li>
+		            <p>Oxford International (Hong Kong) Education Group<span class="square"></span></p>
+		            <p class="sub-list-item">Chief Executive Officer</p>		        	
+		        </li>
+
+		        <li>
+		        	Double Master CUHK\HKBU<span class="square"></span>
+		        </li>
+
+		        <li>
+		            <p>Asia-Pacific International Education Exchange Association<span class="square"></span></p>
+		            <p class="sub-list-item">President Of the Executive Committee</p>		        	
+		        </li>	      	
+					</ul>
+						<!-- 
+						
+						
+						 -->	        
 				</div>
 			</div>
 				
 			<div class = "bottom-part">   
-				<div class="member-four-teacher-info">
+				<div class="member-four-teacher-info" v-show = "currentLang=='zh_hk'">
 					<p class="name">劉博微教授/Prot Justin Liu</p>      
 					<p class="motto">“面向未來培育人才”</p>      
 					<p class="sentence"> 
 						-通過幫助超過一千位學生入讀理想大學的經驗，我們相信离中教育十分重要的使命是培養出學生的“自主學習意識”和“自學能力”。在融合了西方科學的教育模式與東方鎪典的文化箱®以後，我們相信所有學生都能面向未來進行全面發展，從而收穫藤盛的人生。     
 					</p>   
 				</div>   
-				<!-- “Nourish the
-				Future"   With the experience in helping more than 1,000 students going
-				to their    designated University, we believe that one importance
-				mission of High    School education is to cultivate students' setf-
-				motivated learning attitude    and independent learning
-				ability.Integrated the western scientific education    models and
-				eastern sophisticated culture heritages, we believe all students    will
-				be well-rounded nourished and articulate to their flourish future. -->
+				<div class="member-four-teacher-info" v-show = "currentLang=='en'">
+					<p class="name">Prot Justin Liu</p>      
+					<p class="motto">"Nourish the Future"</p>      
+					<p class="sentence"> 
+						-With the experience in helping more than 1,000 students going to their designated University, we believe that one importance mission of High School education is to cultivate students' setf- motivated learning attitude and independent learning ability.Integrated the western scientific education    models and eastern sophisticated culture heritages, we believe all students will be well-rounded nourished and articulate to their flourish future.     
+					</p>   
+				</div>   
+				<!--   -->
 					
 				<div class="picture-2">
 					<img :src="imgUrl('teacher142.png')">

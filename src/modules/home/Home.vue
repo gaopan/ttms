@@ -8,20 +8,20 @@
       <!-- school logo, school name, school address -->
       <div class="navbar navbar-inverse" role="navigation">
         <div class="container">
-          <div class="navbar-header">
+          <div class="navbar-header" :class = "currentLang">
             <div  class="school-log-wrapper" itemscope="" itemtype="http://schema.org/Organization">
               <a itemprop="url" class="navbar-brand" href="/">
     						<img :src="imgUrl('czzx-logo.png')" />
     					</a>
-              <div class="school-title-wrapper">
+              <div class="school-title-wrapper" :class = "currentLang">
                 <p class="school-title" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">{{'schoolName' | translate(translator, currentLang)}}</p>
                 <p class="school-subtitle-en">Tsung Tsin Middle School</p>
               </div>
             </div>
             <div class="brand-strap">
-              <div class="school-info">
-                <p class="big">{{'name' | translate(translator, currentLang)}}</p>
-                <p>
+              <div class="school-info" :class = "currentLang">
+                <p class="big" :class = "currentLang">{{'name' | translate(translator, currentLang)}}</p>
+                <p :class = "currentLang">
                   {{'address' | translate(translator, currentLang)}}
                   <br/> {{'contact' | translate(translator, currentLang)}}
                   <br/> {{'contact_tel' | translate(translator, currentLang)}}
@@ -40,12 +40,12 @@
 
     </header>
 
-    <div class="search_button-nav">
-        <div class="search-box-top">
-          <search-box></search-box>
-        </div>            
-     
-    </div>    
+    <!-- <div class="search_button-nav">
+          <div class="search-box-top">
+            <search-box></search-box>
+          </div>            
+       
+      </div>   -->  
 
     <nav role="navigation" class="navbar-collapse collapse" ref = "navigator"  v-dropdown = "fnBlur">
       <ul class="nav navbar-nav">
@@ -57,8 +57,8 @@
         <li :class="{active: isCurrentPath(nav.path)}" @click = "switchSubNav(nav,outerIndex)"  v-for="(nav,outerIndex) in navs">
         <!-- <li :class="{active: isCurrentPath(nav.path)}" @click="navTo(nav)" v-for="nav in navs"> -->
           <a href="javascript:void(0)" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
-            <span class = "nav-itemName" v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
-            <span class = "nav-itemName" v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
+            <span class = "nav-itemName" :class = "currentLang" v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
+            <span class = "nav-itemName" :class = "currentLang" v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
             <img v-if="nav.imgUrl" :src="imgUrl(nav.imgUrl)" :class="nav.imgClass" />
             <span class = "nav-description">{{nav.imgUrl ? "" : nav.description}}</span>
           </a>
@@ -85,12 +85,13 @@
       <div class="navbar-collapse-2" v-show = "bShowSmallNav" v-dropdown = "fnBlurSmallNav" >
            <ul class="nav navbar-nav">
            
-              <li :class="{active: isCurrentPath(nav.path)}" @click="switchSubNav(nav,outerIndex)" v-for="(nav,outerIndex)  in navs">
-                <a href="javascript:void(0)" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
-                  <span class = "nav-itemName" v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
-                  <span class = "nav-itemName" v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
+              <li @click="switchSubNav(nav,outerIndex)" v-for="(nav,outerIndex)  in navs">
+                <a  href="javascript:void(0)" :class = "{'active': isCurrentPath(nav.path), 'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
+                  <span class = "nav-itemName" :class = "currentLang" v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
+                  <span class = "nav-itemName" :class = "currentLang" v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
                   <img v-if="nav.imgUrl" :src="imgUrl(nav.imgUrl)" :class="nav.imgClass" />
                   <span class = "nav-description">{{nav.imgUrl ? "" : nav.description}}</span>
+                  <!-- <span class="square" v-show = "isCurrentPath(nav.path)"></span> -->
                 </a>
                 <ul v-show = "nav.bShow" class="sub-nav-list-2">
                   <li v-for = "(subPath, innerIndex) in nav.subPath" @click="navTo('child',subPath,outerIndex,innerIndex)" :class = "{'active':subPath.active}">{{subPath.name}}</li>
@@ -105,54 +106,28 @@
     <footer role="contentinfo">
       <div class="container">
         <div id="footer-left">
-          <p>
-            <strong>{{'name' | translate(translator, currentLang)}}</strong>
-            <br/>{{'address' | translate(translator, currentLang)}}
-            <br/>
-            <br/>
-            <a href="mailto:info@oxcoll.com">info@ttmsedu.onaliyun.com</a>
-            <br/> {{'contact' | translate(translator, currentLang)}}
-            <br/> {{'contact_tel' | translate(translator, currentLang)}}
-            <br/> {{'contact_phone' | translate(translator, currentLang)}}
-            <br/>
-            <img :src="imgUrl('contact-fb.png')">
-            <img :src="imgUrl('contact-we.png')">
-          </p>
+          <img :src="imgUrl('address-big.png')" />
         </div>
         <div id="footer-middle">
-          <img :src="imgUrl('czzx-logo.png')" alt="TTMS" />
-          <img :src="imgUrl('footer-logo.png')" alt="Oxford International College" />
+          <p>
+            <strong>{{'name' | translate(translator, currentLang)}}</strong>
+            <br/>
+            <br/>{{'address' | translate(translator, currentLang)}}
+            <br/> {{'contact' | translate(translator, currentLang)}}
+            <br/> {{'contact_tel' | translate(translator, currentLang)}}
+            <br/> {{'contact_fax' | translate(translator, currentLang)}}
+            <br/> {{'contact_phone' | translate(translator, currentLang)}}
+            <br/>
+            {{'website' | translate(translator, currentLang)}}
+            <a href="www.ttms.edu.hk">www.ttms.edu.hk</a>
+            <br/>
+            {{'email' | translate(translator, currentLang)}}
+            <a href="mailto:info@oxcoll.com">info@ttmsedu.onaliyun.com</a>
+          </p>
         </div>
-        <!-- <div id="footer-right">
-          <div class="subscribe">
-            <p><strong>Join our mailing list</strong></p>
-            <form action="/index.html#subscribe-top" method="post" id="subscribe" name="subscribe" class="form-horizontal">
-              <div class="form-group">
-                <label for="fullname3" class="control-label ">Full Name * : </label>
-                <div class="col-sm-12">
-                  <input name="fullname3" type="text" id="fullname3" class="text  form-control" value="" tabindex="301" placeholder="Name">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="email3" class="control-label ">Email address * : </label>
-                <div class="col-sm-12">
-                  <input name="email3" type="text" id="email3" class="text form-control" value="" tabindex="302" placeholder="Email address">
-                </div>
-              </div>
-              <div class="form-group">
-                <label style="display: block" for="confirm3" class="control-label col-xs-9 longlabel ">For security, please enter the number <strong>4</strong> into the box *</label>
-                <div class="col-xs-3">
-                  <input type="text" class="text form-control" name="confirm3" id="confirm3" tabindex="302" onfocus="clearField3(name);" value="">
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="col-xs-12 col-md-4 col-md-push-8">
-                  <input name="submit3" type="submit" id="submit3" value="Sign Up" tabindex="303" class="btn btn-default">
-                </div>
-              </div>
-            </form>
-          </div>
-        </div> -->
+        <div id="footer-right">
+          <img :src="imgUrl('address.png')" />
+        </div>
       </div>
     </footer>
     <div class="footer-sub">

@@ -3,6 +3,7 @@ import Translator from './search.translator.js'
 import CommonUtils from '@/utils/common-utils.js'
 import IndexData from './index-data.js'
 import shared from '@/shared.js'
+import SearchBox from '@/components/search-box/SearchBox.vue'
 
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
 let eventHub = shared.eventHub
@@ -16,7 +17,7 @@ export default {
       indexData: IndexData,
       searchResult: [],
       dataBase:null
-    };
+    }; 
   },
   created() {
     eventHub.$on("changed-lang", this.changedLang);
@@ -28,6 +29,9 @@ export default {
     console.log("searchResult", this.searchResult)
   },
   watch: {
+    currentLang(newV, oldV){
+      if(newV)this.$router.push('/index')
+    },
     "searchText": function(val){
       if(!!this.searchText.trim()){
         this.searchResult = this.searchDataBase(this.dataBase, this.searchText);
@@ -39,6 +43,8 @@ export default {
       return CommonUtils.deepClone(Translator[this.currentLang].navs);
     }
   },
+  components: {SearchBox},  
+  
   methods: {
 
     getDataBase(data, lang){

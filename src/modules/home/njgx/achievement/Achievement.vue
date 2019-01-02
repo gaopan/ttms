@@ -1,18 +1,14 @@
 <template>
   <main class="content-main" role="main">
   	<div class="part2-4">
-			<p class="part2-4-sentence-1">
+			<p class="part2-4-sentence-1" v-show = "currentLang=='zh_hk'">
 				英國牛津國際公學在獨立學院的中學高级水準考試成績上名列前茅。根據2018年的中學高级水準考試評定結果，牛津國陳公學的成结逮到AVA為83.5%,當中佔A等级成播有58.2%。去年成績逹到AVA為71%,逭個成績比較起來有著令人藉得鼓舞的進步，讓牛津國嫌學校成為英格藺地E高级水準考試成級最佳的學校之一。
 			</p>
 
 
-			<!-- <p class="part2-4-sentence-1">
-				We are proud of the fact that Oxford International College is ranked among the top performers in the independent colleges.
+			<p class="part2-4-sentence-1" v-show = "currentLang=='en'">
+				We are proud of the fact that Oxford International College is ranked among the top performers in the independent colleges.According to the results of the 2018 secondary level examinations, Oxford International College has achieved excellent rankings.The statistical data reached A*/A of 83.5% this year, accounting for 58.2% of the A grade.Last year's achievement reached 71% of A*/A.This result is an encouraging result, and it has become one of the best schools in the UK.
 			</p>
-			
-			<p class="part2-4-sentence-2">
-				According to the results of the 2018 secondary level examinations, Oxford International College has achieved excellent rankings.The statistical data reached A*/A of 83.5% this year, accounting for 58.2% of the A grade.Last year's achievement reached 71% of A*/A.This result is an encouraging result, and it has become one of the best schools in the UK.
-			</p> -->
 
 			<div class="part2-4-table-1">
 				<table class="achievement-table">
@@ -121,7 +117,7 @@
 				</table>
 			</div>
 
-      <div class = "part2-4-3">
+      <div class = "part2-4-3" v-show = "currentLang=='zh_hk'">
 				<div class="part2-4-3-title">
 					<p class="name">崇正牛津國際課程</p>
 					<p class="line"></p>
@@ -199,13 +195,12 @@
 					<p class="teacher-introduce"><span class = "square"></span>心理學專家</p>
 				</div>
 			</div>
-			<!-- // 
-      <div class = "part2-4-3">
+			<div class = "part2-4-3" v-show = "currentLang=='en'">
 				<div class="part2-4-3-title">
-					<p class="name">崇正牛津國際課程</p>
+					<p class="name">TTMS OXFORD INTERNATIONAL PROGRAMME</p>
 					<p class="line"></p>
 				</div>
-
+			
 				<p class="teacher-category">Liberal arts bishop teacher</p>
 				
 				<div class="course-item-wrapper">
@@ -221,7 +216,7 @@
 					<p class="teacher-introduce"><span class = "square"></span>She has over 20 years of teaching experience, used to work as Chinese Language teacher at the University of Hong Kong SPACE, the Hong Kong University of Science and Technology, the Chinese University of Hong Kong, the City University of Hong Kong, the Open University of Hong Kong, and the Hong Kong Academy for Performing Arts;</p>
 					<p class="teacher-introduce"><span class = "square"></span>She is the chief editor at Hong Kong 21st Century Humanities Publishing House, and has been invited to be the judge at Hong Kong Arts Development Council, in Hong Kong "Chinese Literature Award", "Young Literature Award", and Hong Kong "Literature Biennial Award" and so on.</p>
 				</div>
-
+			
 				<p class="teacher-category">Science bishop teacher</p>
 				
 				<div class="course-item-wrapper">
@@ -230,7 +225,7 @@
 					<p class="teacher-introduce"><span class = "square"></span>He taught mathematics, physics and biology in secondary school and won the honorary teacher title.</p>
 					<p class="teacher-introduce"><span class = "square"></span>He will adjust the pace of teaching and provide supplemental teaching materials according to students' English level and knowledge reserve.He emphasizes on raising students' critical thinking ability while ensuring classroom participation.</p>
 				</div>
-
+			
 				<div class="course-item-wrapper">
 					<p class="course-teacher">Mr.Wong Cheuk-him</p>
 					<p class="teacher-introduce"><span class = "square"></span>Bachelor of Social Sciences in Sport & Recreation Leadership</p>
@@ -238,7 +233,7 @@
 					<p class="teacher-introduce"><span class = "square"></span>Fitness Center Manager at Citi Bank</p>
 					<p class="teacher-introduce"><span class = "square"></span>Coach at Hong Kong China Bodybuilding and Fitness Association, Hong Kong Baseball Association Limited, Hong Kong Rugby Union</p>
 				</div>				
-
+			
 				<p class="teacher-category">Bishop teacher of World Common Sense and Art</p>
 				
 				<div class="course-item-wrapper">
@@ -255,7 +250,7 @@
 					<p class="teacher-introduce"><span class = "square"></span>Head of General Secretary, Hong Kong & Macau Intangible Cultural Heritage Research Centre.</p>
 					<p class="teacher-introduce"><span class = "square"></span>Visiting Professor at National Academy of Chinese Theatre Arts,lecturer at Hong Kong Academy for Performing Arts, and Curriculum Director at The Open University if Hong Kong.</p>
 				</div>
-
+			
 				<p class="teacher-category">Chinese Culture</p>
 				
 				<div class="course-item-wrapper">
@@ -277,10 +272,11 @@
 					<p class="teacher-introduce"><span class = "square"></span>Hongkong famous singer of Cantonese Opera</p>
 					<p class="teacher-introduce"><span class = "square"></span>Psychologist</p>
 				</div>
+			
+			</div>
 
-      </div>
-			-->
-      <div class="part2-4-4">
+
+      <div class="part2-4-4" v-show = "currentLang=='zh_hk'">
       	<div class="part2-4-4-title part2-4-3-title" :style = "bgPhoto">
 					<p class="name">崇正牛津國際課程</p>
 					<p class="line"></p>
@@ -338,56 +334,59 @@
       		</div>
       	</div>
 
-				<!-- 
-				<div class="part2-4-4-course">
-      		<div class="part244-course-item">
-      			<p class="part244-course-name">Chemistry</p>
-      			<p class="part244-teacher-name">Mr.Jonathan Beckett</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Honors Master in Chemistry in University of Oxford</p>
-      		</div>
-
-      		<div class="part244-course-item">
-      			<p class="part244-course-name">Biology</p>
-      			<p class="part244-teacher-name">Dr.Zoe Lundy</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Doctor of Philosophy in Biochemistry in University of Oxford</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Master in Biochemistry in University of Oxford</p>
-      		</div>
-
-      		<div class="part244-course-item">
-      			<p class="part244-course-name">Physics</p>
-      			<p class="part244-teacher-name">Mr.Tim Croston</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Master of Physics</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Master of Arts</p>
-      		</div>
-
-      		<div class="part244-course-item">
-      			<p class="part244-course-name">Psychotogy</p>
-      			<p class="part244-teacher-name">Ms.Dolly McLaughlin</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>UK Humanistic Psychology Practitioner</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Postgraduate Diploma in Psychology, UK Association of Humanistic Psychology Practitioner</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Honors Bachelor of Science</p>
-      		</div>
-
-      		<div class="part244-course-item">
-      			<p class="part244-course-name">Maths / Statistics</p>
-      			<p class="part244-teacher-name">Mr.Lesley Parker-Collins</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Master of Statistics in University of Oxford</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Honors Bachelor of Arts in University of Oxford</p>
-      		</div>
-
-      		<div class="part244-course-item">
-      			<p class="part244-course-name">Business</p>
-      			<p class="part244-teacher-name">Dr.Mikhail Rakovshik</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>PHD</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Master of Business Administration</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Honors Master of Science</p>
-      			<p class="part244-teacher-experience"><span class = "square"></span>Honors Bachelor of Science</p>
-      		</div>
-
-      	</div> 
-				-->
 
       </div>
+			<div class="part2-4-4-course" v-show = "currentLang=='en'">
+      	<div class="part2-4-4-title part2-4-3-title" :style = "bgPhoto">
+					<p class="name">Hong Kong TTMS Oxford International Programme</p>
+					<p class="line"></p>
+      	</div>
+
+    		<div class="part244-course-item">
+    			<p class="part244-course-name">Chemistry</p>
+    			<p class="part244-teacher-name">Mr.Jonathan Beckett</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Honors Master in Chemistry in University of Oxford</p>
+    		</div>
+
+    		<div class="part244-course-item">
+    			<p class="part244-course-name">Biology</p>
+    			<p class="part244-teacher-name">Dr.Zoe Lundy</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Doctor of Philosophy in Biochemistry in University of Oxford</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Master in Biochemistry in University of Oxford</p>
+    		</div>
+
+    		<div class="part244-course-item">
+    			<p class="part244-course-name">Physics</p>
+    			<p class="part244-teacher-name">Mr.Tim Croston</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Master of Physics</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Master of Arts</p>
+    		</div>
+
+    		<div class="part244-course-item">
+    			<p class="part244-course-name">Psychotogy</p>
+    			<p class="part244-teacher-name">Ms.Dolly McLaughlin</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>UK Humanistic Psychology Practitioner</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Postgraduate Diploma in Psychology, UK Association of Humanistic Psychology Practitioner</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Honors Bachelor of Science</p>
+    		</div>
+
+    		<div class="part244-course-item">
+    			<p class="part244-course-name">Maths / Statistics</p>
+    			<p class="part244-teacher-name">Mr.Lesley Parker-Collins</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Master of Statistics in University of Oxford</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Honors Bachelor of Arts in University of Oxford</p>
+    		</div>
+
+    		<div class="part244-course-item">
+    			<p class="part244-course-name">Business</p>
+    			<p class="part244-teacher-name">Dr.Mikhail Rakovshik</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>PHD</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Master of Business Administration</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Honors Master of Science</p>
+    			<p class="part244-teacher-experience"><span class = "square"></span>Honors Bachelor of Science</p>
+    		</div>
+
+    	</div>
   	</div>
   </main>
 </template>
@@ -561,9 +560,7 @@
     padding-left: 40px;
     padding-top: 90px;
 }
-.part2-4-4-course {
-    padding-left: 50px;
-}
+
 
 .part244-course-item {
     display: inline-block;
@@ -575,7 +572,7 @@
     margin-left: 32px;
 }
 
-.part2-4-4 p.part244-course-name {
+.part244-course-name {
     color: #a87c44;
     font-size: 23px;
     font-weight: bold;
@@ -589,7 +586,7 @@
     line-height: 24px;
 }
 
-.part2-4-4 p.part244-teacher-experience{
+.part244-teacher-experience{
 	margin-left: 24px;
 	font-size: 16px;
 }
@@ -598,6 +595,26 @@
 	margin-left: -24px;
 }
 
+@media(max-width: 479px){
+	.part2-4-sentence-1,
+	.achievement-table thead,
+	.achievement-table tbody{
+		font-size: 14px;
+	}	
+
+	.part244-course-name{
+		font-size: 18px;
+		margin-bottom: 0;
+	}	
+	.part244-teacher-name{
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+
+	.part244-teacher-experience{
+		font-size: 14px;
+	}
+}
 @media(max-width: 767px){
 	.part2-4-sentence-1{
 		font-size: 14px;
@@ -609,7 +626,7 @@
     width: 42%;
     margin-left: 20px;		
 	}
-	.part2-4-4 p.part244-course-name{
+	.part244-course-name{
 		 font-size: 20px;
 	}
 	.part244-teacher-name,

@@ -12,6 +12,8 @@ export default {
     };
   },
   created() {
+    this.currentLang = shared.defaultLang;
+    console.log(this.currentLang)
     eventHub.$on("changed-lang", this.changedLang);
   },
   computed: {

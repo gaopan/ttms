@@ -16,14 +16,17 @@
   height:100px;  
 }
 
+body {
+  background-color: #121038;
+}
 
 header {
   position: relative;
   z-index: 15;
   height: 210px;
-  background-image: -webkit-linear-gradient(top, #000 0, #342e88 100%);
-  background-image: -o-linear-gradient(top, #000 0, #342e88 100%);
-  background-image: linear-gradient(to bottom, #000 0, #342e88 100%);
+  background-image: -webkit-linear-gradient(top, #121038 0, #101836 100%);
+  background-image: -o-linear-gradient(top, #121038 0, #101836 100%);
+  background-image: linear-gradient(to bottom, #121038 0, #101836 100%);
   background-repeat: repeat-x;
   overflow: visible
 }
@@ -35,11 +38,11 @@ header {
 }
 
 .advert img {
-  border-bottom: 1px solid #fff
+  /*border-bottom: 1px solid #fff*/
 }
  /* navbar: school name and school logo; */
 .navbar {
-  height: 210px;
+  height: 100%;
   margin-bottom: 0;
   background: 0 0;
   border: 0;
@@ -47,7 +50,7 @@ header {
 } 
 
 .navbar-collapse-2 .nav > li > a:focus {
-  background-color:#d9ad43;
+  background: inherit;
 }
 
 .navbar a,
@@ -57,7 +60,7 @@ header {
 }
 
 .navbar .container {
-  height: 210px;
+  height: 100%;
   padding: 0
 }
 .navbar-header .school-title {
@@ -68,13 +71,6 @@ header {
   display: inline-block;
   margin-top: 10px;
 }
-
-.navbar-header .school-title.zh {
-  font-size: 38px;
-} 
-.navbar-header .school-title.en {
-  font-size: 30px;
-} 
 
 .navbar-toggle {
   right: 0;
@@ -147,7 +143,6 @@ line-height: 1.4 */
 
 .navbar .brand-strap p {
   margin: 0 0 15px;
-  font-size: 10px;
   letter-spacing: .04em;
   line-height: 18px;
   text-transform: uppercase
@@ -172,11 +167,12 @@ line-height: 1.4 */
   top: 0;
   /*bottom: 15px;*/
   text-align: center;
-  background-image: linear-gradient(180deg,#b27524 0,#d9ad43);
+  /*background-image: linear-gradient(180deg,#fff 0,#101636);*/
+  background-color: #bfbfbf;
 }
 .navbar .brand-strap .langs>.lang {
   display: block;
-  padding: 5px 10px;
+  padding: 10px;
 }
 .navbar .brand-strap .langs>.lang:hover {
   cursor: pointer;
@@ -187,7 +183,6 @@ line-height: 1.4 */
 }
 
 .navbar .brand-strap .big {
-  font-size: 18px;
   text-transform: capitalize
 }
 
@@ -196,10 +191,8 @@ line-height: 1.4 */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 .info-list li{
   margin-bottom: 20px;
-  font-size: 16px;
   list-style: none;
 }
-
 
 .square {
   display: inline-block;
@@ -215,8 +208,11 @@ line-height: 1.4 */
   margin-left: auto;
 }
 
-.content-wrapper .form-horizontal .form-group {
+/*.content-wrapper .form-horizontal .form-group {
     margin-right: 30px;
+}*/
+.form-group{
+  margin-bottom: 0;
 }
 
 .navbar-nav .nav-description{
@@ -225,7 +221,7 @@ line-height: 1.4 */
 
 
 #home .content-wrapper {
-  padding-top: 60px
+  /*padding-top: 60px*/
 }
 
 .content-wrapper {
@@ -246,16 +242,13 @@ line-height: 1.4 */
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-    border: 1px solid #a7a4a4a8;
+    /*border: 1px solid #a7a4a4a8;*/
     padding-top: 40px;
     background: #fff;  
 }
 
-.nav-name-tip{
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 30px;
-    font-size: 14px;      
+.content-wrapper.index {
+  background-color: transparent;
 }
 
 .content-wrapper>.navbar-collapse,
@@ -270,16 +263,24 @@ line-height: 1.4 */
     position: absolute;
     transform: translateX(0);
     top: 100%;
-    background: #d9ad43;
+    background: #bfbfbf;
     z-index: 1;
     font-size: 16px;
     width: 100%;
     min-width: 120px;
+    box-shadow: 0 2px 5px 2px rgba(128, 128, 128, 0.45)
+}
+.sub-nav-list-2 {
+    width: 100%;
 }
 
-.sub-nav-list li:hover{
-    background: #111836;
-    color: #fff;  
+.navbar-collapse .navbar-nav .sub-nav-list li {
+  color: #fff;
+}
+
+.navbar-collapse .navbar-nav .sub-nav-list li:hover{
+    color: #111836;
+    background-color: #fff;  
 }
 .sub-nav-list li {
     padding: 5px 20px;
@@ -289,10 +290,11 @@ line-height: 1.4 */
 }
 
 .navbar-collapse-2  .sub-nav-list-2 li{
-  padding-left: 25px;
+  margin-left: 15px;
+  padding-left: 10px;
   line-height: 30px;
   color: rgb(255, 255, 255);
-  background: #d9ad43;
+  cursor: pointer;
 }
 
 .content-main img {
@@ -331,17 +333,11 @@ a:hover {
   text-align: left
 }
 
-
-
-
 .content-main p {
   margin-bottom: 15px;
   line-height: 22px
 }
 
-#home .search {
-  left: 30px
-}
 
 #search-2 {
   display: none
@@ -372,14 +368,6 @@ a:hover {
   color: #fff
 }
 
-#home .search {
-  margin-bottom: 10px;
-  padding: 0
-}
-
-#home .search .form-group {
-  float: right!important;
-}
 #inside .search .form-group ,
 #home .search .form-group {
   position: relative;
@@ -452,15 +440,6 @@ legend {
 }
 
 
-body {
-  border-top: 6px solid #2e3192;
-}
-html{
-  font-size: 10px;
-}
-
-
-
 
 /* serch box in page header */
 .search-box-top{
@@ -474,7 +453,6 @@ html{
 
 .school-title-wrapper{
   display: inline-block;
-  width: 400px;
   margin-left: 10px;  
   margin-top: 24px;
   color: #fff;
@@ -489,33 +467,44 @@ html{
 }
 .navbar-collapse-2{
     position: absolute;
-    background: #d9ad43;
-    width: 100%;
+    top: 50px;
+    background-color: #bfbfbf;
+    width: 98%;
     font-size: 20px;
     margin-right: 30px;
     padding-left: 30px;
     z-index: 6;
 }
+.navbar-collapse-2 .navbar-nav{
+  margin:0;
+}
 .navbar-collapse-2 .navbar-nav li{
   display: block;
 }
 .navbar-collapse-2 .navbar-nav li a{
-    color: #fff;
+    color: #101636;
     text-decoration:none;
 }
+
+.navbar-collapse-2 .navbar-nav li a.active{
+  color: #fff;
+  background: #111836;
+}
+
+
 .navbar-collapse-2 .navbar-nav li.active  a:hover{
    /*  background: #111836; */
 }
 .navbar-collapse-2 .navbar-nav li a:hover{
-    background: #d9ad43;
-    color: #fff;
+    /* color: #fff; */
     text-decoration:none;
 }
 
 .navbar-collapse {
   margin: 0 auto;
   clear: both;
-  background-image: linear-gradient(180deg,#b27524 0,#d9ad43);
+  /*background-image: linear-gradient(180deg,#fff 0,#101836);*/
+  background-color: #bfbfbf;
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
@@ -529,12 +518,11 @@ html{
 
 .navbar-collapse .navbar-nav li {
     line-height: 30px;
-    color: #fff;
+    color: #101636;
     cursor: pointer;
 }
 
-.navbar-collapse .navbar-nav li.active,
-.navbar-collapse-2 .navbar-nav li.active {
+.navbar-collapse .navbar-nav li.active{
   background: #111836;
 }
 
@@ -544,7 +532,7 @@ html{
 
 .navbar-collapse .navbar-nav li>a {
   padding: 8px 22px;
-  color: #fff;
+  color: #101636;
   text-decoration: none;
   font-weight: 400;
   text-align: center;
@@ -564,11 +552,23 @@ html{
 .navbar-collapse .navbar-nav li>a span.nav-itemName {
   display: block;
   clear: both;
-  color: #fff;
-  font-size: 16px;
+  color: #101636;
   font-weight: 700
 }
+.navbar-collapse .navbar-nav li>a span.nav-itemName.en {
+  font-size: 14px;
+}
+.navbar-collapse .navbar-nav li>a span.nav-itemName.zh_hk {
+  font-size: 16px;
+}
 
+
+.navbar-collapse-1 .navbar-nav li.active>a span.nav-itemName,
+.navbar-collapse .navbar-nav li.active>a span.nav-itemName {
+  color: #fff;
+}
+
+.navbar-collapse-1 .navbar-nav li>a .tick,
 .navbar-collapse .navbar-nav li>a .tick {
   display: none
 }
@@ -581,7 +581,6 @@ html{
 }
 .navbar .brand-strap .school-info {
   margin-right: 60px;
-  display: none;
 }
 
 .navbar-collapse .navbar-nav li:last-child {
@@ -615,6 +614,14 @@ ul.nav li.dropdown:hover>ul.dropdown-menu {
   margin-right: -15px
 }
 
+.nav-name-tip{
+  display: inline-block;
+}
+
+.inside-search-box{
+  display: inline-block;
+  float: right;
+}
 
 #home .content-main {
   position: relative;
@@ -644,7 +651,14 @@ ul.nav li.dropdown:hover>ul.dropdown-menu {
 
 .index-picture-wrapper {
     position: relative;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
+}
+
+.index-picture-middle {
+  padding: 40px 30px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
 }
 p.index-picture-description a:hover{
     text-decoration: underline;
@@ -666,15 +680,22 @@ p.index-picture-description {
 
 .welcome-index {
     background: #111038;
-    padding: 60px 10px 60px 30px;
+    padding: 10px 20px;
     margin-bottom: 20px;
 }
 
+.picture-container {
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 p.welcome-p1 {
-    font-size: 50px;
+
     font-weight: bold;
     color: #AD7F44;
-    margin-bottom: 20px;
 }
 
 p.welcome-p2 {
@@ -707,11 +728,12 @@ footer {
   clear: both;
   position: relative;
   z-index: 5;
-  background-image: -webkit-linear-gradient(top, #3f358e 0, #2c2645 100%);
-  background-image: -o-linear-gradient(top, #3f358e 0, #2c2645 100%);
-  background-image: linear-gradient(to bottom, #3f358e 0, #2c2645 100%);
-  background-repeat: repeat-x;
-  padding: 75px 0 5px
+  background-color: #2c2645;
+  /*background-image: -webkit-linear-gradient(top, #101836 0, #2c2645 100%);
+  background-image: -o-linear-gradient(top, #101836 0, #2c2645 100%);
+  background-image: linear-gradient(to bottom, #101836 0, #2c2645 100%);
+  background-repeat: repeat-x;*/
+  padding: 45px 0 25px
 }
 
 footer a,
@@ -756,18 +778,35 @@ footer #footer-right {
   padding-left: 15px;
   padding-right: 15px;
   display: block;
-  max-width: 420px;
+  /*max-width: 420px;*/
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 40px;
   text-align: center
 }
 
+footer #footer-right-2 {
+  position: relative;
+  text-align: left;
+}
+
+footer p {
+  line-height: 1.5;
+}
+
+footer p strong {
+  font-weight: bold;
+}
+
+footer img {
+  width: 100%;
+}
+
 .footer-sub {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  background-color: #fff;
+  padding: 10px 15px;
   margin-top: 20px;
   font-size: 12px;
   text-align: center
@@ -782,63 +821,163 @@ footer #footer-right {
 
 /* <480px */
 @media(max-width:480px){
-  .navbar .navbar-brand img{
-        height: 80px;
+
+  header{
+    height: 160px;
   }
+
+  .navbar-header .school-title.en {
+    font-size: 20px;
+  }   
+
+  .school-title-wrapper.en {
+      width: 260px;
+  }  
+/*   .navbar .navbar-header.en{
+  margin-top: 20px;
+} */
+  p.welcome-p1{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  p.welcome-p2{
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  p.welcome-p3{
+    font-size: 12px;
+    letter-spacing: 0px;  
+  } 
+
+  .navbar-brand {
+    padding-top: 8px;
+  }
+
+  .navbar .brand-strap .langs>.lang {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .navbar-header .school-log-wrapper {
+    margin-top: 30px;
+  }  
+  .navbar .navbar-brand img{
+    height: 80px;
+  }
+  .content-wrapper .index-search{
+    width: 180px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    float: none;
+  }
+
   .school-title-wrapper{
     margin-left: 0px;
     width: 180px;    
   }
   .navbar-header .school-title.zh{
-    font-size: 30px
-  } 
-  .school-subtitle-en{
     font-size: 20px;
   } 
-  .square {
-      height: 4px;
-      width: 4px;
-      margin-bottom: 4px;
+  .school-subtitle-en{
+    font-size: 12px;
   } 
+  .square {
+    height: 4px;
+    width: 4px;
+    margin-bottom: 4px;
+  } 
+  .navbar-collapse-2{
+    font-size: 12px;
+  }
+  p.index-picture-description{
+    font-size: 14px;
+    line-height: 40px;
+  }  
+  .index-picture-middle{
+    font-size: 23px;
+  }
+  footer #footer-middle {
+      font-size: 12px;  
+  } 
+
+  .inside-search-box {
+    /* float: right; */
+    display: block;
+    width: 180px;
+    margin: 30px 0 12px 10px;
+    float: none;
+  }
+  .nav-name-tip{
+    font-size: 14px;
+  }  
 }
 
 /* >480px */
 @media (min-width: 480px) {
   #inside .content-main {
     margin-top: 30px;
-  }
+  } 
 }
 /* 480-767 */
-@media(min-width: 480px) and(max-width: 767px){
+@media(min-width: 480px) and (max-width: 767px){
   .navbar-header .school-title.zh {
-    font-size: 40px;
+    font-size: 32px;
   }  
-  .school-title-wrapper {
-    width:300px;
+  .school-subtitle-en {
+    font-size: 14px;
   }
-
   .square {
     height: 6px;
     width: 6px;;
     margin-bottom: 2px;
   } 
   .school-title-wrapper{
-    width: 230px;
+    width: 240px;
+  }
+
+  .navbar-collapse-2{
+    font-size: 14px;
+  }  
+
+  .content-wrapper .index-search{
+    width: 160px;
+    float: right;
+  }   
+
+  p.index-picture-description{
+    font-size: 16px;
+  }
+  .index-picture-middle{
+    font-size: 40px;
+  }
+  footer #footer-middle {
+      font-size: 14px;  
   }
 }
 
 /* < 767px*/
 @media(max-width: 767px){
+  .welcome-p3-en {
+    font-size: 16px;
+  }    
+  .info-list li{
+    font-size: 14px;
+  }    
   footer {
     padding-top: 30px;
   }
   footer #footer-left{
+    display: block;
     /* margin-bottom: 14px; */
   }
   footer #footer-left img{
-    width: 100px;
     margin-bottom: 20px;
 
+  }
+
+  footer #footer-right-2 {
+    display: block;
+    padding: 15px 20px 15px;
   }
 
 
@@ -851,19 +990,54 @@ footer #footer-right {
     display: inline-block;
   }
 
-  .content-wrapper .index-search{
-    display: none;
+  .content-wrapper{
+    padding-top: 60px;
+  }
+}
+@media(min-width:480px) and (max-width: 679px){
+  p.welcome-p1{
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  p.welcome-p2{
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  p.welcome-p3{
+    font-size: 13px;
+    letter-spacing: 0px;  
   } 
 }
-
+@media(min-width:680px) and (max-width: 991px){
+  p.welcome-p1{
+    font-size: 30px; 
+    margin-bottom: 6px;    
+  }
+  p.welcome-p2{
+    font-size: 32px;
+  }
+  p.welcome-p3{
+    font-size: 14px;    
+  }  
+}
 /* >768px */
 @media (min-width:768px) {
+  .info-list li{
+    font-size: 16px;
+  }    
+  .school-title-wrapper{
+    width: 400px;
+  }    
+  .content-wrapper .index-search{
+    width: 200px;
+    float: right;
+  }   
   footer #footer-right {
     float: left;
     width: 33.33333333%
   }
   .footer-sub {
-    width: 750px
+    /*width: 750px*/
   } 
 
   .navbar-collapse,
@@ -876,13 +1050,16 @@ footer #footer-right {
       float: none !important;
   }
 
-
+  .navbar-collapse-2{
+    font-size: 16px;
+  }
+  .content-wrapper .index-search{
+    margin-right: 30px;
+  } 
   footer #footer-middle {
     float: left;
     width: 33.33333333%
   }
-
-
 
   #contact-form .form-group {
     max-width: 300px;    
@@ -894,6 +1071,9 @@ footer #footer-right {
   footer #footer-left {
     text-align: left
   }
+  footer #footer-left img {
+    width: 100%;
+  }
   footer #footer-middle img {
     float: left
   }
@@ -904,12 +1084,18 @@ footer #footer-right {
   }
   .footer-sub {
     position: relative;
-    top: -20px;
+    /*top: -20px;*/
     margin-top: 0
   }
   footer #footer-left {
     float: left;
     width: 33.33333333%
+  }
+
+  footer #footer-right-2 {
+    display: block;
+    margin-left: 33.33333333%;
+    padding: 70px 30px 20px;
   }
   .content-wrapper {
     width: 750px;
@@ -957,6 +1143,11 @@ footer #footer-right {
     right: 15px;
     bottom: auto
   }
+  
+  .navbar-collapse-2{
+    display: none;
+  }
+
   .navbar .navbar-collapse {
     top: 14px
   }
@@ -978,14 +1169,7 @@ footer #footer-right {
   .navbar-header .search-box-top{
     display: none;
   }  
-  .search {
-    position: absolute;
-    right: auto;
-    left: 460px
-  }
-  #home #search.search {
-    left: 490px
-  }
+
   #home .content-wrapper {
     padding-right: 30px;
     padding-left: 30px
@@ -995,16 +1179,35 @@ footer #footer-right {
     width: 10px;
   }   
 }
-
+@media(min-width:768px) and (max-width:992px) {
+  .welcome-p3-en {
+    font-size: 20px;
+  }  
+}
 /* < 992px*/
-@media (max-width: 992px) {
+@media (max-width: 1150px) {
+  .navbar .brand-strap .school-info.en {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+
   #inside .content-wrapper {
     padding-right: 30px;
     padding-left: 30px
   }   
+
+  .inside-search-box{
+    margin-right:14px;
+  }
+  .navbar .brand-strap .school-info.zh_hk {
+    display: none;
+  }
+
 }
 
-/* >992px */
+
+/* >=992px */
 @media (min-width:992px) {
   header {
     height: 260px
@@ -1013,6 +1216,7 @@ footer #footer-right {
   .navbar .container {
     height: 160px
   }
+
   .navbar .navbar-brand {
     /* font-size: 36px */
   }
@@ -1043,14 +1247,8 @@ footer #footer-right {
     /* top: 0 */
     top: 16px;
   }
-  .navbar-collapse .navbar-nav li {
-    /*border-right: 1px solid #fff*/
-  }
 
 
-  .footer-sub {
-    width: 970px
-  }
   .content-wrapper>.navbar-collapse,
   .content-wrapper>.navbar-collapse,
   .content-wrapper>.navbar-header {
@@ -1091,13 +1289,9 @@ footer #footer-right {
     left: 0
   }
   #home .content-wrapper {
-    padding-top: 45px
+    /*padding-top: 45px*/
   }
 
-  #home .search .form-group {
-    float: left;
-    width: 25%
-  }
 
   #home #search {
     display: block
@@ -1108,23 +1302,24 @@ footer #footer-right {
   #search-2 {
     display: block
   }
-  #home #search.search {
-    right: 10px;
-    left: auto
-  }
-  .search {
-    padding-right: 30px;
-    padding-left: 45px;
-    position: relative;
-    right: 15px;
-    left: auto
-  }
 }
 
-/* >1200px */
+@media (min-width:992px) and (max-width:1199px){
+  p.welcome-p1{
+    font-size: 38px; 
+    margin-bottom: 10px;   
+  }
+  p.welcome-p2{
+    font-size: 42px;
+  }
+  p.welcome-p3{
+    font-size: 18px;    
+  }
+}
+/* >=1200px */
 @media (min-width:1200px) {
   .footer-sub {
-    width: 1170px
+    /*width: 1170px*/
   }
   .navbar-collapse .navbar-nav li>a.zh {
     padding: 12px 22px 16px
@@ -1151,16 +1346,57 @@ footer #footer-right {
 
   .navbar-nav .nav-description{
     display: block;
-  }  
+  } 
+
+  p.welcome-p1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
 }
 
-/* >1040px */
-@media (min-width:1040px) {
 
+/* >1040px */
+@media (min-width:992px) and (max-width:1300px) {
+  .welcome-p3-en {
+    font-size: 26px;
+  }  
+  .navbar .brand-strap .big.en {
+    font-size: 14px;
+  }  
+  .navbar .brand-strap .big.zh_hk {
+    font-size: 16px;
+  }  
+
+  .navbar .brand-strap p.en {
+    font-size: 12px;
+  }
+  .navbar .brand-strap p.zh_hk {
+    font-size: 14px;
+  }
+
+}
+@media (min-width:1300px) {
+  .welcome-p3-en {
+    font-size: 30px;
+  }  
+  .navbar .brand-strap .big.en {
+    font-size: 16px;
+  }
+  .navbar .brand-strap .big.zh_hk {
+    font-size: 18px;
+  }
+
+  .navbar .brand-strap p.en {
+    font-size: 14px;
+  }
+  .navbar .brand-strap p.zh_hk {
+    font-size: 16px;
+  }
 }
 
 /* >1500px */
 @media (min-width: 1500px) {
+
   .navbar-collapse,
   .navbar-collapse,
   .container {
@@ -1171,6 +1407,9 @@ footer #footer-right {
     width: 1500px;
   }  
 }
+  .welcome-p3-en {
+      color: #fff;
+  }
 
 
 

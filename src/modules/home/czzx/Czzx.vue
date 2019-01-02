@@ -2,6 +2,9 @@
   <div class="content-wrapper">
     <div class="row">
       <p class = "nav-name-tip" v-show = "navNameTip.subName">{{navNameTip.name}}>>{{navNameTip.subName}}</p>
+      <div class="inside-search-box">
+        <search-box></search-box>
+      </div>
 
       <router-view></router-view>
       <!-- <aside class="content-left" role="complementary">
@@ -29,9 +32,7 @@
 </template>
 <script src="./czzx.js"></script>
 <style type="text/css">
- .part1-2{
-    margin-top: 70px;
- }
+
  .part1-1 .info-list,
  .part1-2 .info-list,
  .part1-3 .info-list{
@@ -42,16 +43,20 @@
    display: none;
  }
 
-/* @media (min-width: 992px){
-    .teacher-member {
-        width: 970px;
-    }
-} */
+@media (max-width:480px){
+  .part1-2 {
+      margin-top: 30px;
+  } 
+}
+
 @media(min-width:480px){
   main.content-main.part1-2{
       padding-top: 40px;
       padding-bottom: 60px;  
   }
+  .part1-2 {
+      margin-top: 70px;
+  }   
 }
 
 @media(min-width:768px){
@@ -83,14 +88,20 @@
 
    .part1-3 .info-list,
    .part1-1 .info-list{
-      margin-top: 70px;
-      padding-left: 20px;
+      margin-top: 20px;
+      /* padding-left: 70px; */
    }
 
-   .part1-1 .info-list li,
-   .part1-2 .info-list li,
-   .part1-3 .info-list li{
+   .part1-1 .info-list li.zh_hk,
+   .part1-2 .info-list li.zh_hk,
+   .part1-3 .info-list li.zh_hk{
       font-size: 18px;
+    
+   }
+   .part1-1 .info-list li.en,
+   .part1-2 .info-list li.en,
+   .part1-3 .info-list li.en{
+      font-size: 16px;
     
    }
 

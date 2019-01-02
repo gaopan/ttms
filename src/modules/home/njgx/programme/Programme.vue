@@ -1,6 +1,6 @@
 <template>
   <main class="content-main" role="main">
-  	<div class="part2-3 part2-3-1">
+  	<div class="part2-3 part2-3-1" v-show="currentLang=='zh_hk'">
 			<p class="part2-3-1-title">
 				在英网牛津國際公學，學生將遵循他們個人專屬的全面性戰略規劃道路，最大限度地提高他們進入世界一流大學的檐會。“全面性敝略規劃’’課程涉及畢生的學術、職業和個人發展。學校的延展課程包括親善大使計劃、 愛丁堡公爵計劃等。
 			</p>
@@ -44,12 +44,13 @@
 				</div>
 
 			</div>			
-
-			<!-- <p class="part2-3-1-title">
+  	</div>
+  	<div class="part2-3 part2-3-1" v-show="currentLang=='en'">
+			<p class="part2-3-1-title">
 				At Oxford International College in the UK, students will follow their individual and comprehensive strategic planning path to maximize their chances of entering a world-class university.“Strategic Global Pathways" involves the academic, professional emd personal development of students. The out-reached programmes include the Goodwill Ambassador Program, the Duke of Edinburgh Plan and so on.
 			</p>
 			<div class="part2-programme-1">
-				<div class="programme-item">
+				<div class="programme-item  mR">
 					<p class="programme-name">Goodwill Ambassador Programme</p>
 					<p class="programme-description">It provides students with a unique opportunity to truly reach out to the degree they want to choose in the future through the practical work of producing, performing portfolios, science, experimental projects and other professionals.</p>
 				</div>
@@ -57,11 +58,11 @@
 					<p class="programme-name">Duke of Edinburgh (DofE) program</p>
 					<p class="programme-description">In 2018, we launched the Duke of Edinburgh (DofE) program at Oxford International College in the UK. The program was founded more than 60 years ago by Prince Philip, the Duke of Edinburgh, the world's leading youth achievement award. It includes three award levels, namely the Bronze, Silver and Gold. Students work together to fulfill a variety of challenges, including volunteering, helping others, participating in sports and dances, learning new skills such as playing instruments or designing websites, and even participating in adventure activities.</p>
 				</div>								
-			</div> -->
+			</div>
 			
-			<!-- <p class="part2-others-programme">Other activities include</p>
+			<p class="part2-others-programme">Other activities include</p>
 			<div class="part2-programme-2">
-				<div class="programme-item">
+				<div class="programme-item  mR">
 					<p class="programme-name">Academic Competitions</p>
 					<p class="programme-description">Students will be strongly encouraged to participate in academic competitions and will be supported by tutors. The competition helps ensure that students get a place in the university places they want to apply for, while also improving their writing skills and teamwork skills.</p>
 				</div>
@@ -71,7 +72,7 @@
 					<p class="programme-description">For all students, philosophy is an eternal subject, whether he wants to be a medical professional, a lawyer or an engineer in the future. Our classroom is full of arguments about ethical issues and even human problems. Students are encouraged to think in ways they have never thought before, and the topics covered may include: Does human has the freedom? Does the computer have the ability of thinking? How do we distinguish between right and wrong?</p>
 				</div>
 				
-				<div class="programme-item">
+				<div class="programme-item  mR">
 					<p class="programme-name">Debate</p>
 					<p class="programme-description">The debate club is an exciting opportunity for all students. Students will learn to analyze cases and conduct research and discussion on real-world relevance and skills issues that are of great value to top universities. Students will also participate in debates at Oxford and Cambridge schools.</p>
 				</div>
@@ -81,7 +82,7 @@
 					<p class="programme-description">This instructive course, taught by doctoral students at Oxford University, teaches this valuable skill, and this technique will be very useful no matter what career path the student chooses in the future.</p>
 				</div>
 				
-				<div class="programme-item">
+				<div class="programme-item  mR">
 					<p class="programme-name">Enterprise simulation</p>
 					<p class="programme-description">The Corporate Simulation Company program offers students a unique opportunity to create and run their own business on the team.Not only can they get the skills and experience to help college applications, but they can also earn their results.</p>
 				</div>
@@ -90,8 +91,8 @@
 					<p class="programme-name">The London School of Music and Drama</p>
 					<p class="programme-description">The London School of Music and Drama Arts Level 2 Speaking and Listening Skills Awards are recognized by the English Qualifications and Examinations Authority and the appropriate regulatory body. The award aims to develop English, speaking and body language skills. Students will also learn how to match the tone of voice with the appropriate audience and purpose of the speech, and gain the knowledge and understanding needed for effective oral communication and participation in group discussions.</p>
 				</div>
-			</div> -->
-
+			</div>
+			</div>
   	</div>
   </main>
 </template>
@@ -114,8 +115,6 @@
 }  
 
 .programme-item {
-    display: inline-block;
-    width: 38%;
     vertical-align: top;
     margin-bottom: 30px;
 }
@@ -136,4 +135,32 @@
     font-size: 20px;
     color: #A87C44;
 }
+
+@media (min-width:768px){
+	.programme-item {
+	    display: inline-block;
+	    width: 38%;	
+	}
+}
+
+@media (max-width:767px){
+	.programme-item {
+	    display: block;
+	    width: auto;	
+	}
+}
+
+
+@media (max-width:480px){
+	.part2-3 p.part2-others-programme,
+	.programme-name{
+  	font-size: 18px;
+
+	}
+	.programme-description,
+  .part2-3 p.part2-3-1-title{
+  	font-size: 14px;
+  }
+}
+
 </style>

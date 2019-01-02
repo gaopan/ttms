@@ -127,6 +127,7 @@ export default {
     changedLang(lang){
     	this.currentLang = lang.value;
     	this.navs = CommonUtils.deepClone(HomeTranslator[this.currentLang].navs);
+      shared.defaultLang = this.currentLang;
     	eventHub.$emit('changed-lang', this.currentLang);
     },
 

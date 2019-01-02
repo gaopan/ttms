@@ -1,9 +1,3 @@
-let zh_cn = {
-  search: "搜索",
-  section_content: "本节内容",
-  search_results: "搜索结果",
-  read_more: "查看更多"
-};
 
 let zh_hk = {
   search: "搜索",
@@ -12,5 +6,12 @@ let zh_hk = {
   read_more: "查看更多"
 };
 
-let en = {};
-export default { zh_cn, zh_hk, en }
+let en = {
+  search: "Search",
+  section_content: "",
+  search_results: "results",
+  read_more: "read more"
+};
+
+// let en = {};
+export default { zh_hk, en }
