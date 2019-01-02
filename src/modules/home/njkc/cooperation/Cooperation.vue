@@ -122,10 +122,26 @@
 .cooperation-en,.cooperation-zh{
   height: 240px;
 }
-@media (max-width: 768px) {
-  .njkc-associations img{
-    width: 100%;
+@media (max-width: 990px) {
+  .njkc-cooperation p.cooperation-title{
+    width: 94%;
+    font-size: 16px;
+    margin: 0 auto
   }
+  .njkc-cooperation p.cooperation-info{
+    font-size: 14px;
+    width: 94%;
+    margin: 0 auto;
+  }
+  .njkc-cooperation p.cooperation-foot{
+    font-size: 14px;
+    width: 94%;
+    margin: 20px auto 0;
+  }
+  .cooperation-en, .cooperation-zh{
+    height: auto;
+  }
+  
 }
 
 @media (max-width: 480px) {

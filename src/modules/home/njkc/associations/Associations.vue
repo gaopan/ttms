@@ -68,6 +68,24 @@
 .njkc-associations .associations-foot{
 	color: red;
 }
+@media (max-width: 990px) {
+  .njkc-associations p.associations-title{
+    width: 94%;
+    font-size: 16px;
+    margin: 0 auto
+  }
+  .njkc-associations p.associations-info{
+    font-size: 14px;
+    width: 94%;
+    margin: 0 auto;
+  }
+  .njkc-associations p.associations-foot{
+    font-size: 14px;
+    width: 94%;
+    margin: 20px auto 0;
+  }
+  
+}
 @media (max-width: 480px) {
   .njkc-associations p.associations-title{
     width: 100%;

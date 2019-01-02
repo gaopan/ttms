@@ -40,6 +40,13 @@
   width: 100%;
   box-shadow: 0 0 1px #000;
 }
+@media (max-width: 768px) {
+  .njxy-transportation .transportation-item p{
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+}
 @media (max-width: 480px) {
   .njxy-transportation .transportation-item p{
     font-size: 14px;

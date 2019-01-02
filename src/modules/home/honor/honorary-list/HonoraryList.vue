@@ -6,8 +6,8 @@
     </div>
 
     <div class="honor-honorary-list" v-show="currentLang == 'en'">
-     <a :class="{'honorary-list-active':active == 2017}" @click="turnYear('2017')">Oxford International College Class of 2017</a> 
-     <a :class="{'honorary-list-active':active == 2018}" @click="turnYear('2018')">Oxford International College Class of 2018</a> 
+     <a :class="{'honorary-list-active':active == 2017}" @click="turnYear('2017')">2017 - Oxford International College</a> 
+     <a :class="{'honorary-list-active':active == 2018}" @click="turnYear('2018')">2018 - Oxford International College</a> 
     </div>
 
     <div class="honorary-list-years">

@@ -13,7 +13,6 @@
   line-height: 60px;
   color: #fff;
   text-decoration: none;
-  height: 60px;
   display: block;
   float: left;
   margin-left: 20px;
@@ -30,35 +29,52 @@
 }
 
 .honorary-list-years{
-  margin-top: 0 !important;
-  padding-bottom: 1px;
-}
-.honorary-list-years{
 	left: 0;
 	width: 100%;
-	background: #b27524;
+	/*background: #b27524;*/
 	padding-top: 40px;
+  margin-top: 0 !important;
+  padding-bottom: 1px;
 }
 .honorary-list-years table{
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
-	color: #fff;
+	/*color: #fff;*/
   margin-bottom: 60px;
 }
 .honorary-list-years table th{
 	text-align: center;
-	border:1px solid #fff;
+	border:1px solid #b27524;
 	background: #131132;
 	line-height: 4;
 	color: #fff;
 	font-weight: bold;
 }
 .honorary-list-years table td{
-	border:1px solid #fff;
+	border:1px solid #b27524;
 	line-height: 3;
 }
-
+@media (max-width: 768px) {
+  .honor-honorary-list a{
+    line-height: 50px;
+  }
+  .honorary-list-years table th{
+    line-height: 3
+  }
+  .honorary-list-years table td{
+    line-height: 2
+  }
+}
+@media (max-width: 588px) {
+  .honor-honorary-list a{
+    line-height: 40px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+}
 @media (max-width: 480px) {
   .honorary-list-years table{
     width: 99%;
@@ -71,9 +87,19 @@
     white-space:nowrap;
     font-size: 12px;
     width: 42%;
+    text-align: center;
   }
   .honorary-list-years{
     padding-top: 10px;
+  }
+  .honor-honorary-list a{
+    line-height: 40px;
+  }
+  .honorary-list-years table th{
+    line-height: 3
+  }
+  .honorary-list-years table td{
+    line-height: 2
   }
     
 }
