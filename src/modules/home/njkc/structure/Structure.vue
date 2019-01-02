@@ -28,11 +28,26 @@
       </div>
     </div>
   	<div class="structure-nav">
-  			<router-link v-for="structureNav in structureNavs" :to="structureNav.path">
+  			<a :class="{'structure-nav-active':active == structureNav.name}" v-for="structureNav in structureNavs[0]" @click="turnYears(structureNav.name)">
   				{{structureNav.title}}
-  			</router-link>
+  			</a>
   	</div>
-	  <router-view/>
+    <div class="njkc-year">
+  	  <table ref="njkcTable">
+        <tr>
+          <th class="njkc-year-sortnum">Rank</th>
+          <th class="njkc-year-term">Semester</th>
+          <th class="njkc-year-course">Course Title</th>
+          <th class="njkc-year-igcse">IGCSE</th>
+        </tr>
+        <tr v-for="courseYear in courseYears">
+          <td>{{courseYear.rank}}</td>
+          <td>{{courseYear.semester}}</td>
+          <td>{{courseYear.courseTitle}}</td>
+          <td>{{courseYear.IGCSE}}</td>
+        </tr>
+      </table>     
+    </div>
   </main>
 </template>
 <script src="./structure.js"></script>

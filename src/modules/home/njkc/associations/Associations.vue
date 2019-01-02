@@ -39,7 +39,7 @@
 	font-size: 22px;
 }
 .njkc-associations p.associations-info{
-	text-indent: 2em;
+	/*text-indent: 2em;*/
 	margin-bottom: 40px;
 	width: 80%;
 }

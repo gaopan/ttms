@@ -34,6 +34,7 @@
     font-size: 36px;
     font-weight: bold;
     color: #b27524;
+    margin-bottom: 40px;
 }
 .njkc-structure .structure-requirements .requirements-content p.requirements-title{
   font-weight: bold;
@@ -69,12 +70,13 @@
   float: left;
   margin-left: 20px;
   font-weight: bold;
+  cursor:pointer;
 }
 .njkc-structure .structure-nav a:hover{
   border-bottom: 4px solid #131132;
   color: #131132;
 }
-.njkc-structure .structure-nav a.router-link-active{
+.njkc-structure .structure-nav a.structure-nav-active{
   border-bottom: 4px solid #131132;
   color: #131132;
 }
@@ -88,6 +90,7 @@
   background: #b27524;
   margin-top: 0 !important;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 .njkc-year table th.njkc-year-sortnum{
   width: 15%;

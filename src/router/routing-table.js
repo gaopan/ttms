@@ -137,8 +137,8 @@ let routerTable = {
           default: () =>
             import ('@/modules/home/njkc/structure/Structure.vue')
         },
-        redirect:'/njkc/structure/eight-year',
-        children:[{
+        // redirect:'/njkc/structure',
+        /*children:[{
           path: 'requirements',
           name: 'Requirements',
           components: {
@@ -187,7 +187,7 @@ let routerTable = {
             default: () =>
               import ('@/modules/home/njkc/structure/twelve-thirteen-year/TwelveThirteenYear.vue')
           }
-        }]
+        }]*/
       },{
         path: 'associations',
         name: 'Associations',

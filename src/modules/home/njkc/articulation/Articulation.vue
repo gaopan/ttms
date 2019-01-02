@@ -71,7 +71,7 @@
 <style>
 .njkc-articulation table{
 	width: 60%;
-	margin: 0 auto;
+	margin: 0 auto 60px;
 }
 .njkc-articulation table td{
 	text-align: center;

@@ -1,7 +1,30 @@
 <template>
   <main class="content-main contact-contacts" role="main">
-  	<ul v-html='content'>
-		
+  	<ul>
+		<li class="contacts-title">更多查詢</li>
+		<li>崇正中學牛津國際課程</li>
+		<table class="contacts-table">
+			<tr>
+				<td class="contacts-left">地址：</td>
+				<td class="contacts-right">香港九龍長沙灣廣利道11號</td>
+			</tr>
+			<tr>
+				<td class="contacts-left">電話：</td>
+				<td class="contacts-right">+852 2387 8228</td>
+			</tr>
+			<tr>
+				<td class="contacts-left">傳真：</td>
+				<td class="contacts-right">+852 2360 1293</td>
+			</tr>
+			<tr>
+				<td class="contacts-left">網站：</td>
+				<td class="contacts-right">www.ttms.edu.hk</td>
+			</tr>
+			<tr>
+				<td class="contacts-left">電郵：</td>
+				<td class="contacts-right">info@ttms.edu.hk</td>
+			</tr>
+		</table>
   	</ul>
   </main>
 </template>
@@ -21,8 +44,20 @@
 }
 .contact-contacts ul li.contacts-title{
 	margin-bottom: 40px;
-	font-size: 24px;
+	font-size: 28px;
 	border-bottom: 2px solid #deb95f;
 	padding-bottom: 10px;
+}
+.contact-contacts table.contacts-table{
+	width: 100%;
+}
+.contact-contacts table.contacts-table td.contacts-left{
+	width: 42%;
+	text-align: right;
+	line-height: 3;
+}
+.contact-contacts table.contacts-table td.contacts-right{
+	text-align: left;
+	line-height: 3;
 }
 </style>
