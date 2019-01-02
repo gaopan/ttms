@@ -1,7 +1,7 @@
 <template>
   <div class="content-wrapper">
     <div class="row">
-      <p class = "nav-name-tip" v-show = "navNameTip.subName">{{navNameTip.name}}>>{{navNameTip.subName}}</p>
+      <p class = "nav-name-tip" v-show = "navNameTip.subName">{{navNameTip.name}} >> {{navNameTip.subName}}</p>
       <div class="inside-search-box">
         <search-box></search-box>
       </div>
@@ -59,10 +59,13 @@
   }   
 }
 
+@media(min-width:480px) and (max-width:768px){
+
+}
 @media(min-width:768px){
   .search-box-left{
     display: inline-block;
-  }
+  }  
 
 }
 
@@ -76,6 +79,11 @@
         font-size: 14px;
         line-height: 18px;
     }  
+
+    .part1-1-picture,
+    .part1-3-picture{
+      margin-bottom: 30px;
+    }    
 }
   .part1-1 .info-list, .part1-3 .info-list {
       margin-top: 20px;
@@ -105,11 +113,16 @@
     
    }
 
-   .part1-1 .info-list .square,
-   .part1-2 .info-list .square,
-   .part1-3 .info-list .square{
-      margin-left: 20px;
-   }      
+   .part1-1 .info-list .square.zh_hk,
+   .part1-2 .info-list .square.zh_hk,
+   .part1-3 .info-list .square.zh_hk{
+      /* margin-left: 20px; */
+   }   
+
+    .part1-1-picture,
+    .part1-3-picture{
+      margin-bottom: 40px;
+    }      
 
 }
 

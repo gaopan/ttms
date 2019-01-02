@@ -1,3 +1,6 @@
+.school-construction {
+    margin-bottom: 40px;
+}
 .teacher-member{
     margin-right: 0px;
 }
@@ -199,7 +202,6 @@
 	direction: rtl;
 	margin-left: 20px;
     color:#fff;
-    width: 540px;
 }
 
 /* teacher 3 */
@@ -533,10 +535,28 @@
         margin-right: 0;
         margin-bottom: 80px;
     }
+    .experience-list-two.part1-3-2-experience1{
+
+        width: 300px;
+    }    
 }
 
 @media(min-width:1200px) {
     .teacher-member {
         margin-bottom: 100px;
     }  
+
+}
+
+
+@media(min-width:1200px) and (max-width: 1399px){
+    .experience-list-two.part1-3-2-experience1{
+        width: 400px;
+    }
+}
+
+@media(min-width:1400px){
+    .experience-list-two.part1-3-2-experience1{
+        width: 540px;
+    }
 }
