@@ -19,11 +19,11 @@
   			<td class="fontsize10">2年</td>
   		</tr>
   		<tr>
-  			<td><span class="transform90">香港大學</span></td>
-  			<td><span class="transform90">英國或海外大學</span></td>
-  			<td><span class="transform90">中國或亞洲大學</span></td>
-  			<td class="borderleft2"><span class="transform90">英國大學</span></td>
-  			<td><span class="transform90">銜接第三四年香港學位課程</span></td>
+  			<td>香港大學</td>
+  			<td>英國或海外大學</td>
+  			<td>中國或亞洲大學</td>
+  			<td class="borderleft2">英國大學</td>
+  			<td>銜接第三四年香港學位課程</td>
   		</tr>
   		<tr class="bordernone">
   			<td><i class="glyphicon glyphicon-arrow-up"></i></td>
@@ -84,11 +84,16 @@
         <td class="fontsize10">2Y</td>
       </tr>
       <tr>
-        <td>HK University</td>
-        <td>UK or Overss University</td>
-        <td>China or Asivn University</td>
-        <td class="borderleft2">UK University</td>
-        <td>HK Top-up degree</td>
+        <td class="transform_td"><div class="transform90">HK University</div></td>
+        <td class="transform_td"><div class="transform90">UK or Overss University</div></td>
+        <td class="transform_td"><div class="transform90">China or Asivn University</div></td>
+        <td class="borderleft2 transform_td"><div class="transform90">UK University</div></td>
+        <td class="transform_td"><div class="transform90">HK Top-up degree</div></td><!-- 
+        <td class="transform90 minwidth1">HK University</td>
+        <td class="transform90 minwidth2">UK or Overss University</td>
+        <td class="transform90 minwidth3">China or Asivn University</td>
+        <td class="borderleft2 transform90 minwidth4">UK University</td>
+        <td class="transform90 minwidth5">HK Top-up degree</td> -->
       </tr>
       <tr class="bordernone">
         <td><i class="glyphicon glyphicon-arrow-up"></i></td>
@@ -133,80 +138,4 @@
   </main>
 </template>
 <script src="./articulation.js"></script>
-<style>
-.njkc-articulation table{
-	width: 60%;
-	margin: 0 auto 30px;
-}
-.njkc-articulation table td{
-	text-align: center;
-	border: 4px solid #fff;
-	border-top: 0px;
-	border-bottom: 0px;
-	padding: 10px;
-	background: #dcb454;
-  line-height: 24px;
-}
-.njkc-articulation table td.borderleft2{
-	border-left: 30px solid #fff;
-}
-.njkc-articulation table td.articulation-final{
-	background: #b27524;
-	font-size: 18px;
-	color: #fff;
-}
-.njkc-articulation table tr.bordernone td{
-	border: none;
-	background: #fff;
-}
-.njkc-articulation table tr.bordernone i{
-	font-size: 40px;
-	color: #edecfb;
-}
-.njkc-articulation table tr.bordernone td.tal{
-	text-align: left
-}
-.njkc-articulation table tr.bordernone td.tar{
-	text-align: right
-}
-@media (max-width: 990px) {
-  .njkc-articulation table td{
-    line-height: 22px;
-    font-size: 14px;
-  }
-  .njkc-articulation table td.articulation-final{
-    font-size: 16px;
-  }
-}
-@media (max-width: 768px) {
-  .njkc-articulation table{
-    width: 90%;
-  }
-  .njkc-articulation table td{
-    line-height: 22px;
-    font-size: 12px;
-  }
-  .njkc-articulation table td.articulation-final{
-    font-size: 14px;
-  }
-  .njkc-articulation table td.fontsize10{
-    font-size: 8px;
-  }
-  .njkc-articulation table tr.bordernone i{
-    font-size: 20px;
-  }
-}
-@media (max-width: 480px) {
-  .njkc-articulation table{
-    width: auto;
-  }
-  .njkc-articulation table tr.bordernone i{
-    font-size: 18px;
-  }
-  .njkc-articulation table td span.transform{
-/*     -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg); */
-  transform: rotate(-90deg);
-  }
-}
-</style>
+<style src='./articulation.css'></style>

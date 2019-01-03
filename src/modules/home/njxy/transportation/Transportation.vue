@@ -21,7 +21,7 @@
   margin: 0 auto 30px;
 }
 .njxy-transportation .transportation-item p{
-  padding: 20px 0 10px;
+  padding: 10px 0 10px;
   font-size: 18px;
 }
 .njxy-transportation .transportation-item p span.glyphicon-stop{
@@ -44,7 +44,7 @@
 @media (max-width: 768px) {
   .njxy-transportation .transportation-item p{
     font-size: 16px;
-    padding: 10px;
+    /*padding: 10px;*/
     margin-bottom: 0;
   }
 }
