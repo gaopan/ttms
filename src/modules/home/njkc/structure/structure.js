@@ -56,7 +56,7 @@ export default {
       },{
         name:'twelveThirteenYear',
         path:'twelve-thirteen-year',
-        title:'Year 12 and 13'
+        title:'Year 12-13'
       }]],
       active:'eightYear',
       courseYears:[]

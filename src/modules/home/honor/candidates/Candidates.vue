@@ -30,30 +30,59 @@
 .honor-candidates ul li.candidates-title{
 	background: #b27524;
 	color: #fff;
-	font-size: 18px;
+	/*font-size: 18px;*/
 	/*line-height: 3;*/
-	line-height: 28px;
+	/*line-height: 28px;*/
+	font-size: 24px;
+    line-height: 40px;
 	font-weight: bold;
 }
 .honor-candidates .glyphicon-stop{
 	margin-right: 10px;
+}
+@media (max-width: 990px) {
+	.honor-candidates ul li.candidates-title{
+		font-size: 20px;
+		line-height: 30px;
+	}
+    .honor-candidates ul li{
+    	margin-bottom: 14px;
+		font-size: 16px;
+    } 
 }
 @media (max-width: 768px) {
 	.honor-candidates ul li.candidates-title{
 		font-size: 16px;
 	}
     .honor-candidates ul li{
-    	margin-bottom: 16px;
+    	margin-bottom: 10px;
 		font-size: 14px;
     } 
 }
+@media (max-width: 570px) {
+	.honor-candidates ul li.candidates-title{
+		line-height: 20px;
+	}
+}
 @media (max-width: 480px) {
 	.honor-candidates ul li.candidates-title{
-		font-size: 14px;
+		font-size: 16px;
 	}
     .honor-candidates ul li{
 		font-size: 14px;
 		margin-bottom: 10px;
+    } 
+
+}
+@media (max-width: 370px) {
+	.honor-candidates ul li.candidates-title{
+		font-size: 14px;
+		line-height: 20px;
+	}
+    .honor-candidates ul li{
+		font-size: 12px;
+		margin-bottom: 10px;
+		line-height: 16px;
     } 
 
 }

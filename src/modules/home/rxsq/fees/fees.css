@@ -7,7 +7,7 @@
 .rxsq-fees .fees-top table.fees-table{
   width: 100%;
   text-align: center;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
 }
 .rxsq-fees .fees-top table.fees-table th{
   background: #342e88;
@@ -27,8 +27,8 @@
   /*background-size: cover;*/
   padding: 0;
   color: #b27524;
-  box-shadow: 0 0 10px #000;
-  margin-top: 20px;
+  box-shadow: 0 0 1px #000;
+  /*margin-top: 20px;*/
   background: #d8ac43;
 }
 .rxsq-fees .fees-top .fees-scheme h2{
@@ -49,7 +49,7 @@
   font-weight: 700;
   font-size: 14px;
   background: rgba(255,255,255,.5);
-  padding: 0 20px 20px;
+  padding: 0 20px 2px;
 }
 
 .rxsq-fees .fees-bottom{
@@ -80,12 +80,40 @@
 .rxsq-fees .fees-bottom p span.fees-include-red{
   color: red;
 }
-@media (max-width: 960px) {
+@media (max-width: 990px) {
+    .rxsq-fees .fees-top{
+      padding-bottom: 20px;
+    }
+  .rxsq-fees .fees-top table.fees-table{
+    margin-top: 10px;
+  }
   .rxsq-fees .fees-top table.fees-table th{
     line-height: 3
   }
   .rxsq-fees .fees-top table.fees-table td{
     line-height: 2;
+  }
+  .rxsq-fees .fees-top .fees-scheme{
+    margin-top: 10px;
+  }
+  .rxsq-fees .fees-top .fees-scheme .fees-amount{
+    font-size: 40px;
+  }
+  .rxsq-fees .fees-top .fees-scheme h2{
+    font-size: 18px;
+  }
+  .rxsq-fees .fees-top .fees-scheme .fees-amount{
+    padding-bottom: 8px;
+  }
+  .rxsq-fees .fees-bottom .fees-include{
+        margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3{
+    font-size: 20px;
+  }
+  .rxsq-fees .fees-bottom p{
+    font-size: 14px;
   }
 }
 @media (max-width: 768px) {
@@ -93,8 +121,8 @@
       font-size: 16px;
     }
     .rxsq-fees .fees-top .fees-scheme .fees-amount{
-    font-size: 40px;
-  }
+      font-size: 30px;
+    }
   .rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3{
     font-size: 18px;
     width: 100%;
@@ -104,8 +132,12 @@
   .rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3{
     font-size: 16px;
     width: 100%;
+    margin-bottom: 0px;
   }
   .rxsq-fees .fees-bottom p{
     font-size: 14px;
+  }
+  .rxsq-fees .fees-top .fees-scheme h2{
+    padding-bottom: 0;
   }
 }

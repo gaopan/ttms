@@ -1,6 +1,6 @@
 .honor-honorary-list{
-  background: #b27524;
-  border-bottom: 4px solid #131132;
+  /*background: #b27524;*/
+  border-bottom: 2px solid #131132;
 }
 .honor-honorary-list:after{
   height: 0;
@@ -11,20 +11,25 @@
 }
 .honor-honorary-list a{
   line-height: 60px;
-  color: #fff;
+  /*color: #fff;*/
   text-decoration: none;
   display: block;
   float: left;
-  margin-left: 20px;
-  font-weight: bold;
+  color: #131132;
+  /*margin-left: 20px;*/
   cursor:pointer;
+  border-bottom: 2px solid #fff;
+}
+.honor-honorary-list a+a{
+  margin-left: 20px;
 }
 .honor-honorary-list a:hover{
-  border-bottom: 4px solid #131132;
+  font-weight: bold;
+  border-bottom: 2px solid #131132;
   color: #131132;
 }
 .honor-honorary-list a.honorary-list-active{
-  border-bottom: 4px solid #131132;
+  border-bottom: 2px solid #131132;
   color: #131132;
 }
 
@@ -37,7 +42,7 @@
   padding-bottom: 1px;
 }
 .honorary-list-years table{
-	width: 80%;
+	width: 96%;
 	margin: 0 auto;
 	text-align: center;
 	/*color: #fff;*/
@@ -55,9 +60,23 @@
 	border:1px solid #b27524;
 	line-height: 3;
 }
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .honor-honorary-list a{
     line-height: 50px;
+  }
+  .honorary-list-years{
+    padding-top: 20px;
+  }
+  .honorary-list-years table th{
+    line-height: 3
+  }
+  .honorary-list-years table td{
+    line-height: 2
+  }
+}
+@media (max-width: 768px) {
+  .honor-honorary-list a{
+    line-height: 40px;
   }
   .honorary-list-years table th{
     line-height: 3
@@ -68,7 +87,7 @@
 }
 @media (max-width: 588px) {
   .honor-honorary-list a{
-    line-height: 40px;
+    line-height: 30px;
     font-size: 14px;
     overflow: hidden;
     text-overflow:ellipsis;
@@ -86,14 +105,14 @@
     text-overflow:ellipsis;
     white-space:nowrap;
     font-size: 12px;
-    width: 42%;
     text-align: center;
+    line-height: 24px;
+  }
+  .honor-honorary-list a+a{
+    margin-left: 10px
   }
   .honorary-list-years{
     padding-top: 10px;
-  }
-  .honor-honorary-list a{
-    line-height: 40px;
   }
   .honorary-list-years table th{
     line-height: 3
@@ -102,4 +121,14 @@
     line-height: 2
   }
     
+}
+@media (max-width: 388px) {
+  .honor-honorary-list a{
+    width: 48%;
+  }
+}
+@media (max-width: 328px) {
+  .honor-honorary-list a{
+    width: 48%;
+  }
 }
