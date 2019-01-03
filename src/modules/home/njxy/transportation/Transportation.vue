@@ -29,7 +29,8 @@
 }
 .njxy-transportation img{
   display: block;
-  width: 100%;
+  /*width: 100%;*/
+  width: 50%;
   box-shadow: 0 0 1px #000;
 }
 @media (max-width: 990px) {

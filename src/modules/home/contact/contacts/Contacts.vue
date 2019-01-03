@@ -57,7 +57,7 @@
 <script src="./contacts.js"></script>
 <style>
 .contact-contacts ul{
-	width: 100%;
+	width: 80%;
 	margin: 10px auto 40px;
 	background: #b27524;
 	box-shadow: 0 0 10px #000;
@@ -94,6 +94,11 @@
 	text-align: left;
 	/*line-height: 3;*/
 	line-height: 24px;
+}
+@media (max-width: 1000px) {
+	.contact-contacts ul{
+		width: 100%;
+	}
 }
 @media (max-width: 768px) {
 	.contact-contacts ul li{

@@ -82,6 +82,12 @@
 	margin: 0 auto;
 	border-radius: 10px;
 }*/
+@media (min-width: 1300px) {
+	.photo-content .photo-small img{
+		width: 100%;
+		height: 246px;
+	}
+}
 @media (max-width: 1200px) {
 	.photo-content .photo-small img{
 		height: 132px;
