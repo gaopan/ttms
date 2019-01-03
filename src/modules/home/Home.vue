@@ -89,7 +89,7 @@
                 <a  href="javascript:void(0)" :class = "{'active': isCurrentPath(nav.path), 'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">
                   <span class = "nav-itemName" :class = "currentLang" v-if="!nav.notDisplayName&&nav.nameHtml" v-html="nav.nameHtml"></span>
                   <span class = "nav-itemName" :class = "currentLang" v-if="!nav.notDisplayName&&!nav.nameHtml">{{nav.name}}</span>
-                  <img v-if="nav.imgUrl" :src="imgUrl(nav.imgUrl)" :class="nav.imgClass" />
+                  <!-- <img v-if="nav.imgUrl" :src="imgUrl(nav.imgUrl)" :class="nav.imgClass" /> -->
                   <span class = "nav-description">{{nav.imgUrl ? "" : nav.description}}</span>
                   <!-- <span class="square" v-show = "isCurrentPath(nav.path)"></span> -->
                 </a>
@@ -127,6 +127,34 @@
         </div>
         <div id="footer-right">
           <img :src="imgUrl('address.png')" />
+        </div>
+      </div>
+
+      <div class="sub-footer-container">
+        <div id="footer-middle">
+          <p>
+            <strong>{{'name' | translate(translator, currentLang)}}</strong>
+            <br/>
+            <br/>{{'address' | translate(translator, currentLang)}}
+            <br/> {{'contact' | translate(translator, currentLang)}}
+            <br/> {{'contact_tel' | translate(translator, currentLang)}}
+            <br/> {{'contact_fax' | translate(translator, currentLang)}}
+            <br/> {{'contact_phone' | translate(translator, currentLang)}}
+            <br/>
+            {{'website' | translate(translator, currentLang)}}
+            <a href="www.ttms.edu.hk">www.ttms.edu.hk</a>
+            <br/>
+            {{'email' | translate(translator, currentLang)}}
+            <a href="mailto:info@oxcoll.com">info@ttmsedu.onaliyun.com</a>
+          </p>
+        </div> 
+        <div class="footer-map-wrapper">
+          <div id="footer-left">
+            <img :src="imgUrl('address-big.png')" />
+          </div>        
+          <div id="footer-right">
+            <img :src="imgUrl('address.png')" />
+          </div>               
         </div>
       </div>
     </footer>

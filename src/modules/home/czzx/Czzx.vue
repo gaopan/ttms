@@ -33,19 +33,24 @@
 <script src="./czzx.js"></script>
 <style type="text/css">
 
- .part1-1 .info-list,
- .part1-2 .info-list,
- .part1-3 .info-list{
-    line-height: 28px;
- }
+.part1-1 .info-list,
+.part1-2 .info-list,
+.part1-3 .info-list{
+  line-height: 28px;
+}
 
- .search-box-left{
-   display: none;
- }
+.search-box-left{
+ display: none;
+}
+
+.part1-1 .info-list, .part1-3 .info-list {
+  margin-bottom: 40px;
+} 
 
 @media (max-width:480px){
   .part1-2 {
       margin-top: 30px;
+      margin-bottom: 50px;
   } 
 }
 
@@ -77,7 +82,7 @@
     }   
     .part1-1 .info-list li, .part1-2 .info-list li, .part1-3 .info-list li {
         font-size: 14px;
-        line-height: 18px;
+        line-height: 24px;
     }  
 
     .part1-1-picture,

@@ -44,54 +44,63 @@
 
         <ul class="experience-list-four info-list" v-show="currentLang=='zh_hk'">
           <li>
-            學士 - 倫敦大學學院|英國第4，世界第15<span class="square"></span>
+            <p>
+              <span class="square"></span>學士 - 倫敦大學學院|英國第4，世界第15
+            </p>
           </li>
           <li>
-            碩士 - 爱丁堡大學丨英國第6，世界第27<span class="square"></span>
+            <p><span class="square"></span>碩士 - 爱丁堡大學丨英國第6，世界第27</p>
           </li>
           <li>
-            博士 - 牛津大學丨英國第1，世界第1<span class="square"></span>
+            <p><span class="square"></span>博士 - 牛津大學丨英國第1，世界第1</p>
           </li>
           <li>
-            牛津大學 - 空問物理研究员(1989-1999)<span class="square"></span>
+            <p><span class="square"></span>牛津大學 - 空問物理研究员(1989-1999)</p>
           </li>
           <li>
-            創始人，牛津科學研究(1997)<span class="square"></span>
+            <p><span class="square"></span>創始人，牛津科學研究(1997)</p>
           </li>
           <li>
-            創始人，牛津國際公學(2003)<span class="square"></span>
+            <p><span class="square"></span>創始人，牛津國際公學(2003)</p>
           </li>
           <li>
-            創始人，牛津暑假學院(2010)<span class="square"></span>
+            <p><span class="square"></span>創始人，牛津暑假學院(2010)</p>
           </li>
           <li>
-            創始人 ，靑年領導Trust(2012)<span class="square"></span>
+            <p><span class="square"></span>創始人 ，靑年領導Trust(2012)</p>
           </li>
           <li>
-            創始人 ，Plan8網球學院，深圳(2013)<span class="square"></span>
+            <p><span class="square"></span>創始人 ，Plan8網球學院，深圳(2013)</p>
           </li>
         </ul>
 
         <ul class="experience-list-four info-list" v-show="currentLang=='en'">
-          <li>BSC - University College London(UK No.4, world No.1)<span class="square"></span>
-          </li>
-          <li>MSc - Edinburgh (UK No.8, world No.27)<span class="square"></span>
-          </li>
-          <li>DPhil - Oxford (UK No.1, world No. 1)<span class="square"></span>
-          </li>
-          <li>Oxford University - Researcher in Space Physics (1989-1999)<span class="square"></span>
-          </li>
-          <li>Founder, Oxford Science Studies (1997)<span class="square"></span>
-          </li>
-          <li>Founder, Oxford International College (2003)<span class="square"></span>
-          </li>
-          <li>Founder, Oxford Summer Academy (2010)<span class="square"></span>
+          <li>
+            <p><span class="square"></span>BSC - University College London(UK No.4, world No.1)</p>
           </li>
           <li>
-            Founder, Youth Leadership Taist (2012)<span class="square"></span>
+            <p><span class="square"></span>MSc - Edinburgh (UK No.8, world No.27)</p>
           </li>
           <li>
-            Founder, Plan8 Tennis Academy.Shenzhen (2013)<span class="square"></span>
+            <p><span class="square"></span>DPhil - Oxford (UK No.1, world No. 1)</p>
+          </li>
+          <li>
+            <p><span class="square"></span>Oxford University - Researcher in Space Physics (1989-1999)</p>
+          </li>
+          <li>
+            <p><span class="square"></span>Founder, Oxford Science Studies (1997)</p>
+          </li>
+          <li>
+            <p><span class="square"></span>Founder, Oxford International College (2003)</p>
+          </li>
+          <li>
+            <p><span class="square"></span>Founder, Oxford Summer Academy (2010)</p>
+          </li>
+          <li>
+            <p><span class="square"></span>Founder, Youth Leadership Taist (2012)</p>
+          </li>
+          <li>
+            <p><span class="square"></span>Founder, Plan8 Tennis Academy.Shenzhen (2013)</p>
           </li>
         </ul>
       </div>
@@ -174,9 +183,13 @@
 </template>
 <script src="./history.js"></script>
 <style type="text/css">
+
 .part2-1-1 {
   display: flex;
 
+}
+.part2-1 .experience-list-four{
+  direction: ltr;
 }
 
 .part2-1-1 .history-content {
@@ -189,7 +202,7 @@
 }
 
 .history-content {
-  height: 100%;
+  /* height: 100%; */
 }
 
 .left-bottom-pic {
@@ -200,7 +213,6 @@
 }
 
 .content-main .history-content p {
-  margin-bottom: 46px;
   line-height: 32px;
 }
 
@@ -233,9 +245,15 @@
   margin-top: 120px;
 }
 
-.part2-1-2-right .info-list li {
-  margin-bottom: 40px;
+
+.part2-1-2-right .info-list li:after{
+  height: 0;
+  content:'';
+  clear: both;
+  visibility: hidden;
+  display: block;
 }
+
 
 .part2-1-2-right .member-four-experience {
   height: 1205px;
@@ -286,25 +304,40 @@
   background: #111836;
 }
 
-.part2-1-4-bottom .teacher-title,
-.part2-1-3-bottom .teacher-title {
-  line-height: 30px;
-}
+
 
 @media(max-width:479px) {
   .history-content {
     font-size: 14px;
-    height: 420px;
+    /* height: 420px; */
   }
 
   .part2-1 {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
+  .content-main .history-content p {
+      margin-bottom: 10px; 
+  } 
+}
+
+@media(min-width:480px) {
+  .content-main .history-content p {
+      margin-bottom: 30px; 
+  }
+  .part2-1-4-bottom .teacher-title,
+  .part2-1-3-bottom .teacher-title {
+    font-size: 16px;
+  } 
+
+  .part2-1-2-right .info-list li p{
+    float: right;
+    
+  }    
 }
 
 @media(min-width:480px) and (max-width:767px) {
   .history-content {
-    height: 440px;
+    /* height: 440px; */
   }
 
   .part2-1 {
@@ -360,7 +393,7 @@
   .part2-1-3-bottom .teacher-title,
   .part2-1-4-bottom .teacher-title {
     margin-bottom: 10px;
-    font-size: 18px;
+    line-height: 24px;
   }
 
   .part2-1-3-bottomLeft.teacher-name-wrapper,
@@ -368,6 +401,10 @@
     margin-bottom: 30px;
     margin-top: 30px;
   }
+
+  .part2-1-2-right .info-list li {
+    margin-bottom: 10px;
+  }  
 
 }
 
@@ -379,7 +416,11 @@
   .part2-1-4-bottom .teacher-title,
   .part2-1-3-bottom .teacher-title {
     font-size: 20px;
+    line-height: 30px;
   }
+  .part2-1-2-right .info-list li {
+    margin-bottom: 40px;
+  }  
 }
 
 @media(min-width:768px) and (max-width: 1200px) {
@@ -392,13 +433,16 @@
   .part2-1 {
     margin-bottom: 50px;
   }
+
+  .history-content {
+    padding: 100px 40px 0 20px;
+  }  
+  .part2-1-4-bottom .teacher-title,
+  .part2-1-3-bottom .teacher-title {
+    font-size: 18px;
+  }  
 }
 
-@media(max-width: 1199px) {
-  .history-content {
-    padding: 40px 40px 0 20px;
-  }
-}
 
 @media(min-width: 1200px) {
   .history-content {

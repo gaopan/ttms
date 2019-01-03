@@ -20,15 +20,15 @@
 			<div class="part2-programme-2">
 				<div class="programme-item mR">
 					<p class="programme-name">學術競赛</p>
-					<p class="programme-description">學生將被強烈鼓勵參加學術競賽，並 將得到導師的支持。比賽有助於確保 學生在他們想要申請的大學入學名額 中獲得一席之地，同時還可以提高他 們的寫作技巧和團隊合作能力。</p>
+					<p class="programme-description">學生將被強烈鼓勵參加學術競賽，並將得到導師的支持。比賽有助於確保學生在他們想要申請的大學入學名額中獲得一席之地，同時還可以提高他們的寫作技巧和團隊合作能力。</p>
 				</div>
 				<div class="programme-item">
 					<p class="programme-name">哲學</p>
-					<p class="programme-description">對於所有學生來說，無論將來他要成 為醫療人員、律師還是工程師，哲學 都是一個永恆的課題。我們的課堂上 充滿了對倫理問題甚至是人類存在問 題的爭論。學生們被鼓勵去用他們以 前從未想過的方式思考，涉及的主題 可能包括：人類是否自由？電腦能否 思考？我們如何明辨是非？</p>
+					<p class="programme-description">對於所有學生來說，無論將來他要成為醫療人員、律師還是工程師，哲學都是一個永恆的課題。我們的課堂上充滿了對倫理問題甚至是人類存在問題的爭論。學生們被鼓勵去用他們以前從未想過的方式思考，涉及的主題可能包括：人類是否自由？電腦能否思考？我們如何明辨是非？</p>
 				</div>
 				<div class="programme-item mR">
 					<p class="programme-name">辩諭</p>
-					<p class="programme-description">辯論俱樂部對所有學生而言都是一次 令人興奮的機會。學生將學會分析案 例，並就現實關聯性及頂尖大學非常 重視的技能問題進行研究和討論。學 生還將參加牛津和劍橋學校的辯論賽。</p>
+					<p class="programme-description">辯論俱樂部對所有學生而言都是一次令人興奮的機會。學生將學會分析案例，並就現實關聯性及頂尖大學非常重視的技能問題進行研究和討論。學生還將參加牛津和劍橋學校的辯論賽。</p>
 				</div>
 				<div class="programme-item">
 					<p class="programme-name">编程</p>
@@ -98,9 +98,7 @@
 </template>
 <script src="./programme.js"></script>
 <style type="text/css">
-  .part2-3{
-    margin-bottom: 200px;
-  }
+
   .mR{
   	margin-right:14%;
   }

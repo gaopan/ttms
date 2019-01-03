@@ -29,9 +29,6 @@
 </template>
 <script src="./objective.js"></script>
 <style type="text/css">
-  .part2-2{
-    margin-bottom: 200px;
-  }
 
   .part2-2 .part2-2-2-bottom {
     padding: 60px 60px 0 60px;

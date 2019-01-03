@@ -18,9 +18,9 @@
 	          <span class="teacher-title">课程总监</span>
 	          <span class="teacher-title">張紫伶博士</span>
 	        </div>
-	        <div class = "teacher-name-wrapper" v-show = "currentLang=='en'">
-	          <span class="teacher-title">Programme Director</span>
-	          <span class="teacher-title">Dr.Sammi Yu</span>
+	        <div class = "teacher-name-wrapper xs" v-show = "currentLang=='en'">
+	          <span class="teacher-title xs">Programme Director</span>
+	          <span class="teacher-title xs">Dr.Sammi Yu</span>
 	        </div>
 	      </div>
 
@@ -109,14 +109,14 @@
 						</div>
 			 		</div>
 			 		
-					<div class = "teacher-name-wrapper teacher-name-wrapper-two" v-show = "currentLang=='zh_hk'">
-						<span class="teacher-title">素質保證總顧問</span>
+					<div class = "teacher-name-wrapper teacher-name-wrapper-two xs" v-show = "currentLang=='zh_hk'">
+						<span class="teacher-title xs">素質保證總顧問</span>
 						<span class="teacher-title">林絢琛博士</span>
 						<!-- <span>Programme Director</span> -->
 					</div>
-					<div class = "teacher-name-wrapper teacher-name-wrapper-two" v-show = "currentLang=='en'">
-						<span class="teacher-title">Programme Director</span>
-						<span class="teacher-title">Dr. Michael Lam</span>
+					<div class = "teacher-name-wrapper teacher-name-wrapper-two xs" v-show = "currentLang=='en'">
+						<span class="teacher-title xs">Programme Director</span>
+						<span class="teacher-title xs">Dr. Michael Lam</span>
 						<!-- <span></span> -->
 					</div>
 
@@ -126,19 +126,19 @@
 			<!-- show in low screen -->
 			<div class="teacher-introduce part1-3-2-introduce2">
 
-	      <div class="teacher-one-photo">        
+	      <div class="teacher-one-photo small">        
 	        <div class="teacher-photo-wrapper">       
 	          <div class="teacher-headPhoto teacher-headPhoto-one">
 	            <img :src="imgUrl('lxc.png')">
 	          </div>
 	        </div>        
-	        <div class = "teacher-name-wrapper" v-show = "currentLang=='zh_hk'">
-	          <span class="teacher-title">素質保證總顧問</span>
-	          <span class="teacher-title">林絢琛博士</span>
+	        <div class = "teacher-name-wrapper xs" v-show = "currentLang=='zh_hk'">
+	          <span class="teacher-title xs">素質保證總顧問</span>
+	          <span class="teacher-title xs">林絢琛博士</span>
 	        </div>
-	        <div class = "teacher-name-wrapper" v-show = "currentLang=='en'">
-						<span class="teacher-title">Programme Director</span>
-						<span class="teacher-title">Dr. Michael Lam</span>
+	        <div class = "teacher-name-wrapper xs" v-show = "currentLang=='en'">
+						<span class="teacher-title xs">Programme Director</span>
+						<span class="teacher-title xs">Dr. Michael Lam</span>
 	        </div>
 
 
@@ -277,13 +277,13 @@
 	          </div>
 	        </div>
 	        
-	        <div class = "teacher-name-wrapper teacher-three-name-wrapper" v-show = "currentLang=='zh_hk'">
-	          <span class="teacher-title">中國傅統文化藝術鑣顧間</span>
-	          <span class="teacher-title">謝柏粱教授</span>
+	        <div class = "teacher-name-wrapper teacher-three-name-wrapper xs" v-show = "currentLang=='zh_hk'">
+	          <span class="teacher-title xs">中國傅統文化藝術鑣顧間</span>
+	          <span class="teacher-title xs">謝柏粱教授</span>
 	        </div>
-	        <div class = "teacher-name-wrapper teacher-three-name-wrapper" v-show = "currentLang=='en'">
-	          <span class="teacher-title">Chinese Traditional Culture and Art Genera General Counselor</span>
-	          <span class="teacher-title">Professor Xie Boliang</span>
+	        <div class = "teacher-name-wrapper teacher-three-name-wrapper xs" v-show = "currentLang=='en'">
+	          <span class="teacher-title xs">Chinese Traditional Culture and Art Genera General Counselor</span>
+	          <span class="teacher-title xs">Professor Xie Boliang</span>
 	        </div>
 
 

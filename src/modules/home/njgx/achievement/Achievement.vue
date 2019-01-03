@@ -496,9 +496,6 @@
 </template>
 <script src="./achievement.js"></script>
 <style type="text/css">
-  .part2-4{
-    margin-bottom: 200px;
-  }
 
 	.part2-4 p.part2-4-sentence-1.zh_hk{
     text-indent: 36px;
@@ -633,9 +630,6 @@
 }
 
 .part2-4-3 .course-item-wrapper {
-    display: inline-block;
-    width: 40%;
-    display: inline-block;
     color: #fff;
     vertical-align: top;
     margin-bottom: 30px;
@@ -647,7 +641,6 @@
 }
 .part2-4-3 .teacher-introduce {
 	 line-height: 28px;
-   margin-left: 24px;
    font-size: 16px;
 }
 .part2-4-3 .course-item-wrapper .course-teacher {
@@ -694,7 +687,6 @@
 }
 
 .part244-teacher-experience{
-	margin-left: 24px;
 	font-size: 16px;
 }
 
@@ -720,9 +712,12 @@
 
 	.part244-teacher-experience{
 		font-size: 14px;
+		margin-left: 0;
 	}
 }
+
 @media(max-width: 767px){
+
 	.part2-4-sentence-1{
 		font-size: 14px;
 	}
@@ -741,9 +736,8 @@
 		font-size: 14px;
 	}
 
-
 	.part2-4-3{
-		padding: 40px 20px 0;
+		padding: 40px 20px 10px;
 	}
 	.part2-4-3-title{
 		margin-bottom: 40px;
@@ -754,10 +748,26 @@
 	.part2-4-3 .course-item-wrapper{
 		margin-left: 20px;
 		margin-bottom: 20px;
+    width: 100%;
+    display:block;
+    padding-right: 40px;
 	}
 
 	.part2-4-3 .teacher-introduce{
 		font-size: 14px;
+		margin-left: 24px;
 	}
 }
+
+@media(min-width: 768px){
+	.part2-4-3 .course-item-wrapper {
+	    width: 40%;
+	    display: inline-block;
+  }	
+	.part2-4-3 .teacher-introduce,
+	.part244-teacher-experience{
+		margin-left: 0;
+	}    
+}
+
 </style>
