@@ -3,577 +3,919 @@ let zh_hk = {
 		rank:'1',
 		semester:'1',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'化學',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'歷史',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'英語口語',
-		IGCSE:'Public Exam'
+		IGCSE:{
+			type:'string',
+			value:'Public Exam'
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'體育',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'音樂',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'3'
+		IGCSE:{
+			type:'class',
+			value:'3'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'化學',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'歷史',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'英語口語',
-		IGCSE:'Public Exam'
+		IGCSE:{
+			type:'string',
+			value:'Public Exam'
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'體育',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'音樂',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'3'
+		IGCSE:{
+			type:'class',
+			value:'3'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'1'
+		IGCSE:{
+			type:'class',
+			value:'1'
+		}
 	}],
 	nineYear:[{
 		rank:'1',
 		semester:'1',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'化學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'地理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'英語口語',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'體育',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'藝術文化',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'5'
+		IGCSE:{
+			type:'class',
+			value:'5'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'化學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'地理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'英語口語',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'體育',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'藝術文化',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'5'
+		IGCSE:{
+			type:'class',
+			value:'5'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'3'
+		IGCSE:{
+			type:'class',
+			value:'3'
+		}
 	}],
 	tenYear:[{
 		rank:'1',
 		semester:'1',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'化學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'Physic',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'藝術文化',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'體育',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'世界常識',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'8'
+		IGCSE:{
+			type:'class',
+			value:'8'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'化學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'歷史',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'藝術文化',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'體育',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'世界常識',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'8'
+		IGCSE:{
+			type:'class',
+			value:'8'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'5'
+		IGCSE:{
+			type:'class',
+			value:'5'
+		}
 	}],
 	elevenYear:[{
 		rank:'1',
 		semester:'1',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'物理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'地理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'商務',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'世界常識',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'化學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'7-8'
+		IGCSE:{
+			type:'class',
+			value:'7-8'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'物理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'地理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'商務',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'世界常識',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'化學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'7-8'
+		IGCSE:{
+			type:'class',
+			value:'7-8'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'6'
+		IGCSE:{
+			type:'class',
+			value:'6'
+		}
 	}],
 	twelveYear:[{
 		rank:'1',
 		semester:'1',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'物理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'經濟學/地理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'英語口語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'演說技巧',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'個人履歷工作坊',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'7-8'
+		IGCSE:{
+			type:'class',
+			value:'7-8'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'物理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'經濟學/地理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'英語口語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'演說技巧',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'個人履歷工作坊',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'8'
+		IGCSE:{
+			type:'class',
+			value:'8'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'4'
+		IGCSE:{
+			type:'class',
+			value:'4'
+		}
 	}],
 	twelveThirteenYear:[{
 		rank:'1',
 		semester:'1',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'物理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'化學/生物學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'數學延伸/電腦科技',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'演說技巧',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'個人履歷工作坊',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'7-8'
+		IGCSE:{
+			type:'class',
+			value:'7-8'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'英語',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'中文',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'數學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'物理',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'化學/生物學',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'數學延伸/電腦科技',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'演說技巧',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'個人履歷工作坊',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'7-8'
+		IGCSE:{
+			type:'class',
+			value:'7-8'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'4'
+		IGCSE:{
+			type:'class',
+			value:'4'
+		}
 	}]
 };
 
@@ -582,577 +924,919 @@ let en = {
 		rank:'1',
 		semester:'1',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'Chemistry',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'History',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'English Oral',
-		IGCSE:'Public Exam'
+		IGCSE:{
+			type:'string',
+			value:'Public Exam'
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'Physic Education',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'Music',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'3'
+		IGCSE:{
+			type:'class',
+			value:'3'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'Chemistry',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'History',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'English Oral',
-		IGCSE:'Public Exam'
+		IGCSE:{
+			type:'string',
+			value:'Public Exam'
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'Physic Education',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'Music',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'3'
+		IGCSE:{
+			type:'class',
+			value:'3'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'1'
+		IGCSE:{
+			type:'class',
+			value:'1'
+		}
 	}],
 	nineYear:[{
 		rank:'1',
 		semester:'1',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'Chemistry',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'Geography',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'English Oral',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'Physic Education',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'Arts & Culture',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'5'
+		IGCSE:{
+			type:'class',
+			value:'5'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'Chemistry',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'Geography',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'English Oral',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'Physic Education',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'Arts & Culture',
-		IGCSE:''
+		IGCSE:{
+			type:'string',
+			value:''
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'5'
+		IGCSE:{
+			type:'class',
+			value:'5'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'3'
+		IGCSE:{
+			type:'class',
+			value:'3'
+		}
 	}],
 	tenYear:[{
 		rank:'1',
 		semester:'1',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'Chemistry',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'Physic',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'Arts & Culture',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'Physic Education',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'Global Perspectives',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'8'
+		IGCSE:{
+			type:'class',
+			value:'8'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'Chemistry',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'History',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'Arts & Culture',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'Physic Education',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'Global Perspectives',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'8'
+		IGCSE:{
+			type:'class',
+			value:'8'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'5'
+		IGCSE:{
+			type:'class',
+			value:'5'
+		}
 	}],
 	elevenYear:[{
 		rank:'1',
 		semester:'1',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'Physics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'Geography',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'Business Studies',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'Global Perspectives',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'Chemistry',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'7-8'
+		IGCSE:{
+			type:'class',
+			value:'7-8'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'Physics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'Geography',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'Business Studies',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'Global Perspectives',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'Chemistry',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'7-8'
+		IGCSE:{
+			type:'class',
+			value:'7-8'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'6'
+		IGCSE:{
+			type:'class',
+			value:'6'
+		}
 	}],
 	twelveYear:[{
 		rank:'1',
 		semester:'1',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'Physics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'Economics / Geography',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'English Oral',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'Presentation Skills',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'Personal Portfolio Workshop',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'7-8'
+		IGCSE:{
+			type:'class',
+			value:'7-8'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'Physics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'Economics / Geography',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'English Oral',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'Presentation Skills',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'Personal Portfolio Workshop',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'8'
+		IGCSE:{
+			type:'class',
+			value:'8'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'4'
+		IGCSE:{
+			type:'class',
+			value:'4'
+		}
 	}],
 	twelveThirteenYear:[{
 		rank:'1',
 		semester:'1',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'1',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'1',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'1',
 		courseTitle:'Physics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'1',
 		courseTitle:'Chemistry / Biology',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'1',
 		courseTitle:'Mathematics Additional / Computer Studies',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'1',
 		courseTitle:'Presentation Skills',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'1',
 		courseTitle:'Personal Portfolio Workshop',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'7-8'
+		IGCSE:{
+			type:'class',
+			value:'7-8'
+		}
 	},{
 		rank:'1',
 		semester:'2',
 		courseTitle:'English (First Language/Second Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'2',
 		semester:'2',
 		courseTitle:'Chinese (First Language)',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'3',
 		semester:'2',
 		courseTitle:'Mathematics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'4',
 		semester:'2',
 		courseTitle:'Physics',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'5',
 		semester:'2',
 		courseTitle:'Chemistry / Biology',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'6',
 		semester:'2',
 		courseTitle:'Mathematics Additional / Computer Studies',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'7',
 		semester:'2',
 		courseTitle:'Presentation Skills',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'8',
 		semester:'2',
 		courseTitle:'Personal Portfolio Workshop',
-		IGCSE:'V'
+		IGCSE:{
+			type:'icon',
+			value:'glyphicon glyphicon-ok'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Subtotal',
-		IGCSE:'7-8'
+		IGCSE:{
+			type:'class',
+			value:'7-8'
+		}
 	},{
 		rank:'',
 		semester:'',
 		courseTitle:'Choose for test',
-		IGCSE:'4'
+		IGCSE:{
+			type:'class',
+			value:'4'
+		}
 	}]
 };
 

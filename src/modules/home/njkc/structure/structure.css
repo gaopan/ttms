@@ -135,16 +135,17 @@ line-height: 32px; */
 }
 .njkc-year table th{
   background: #262162;
-  border:1px solid #b27524;
+  border:1px solid #000;
   color: #fff;
   text-align: center;
   line-height: 3;
 }
 .njkc-year table tr.years-subtotal{
-  background: #342e88;
+  background: #b27524;
+  color: #fff;
 }
 .njkc-year table td{
-  border: 1px solid #b27524;
+  border: 1px solid #000;
   text-align: center;
   line-height: 2
 }

@@ -72,16 +72,32 @@
     <div class="njkc-year" v-show="currentLang == 'zh_hk'">
       <table ref="njkcTable">
         <tr>
-          <th class="njkc-year-sortnum">Rank</th>
-          <th class="njkc-year-term">Semester</th>
-          <th class="njkc-year-course">Course Title</th>
-          <th class="njkc-year-igcse">IGCSE</th>
+          <th class="njkc-year-sortnum">序號</th>
+          <th class="njkc-year-term">學期</th>
+          <th class="njkc-year-course">科目名稱</th>
+          <th class="njkc-year-igcse">
+            <span v-if="active == 'eightYear' || active == 'nineYear' ||active == 'tenYear' ||active == 'elevenYear' ">
+              IGCSE
+            </span>
+            <span v-else-if="active == 'twelveYear' || active == 'twelveThirteenYear'">
+              AL
+            </span>
+          </th>
         </tr>
-        <tr v-for="courseYear in courseYears">
+        <tr v-for="courseYear in courseYears" :class="{'years-subtotal':courseYear.IGCSE&&courseYear.IGCSE.type=='class'}">
           <td>{{courseYear.rank}}</td>
           <td>{{courseYear.semester}}</td>
           <td>{{courseYear.courseTitle}}</td>
-          <td>{{courseYear.IGCSE}}</td>
+          <!-- <td>{{courseYear.IGCSE}}</td> -->
+          <td>
+            <span v-if = "courseYear.IGCSE&&courseYear.IGCSE.type=='icon'">
+              <i :class="courseYear.IGCSE.value"></i>
+            </span>
+            <span v-else-if = "courseYear.IGCSE&&courseYear.IGCSE.type=='class'||courseYear.IGCSE.type=='string'">
+              {{courseYear.IGCSE.value}}
+            </span>
+            <!-- <span v-else-if = ""></span> -->
+          </td>
         </tr>
       </table>     
     </div>
@@ -92,18 +108,25 @@
           <th class="njkc-year-sortnum">Rank</th>
           <th class="njkc-year-term">Semester</th>
           <th class="njkc-year-course">Course Title</th>
-          <th class="njkc-year-igcse">IGCSE</th>
+          <th class="njkc-year-igcse">
+            <span v-if="active == 'eightYear' || active == 'nineYear' ||active == 'tenYear' ||active == 'elevenYear' ">
+              IGCSE
+            </span>
+            <span v-else-if="active == 'twelveYear' || active == 'twelveThirteenYear'">
+              AL
+            </span>
+          </th>
         </tr>
-        <tr v-for="courseYear in courseYears">
+        <tr v-for="courseYear in courseYears" :class="{'years-subtotal':courseYear.IGCSE&&courseYear.IGCSE.type=='class'}">
           <td>{{courseYear.rank}}</td>
           <td>{{courseYear.semester}}</td>
           <td>{{courseYear.courseTitle}}</td>
-          <td>{{courseYear.IGCSE}}</td>
+          <!-- <td>{{courseYear.IGCSE}}</td> -->
           <td>
             <span v-if = "courseYear.IGCSE&&courseYear.IGCSE.type=='icon'">
-              <i :class="courseYear.IGCSE.iconName"></i>
+              <i :class="courseYear.IGCSE.value"></i>
             </span>
-            <span v-else-if = "courseYear.IGCSE&&courseYear.IGCSE.type=='string'">
+            <span v-else-if = "courseYear.IGCSE&&courseYear.IGCSE.type=='class'||courseYear.IGCSE.type=='string'">
               {{courseYear.IGCSE.value}}
             </span>
             <!-- <span v-else-if = ""></span> -->
