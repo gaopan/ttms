@@ -53,7 +53,7 @@
 	margin: 0 auto;
 }
 .njkc-associations p.associations-title{
-	width: 70%;
+	/*width: 70%;*/
 	color: #b27524;
 	line-height: 3;
 	/*border-bottom: 4px solid #b27524;*/
@@ -63,7 +63,7 @@
 .njkc-associations .zh_hk p.associations-info{
   text-indent: 2em;
   margin-bottom: 40px;
-  width: 80%;
+  /*width: 80%;*/
 }
 .njkc-associations .en p.associations-info{
 	/*text-indent: 2em;*/
@@ -77,23 +77,23 @@
   .njkc-associations p.associations-title{
     width: 94%;
     font-size: 16px;
-    margin: 0 auto;
+    margin: 10px auto;
     line-height: 30px;
   }
   .njkc-associations .zh_hk p.associations-info{
     font-size: 14px;
     width: 94%;
-    margin: 0 auto 30px;
+    margin: 0 auto ;
   }
   .njkc-associations .en p.associations-info{
     font-size: 14px;
     width: 94%;
-    margin: 0 auto 30px;
+    margin: 0 auto ;
   }
   .njkc-associations p.associations-foot{
     font-size: 14px;
     width: 94%;
-    margin: 20px auto 0;
+    margin: 20px auto 20px;
   }
   
 }

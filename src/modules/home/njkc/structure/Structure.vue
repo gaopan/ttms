@@ -3,7 +3,7 @@
     <div class="structure-content" v-show="currentLang == 'zh_hk'">
       <p class="structure-title">八年級至十一年級英國舍考</p>
       <p class="structure-info">IGCSE與O Level是世界公認的成熟體系，是基於選科的初中教育體系。</p>
-      <p class="structure-title">十二至十三年級英圉高考</p>
+      <p class="structure-title">十二至十三年級英國高考</p>
       <p class="structure-info">英國高中課程，簡稱A level，歷史悠久，認受性廣泛，被幾乎所有英語授課的大學作為招生的入學標準。</p>
     </div>
   	<div class="structure-content" v-show="currentLang == 'en'">

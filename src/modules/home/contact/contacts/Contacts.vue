@@ -1,8 +1,8 @@
 <template>
   <main class="content-main contact-contacts" role="main">
   	<ul v-show="currentLang == 'zh_hk'">
-		<li class="contacts-title">更多查詢</li>
-		<li>崇正中學牛津國際課程</li>
+		<li class="contacts-title">更多查詢<span class="title-right">崇正中學牛津國際課程</span></li>
+		
 		<table class="contacts-table">
 			<tr>
 				<td class="contacts-left">地址：</td>
@@ -27,8 +27,8 @@
 		</table>
   	</ul>
   	<ul v-show="currentLang == 'en'">
-		<li class="contacts-title">For further enquiries</li>
-		<li>Tsung Tsin Middle School (International Programme)</li>
+		<li class="contacts-title">For further enquiries<span class="title-right">Tsung Tsin Middle School (International Programme)</span></li>
+		
 		<table class="contacts-table">
 			<tr>
 				<td class="contacts-left">Address：</td>
@@ -57,8 +57,8 @@
 <script src="./contacts.js"></script>
 <style>
 .contact-contacts ul{
-	width: 60%;
-	margin: 100px auto;
+	width: 80%;
+	margin: 10px auto 40px;
 	background: #b27524;
 	box-shadow: 0 0 10px #000;
 	color: #fff;
@@ -66,13 +66,21 @@
 }
 .contact-contacts ul li{
 	margin-bottom: 20px;
-	text-align: center;
+	text-align: right;
 }
 .contact-contacts ul li.contacts-title{
-	margin-bottom: 40px;
+	/*margin-bottom: 40px;*/
 	font-size: 24px;
 	border-bottom: 2px solid #deb95f;
 	padding-bottom: 10px;
+	position: relative;
+	text-align: left;
+}
+.contact-contacts ul li.contacts-title .title-right{
+	position: absolute;
+	right: 0;
+	top: 6px;
+	font-size: 16px;
 }
 .contact-contacts table.contacts-table{
 	width: 100%;
@@ -87,6 +95,11 @@
 	/*line-height: 3;*/
 	line-height: 24px;
 }
+@media (max-width: 1000px) {
+	.contact-contacts ul{
+		width: 100%;
+	}
+}
 @media (max-width: 768px) {
 	.contact-contacts ul li{
     	font-size: 14px;
@@ -95,10 +108,38 @@
     .contact-contacts ul li.contacts-title{
     	font-size:18px;
     }
+    .contact-contacts ul li.contacts-title .title-right{
+    	font-size: 14px;
+    	top: 4px;
+    }
     .contact-contacts table.contacts-table td{
-    	font-size: 16px;
+    	font-size: 14px;
     }
 }
+
+@media (max-width: 530px) {
+    .contact-contacts ul li.contacts-title{
+    	font-size:18px;
+    	height: 50px;
+    }
+    .contact-contacts ul li.contacts-title .title-right{
+    	font-size: 12px;
+    	top: 24px;
+    	left: 0px;
+    }
+    .contact-contacts table.contacts-table td{
+    	font-size: 14px;
+    }
+    .contact-contacts table.contacts-table td.contacts-left{
+    	/*text-align: left;*/
+    	width: 10%;
+    }
+}
+@media (max-width: 490px) {
+.contact-contacts table.contacts-table td.contacts-left{
+    	/*text-align: left;*/
+    	width: 12%;
+    }
 @media (max-width: 480px) {
 	.contact-contacts{
 		width: 100%;
@@ -116,5 +157,24 @@
     	font-size: 14px;
     }
     
+}
+}
+@media (max-width: 420px) {
+.contact-contacts table.contacts-table td.contacts-left{
+    	/*text-align: left;*/
+    	width: 14%;
+    }
+}
+@media (max-width: 370px) {
+	.contact-contacts table.contacts-table td.contacts-left{
+    	/*text-align: left;*/
+    	width: 16%;
+    }
+}
+@media (max-width: 334px) {
+	.contact-contacts table.contacts-table td.contacts-left{
+    	/*text-align: left;*/
+    	width: 20%;
+    }
 }
 </style>

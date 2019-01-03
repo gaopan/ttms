@@ -75,7 +75,7 @@
 <script src="./cooperation.js"></script>
 <style>
 .njkc-cooperation p.cooperation-title{
-  width: 70%;
+  /*width: 70%;*/
   color: #b27524;
   line-height: 3;
   /*border-bottom: 4px solid #b27524;*/
@@ -85,12 +85,12 @@
 .njkc-cooperation .zh_hk p.cooperation-info{
   text-indent: 2em;
   margin-bottom: 40px;
-  width: 80%;
+  /*width: 80%;*/
 }
 .njkc-cooperation .en p.cooperation-info{
   /*text-indent: 2em;*/
   margin-bottom: 40px;
-  width: 80%;
+  /*width: 80%;*/
 }
 .njkc-cooperation .cooperation-foot{
   color: red;
@@ -124,8 +124,13 @@
   box-shadow: 0 0 1px #000;
 } 
 
-.cooperation-en,.cooperation-zh{
-  height: 240px;
+.cooperation-en{
+  min-height: 260px;
+}
+@media (max-width: 1200px) {
+  .cooperation-en{
+  min-height: 300px;
+}
 }
 @media (max-width: 990px) {
   .njkc-cooperation p.cooperation-title{
@@ -150,6 +155,9 @@
   }
   .cooperation-en, .cooperation-zh{
     height: auto;
+  }
+  .cooperation-en, .cooperation-zh{
+    min-height: auto;
   }
   
 }

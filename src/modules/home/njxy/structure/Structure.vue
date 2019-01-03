@@ -39,10 +39,11 @@
   padding:20px 20px 100px;
 }
 .njxy-structure ul.structure-introduce li{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: #fff;
-  line-height: 2;
+  /*line-height: 2;*/
   font-size: 18px;
+  line-height: 24px;
 }
 .njxy-structure ul.structure-introduce li span.glyphicon-stop{
   margin-right: 10px;
@@ -65,11 +66,13 @@
   }
   .njxy-structure ul.structure-introduce li{
     font-size: 16px;
+    line-height: 20px;
   }  
 }
 @media (max-width: 480px) {
   .njxy-structure ul.structure-introduce li{
     font-size: 14px;
+    line-height: 18px;
   }
 }
 </style>

@@ -29,17 +29,19 @@
 	width: 80%;
 	padding: 10px;
   margin: 0 auto 60px;
-  position: absolute;
-  left: 10%;
-  top: 100px;
-  background: rgba(255,255,255,.7);
+/*   position: absolute;
+left: 10%;
+top: 100px; */
+  /*background: rgba(255,255,255,.7);*/
 }
 .rxsq-requirements ul.requirements-content li{
 	     font-size:20px; 
-    line-height: 36px;
-    padding-left: 10px;
-    color: #b27524;
+    /*line-height: 45px;*/
+    line-height: 20px;
+    /*padding-left: 10px;*/
+    /*color: #b27524;*/
     font-weight: bold;
+    margin-bottom: 16px;
 }
 .rxsq-requirements ul.requirements-content li .requirements-tip{
 	font-size: 14px;
@@ -48,7 +50,9 @@
   margin-right: 10px;
 }
 @media (max-width: 1200px) {
-
+  .rxsq-requirements ul.requirements-content li{
+    font-size:18px; 
+  }
 }
 @media (max-width: 1024px) {
   .rxsq-requirements .requirements-bg{
@@ -56,8 +60,14 @@
   }
   .rxsq-requirements ul.requirements-content li{
     /*line-height: 28px;*/
-    font-size: 16px;
-    line-height: 30px
+    font-size: 18px;
+    /*line-height: 30px*/
+  }
+}
+@media (max-width: 768px) {
+  .rxsq-requirements ul.requirements-content li{
+   font-size: 16px;
+    line-height: 18px;
   }
 }
 @media (max-width: 540px) {
@@ -73,7 +83,7 @@
   .rxsq-requirements ul.requirements-content li{
     /*line-height: 28px;*/
     font-size: 16px;
-    line-height: 30px;
+    /*line-height: 30px;*/
   }
   .rxsq-requirements ul.requirements-content li .requirements-tip{
     font-size: 14px;
@@ -91,8 +101,9 @@
   }
   .rxsq-requirements ul.requirements-content li{
     /*line-height: 28px;*/
-    font-size: 14px;
-    line-height: 28px;
+        font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 18px;
   }
   .rxsq-requirements ul.requirements-content li .requirements-tip{
     font-size: 12px;
