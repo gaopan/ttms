@@ -422,13 +422,15 @@
     margin-bottom: 40px;
   }  
 }
-
-@media(min-width:768px) and (max-width: 1200px) {
+@media(min-width:768px) and (max-width: 1500px) {
   .member-four-experience {
 
     padding-right: 30px;
     padding-left: 30px;
   }
+}  
+@media(min-width:768px) and (max-width: 1200px) {
+
 
   .part2-1 {
     margin-bottom: 50px;
@@ -456,9 +458,5 @@
   }
 }
 
-@media(min-width:992px) and (max-width: 1500px) {
-  .part2-1 {
-    margin-bottom: 100px;
-  }  
-}
+
 </style>

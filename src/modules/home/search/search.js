@@ -31,11 +31,6 @@ export default {
   watch: {
     currentLang(newV, oldV){
       if(newV)this.$router.push('/index')
-    },
-    "searchText": function(val){
-      if(!!this.searchText.trim()){
-        this.searchResult = this.searchDataBase(this.dataBase, this.searchText);
-      }
     }
   },
   computed: {
@@ -46,7 +41,10 @@ export default {
   components: {SearchBox},  
   
   methods: {
-
+    updateSearchText(txt){
+      this.searchText = txt;
+      this.searchResult = this.searchDataBase(this.dataBase, txt);
+    },
     getDataBase(data, lang){
       let dataBase = [];
 

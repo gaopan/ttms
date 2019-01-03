@@ -18,22 +18,22 @@
                 <p class="school-subtitle-en">Tsung Tsin Middle School</p>
               </div>
             </div>
-            <div class="brand-strap">
-              <div class="school-info" :class = "currentLang">
-                <p class="big" :class = "currentLang">{{'name' | translate(translator, currentLang)}}</p>
-                <p :class = "currentLang">
-                  {{'address' | translate(translator, currentLang)}}
-                  <br/> {{'contact' | translate(translator, currentLang)}}
-                  <br/> {{'contact_tel' | translate(translator, currentLang)}}
-                </p>
-              </div>
-              <div class="langs">
-              	<div :class="{active: lang.value==currentLang}" class="lang" v-for="lang in langs" @click="changedLang(lang)">{{lang.name}}</div>
-              </div>
-            </div>
-
+            <!--    -->
           </div>
 
+          <div class="brand-strap">
+            <div class="school-info" :class = "currentLang">
+              <p class="big" :class = "currentLang">{{'name' | translate(translator, currentLang)}}</p>
+              <p :class = "currentLang">
+                {{'address' | translate(translator, currentLang)}}
+                <br/> {{'contact' | translate(translator, currentLang)}}
+                <br/> {{'contact_tel' | translate(translator, currentLang)}}
+              </p>
+            </div>
+            <div class="langs">
+              <div :class="{active: lang.value==currentLang}" class="lang" v-for="lang in langs" @click="changedLang(lang)">{{lang.name}}</div>
+            </div>
+          </div>
           <!--/.nav-collapse -->
          </div>
       </div>

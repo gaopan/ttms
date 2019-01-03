@@ -4,6 +4,9 @@ import shared from '@/shared.js'
 let eventHub = shared.eventHub
 
 export default {
+  props:{
+    bSearchRoute:Boolean
+  },
   data(){
     return {
       currentLang: "zh_hk",
@@ -19,12 +22,16 @@ export default {
       this.currentLang = lang;
     },
     submit(){
-
       if(this.searchText && !!this.searchText.trim()){
-      	this.$router.push({
-      		name: "Search",
-      		params: { search: this.searchText }
-      	});
+
+        if(this.$props.bSearchRoute){
+          this.$emit("newSearchText", this.searchText)
+        }else{
+        	this.$router.push({
+        		name: "Search",
+        		params: { search: this.searchText }
+        	});
+        }
       }
 
     }

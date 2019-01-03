@@ -33,12 +33,13 @@
   line-height: 22px;
 }
 .rxsq-procedures ul.procedures-top li.procedures-top-title{
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 26px;
 }
 .rxsq-procedures ul.procedures-top li.procedures-top-address{
   line-height: 30px;
   /*line-height: 3;*/
-  text-align: center;
+  /* text-align: center; */
   font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
@@ -150,7 +151,7 @@
     font-size: 20px;
   }
   .rxsq-procedures ul.procedures-top li.procedures-top-address{
-    font-size: 16px;
+    font-size: 18px;
   }
   .rxsq-procedures .procedures-timeline ul li p{
     font-size: 14px;
@@ -193,7 +194,7 @@
     margin-bottom: 20px;
   }
   .rxsq-procedures ul.procedures-top li.procedures-top-title{
-    font-size: 18px;
+    font-size: 14px;
     line-height: 24px;
   }
   .rxsq-procedures ul.procedures-top li.procedures-top-address{

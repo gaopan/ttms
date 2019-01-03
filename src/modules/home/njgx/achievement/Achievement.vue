@@ -743,7 +743,7 @@
 		margin-bottom: 40px;
 	}
 	.part2-4-3-title .name, .part2-4-4-title .name{
-		 font-size: 28px;
+		 font-size: 24px;
 	}
 	.part2-4-3 .course-item-wrapper{
 		margin-left: 20px;

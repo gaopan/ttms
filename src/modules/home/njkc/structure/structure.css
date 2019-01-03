@@ -40,7 +40,7 @@ line-height: 32px; */
     margin: 0 auto;
     border-bottom: 4px solid #b27524;
     /*line-height: 3;*/
-    line-height: 34px;
+    line-height: 38px;
     text-align: center;
     font-size: 36px;
     font-weight: bold;
@@ -85,7 +85,7 @@ line-height: 32px; */
   cursor:pointer;
   text-align: center;
   color: #131132;  
-  border-bottom: 2px solid #fff;  
+  /* border-bottom: 2px solid #fff; */  
 }
 
 .njkc-structure .structure-nav a + a{
@@ -180,7 +180,7 @@ line-height: 32px; */
     /*line-height: 2;*/
     font-size: 22px;
     margin-bottom: 10px;
-    line-height: 20px;
+    line-height: 24px;
   }
   .njkc-structure .structure-requirements .requirements-content p.requirements-title{
     font-size: 16px;
