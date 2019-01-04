@@ -15,7 +15,7 @@
       </div>
       <div class="col-md-6">
         <div class="facilities-item">
-          <p>課室/儲物欐</p>
+          <p>課室/儲物櫃</p>
           <img :src="imgUrl('classroom.png')" alt="">
         </div>
       </div>
@@ -76,7 +76,7 @@
       </div>
       <div class="col-md-6">
         <div class="facilities-itemo">
-          <p><span class="glyphicon glyphicon-stop"></span>There is a swimming pool three minutes walk from the school.</p>
+          <p><span class="glyphicon glyphicon-stop"></span>There is a swimming pool three minutes' walk from the school.</p>
         </div>
       </div>
       <div class="col-md-6">

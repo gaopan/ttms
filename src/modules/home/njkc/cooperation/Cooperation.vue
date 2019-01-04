@@ -2,7 +2,7 @@
   <main class="content-main njkc-cooperation" role="main">
     <div class="row zh_hk" v-show="currentLang == 'zh_hk'">
       <div class="col-md-6 cooperation-zh">
-        <P class="cooperation-title">香港地匾</P>
+        <P class="cooperation-title">香港地區</P>
         <P class="cooperation-info">香港大學、香港科技大學、香港中文大學、香港城市大學、香港理工大學、香港浸會大學、香港嶺南大學、香港樹仁大學、香港演藝學院、香港公開大學</P>
       </div>
       <div class="col-md-6 cooperation-zh">
@@ -26,7 +26,7 @@
         <P class="cooperation-info">澳洲國立大學、墨爾本大學、悉尼大學、昆士蘭大學、新南威爾士大學、蒙納士大學、西澳大學、阿德萊德大學</P>
       </div>
       <div class="col-md-6 cooperation-zh">
-        <P class="cooperation-title">東南亞</P>
+        <P class="cooperation-title">亞洲</P>
         <P class="cooperation-info">新加坡國立大學、南洋理工大學、東京大學、首爾大學</P>
       </div>
     </div>
@@ -56,7 +56,7 @@
         <P class="cooperation-info">Australian National University, University of Melbourne, University of Sydney, University of Queensland, University of New South Wales, University of Monash, University of Western Australia, University of Adelaide</P>
       </div>
       <div class="col-md-6 cooperation-en">
-        <P class="cooperation-title">Southeast Asia</P>
+        <P class="cooperation-title">Asia</P>
         <P class="cooperation-info">National University of Singapore, Nanyang Polytechnic University, Tokyo University, Seoul University</P>
       </div>
     </div>

@@ -29,7 +29,8 @@
   color: #131132;
 }
 .honor-honorary-list a.honorary-list-active{
-  /* border-bottom: 2px solid #131132; */
+   border-bottom: 2px solid #131132; 
+   font-weight: bold;
   color: #131132;
 }
 

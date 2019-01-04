@@ -85,8 +85,8 @@
       </tr>
       <tr>
         <td class="transform_td"><div class="transform90">HK University</div></td>
-        <td class="transform_td"><div class="transform90">UK or Overss University</div></td>
-        <td class="transform_td"><div class="transform90">China or Asivn University</div></td>
+        <td class="transform_td"><div class="transform90">UK or Oversea University</div></td>
+        <td class="transform_td"><div class="transform90">China or Asian University</div></td>
         <td class="borderleft2 transform_td"><div class="transform90">UK University</div></td>
         <td class="transform_td"><div class="transform90">HK Top-up degree</div></td><!-- 
         <td class="transform90 minwidth1">HK University</td>

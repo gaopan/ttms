@@ -10,7 +10,7 @@
         <li>a. 校方收取入學申請表及核對申請人提交的有關資料後，將於7個工作天内發出面試通告書；</li>
         <li>b. 面試分為兩部分：英語面談口試及入學能力測試；</li>
         <li>c. 面試後校方計算試卷分數，成績及錄取結果於面試後14個工作天内以書面公佈；</li>
-        <li>d. 獲取錄的申請人請根據錄取通知書上指定日期繳交按金港幣10,000元<span class="colorred">（不設退還）*</span>，作留位之用；</li>
+        <li>d. 獲取錄的申請人請根據錄取通知書上指定日期繳交按金港幣10,000元*（不設退還），作留位之用；</li>
         <li>e. 收費及相關款項必須根據錄取通知書上的指定日期或之前缴付。</li>
       </ul>
       <ul class="procedures-files">
@@ -19,7 +19,7 @@
         <li><span class="glyphicon glyphicon-stop"></span>最近三年學歷證明副本</li>
         <li><span class="glyphicon glyphicon-stop"></span>相關證明檔副本（請參考入學申請表）</li>
         <li><span class="glyphicon glyphicon-stop"></span>報名費繳款證明：接受郵寄劃線支票拾頭為「星光88有限公司」或轉帳到中國銀行（香港）戶口 ： 012-611-0-013044-8</li>
-        <!-- <li class="procedures-files-tip">申請人因退學或其他原因不能入學，報名費及按金將不獲退款。</li> -->
+        <li class="procedures-files-tip">申請人因退學或其他原因不能入學，報名費及按金將不獲退款。</li>
       </ul>
       <div class="procedures-timeline">
         <div class="timeline-total">
@@ -90,7 +90,7 @@
     <div class="procedures-content" v-show="currentLang == 'en'">
       <ul class="procedures-top">
         <li class="procedures-top-title">Register online to receive the application form.Please complete the application form and send the following relevant documents in person or by post to: </li>
-        <li class="procedures-top-address">Hong Kong Tsung Tsin Middle School (International Programme Admissions Office), No.11 Kwong Lee Road, Cheung Sha Wan, Kowloon, Hong Kong.</li>
+        <li class="procedures-top-address">Hong Kong Tsung Tsin Middle School (International Programme Admissions Office), No.11 Kwong Lee Road, Cheung Sha Wan, Kowloon, Hong Kong</li>
       </ul>
       <ul class="procedures-steps">
         <li class="procedures-steps-title">Process</li>
@@ -106,7 +106,7 @@
         <li><span class="glyphicon glyphicon-stop"></span>Copy of academic certificate in recent three years</li>
         <li><span class="glyphicon glyphicon-stop"></span>Copy of relevant supporting documents (please refer to the application form)</li>
         <li><span class="glyphicon glyphicon-stop"></span>Proof of payment of Registration Fee: Crossed cheque of the registration fee (payable to "Star Light 88 Limited") / registration fee payment receive to Bank of China (HK) account: 012-611-0-013044-8</li>
-        <!-- <li class="procedures-files-tip">申請人因退學或其他原因不能入學，報名費及按金將不獲退款。</li> -->
+        <li class="procedures-files-tip">Registration Fee and Deposit will not be refunded if the applicant is unable to enroll in school.</li>
       </ul>
       <div class="procedures-timeline">
         <div class="timeline-total">

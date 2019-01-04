@@ -72,9 +72,9 @@
         <div class="fees-scheme">
           <h2>Scholarship Scheme</h2>
           <p class="fees-amount">$ 1000</p>
-          <p class="fees-tip">TTMS-OIC Scholarship $1000 per</p>
+          <p class="fees-tip">TTMS-OIC Scholarship</p>
           <p class="fees-amount">$ 800</p>
-          <p class="fees-tip">Director’ s Award $800 per Semester</p> 
+          <p class="fees-tip">Director’ s Award</p> 
         </div>
       </div>
     </div>
@@ -99,14 +99,14 @@
     <div class="row fees-bottom" v-show="currentLang == 'en'">
       <div class="fees-include">
         <h3>Programme Fees include: </h3>
-        <p><span class="glyphicon glyphicon-stop"></span>school uniform, learning materials</p>
+        <p><span class="glyphicon glyphicon-stop"></span>School uniform, sportswear, learning materials</p>
         <p><span class="glyphicon glyphicon-stop"></span>Registration Fee: HK$300<span class="fees-include-red">(non-refundable)*</span></p>
         <p><span class="glyphicon glyphicon-stop"></span>2 students per semester can be awarded the above scholarships with certificate from the school.</p>
       </div>
       <div class="fees-notinclude">
         <h3>The following fees are not included in the Programme Fees:</h3>
         <p><span class="glyphicon glyphicon-stop"></span>OIC Programme Administrative Fee, Application Fee, Donation Fee, Debenture Fee or other expenses.</p>
-        <p><span class="glyphicon glyphicon-stop"></span>Student Insurance is a compulsory unless an alternative cover is provided. Please note that the school does not provide an insuranceschemetocoverfeerefunds. Parents are encouraged to make their own arrangements.</p>
+        <p><span class="glyphicon glyphicon-stop"></span>Student Insurance is a compulsory unless an alternative cover is provided. Please note that the school does not provide an insurance scheme to cover fee refunds. Parents are encouraged to make their own arrangements.</p>
         <p><span class="glyphicon glyphicon-stop"></span>IELTS test (if needed)</p>
         <p><span class="glyphicon glyphicon-stop"></span>Public examination fee</p>
         <p><span class="glyphicon glyphicon-stop"></span>Additional one-to-one classes (for examples: A-level, IELTS and music lessons)</p>
