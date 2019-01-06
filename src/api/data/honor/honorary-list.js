@@ -5,8 +5,8 @@ let zh_hk = {
 		course:'醫學'
 	},{
 		grade:'A*A*A*AA',
-		college:'伯明罕大學古典',
-		course:'文學'
+		college:'伯明罕大學',
+		course:'古典文學'
 	},{
 		grade:'A*A*A',
 		college:'倫敦大學學院',
