@@ -25,17 +25,17 @@
 	      </div>
 
 	      <div class = "teacher-info" v-show = "currentLang=='zh_hk'">
-	        <p class="name">張紫伶博士 /Dr.Sammi Yu</p>
+	        <p class="name">張紫伶博士 /Dr. Sammi Yu</p>
 	        <p class = "motto">“自信，專注，獨立，熱誠”</p>
 
-	        <p class="sentence">-我們相倌學生們應該在不同議題上秉持獨立的見解，不論是涉及全球或民族層面的议題，亦或是涉及當地或個人層面的事項。為了幫助學生擁有兼容東西方文化的價值觀，我們專注於培養他們的自信心、專注力、獨立性和熱誠。</p>
+	        <p class="sentence">-我們相倌學生們應該在不同議題上秉持獨立的見解，不論是涉及全球或民族層面的議題，亦或是涉及當地或個人層面的事項。為了幫助學生擁有兼容東西方文化的價值觀，我們專注於培養他們的自信心、專注力、獨立性和熱誠。</p>
 	      </div>
 
 	      <div class = "teacher-info" v-show = "currentLang=='en'">
 	        <p class="name">Dr.Sammi Yu</p>
-	        <p class = "motto">"confident Concentration Independent Passion"</p>
+	        <p class = "motto">"Confident Concentration Independent Passion"</p>
 
-	        <p class="sentence">We believe all the student should have their own perspectives on different issues globally, nationally, locally and personally.In order to help student acquires both Eastern and Western culture values, we focus on developing their confidence, concentration, independence and passion characteristics.</p>
+	        <p class="sentence">We believe all the student should have their own perspectives on different issues globally, nationally, locally and personally. In order to help student acquires both Eastern and Western culture values, we focus on developing their confidence, concentration, independence and passion characteristics.</p>
 	      </div>
 
 
@@ -44,7 +44,7 @@
 	    <div class="teacher-experience">
 	      <ul class="experience-list-one info-list"  v-show = "currentLang=='zh_hk'">
 	        <li :class = "currentLang">
-	            <p><span class="square"></span>學士 加牟大哥倫比亞大學 </p>
+	            <p><span class="square"></span>學士 加拿大哥倫比亞大學 </p>
 	            <p class="sub-list-item">BA- 主修音樂，副修中文</p>
 	        </li>
 
@@ -78,7 +78,7 @@
 	            <p class="sub-list-item">Research in Chinese Opera</p>
 	        </li>
 
-	        <li :class = "currentLang"><span class="square"></span>Founder, Hong Kong and Macau InUmgible Cultural Heritage Research Centre (2016)</li> 
+	        <li :class = "currentLang"><span class="square"></span>Founder, Hong Kong and Macau Intangible Cultural Heritage Research Centre (2016)</li> 
 	        <li :class = "currentLang"><span class="square"></span>Visiting Professor, National Academy of Chinese Theatre Arts (2015)</li> 
 	        <li :class = "currentLang"><span class="square"></span>Technical Consultant, Employees Retraining Board (2013)</li> 
 	        <li :class = "currentLang"><span class="square"></span>Lecturer (Academic), Hong Kong Academy of the Performing Arts (2012-2018)</li> 
@@ -115,7 +115,8 @@
 						<!-- <span>Programme Director</span> -->
 					</div>
 					<div class = "teacher-name-wrapper teacher-name-wrapper-two xs" v-show = "currentLang=='en'">
-						<span class="teacher-title xs en">Programme Director</span>
+						<span class="teacher-title xs en">Programme Director Quality Assurance of international Programme</span>
+						<span class="teacher-title xs en">Curriculun General Counselor</span>
 						<span class="teacher-title xs en">Dr. Michael Lam</span>
 						<!-- <span></span> -->
 					</div>
@@ -137,8 +138,9 @@
 	          <span class="teacher-title xs">林絢琛博士</span>
 	        </div>
 	        <div class = "teacher-name-wrapper xs" v-show = "currentLang=='en'">
-						<span class="teacher-title xs">Programme Director</span>
-						<span class="teacher-title xs">Dr. Michael Lam</span>
+						<span class="teacher-title xs en">Programme Director Quality Assurance of international Programme</span>
+						<span class="teacher-title xs en">Curriculun General Counselor</span>
+						<span class="teacher-title xs en">Dr. Michael Lam</span>
 	        </div>
 
 
@@ -146,16 +148,16 @@
 
 	      <div class = "teacher-info"  v-show = "currentLang=='zh_hk'">
 	        <p class="name">林絢琛博士</p>
-	        <p class = "motto">“質棄保證個性發展”</p>
+	        <p class = "motto">“質素保證 個性發展”</p>
 
-	        <p class="sentence">-從历史發展來看，香港在提供跨地域的國際教育課程上是世界上做的最好的地區。它能夠在適應當地文化的同時，保證教學質量，這是跨地域的國際教育課程面對的最嚴峻挑戰。我們不僅重視智慧,還重視毎位學生個別的智慧、體力和文化發展。我們相信保證“個性發展”是人生成功的唯一途徑。</p>
+	        <p class="sentence">從历史發展來看，香港在提供跨地域的國際教育課程上是世界上做的最好的地區。它能夠在適應當地文化的同時，保證教學質量，這是跨地域的國際教育課程面對的最嚴峻挑戰。我們不僅重視智慧,還重視毎位學生個別的智慧、體力和文化發展。我們相信保證“個性發展”是人生成功的唯一途徑。</p>
 	      </div>
 
 				<div class="teacher-info" v-show = "currentLang=='en'">
 				
 		    	<p class = "motto">“Quality Assurance”</p>
 
-	        <p class="sentence">-One of the toughest challenge for international education programme is to maintain the teaching and learning quality while adapting local culture, and Hong Kong is the best in the world in offering for its historical background. We value not just intelligence but also intellectual, physical, cultural development of each individual student. We believe "individuality” is the only way for life success.</p>
+	        <p class="sentence">One of the toughest challenge for international education programme is to maintain the teaching and learning quality while adapting local culture, and Hong Kong is the best in the world in offering for its historical background. We value not just intelligence but also intellectual, physical, cultural development of each individual student. We believe "individuality” is the only way for life success.</p>
 	        <p class="name">Dr. Michael Lam</p>
 
 	      </div>	      
@@ -164,7 +166,7 @@
 			<div class="teacher-experience">
 				<div class="teacher-info-aside"  v-show = "currentLang=='zh_hk'">
 
-	        <p class = "motto">“質棄保證個性發展”</p>
+	        <p class = "motto">“質素保證 個性發展”</p>
 
 	        <p class="sentence">-從历史發展來看，香港在提供跨地域的國際教育課程上是世界上做的最好的地區。它能夠在適應當地文化的同時，保證教學質量，這是跨地域的國際教育課程面對的最嚴峻挑戰。我們不僅重視智慧,還重視毎位學生個別的智慧、體力和文化發展。我們相信保證“個性發展”是人生成功的唯一途徑。</p>
 	        <p class="name">林絢琛博士</p>
@@ -199,8 +201,8 @@
 					<li>香港運動教學會會長及院士<span class="square"></span></li>
 				 
 					<li>
-		          <p>香港高等科技教育學院學士<span class="square"></span></p>
-		          <p class="sub-list-item">課程編輯委員</p>
+		          <p>香港高等科技教育學院<span class="square"></span></p>
+		          <p class="sub-list-item">學士課程編輯委員</p>
 					</li>
 
 					<li>福建省莆田市政協委員</li>
@@ -219,7 +221,7 @@
 
 					<li>
 		          <p>Appointed expert of the Hong Kong Council for Accreditation of Academic and Vocational Qualification<span class="square"></span></p>
-		          <p class="sub-list-item">(appointed by the Hong KongGovernment)</p>
+		          <p class="sub-list-item">(appointed by the Hong Kong Government)</p>
 					</li>
 
 					<li>President and Academician of the Hong Kong Sports Teaching Association<span class="square"></span></li>
@@ -287,12 +289,12 @@
 	        </div>
 	        
 	        <div class = "teacher-name-wrapper teacher-three-name-wrapper xs" v-show = "currentLang=='zh_hk'">
-	          <span class="teacher-title xs">中國傅統文化藝術鑣顧間</span>
+	          <span class="teacher-title xs">中國傅統文化藝術總顧問</span>
 	          <span class="teacher-title xs">謝柏粱教授</span>
 	        </div>
 	        <div class = "teacher-name-wrapper teacher-three-name-wrapper xs" v-show = "currentLang=='en'">
-	          <span class="teacher-title xs">Chinese Traditional Culture and Art Genera General Counselor</span>
-	          <span class="teacher-title xs">Professor Xie Boliang</span>
+	          <span class="teacher-title xs en">Chinese Traditional Culture and Art Genera General Counselor</span>
+	          <span class="teacher-title xs en">Professor Xie Boliang</span>
 	        </div>
 
 
@@ -300,7 +302,7 @@
 
 	      <ul class="experience-list-three info-list"  v-show = "currentLang=='zh_hk'">
 	        <li>
-	            <p><span class="square"></span>北京市高創針进领軍人物</p>
+	            <p><span class="square"></span>北京市高創計晝领軍人物</p>
 	            <p class="sub-list-item">國務院政府特殊津貼專家</p>
 	        </li>
 
@@ -381,8 +383,8 @@
 					</div>
 
 					<div class="teacher-name-wrapper teacher-four-name-wrapper" v-show = "currentLang=='en'">
-						<span class="teacher-title">Chief Executive Officer</span> 
-						<span class="teacher-title">Prot Justin Liu</span>
+						<span class="teacher-title en">Chief Executive Officer</span> 
+						<span class="teacher-title en">Prot Justin Liu</span>
 					</div>
 
 		      <ul class="experience-list-four info-list"  v-show = "currentLang=='zh_hk'">
@@ -396,7 +398,8 @@
 		        </li>
 
 		        <li>
-		            <p>亞太國際教育交流協會<span class="square"></span></p>
+		            <p>香港企業家教育協會<span class="square"></span></p>
+		            <!-- <p>亞太國際教育交流協會<span class="square"></span></p> -->
 		            <p class="sub-list-item">執行委貝會主席</p>
 		        </li>
 		      </ul>  					
@@ -407,11 +410,11 @@
 		        </li>
 
 		        <li>
-		        	Double Master CUHK\HKBU<span class="square"></span>
+		        	Double Master:CUHK\HKBU<span class="square"></span>
 		        </li>
 
 		        <li>
-		            <p>Asia-Pacific International Education Exchange Association<span class="square"></span></p>
+		            <p> Association<span class="square"></span></p>
 		            <p class="sub-list-item">President Of the Executive Committee</p>		        	
 		        </li>	      	
 					</ul>
@@ -427,14 +430,14 @@
 					<p class="name">劉博微教授/Prot Justin Liu</p>      
 					<p class="motto">“面向未來培育人才”</p>      
 					<p class="sentence"> 
-						-通過幫助超過一千位學生入讀理想大學的經驗，我們相信离中教育十分重要的使命是培養出學生的“自主學習意識”和“自學能力”。在融合了西方科學的教育模式與東方鎪典的文化箱®以後，我們相信所有學生都能面向未來進行全面發展，從而收穫藤盛的人生。     
+						-通過幫助超過一千位學生入讀理想大學的經驗，我們相信离中教育十分重要的使命是培養出學生的“自主學習意識”和“自學能力”。在融合了西方科學的教育模式與東方鎪典的文化精髓以後，我們相信所有學生都能面向未來進行全面發展，從而收穫豐盛的人生。     
 					</p>   
 				</div>   
 				<div class="member-four-teacher-info" v-show = "currentLang=='en'">
 					<p class="name">Prot Justin Liu</p>      
 					<p class="motto">"Nourish the Future"</p>      
 					<p class="sentence"> 
-						-With the experience in helping more than 1,000 students going to their designated University, we believe that one importance mission of High School education is to cultivate students' setf- motivated learning attitude and independent learning ability.Integrated the western scientific education    models and eastern sophisticated culture heritages, we believe all students will be well-rounded nourished and articulate to their flourish future.     
+						With the experience in helping more than 1,000 students going to their designated University, we believe that one importance mission of High School education is to cultivate students' setf-motivated learning attitude and independent learning ability. Integrated the western scientific education    models and eastern sophisticated culture heritages, we believe all students will be well-rounded nourished and articulate to their flourish future.     
 					</p>   
 				</div>   
 				<!--   -->

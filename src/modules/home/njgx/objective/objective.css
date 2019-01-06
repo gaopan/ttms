@@ -1,0 +1,29 @@
+  .part2-2 .part2-2-2-bottom {
+    padding: 60px 60px 0 60px;
+  }
+
+  .part2-2 p.part222-prog {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .part2-2 p.part222-prog-zh {
+      text-indent: 24px;
+
+  }
+
+  @media(max-width: 767px){
+    .part2-2{
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+    .part2-2.part2-2-2{
+      margin-top: 46px;
+    }
+    .part2-2 .part2-2-2-bottom{
+      padding:20px;
+    }
+    .part2-2 p.part222-prog{
+      font-size: 14px;
+    }
+  }

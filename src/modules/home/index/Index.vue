@@ -69,7 +69,7 @@
             <div class="index-picture-wrapper">
               <img :src="imgUrl('index4.png')">
               <p class="index-picture-description" v-show = "currentLang=='zh_hk'">
-                <router-link to="/rxsq">入学申请</router-link>
+                <router-link to="/rxsq">入學申请</router-link>
               </p>
               <p class="index-picture-description" v-show = "currentLang=='en'">
                 <router-link to="/rxsq">Admission Guideline</router-link>
@@ -148,6 +148,4 @@
   </div>
 </template>
 <script src="./index.js"></script>
-<style type="text/css">
- 
-</style>
+<style type="text/css"></style>

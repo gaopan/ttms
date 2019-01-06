@@ -1,0 +1,272 @@
+	.part2-4 p.part2-4-sentence-1.zh_hk{
+    text-indent: 36px;
+  }
+	.part2-4 p.part2-4-sentence-1{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 28px;
+	}
+
+	.achievement-table {
+	  width: 100%;
+	  border-collapse: collapse;
+	  border-spacing: 0;
+	  vertical-align: middle;
+	  word-break: break-all;
+	  word-wrap: break-word;
+	  table-layout: fixed;  
+	}
+
+	.achievement-table .block-element{
+		display: block;
+	}
+
+	.achievement-table thead {
+		color: #fff;
+	  font-size: 16px;
+	  word-break: keep-all;
+	}
+
+  .achievement-table thead tr{
+  	background: #111836;
+  }
+
+  .achievement-table tbody tr:nth-child(odd){
+  	background: #D6DAE0;
+  }
+    .achievement-table tbody tr:nth-child(even){
+  	background: #8DC2D9;
+  }
+
+	.achievement-table tbody {
+	  /*font-size: 16px;*/
+	  font-size: 16px;
+	  word-break: keep-all;
+	}
+
+
+	.achievement-table th {
+	  padding-top: 6px;
+	  padding-bottom: 6px;
+	  height: 48px;
+	  position: relative;
+	  text-align: center;
+		vertical-align: middle;	  
+	}
+
+	.achievement-table th:not(:last-child):after {
+	  content: "";
+	  display: block;
+	  position: absolute;
+	  width: 1px;
+	  left: 100%;
+	  top: 6px;
+	  bottom: 6px;
+	  background-color: #fff;
+	}
+
+	.achievement-table th:first-child{
+	  padding-left: 18px;
+	  padding-right: 16px;  
+	}
+	.achievement-table th:last-child{
+	  padding-left: 8px;
+	  padding-right: 18px;  
+	}
+
+	.achievement-table th:not(:first-child):not(:last-child){
+	  padding-left: 8px;
+	  padding-right: 16px;
+
+	}
+
+	.achievement-table tbody>tr {
+	  border: 1px solid #cccccc;
+	  border-radius: 20px;
+	}
+	.achievement-table tbody>tr>td:first-child{
+		font-weight: bold;
+	}
+
+	.achievement-table tbody>tr>td {
+	  height: 48px;  
+	  padding: 6px 8px;
+	  text-align: center;
+	}
+
+	.achievement-table .minus{
+		color: red;
+	}
+
+
+.part2-4-3 {
+    background: #111836;
+    margin-top: 100px;
+    padding: 70px 50px 0 50px;
+}
+
+.part2-4-3-title {
+    margin-bottom: 50px;
+}
+
+.part2-4-4-title .name,
+.part2-4-3-title .name {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+}
+.part2-4-4-title .line,
+.part2-4-3-title .line {
+    height: 6px;
+    background: #A87C44;
+    width: 100px;
+}
+.part2-4-3 .teacher-category {
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    border-bottom: 2px solid #A87C44;
+}
+
+.part2-4-3 .course-item-wrapper {
+    color: #fff;
+    vertical-align: top;
+    margin-bottom: 30px;
+    margin-left: 32px;
+}
+.part2-4-3 .course-item-wrapper .square{
+	background: #fff;
+   margin-left: -24px;
+}
+.part2-4-3 .teacher-introduce {
+	 line-height: 28px;
+   font-size: 16px;
+}
+.part2-4-3 .course-item-wrapper .course-teacher {
+	font-size: 18px;
+  background: #a87c44;
+  padding-left: 20px;
+  line-height: 36px;
+}
+
+
+.part2-4-4 {
+  margin-top: 100px;
+}
+
+.part2-4-4-title {
+    height: 260px;
+    padding-left: 40px;
+    padding-top: 90px;
+}
+
+
+.part244-course-item {
+    display: inline-block;
+    width: 40%;
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    margin-bottom: 30px;
+    margin-left: 32px;
+}
+
+.part244-course-name {
+    color: #a87c44;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+.part2-4-4  p.part244-teacher-name {
+    margin-bottom: 20PX;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.part244-teacher-experience{
+	font-size: 16px;
+}
+
+.part2-4-4-course .square{
+	margin-left: -24px;
+}
+
+@media(max-width: 479px){
+	.part2-4-sentence-1,
+	.achievement-table thead,
+	.achievement-table tbody{
+		font-size: 14px;
+	}	
+
+	.part244-course-name{
+		font-size: 18px;
+		margin-bottom: 0;
+	}	
+	.part244-teacher-name{
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+
+	.part244-teacher-experience{
+		font-size: 14px;
+		margin-left: 0;
+	}
+}
+
+@media(max-width: 767px){
+
+	.part2-4-sentence-1{
+		font-size: 14px;
+	}
+	.part2-4-4-course{
+		padding-left: 0;
+	}
+	.part244-course-item{
+    width: 42%;
+    margin-left: 20px;		
+	}
+	.part244-course-name{
+		 font-size: 20px;
+	}
+	.part244-teacher-name,
+	.part244-teacher-experience{
+		font-size: 14px;
+	}
+
+	.part2-4-3{
+		padding: 40px 20px 10px;
+	}
+	.part2-4-3-title{
+		margin-bottom: 40px;
+	}
+	.part2-4-3-title .name, .part2-4-4-title .name{
+		 font-size: 24px;
+	}
+	.part2-4-3 .course-item-wrapper{
+		margin-left: 20px;
+		margin-bottom: 20px;
+    width: 100%;
+    display:block;
+    padding-right: 40px;
+	}
+
+	.part2-4-3 .teacher-introduce{
+		font-size: 14px;
+		margin-left: 24px;
+	}
+}
+
+@media(min-width: 768px){
+	.part2-4-3 .course-item-wrapper {
+	    width: 40%;
+	    display: inline-block;
+  }	
+	.part2-4-3 .teacher-introduce,
+	.part244-teacher-experience{
+		margin-left: 0;
+	}    
+}

@@ -2,7 +2,7 @@
   <main class="content-main" role="main">
   	<div class="part2-3 part2-3-1" v-show="currentLang=='zh_hk'">
 			<p class="part2-3-1-title" :class = "currentLang">
-				在英网牛津國際公學，學生將遵循他們個人專屬的全面性戰略規劃道路，最大限度地提高他們進入世界一流大學的檐會。“全面性敝略規劃’’課程涉及畢生的學術、職業和個人發展。學校的延展課程包括親善大使計劃、 愛丁堡公爵計劃等。
+				在英网牛津國際公學，學生將遵循他們個人專屬的全面性戰略規劃道路，最大限度地提高他們進入世界一流大學的機會。“全面性戰略規劃’’課程涉及學生的學術、職業和個人發展。學校的延展課程包括親善大使計劃、 愛丁堡公爵計劃等。
 			</p>
 			<div class="part2-programme-1">
 				<div class="programme-item mR">
@@ -47,7 +47,7 @@
   	</div>
   	<div class="part2-3 part2-3-1" v-show="currentLang=='en'">
 			<p class="part2-3-1-title" :class = "currentLang">
-				At Oxford International College in the UK, students will follow their individual and comprehensive strategic planning path to maximize their chances of entering a world-class university.“Strategic Global Pathways" involves the academic, professional emd personal development of students. The out-reached programmes include the Goodwill Ambassador Program, the Duke of Edinburgh Plan and so on.
+				At Oxford International College in the UK, students will follow their individual and comprehensive strategic planning path to maximize their chances of entering a world-class university. “Strategic Global Pathways" involves the academic, professional and personal development of students. The out-reached programmes include the Goodwill Ambassador Program, the Duke of Edinburgh Plan and so on.
 			</p>
 			<div class="part2-programme-1">
 				<div class="programme-item  mR">
@@ -97,70 +97,4 @@
   </main>
 </template>
 <script src="./programme.js"></script>
-<style type="text/css">
-
-  .mR{
-  	margin-right:14%;
-  }
-
-p.part2-3-1-title.zh_hk {
-    text-indent: 27px;
-}
-.part2-3 p.part2-3-1-title {
-    font-size: 16px;
-    padding: 20px;
-    background: #A87C44;
-    margin-bottom: 50px;
-    color: #fff;
-}  
-
-.programme-item {
-    vertical-align: top;
-    margin-bottom: 30px;
-}
-
-.programme-name {
-    color: #A87C44;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.programme-description {
-    font-size: 16px;
-}
-
-.part2-3 p.part2-others-programme {
-    margin-bottom: 40px;
-    font-weight: bold;
-    font-size: 20px;
-    color: #A87C44;
-}
-
-@media (min-width:768px){
-	.programme-item {
-	    display: inline-block;
-	    width: 38%;	
-	}
-}
-
-@media (max-width:767px){
-	.programme-item {
-	    display: block;
-	    width: auto;	
-	}
-}
-
-
-@media (max-width:480px){
-	.part2-3 p.part2-others-programme,
-	.programme-name{
-  	font-size: 18px;
-
-	}
-	.programme-description,
-  .part2-3 p.part2-3-1-title{
-  	font-size: 14px;
-  }
-}
-
-</style>
+<style type="text/css" src="./programme.css"></style>

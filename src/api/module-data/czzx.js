@@ -127,7 +127,7 @@ let en =
 
     ]
   }, {
-    name: "Hong Kong Tsung Tsin Middle School / School Governance",
+    name: "Hong Kong Tsung Tsin Middle School / Programme Governance",
     path: '/czzx/governance',
     data: 
     [

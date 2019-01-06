@@ -154,7 +154,7 @@ let en =
         "Oxford International College (OIC) was founded in 2002 by a group of experienced scholars from the University of Oxford.It has grown into one of themost successful private colleges in UK, welcoming students from UK and all over the world.Over the past 15 years, the College has created a thrivinginternational community of students and staff",
         "Students are taught by some of Oxford* s finest tutors.Our teaching staff are graduates from the University of Oxford and top universities worldwide and they are experts in their fields.They know what it takes to achieve top grades and how to help students achieve the best performance",
 
-        "BSc - University College Lonck>n",
+        "BSc - University College London",
         "MSc - Edinburgh",
         "DPhil - Oxford",
         "Oxford University - Researcher in Space Physics",
@@ -197,7 +197,7 @@ let en =
         "Without personal morality, academic achievement will become meaningless.We are passionate about providing students with complementary skills and abilities that will serve them in their lives, helping them to develop character and adaptability.It is hoped that students will be able to serve, lead and motivate others by reflecting on their own experiences and using this knowledge.This is why Oxford International College has incorporated personal development into its core curriculum.",
     ]
   }, {
-    name: "UK Oxford International College / Out-reached Programme",
+    name: "UK Oxford International College / Out-reached Programmes",
     path: '/njgx/programme',
     data: 
     [
@@ -217,7 +217,6 @@ let en =
         "Debate",
         "The debate club is an exciting opportunity for all students. Students will learn to analyze cases and conduct research and discussion on real-world relevance and skills issues that are of great value to top universities. Students will also participate in debates at Oxford and Cambridge schools",
 
-        "The London School of Music and Drama Arts Level 2 Speaking and Listening Skills Awards are recognized by the English Qualifications and Examinations Authority and the appropriate regulatory body. The award aims to develop English, speaking and body language skills. Students will also learn how to match the tone of voice with the appropriate audience and purpose of the speech, and gain the knowledge and understanding needed for effective oral communication and participation in group discussions",
         "The London School of Music and Drama Arts Level 2 Speaking and Listening Skills Awards are recognized by the English Qualifications and Examinations Authority and the appropriate regulatory body. The award aims to develop English, speaking and body language skills. Students will also learn how to match the tone of voice with the appropriate audience and purpose of the speech, and gain the knowledge and understanding needed for effective oral communication and participation in group discussions",
 
     ]

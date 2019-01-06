@@ -1,0 +1,63 @@
+  .mR{
+  	margin-right:14%;
+  }
+
+p.part2-3-1-title.zh_hk {
+    text-indent: 27px;
+}
+.part2-3 p.part2-3-1-title {
+    font-size: 16px;
+    padding: 20px;
+    background: #A87C44;
+    margin-bottom: 50px;
+    color: #fff;
+}  
+
+.programme-item {
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+
+.programme-name {
+    color: #A87C44;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.programme-description {
+    font-size: 16px;
+}
+
+.part2-3 p.part2-others-programme {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #A87C44;
+}
+
+@media (min-width:768px){
+	.programme-item {
+	    display: inline-block;
+	    width: 38%;	
+	}
+}
+
+@media (max-width:767px){
+	.programme-item {
+	    display: block;
+	    width: auto;	
+	}
+}
+
+
+@media (max-width:480px){
+	.part2-3 p.part2-others-programme,
+	.programme-name{
+  	font-size: 18px;
+
+	}
+	.programme-description,
+  .part2-3 p.part2-3-1-title{
+  	font-size: 14px;
+  }
+}

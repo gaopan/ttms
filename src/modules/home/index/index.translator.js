@@ -22,6 +22,7 @@ let zh_hk = {
 
 let en = {
 	search: "Search",
+	schoolName: "Tsung Tsin Middle School",
 	latestImagesAndVideos: "Latest images and videos",
 	latestImages: "最新圖集",
 	latestVideos: "最新影片",
