@@ -21,7 +21,8 @@
   font-size: 24px;
     font-weight: bold;
     border-bottom: 4px solid #000;
-    width: 50%;
+    /*width: 50%;*/
+    width: 100%;
     padding: 20px 0;
     /*margin-left: -20px;*/
 }
@@ -59,12 +60,14 @@
   line-height: 3;
   font-weight: bold;
   font-size: 24px;
-  width: 50%;
+  /*width: 50%;*/
+  width: 100%;
   border-bottom: 4px solid #fff;
   color: red;
 }
 .rxsq-procedures ul.procedures-files li.procedures-files-tip{
-  color: red;
+  /*color: red;*/
+  color: #820000;
   font-size: 14px;
 }
 .rxsq-procedures .procedures-timeline{

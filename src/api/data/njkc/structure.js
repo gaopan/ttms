@@ -340,7 +340,7 @@ let zh_hk = {
 	},{
 		rank:'5',
 		semester:'1',
-		courseTitle:'Physic',
+		courseTitle:'物理',
 		IGCSE:{
 			type:'icon',
 			value:'glyphicon glyphicon-ok'
@@ -412,7 +412,7 @@ let zh_hk = {
 	},{
 		rank:'5',
 		semester:'2',
-		courseTitle:'歷史',
+		courseTitle:'物理',
 		IGCSE:{
 			type:'icon',
 			value:'glyphicon glyphicon-ok'
@@ -654,7 +654,7 @@ let zh_hk = {
 	},{
 		rank:'6',
 		semester:'1',
-		courseTitle:'英語口語',
+		courseTitle:'歷史/音樂/藝術設計',
 		IGCSE:{
 			type:'icon',
 			value:'glyphicon glyphicon-ok'
@@ -726,7 +726,7 @@ let zh_hk = {
 	},{
 		rank:'6',
 		semester:'2',
-		courseTitle:'英語口語',
+		courseTitle:'歷史/音樂/藝術設計',
 		IGCSE:{
 			type:'icon',
 			value:'glyphicon glyphicon-ok'
@@ -1333,7 +1333,7 @@ let en = {
 	},{
 		rank:'5',
 		semester:'2',
-		courseTitle:'History',
+		courseTitle:'Physic',
 		IGCSE:{
 			type:'icon',
 			value:'glyphicon glyphicon-ok'
@@ -1575,7 +1575,7 @@ let en = {
 	},{
 		rank:'6',
 		semester:'1',
-		courseTitle:'English Oral',
+		courseTitle:'History / Music / Arts & Design',
 		IGCSE:{
 			type:'icon',
 			value:'glyphicon glyphicon-ok'
@@ -1647,7 +1647,7 @@ let en = {
 	},{
 		rank:'6',
 		semester:'2',
-		courseTitle:'English Oral',
+		courseTitle:'History / Music / Arts & Design',
 		IGCSE:{
 			type:'icon',
 			value:'glyphicon glyphicon-ok'
