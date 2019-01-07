@@ -23,7 +23,8 @@ export default {
     },
     submit(){
       if(this.searchText && !!this.searchText.trim()){
-
+        eventHub.$emit("go-to-search");
+        
         if(this.$props.bSearchRoute){
           this.$emit("newSearchText", this.searchText)
         }else{

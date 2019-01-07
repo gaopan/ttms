@@ -47,7 +47,7 @@ export default {
     };
   },
   created(){
-
+    eventHub.$on("go-to-search",this.updateNavList)
     this.navs = this.makeNav(HomeTranslator[this.currentLang].navs, this.$route.path);
 
   },
@@ -70,11 +70,13 @@ export default {
 
   }, 
   methods: {
+    updateNavList(){
+      this.navs = this.makeNav(HomeTranslator[this.currentLang].navs,null);
+      console.log(this.navs)
+    },
     showSmallNav(){
-      // console.log(this.bShowSmallNav)
       this.bShowSmallNav = !this.bShowSmallNav;
 
-      // console.log(this.bShowSmallNav)
     },
     imgUrl: function(path) {
       return images('./' + path);
@@ -158,7 +160,7 @@ export default {
       }      
     },
 
-    makeNav(nav, currentath){
+    makeNav(nav, currentPath){
 
       let nav_ = [];
 
@@ -169,7 +171,7 @@ export default {
           let subPath = [];
           if(TypeChecker.isArray(d.subPath)){
             d.subPath.forEach(subD=>{
-              let active =  currentath == subD.path ? true : false;
+              let active =  currentPath == subD.path ? true : false;
               subPath.push({
                 active: active,
                 href: subD.href,

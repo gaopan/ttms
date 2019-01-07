@@ -74,7 +74,7 @@
           <p class="fees-amount">$ 1000</p>
           <p class="fees-tip">TTMS-OIC Scholarship</p>
           <p class="fees-amount">$ 800</p>
-          <p class="fees-tip">Director’ s Award</p> 
+          <p class="fees-tip">Director's Award</p> 
         </div>
       </div>
     </div>
@@ -118,25 +118,3 @@
 </template>
 <script src="./fees.js"></script>
 <style src='./fees.css'></style>
-
-<ul class="fees-content">
-        <h3>Programme Fees include: </h3>
-        <li>school uniform, learning materials</li>
-        <li>Registration Fee: HK$300(non-refundable)<span class="fees-content-red">*</span></li>
-        <ul>
-          <li>Scholarship Scheme</li>
-          <div class="fees-scheme">
-            <li>TTMS-OIC Scholarship $1000 per</li>
-            <li>Director’ s Award $800 per Semester</li>
-          </div>
-        </ul>
-        <li>2 students per semester can be awarded the above scholarships with certificate from the school.</li>
-        <h3>The following fees are not included in the Programme Fees:</h3>
-        <li>OIC Programme Administrative Fee, Application Fee, Donation Fee, Debenture Fee or other expenses.</li>
-        <li>Student Insurance is a compulsory unless an alternative cover is provided. Please note that the school does not provide an insuranceschemetocoverfeerefunds. Parents are encouraged to make their own arrangements.</li>
-        <li>IELTS test (if needed)</li>
-        <li>Public examination fee</li>
-        <li>Additional one-to-one classes (for examples: A-level, IELTS and music lessons)</li>
-        <li>School Professional Society and its activities</li>
-        <li>Off-campus activities and some optional extracurricular activities</li>
-      </ul>
