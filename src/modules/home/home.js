@@ -71,10 +71,10 @@ export default {
   }, 
   methods: {
     showSmallNav(){
-      console.log(this.bShowSmallNav)
+      // console.log(this.bShowSmallNav)
       this.bShowSmallNav = !this.bShowSmallNav;
 
-      console.log(this.bShowSmallNav)
+      // console.log(this.bShowSmallNav)
     },
     imgUrl: function(path) {
       return images('./' + path);
@@ -125,7 +125,7 @@ export default {
       return active;
     },
     changedLang(lang){
-      console.log(lang)
+      // console.log(lang)
       if(this.currentLang !== lang.value){
       	this.currentLang = lang.value;
       	this.navs = CommonUtils.deepClone(HomeTranslator[this.currentLang].navs);
@@ -139,7 +139,7 @@ export default {
       if((this.$refs.navigator && !this.$refs.navigator.contains(event.target))
           &&(this.$refs.smallNavEle && !this.$refs.smallNavEle.contains(event.target)) 
         ){
-        console.log("fnBlur1")
+        // console.log("fnBlur1")
         this.navs.forEach(outer=>{
           outer.bShow = false;
         })

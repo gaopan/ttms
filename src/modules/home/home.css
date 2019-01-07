@@ -15,6 +15,22 @@
   margin-right: auto;
   height:100px;  
 }
+.school-info-1{
+  font-size: 12px;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 13px;  
+
+}
+
+.school-info-1.zh_hk{
+  margin-top: 20px;
+}
+
+.school-info-1.en{
+  margin-top: 36px;
+}
 
 body {
   background-color: #121038;
@@ -22,7 +38,7 @@ body {
 
 header {
   position: relative;
-  z-index: 15;
+  /* z-index: 15; */
   height: 210px;
   background-image: -webkit-linear-gradient(top, #121038 0, #101836 100%);
   background-image: -o-linear-gradient(top, #121038 0, #101836 100%);
@@ -60,7 +76,7 @@ header {
 }
 
 .navbar .container {
-  height: 100%;
+  /* height: 100%; */
   padding: 0
 }
 .navbar-header .school-title {
@@ -111,19 +127,6 @@ header {
 
 .navbar .navbar-brand img{
     display: inline-block;
-    height: 100px;
-}
-.navbar .navbar-brand {
-/*   float: left;
-width: 100%;
-height: auto;
-color: #fff;
-font-family: 'Open Sans', sans-serif;
-font-size: 18px;
-text-align: center;
-text-transform: uppercase;
-letter-spacing: 1px;
-line-height: 1.4 */
 }
 
 .navbar .navbar-brand .brand-tag {
@@ -827,8 +830,12 @@ footer img {
 /* <480px */
 @media(max-width:480px){
 
-  header{
-    height: 160px;
+  header.zh_hk{
+    height: 220px;
+  }
+
+  header.en{
+    height: 240px;
   }
 
   .navbar-header .school-title.en {
@@ -839,9 +846,9 @@ footer img {
   .school-subtitle-en{
     font-size: 12px;
   }  
-   .school-title-wrapper {
-      margin-top: 20px;
-    }
+  .school-title-wrapper {
+    margin-top: 18px;
+  }
 
   p.welcome-p1{
     font-size: 18px;
@@ -857,7 +864,7 @@ footer img {
   } 
 
   .navbar-brand {
-    padding-top: 8px;
+    padding-right: 6px;
   }
 
   .navbar .brand-strap .langs>.lang {
@@ -938,12 +945,24 @@ footer img {
   .navbar .navbar-header{
     margin-top: 0;
   }
-   .school-title-wrapper {
-      margin-top: 32px;
-    }
-  .navbar-header .school-log-wrapper {
-      margin-top: 44px;
+  .school-title-wrapper {
+    margin-top: 32px;
   }
+  .navbar-brand{
+    padding-left: 20px;
+  }
+  .school-title-wrapper{
+    margin-top: 8px;
+  }  
+  .navbar-header .school-log-wrapper {
+      /* margin-top: 44px; */
+      margin-top: 0px;
+  } 
+
+  .navbar-header .school-log-wrapper {
+      margin-top: 30px;
+  }
+
   .school-subtitle-en {
     font-size: 14px;
   }
@@ -989,6 +1008,10 @@ footer img {
     font-size: 14px;
     line-height: 22px;    
   }    
+  .brand-strap-1{
+      position: absolute;
+      bottom: 10px;  
+  }  
   footer {
     padding-bottom: 0px;
     padding-top: 30px;
@@ -1065,6 +1088,9 @@ footer img {
 
 /* >768px */
 @media (min-width:768px) {
+  .navbar > .container .navbar-brand{
+  margin-left: 0px;
+  }  
   .info-list li{
     font-size: 16px;
   }    
@@ -1136,7 +1162,7 @@ footer img {
   }
   .navbar,
   .navbar .container {
-    height: 100px
+    /* height: 100px */
   }
 
   .navbar .navbar-brand .brand-tag {
@@ -1204,6 +1230,12 @@ footer img {
 @media(min-width:768px) and (max-width:992px) {
   .welcome-p3-en {
     font-size: 20px;
+  }   
+  .school-title-wrapper{
+    margin-top: 0px;
+  }   
+  .brand-strap-1{
+      position: static;
   }  
 }
 /* < 992px*/
@@ -1218,9 +1250,28 @@ footer img {
   .inside-search-box{
     margin-right:14px;
   }
-  .navbar .brand-strap .school-info.zh_hk {
+  .brand-strap .school-info.zh_hk {
     display: none;
   }
+  .brand-strap-1 .school-info-1.zh_hk {
+    display: inline-block;
+  }  
+
+  .navbar .navbar-brand {
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .navbar .navbar-brand img{
+      display: inline-block;
+      height: 90px;
+      margin-top: -4px;
+  } 
+
+  .navbar > .container .navbar-brand{
+    margin-left: 0px;
+  }
+
   .navbar-collapse .navbar-nav li.en {
       line-height: 26px;
   }
@@ -1265,15 +1316,17 @@ footer img {
   }
   .navbar,
   .navbar .container {
-    height: 160px
+    /* height: 160px */
   }
-
-  .navbar .navbar-brand {
-    /* font-size: 36px */
-  }
+ 
   .navbar .navbar-brand .brand-tag {
     font-size: 18px
   }
+
+  .navbar .navbar-brand img{
+    height: 100px;
+  }  
+
   .navbar .brand-strap {
     text-align: right;
   }
@@ -1282,14 +1335,18 @@ footer img {
     display: inline-block;
   }
 
+  .brand-strap-1 .school-info-1.zh_hk {
+    display: none;
+  }  
+
   .navbar .navbar-header {
     width: 100%;
     height: 120px;
-    display: flex;
+    /* display: flex; */
   }
 
   .navbar-header .school-log-wrapper{
-    flex:1;
+    /* flex:1; */
   }
    
   .navbar-collapse {
@@ -1442,39 +1499,48 @@ footer img {
   .welcome-p3-en {
     font-size: 26px;
   }  
-  .navbar .brand-strap .big.en {
+  .brand-strap .big.en {
     font-size: 14px;
   }  
-  .navbar .brand-strap .big.zh_hk {
+  .brand-strap .big.zh_hk {
     font-size: 16px;
   }  
 
-  .navbar .brand-strap p.en {
+  .brand-strap p.en {
     font-size: 12px;
   }
-  .navbar .brand-strap p.zh_hk {
+  .brand-strap p.zh_hk {
     font-size: 14px;
   }
 
 }
 
 @media (max-width: 1300px) {
-  .navbar .brand-strap .school-info.en {
+  .brand-strap .school-info.en {
     display: none;
   }
+
+  .brand-strap-1 .school-info-1.en {
+    display: inline-block;
+  }
+
 }
 
 @media (min-width:1300px) {
-  .navbar .brand-strap .school-info.en {
+  .brand-strap-1 .school-info-1.en {
+    display: none;
+  }
+
+  .brand-strap .school-info.en {
     display: inline-block;
   }  
   .welcome-p3-en {
     font-size: 30px;
   }  
-  .navbar .brand-strap .big.en {
+  .brand-strap .big.en {
     font-size: 14px;
   }
-  .navbar .brand-strap .big.zh_hk {
+  .brand-strap .big.zh_hk {
     font-size: 16px;
   }
 
