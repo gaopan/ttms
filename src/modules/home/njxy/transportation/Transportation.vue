@@ -15,43 +15,4 @@
   </main>
 </template>
 <script src="./transportation.js"></script>
-<style>
-.njxy-transportation .transportation-item{
-  width: 80%;
-  margin: 0 auto 30px;
-}
-.njxy-transportation .transportation-item p{
-  padding: 10px 0 10px;
-  font-size: 18px;
-}
-.njxy-transportation .transportation-item p span.glyphicon-stop{
-  margin-right: 10px;
-}
-.njxy-transportation img{
-  display: block;
-  /*width: 100%;*/
-  width: 50%;
-  box-shadow: 0 0 1px #000;
-}
-@media (max-width: 990px) {
-  .njxy-transportation .transportation-item p{
-    font-size: 16px;
-    padding: 10px 0;
-    margin-bottom: 0;
-  }
-
-}
-@media (max-width: 768px) {
-  .njxy-transportation .transportation-item p{
-    font-size: 16px;
-    /*padding: 10px;*/
-    margin-bottom: 0;
-  }
-}
-@media (max-width: 480px) {
-  .njxy-transportation .transportation-item p{
-    font-size: 14px;
-    line-height: 18px;
-  }
-}
-</style>
+<style src='./transportation.css'></style>

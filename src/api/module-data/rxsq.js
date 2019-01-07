@@ -1,16 +1,18 @@
 let zh_hk = [{
-	name:'入學申請 / 申請資格',
-	path:'/rxsq/requirements',
-	data:[
-	"12歲或以上（合資格入讀8年級至13年級學生）",
-	"香港永久性居民",
-	"或為合法居港並可在港接受教育人士（如持有香港身份證居民）",
-	"或持有其他國籍的人士、在港工作的外籍人士子女等"
+	name: '入學申請 / 申請資格',
+	path: '/rxsq/requirements',
+	data: [
+		'申請資格',
+		"12歲或以上（合資格入讀8年級至13年級學生）",
+		"香港永久性居民",
+		"或為合法居港並可在港接受教育人士（如持有香港身份證居民）",
+		"或持有其他國籍的人士、在港工作的外籍人士子女等"
 	]
-},{
-	name:'入學申請 / 申請流程',
-	path:'/rxsq/procedures',
-	data:[
+}, {
+	name: '入學申請 / 申請流程',
+	path: '/rxsq/procedures',
+	data: [
+		'申請流程',
 		'通過線上報名收到入學申請表，請填妥入學申請表及下列有關文件親身或郵寄至：',
 		'香港九龍長沙灣廣利道11號 香港崇正中學（國際課程入學部）',
 		'流程',
@@ -45,10 +47,11 @@ let zh_hk = [{
 		'十月八日',
 		'開學日'
 	]
-},{
-	name:'入學申請 / 收費及財務安排',
-	path:'/rxsq/fees',
-	data:[
+}, {
+	name: '入學申請 / 收費及財務安排',
+	path: '/rxsq/fees',
+	data: [
+		'收費及財務安排',
 		'年級',
 		'收費（港幣）',
 		'8',
@@ -80,18 +83,20 @@ let zh_hk = [{
 	]
 }]
 let en = [{
-	name:'Admission Guideline / Admission Requirements',
-	path:'/rxsq/requirements',
-	data:[
+	name: 'Admission Guideline / Admission Requirements',
+	path: '/rxsq/requirements',
+	data: [
+		'Admission Requirements',
 		"12 years old or above",
-	"Hong Kong permanent residents;",
-	"or have the right of residence and permission of receiving education in Hong Kong;",
-	"or others countries’ residents."
+		"Hong Kong permanent residents;",
+		"or have the right of residence and permission of receiving education in Hong Kong;",
+		"or others countries’ residents."
 	]
-},{
-	name:'Admission Guideline / Application Procedures',
-	path:'/rxsq/procedures',
-	data:[
+}, {
+	name: 'Admission Guideline / Application Procedures',
+	path: '/rxsq/procedures',
+	data: [
+		'Application Procedures',
 		'Register online to receive the application form.Please complete the application form and send the following relevant documents in person or by post to: ',
 		'Hong Kong Tsung Tsin Middle School (International Programme Admissions Office), No.11 Kwong Lee Road, Cheung Sha Wan, Kowloon, Hong Kong',
 		'Process',
@@ -126,10 +131,11 @@ let en = [{
 		'8 OCT',
 		'Orientation Day'
 	]
-},{
-	name:'Admission Guideline / Fees and Arrangement',
-	path:'/rxsq/fees',
-	data:[
+}, {
+	name: 'Admission Guideline / Fees and Arrangement',
+	path: '/rxsq/fees',
+	data: [
+		'Fees and Arrangement',
 		'Year',
 		'Fees (HK$)',
 		'8',
@@ -162,4 +168,7 @@ let en = [{
 	]
 }]
 
-export default{ zh_hk, en }
+export default {
+	zh_hk,
+	en
+}

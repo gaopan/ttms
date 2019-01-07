@@ -27,5 +27,10 @@
 
 import CzzxData from "@/api/module-data/czzx.js"
 import NjgxData from "@/api/module-data/njgx.js"
+import RxsqData from "@/api/module-data/rxsq.js"
+import NjkcData from "@/api/module-data/njkc.js"
+import NjxyData from "@/api/module-data/njxy.js"
+import HonorData from "@/api/module-data/honor.js"
+import ContactData from "@/api/module-data/contact.js"
 
-export default [CzzxData, NjgxData]
+export default [CzzxData, NjgxData, RxsqData, NjkcData, NjxyData, HonorData, ContactData]
