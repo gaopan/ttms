@@ -72,7 +72,6 @@ export default {
   methods: {
     updateNavList(){
       this.navs = this.makeNav(HomeTranslator[this.currentLang].navs,null);
-      console.log(this.navs)
     },
     showSmallNav(){
       this.bShowSmallNav = !this.bShowSmallNav;
