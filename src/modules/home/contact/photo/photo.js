@@ -1,4 +1,3 @@
-import Data from '@/api/data/czzx/index.js'
 import CommonUtils from '@/utils/common-utils.js'
 import shared from '@/shared.js'
 let images = require.context('@/assets/imgs/share/', false, /\.(png|jpg|gif)$/)
@@ -17,7 +16,6 @@ export default {
   computed: {
     content(){
       return "photo";
-      // return Data.cxzl[this.currentLang];
     }
   },
   methods: {

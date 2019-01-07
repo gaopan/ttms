@@ -1,6 +1,6 @@
 <template>
   <div :id="$router.currentRoute.path == '/index' ? 'home' : 'inside'">
-    <header role="banner">
+    <header role="banner" :class = "currentLang">
 
       <div class="advert">
         <img class="header-top-bg" :src="imgUrl('oxcoll_banner.png')" alt="Oxford International College" title="Oxford International College">
@@ -19,6 +19,18 @@
               </div>
             </div>
             <!--    -->
+
+            <div class="brand-strap-1">
+              <div class="school-info-1" :class = "currentLang">
+                <!-- <p class="big-1" :class = "currentLang">{{'name' | translate(translator, currentLang)}}</p> -->
+                <p :class = "currentLang">
+                  {{'address' | translate(translator, currentLang)}}
+                  <br/> {{'contact' | translate(translator, currentLang)}}
+                  <br/> {{'contact_tel' | translate(translator, currentLang)}}
+                </p>
+              </div>
+
+            </div>            
           </div>
 
           <div class="brand-strap">

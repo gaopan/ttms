@@ -21,12 +21,12 @@ export default {
   },
   created() {
     eventHub.$on("changed-lang", this.changedLang);
-
+    
     this.dataBase = this.getDataBase(this.indexData, this.currentLang);
 
     this.searchResult = this.searchDataBase(this.dataBase, this.searchText);
 
-    console.log("searchResult", this.searchResult)
+    // console.log("searchResult", this.searchResult)
   },
   watch: {
     currentLang(newV, oldV){

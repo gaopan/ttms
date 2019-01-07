@@ -47,7 +47,7 @@ export default {
     };
   },
   created(){
-
+    eventHub.$on("go-to-search",this.updateNavList)
     this.navs = this.makeNav(HomeTranslator[this.currentLang].navs, this.$route.path);
 
   },
@@ -70,11 +70,12 @@ export default {
 
   }, 
   methods: {
+    updateNavList(){
+      this.navs = this.makeNav(HomeTranslator[this.currentLang].navs,null);
+    },
     showSmallNav(){
-      console.log(this.bShowSmallNav)
       this.bShowSmallNav = !this.bShowSmallNav;
 
-      console.log(this.bShowSmallNav)
     },
     imgUrl: function(path) {
       return images('./' + path);
@@ -125,10 +126,13 @@ export default {
       return active;
     },
     changedLang(lang){
-    	this.currentLang = lang.value;
-    	this.navs = CommonUtils.deepClone(HomeTranslator[this.currentLang].navs);
-      shared.defaultLang = this.currentLang;
-    	eventHub.$emit('changed-lang', this.currentLang);
+      // console.log(lang)
+      if(this.currentLang !== lang.value){
+      	this.currentLang = lang.value;
+      	this.navs = CommonUtils.deepClone(HomeTranslator[this.currentLang].navs);
+        shared.defaultLang = this.currentLang;
+      	eventHub.$emit('changed-lang', this.currentLang);
+      }
     },
 
 
@@ -136,7 +140,7 @@ export default {
       if((this.$refs.navigator && !this.$refs.navigator.contains(event.target))
           &&(this.$refs.smallNavEle && !this.$refs.smallNavEle.contains(event.target)) 
         ){
-        console.log("fnBlur1")
+        // console.log("fnBlur1")
         this.navs.forEach(outer=>{
           outer.bShow = false;
         })
@@ -155,23 +159,40 @@ export default {
       }      
     },
 
-    makeNav(nav, currentath){
+    makeNav(nav, currentPath){
 
       let nav_ = [];
 
       if(TypeChecker.isArray(nav)){
-        nav_ = CommonUtils.deepClone(nav);
-        nav_.forEach(d=>{
-          d.bShow = false;
+        nav.forEach(d=>{
+
+
+          let subPath = [];
           if(TypeChecker.isArray(d.subPath)){
             d.subPath.forEach(subD=>{
-              subD.active =  currentath == subD.path ? true : false;
+              let active =  currentPath == subD.path ? true : false;
+              subPath.push({
+                active: active,
+                href: subD.href,
+                name: subD.name, 
+                path: subD.path
+              })
             }) 
           }
+
+          nav_.push({
+          bShow: false,
+          description: d.description,
+          name: d.name,
+          path: d.path,
+          subPath: subPath        
+          })
         })
       }
 
       return nav_;
     }
+
+
   }
 }

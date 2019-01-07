@@ -29,7 +29,7 @@ let en = {
         path: '/czzx/culture',
         href: '/czzx/culture'
       }, {
-        name: "School Governance",
+        name: "Programme Governance",
         path: '/czzx/governance',
         href: '/czzx/governance'
       }]  
@@ -46,7 +46,7 @@ let en = {
         path: '/njgx/objective',
         href: '/njgx/objective'
       }, {
-        name: "Out-reached Programme",
+        name: "Out-reached Programmes",
         path: '/njgx/programme',
         href: '/njgx/programme'
       }, {

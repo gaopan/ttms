@@ -35,7 +35,7 @@ let en = {
     path: '/njgx/objective',
     href: '/njgx/objective'
   }, {
-    name: "Out-reached Programme",
+    name: "Out-reached Programmes",
     path: '/njgx/programme',
     href: '/njgx/programme'
   }, {
