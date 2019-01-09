@@ -1,268 +1,283 @@
-.njkc-structure .structure-content{
-/*   background: #b27524;
-  color: #fff;
-  padding: 20px; */
+.njkc-structure .structure-content {
+  padding: 50px 20px 1px
+}
 
-    /*background: #b27524;*/
-    /*color: #fff;*/
-    padding: 50px 20px 1px;  
-}
-.njkc-structure .structure-content .structure-title{
-      font-weight: bold;
-    /* font-size: 18px; */
-    font-size: 22px;
-
-
-}
-.njkc-structure .structure-content .structure-info{
-/*     text-align: center; 
-font-size: 24px;
-margin: 0 auto 40px;
-width: 80%;
-line-height: 32px; */
-
-    font-size: 18px;
-    margin: 20px 20px;
-    line-height: 32px;
-}
-.njkc-structure .structure-requirements{
-  background: #b27524;
-    padding: 2px;
-}
-.njkc-structure .structure-requirements .requirements-content{
-  background: #fff;
-  padding:20px;
-  margin-left: 0;
-  margin-right: 0;
-}
-.njkc-structure .structure-requirements .requirements-content p.requirements-total{
-      width: 60%;
-    margin: 0 auto;
-    border-bottom: 4px solid #b27524;
-    /*line-height: 3;*/
-    line-height: 38px;
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-    color: #b27524;
-    margin-bottom: 40px;
-    padding-bottom: 10px;
-}
-.njkc-structure .structure-requirements .requirements-content p.requirements-title{
+.njkc-structure .structure-content .structure-title {
   font-weight: bold;
-    color: #b27524;
-    font-size: 20px;
-    /*width: 60%;*/
-    /*border-bottom: 4px solid #b27524;*/
-    line-height: 3;
+  font-size: 22px
 }
-.njkc-structure .structure-requirements .requirements-content p.requirements-info{
-    /*width: 80%;*/
-    color: #b27524;
-}
-    
 
-.njkc-structure .structure-nav{
-  margin-top: 60px;
-  /* background: #b27524; */
-  border-bottom: 2px solid #131132;
+.njkc-structure .structure-content .structure-info {
+  font-size: 18px;
+  margin: 20px 20px;
+  line-height: 32px
 }
-.njkc-structure .structure-nav:after{
+
+.njkc-structure .structure-requirements {
+  background: #b27524;
+  padding: 2px
+}
+
+.njkc-structure .structure-requirements .requirements-content {
+  background: #fff;
+  padding: 20px;
+  margin-left: 0;
+  margin-right: 0
+}
+
+.njkc-structure .structure-requirements .requirements-content p.requirements-total {
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: 4px solid #b27524;
+  line-height: 38px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #b27524;
+  margin-bottom: 40px;
+  padding-bottom: 10px
+}
+
+.njkc-structure .structure-requirements .requirements-content p.requirements-title {
+  font-weight: bold;
+  color: #b27524;
+  font-size: 20px;
+  line-height: 3
+}
+
+.njkc-structure .structure-requirements .requirements-content p.requirements-info {
+  color: #b27524
+}
+
+.njkc-structure .structure-nav {
+  margin-top: 60px;
+  border-bottom: 2px solid #131132
+}
+
+.njkc-structure .structure-nav:after {
   height: 0;
-  content:'';
+  content: '';
   clear: both;
   visibility: hidden;
-  display: block;
+  display: block
 }
-.njkc-structure .structure-nav a{
+
+.njkc-structure .structure-nav a {
   line-height: 60px;
   color: #fff;
   text-decoration: none;
   display: block;
   float: left;
-  /* margin-left: 20px; */
-  /* font-weight: bold; */
-  cursor:pointer;
+  cursor: pointer;
   text-align: center;
-  color: #131132;  
-  /* border-bottom: 2px solid #fff; */  
-}
-
-.njkc-structure .structure-nav a + a{
-    margin-left: 20px;
-
-}
-.njkc-structure .structure-nav a:hover{
-  /* border-bottom: 4px solid #131132; */
-  border-bottom: 2px solid #131132;
   color: #131132;
+  border-bottom: 2px solid #fff;
 }
-.njkc-structure .structure-nav a.structure-nav-active{
-  /* border-bottom: 4px solid #131132; */
+
+.njkc-structure .structure-nav a + a {
+  margin-left: 20px
+}
+
+.njkc-structure .structure-nav a:hover {
+  border-bottom: 2px solid #131132;
+  color: #131132
+}
+
+.njkc-structure .structure-nav a.structure-nav-active {
   color: #131132;
   font-weight: 700;
-  border-bottom: 2px solid #131132;  
+  border-bottom: 2px solid #131132
 }
 
-
-
-
-.njkc-year{
+.njkc-year {
   left: 0;
   width: 100%;
-  /*background: #b27524;*/
   margin-top: 0 !important;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 30px
 }
-.njkc-year table th.njkc-year-sortnum{
-  width: 15%;
+
+.njkc-year table th.njkc-year-sortnum {
+  width: 15%
 }
-.njkc-year table th.njkc-year-term{
-  width: 15%;
+
+.njkc-year table th.njkc-year-term {
+  width: 15%
 }
-.njkc-year table th.njkc-year-course{
-  width: 45%;
+
+.njkc-year table th.njkc-year-course {
+  width: 45%
 }
-.njkc-year table th.njkc-year-igcse{
-  width: 25%;
+
+.njkc-year table th.njkc-year-igcse {
+  width: 25%
 }
-.njkc-year table{
-  /* width: 80%;*/
-  margin: 10px auto; 
-  
-  width: 96%;
+
+.njkc-year table {
+  margin: 10px auto;
+  width: 96%
 }
-.njkc-year table th{
+
+.njkc-year table th {
   background: #262162;
-  border:1px solid #000;
+  border: 1px solid #000;
   color: #fff;
   text-align: center;
-  line-height: 3;
+  line-height: 3
 }
-.njkc-year table tr.years-subtotal{
+
+.njkc-year table tr.years-subtotal {
   background: #b27524;
-  color: #fff;
+  color: #fff
 }
-.njkc-year table td{
+
+.njkc-year table td {
   border: 1px solid #000;
   text-align: center;
   line-height: 2
 }
-@media (max-width: 960px) {
-  .njkc-structure .structure-content .structure-title{
-    font-size: 16px;
+
+@media (max-width:960px) {
+  .njkc-structure .structure-content .structure-title {
+    font-size: 16px
   }
-  .njkc-structure .structure-content .structure-info{
-    font-size: 14px;
+
+  .njkc-structure .structure-content .structure-info {
+    font-size: 14px
   }
-  .njkc-structure .structure-requirements .requirements-content p.requirements-total{
-    /*line-height: 3;*/
+
+  .njkc-structure .structure-requirements .requirements-content p.requirements-total {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
   }
-  .njkc-structure .structure-requirements .requirements-content p.requirements-title{
-    font-size: 18px;
+
+  .njkc-structure .structure-requirements .requirements-content p.requirements-title {
+    font-size: 18px
   }
-  .njkc-structure .structure-nav a{
-  line-height: 40px;
+
+  .njkc-structure .structure-nav a {
+    line-height: 40px
   }
+
 }
-@media (max-width: 768px) {
-  .njkc-structure .structure-content .structure-title{
-    font-size: 16px;
+
+@media (max-width:768px) {
+  .njkc-structure .structure-content .structure-title {
+    font-size: 16px
   }
-  .njkc-structure .structure-content .structure-info{
+
+  .njkc-structure .structure-content .structure-info {
     font-size: 14px;
     width: 100%;
-    margin-left: 0;
+    margin-left: 0
   }
-  .njkc-structure .structure-requirements .requirements-content p.requirements-total{
-    /*line-height: 2;*/
+
+  .njkc-structure .structure-requirements .requirements-content p.requirements-total {
     font-size: 22px;
     margin-bottom: 10px;
-    line-height: 24px;
+    line-height: 24px
   }
-  .njkc-structure .structure-requirements .requirements-content p.requirements-title{
-    font-size: 16px;
+
+  .njkc-structure .structure-requirements .requirements-content p.requirements-title {
+    font-size: 16px
   }
-  .njkc-structure .structure-nav a{
+
+  .njkc-structure .structure-nav a {
     font-size: 14px;
     line-height: 2;
-    height: 30px;
+    height: 30px
   }
-    .njkc-year table{
+
+  .njkc-year table {
     width: 80%;
-    font-size: 14px;
+    font-size: 14px
   }
-  .njkc-year table th{
+
+  .njkc-year table th {
     line-height: 2;
-    font-size: 14px;
+    font-size: 14px
   }
-  .njkc-year table td{
+
+  .njkc-year table td {
     line-height: 20px;
-    font-size: 14px;
+    font-size: 14px
   }
-  .njkc-structure .structure-nav{
-    margin-top: 40px;
+
+  .njkc-structure .structure-nav {
+    margin-top: 40px
   }
+
 }
-@media (max-width: 580px) {
-  .njkc-structure .structure-content .structure-title{
-    font-size: 16px;
+
+@media (max-width:580px) {
+  .njkc-structure .structure-content .structure-title {
+    font-size: 16px
   }
-  .njkc-structure .structure-content .structure-info{
+
+  .njkc-structure .structure-content .structure-info {
     font-size: 14px;
     margin-bottom: 20px;
-    line-height: 20px;
+    line-height: 20px
   }
-  .njkc-structure .structure-requirements .requirements-content p.requirements-total{
+
+  .njkc-structure .structure-requirements .requirements-content p.requirements-total {
     width: 100%;
-    font-size: 18px;
-    /*line-height: 2*/
+    font-size: 18px
   }
-  .njkc-structure .structure-requirements .requirements-content p.requirements-title{
+
+  .njkc-structure .structure-requirements .requirements-content p.requirements-title {
     width: 100%;
-    font-size: 14px;
+    font-size: 14px
   }
-  .njkc-structure .structure-requirements .requirements-content p.requirements-info{
+
+  .njkc-structure .structure-requirements .requirements-content p.requirements-info {
     width: 100%;
-    font-size: 14px;
+    font-size: 14px
   }
-  .njkc-structure .structure-nav a{
+
+  .njkc-structure .structure-nav a {
     font-size: 12px;
     line-height: 2;
     height: 30px;
-    margin-left: 6px;
+    margin-left: 6px
   }
-  .njkc-structure .structure-nav a + a{
-    margin-left: 10px;
-}
-  .njkc-year{
-    padding-top: 1px;
+
+  .njkc-structure .structure-nav a + a {
+    margin-left: 10px
   }
-  .njkc-year table{
+
+  .njkc-year {
+    padding-top: 1px
+  }
+
+  .njkc-year table {
     width: 99%;
-    font-size: 14px;
+    font-size: 14px
   }
-  .njkc-year table th{
+
+  .njkc-year table th {
     line-height: 2;
-    font-size: 12px;
+    font-size: 12px
   }
-  .njkc-year table td{
+
+  .njkc-year table td {
     line-height: 20px;
-    font-size: 12px;
+    font-size: 12px
   }
-  .njkc-structure .structure-nav{
-    margin-top: 20px;
+
+  .njkc-structure .structure-nav {
+    margin-top: 20px
   }
+
 }
-@media (max-width: 480px) {
-  .njkc-structure .structure-content .structure-info{
-    margin-bottom: 10px;
+
+@media (max-width:480px) {
+  .njkc-structure .structure-content .structure-info {
+    margin-bottom: 10px
   }
-  .njkc-structure .structure-requirements .requirements-content p.requirements-info, .njkc-structure .structure-requirements .requirements-content p.requirements-title{
-    margin-bottom: 0;
+
+  .njkc-structure .structure-requirements .requirements-content p.requirements-info, .njkc-structure .structure-requirements .requirements-content p.requirements-title {
+    margin-bottom: 0
   }
-  
+
 }

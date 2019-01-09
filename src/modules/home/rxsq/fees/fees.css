@@ -1,143 +1,168 @@
-.rxsq-fees .fees-top{
+.rxsq-fees .fees-top {
   padding-bottom: 40px;
   border-bottom: 4px solid #b27524;
-  /* background: #d8ac43; */
-  padding-top: 20px;
+  padding-top: 20px
 }
-.rxsq-fees .fees-top table.fees-table{
+
+.rxsq-fees .fees-top table.fees-table {
   width: 100%;
-  text-align: center;
-  /*margin-top: 40px;*/
+  text-align: center
 }
-.rxsq-fees .fees-top table.fees-table th{
+
+.rxsq-fees .fees-top table.fees-table th {
   background: #342e88;
   line-height: 4;
-  border:1px solid #000;
-  /* border:1px solid #fff; */
+  border: 1px solid #000;
   color: #fff;
-  text-align: center;
+  text-align: center
 }
-.rxsq-fees .fees-top table.fees-table td{
+
+.rxsq-fees .fees-top table.fees-table td {
   line-height: 3;
-  border:1px solid #000;
-  /* border:1px solid #fff; */
+  border: 1px solid #000
 }
-.rxsq-fees .fees-top .fees-scheme{
-  /*background: url(/static/img/delfi-de-la-rua-140752-unsplash.9e87b37.jpg);*/
-  /*background-size: cover;*/
+
+.rxsq-fees .fees-top .fees-scheme {
   padding: 0;
   color: #b27524;
+  -webkit-box-shadow: 0 0 1px #000;
+  -moz-box-shadow: 0 0 1px #000;
   box-shadow: 0 0 1px #000;
-  /*margin-top: 20px;*/
-  background: #d8ac43;
+  background: #d8ac43
 }
-.rxsq-fees .fees-top .fees-scheme h2{
+
+.rxsq-fees .fees-top .fees-scheme h2 {
   font-weight: 700;
-  background: rgba(255,255,255,.5);
+  background: rgba(255, 255, 255, .5);
   padding: 20px 20px 10px;
-  font-size: 20px;
+  font-size: 20px
 }
-.rxsq-fees .fees-top .fees-scheme .fees-amount{
+
+.rxsq-fees .fees-top .fees-scheme .fees-amount {
   font-size: 50px;
   margin: 0;
   font-weight: 700;
-  background: rgba(255,255,255,.5);
-  padding: 20px 20px 16px;
+  background: rgba(255, 255, 255, .5);
+  padding: 20px 20px 16px
 }
-.rxsq-fees .fees-top .fees-scheme .fees-tip{
+
+.rxsq-fees .fees-top .fees-scheme .fees-tip {
   margin: 0;
   font-weight: 700;
   font-size: 14px;
-  background: rgba(255,255,255,.5);
-  padding: 0 20px 2px;
+  background: rgba(255, 255, 255, .5);
+  padding: 0 20px 2px
 }
 
-.rxsq-fees .fees-bottom{
+.rxsq-fees .fees-bottom {
   padding-top: 20px;
-  /* background: #b27524; */
-  /* color: #fff; */
   color: #000;
-  padding: 10px;
+  padding: 10px
 }
-.rxsq-fees .fees-bottom .fees-include{
+
+.rxsq-fees .fees-bottom .fees-include {
   margin-bottom: 60px;
-  margin-top: 40px;
+  margin-top: 40px
 }
-.rxsq-fees .fees-bottom .fees-include h3,.rxsq-fees .fees-bottom .fees-notinclude h3{
+
+.rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3 {
   font-size: 24px;
-  padding:10px;
+  padding: 10px;
   width: 100 %;
   border-bottom: 4px solid #fff;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: bold
 }
-.rxsq-fees .fees-bottom p{
-  padding-left: 10px;
+
+.rxsq-fees .fees-bottom p {
+  padding-left: 10px
 }
-.rxsq-fees .fees-bottom p span.glyphicon-stop{
-  margin-right: 10px;
+
+.rxsq-fees .fees-bottom p span.glyphicon-stop {
+  margin-right: 10px
 }
-.rxsq-fees .fees-bottom p span.fees-include-red{
-  color: red;
+
+.rxsq-fees .fees-bottom p span.fees-include-red {
+  color: red
 }
-@media (max-width: 990px) {
-    .rxsq-fees .fees-top{
-      padding-bottom: 20px;
-    }
-  .rxsq-fees .fees-top table.fees-table{
-    margin-top: 10px;
+
+@media (max-width:990px) {
+  .rxsq-fees .fees-top {
+    padding-bottom: 20px
   }
-  .rxsq-fees .fees-top table.fees-table th{
+
+  .rxsq-fees .fees-top table.fees-table {
+    margin-top: 10px
+  }
+
+  .rxsq-fees .fees-top table.fees-table th {
     line-height: 3
   }
-  .rxsq-fees .fees-top table.fees-table td{
-    line-height: 2;
+
+  .rxsq-fees .fees-top table.fees-table td {
+    line-height: 2
   }
-  .rxsq-fees .fees-top .fees-scheme{
-    margin-top: 10px;
+
+  .rxsq-fees .fees-top .fees-scheme {
+    margin-top: 10px
   }
-  .rxsq-fees .fees-top .fees-scheme .fees-amount{
-    font-size: 40px;
+
+  .rxsq-fees .fees-top .fees-scheme .fees-amount {
+    font-size: 40px
   }
-  .rxsq-fees .fees-top .fees-scheme h2{
-    font-size: 18px;
+
+  .rxsq-fees .fees-top .fees-scheme h2 {
+    font-size: 18px
   }
-  .rxsq-fees .fees-top .fees-scheme .fees-amount{
-    padding-bottom: 8px;
+
+  .rxsq-fees .fees-top .fees-scheme .fees-amount {
+    padding-bottom: 8px
   }
-  .rxsq-fees .fees-bottom .fees-include{
-        margin-bottom: 30px;
-    margin-top: 20px;
+
+  .rxsq-fees .fees-bottom .fees-include {
+    margin-bottom: 30px;
+    margin-top: 20px
   }
-  .rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3{
-    font-size: 20px;
+
+  .rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3 {
+    font-size: 20px
   }
-  .rxsq-fees .fees-bottom p{
-    font-size: 14px;
+
+  .rxsq-fees .fees-bottom p {
+    font-size: 14px
   }
+
 }
-@media (max-width: 768px) {
-    .rxsq-fees .fees-top .fees-scheme h2{
-      font-size: 16px;
-    }
-    .rxsq-fees .fees-top .fees-scheme .fees-amount{
-      font-size: 30px;
-    }
-  .rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3{
-    font-size: 18px;
-    width: 100%;
+
+@media (max-width:768px) {
+  .rxsq-fees .fees-top .fees-scheme h2 {
+    font-size: 16px
   }
+
+  .rxsq-fees .fees-top .fees-scheme .fees-amount {
+    font-size: 30px
+  }
+
+  .rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3 {
+    font-size: 18px;
+    width: 100%
+  }
+
 }
-@media (max-width: 480px) {
-  .rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3{
+
+@media (max-width:480px) {
+  .rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3 {
     font-size: 16px;
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0px
   }
-  .rxsq-fees .fees-bottom p{
-    font-size: 14px;
+
+  .rxsq-fees .fees-bottom p {
+    font-size: 14px
   }
-  .rxsq-fees .fees-top .fees-scheme h2{
-    padding-bottom: 0;
+
+  .rxsq-fees .fees-top .fees-scheme h2 {
+    padding-bottom: 0
   }
+
 }

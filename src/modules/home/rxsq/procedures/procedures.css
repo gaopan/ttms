@@ -1,229 +1,254 @@
-.rxsq-procedures{
-	font-size: 16px;
-  /*background: #b27524;*/
-  /*color: #fff;*/
+.rxsq-procedures {
+  font-size: 16px;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px
 }
-.rxsq-procedures ul.procedures-top{
+
+.rxsq-procedures ul.procedures-top {
   padding: 22px;
   background: #b27524;
-  color: #fff;
+  color: #fff
 }
-.rxsq-procedures ul.procedures-steps{
-  /*padding:40px 12px 0 0;*/
-      /*padding: 80px 0px 30px 40px;*/
-      /*width: 88%;*/
-    margin: 60px auto;
-    padding: 20px;
+
+.rxsq-procedures ul.procedures-steps {
+  margin: 60px auto;
+  padding: 20px
 }
-.rxsq-procedures ul.procedures-steps li.procedures-steps-title{
+
+.rxsq-procedures ul.procedures-steps li.procedures-steps-title {
   font-size: 24px;
-    font-weight: bold;
-    border-bottom: 4px solid #000;
-    /*width: 50%;*/
-    width: 100%;
-    padding: 20px 0;
-    /*margin-left: -20px;*/
+  font-weight: bold;
+  border-bottom: 4px solid #000;
+  width: 100%;
+  padding: 20px 0
 }
-.rxsq-procedures ul.procedures-steps li span.colorred{
-  color: red;
+
+.rxsq-procedures ul.procedures-steps li span.colorred {
+  color: red
 }
-.rxsq-procedures ul.procedures-steps li,.rxsq-procedures ul.procedures-files li{
+
+.rxsq-procedures ul.procedures-steps li, .rxsq-procedures ul.procedures-files li {
   margin-bottom: 16px;
-  line-height: 22px;
+  line-height: 22px
 }
-.rxsq-procedures ul.procedures-top li.procedures-top-title{
+
+.rxsq-procedures ul.procedures-top li.procedures-top-title {
   font-size: 18px;
-  line-height: 26px;
+  line-height: 26px
 }
-.rxsq-procedures ul.procedures-top li.procedures-top-address{
+
+.rxsq-procedures ul.procedures-top li.procedures-top-address {
   line-height: 30px;
-  /*line-height: 3;*/
-  /* text-align: center; */
   font-size: 18px;
   font-weight: bold;
-  margin-top: 20px;
-  /*margin-bottom: 20px;*/
+  margin-top: 20px
 }
-.rxsq-procedures ul.procedures-files{
+
+.rxsq-procedures ul.procedures-files {
   margin-top: 40px;
   background: #fff;
   padding: 20px;
   color: #fff;
-  background: #b27524;
+  background: #b27524
 }
-.rxsq-procedures ul.procedures-files li span.glyphicon-stop{
-  margin-right: 10px;
+
+.rxsq-procedures ul.procedures-files li span.glyphicon-stop {
+  margin-right: 10px
 }
-.rxsq-procedures ul.procedures-files li.procedures-files-title{
+
+.rxsq-procedures ul.procedures-files li.procedures-files-title {
   line-height: 3;
   font-weight: bold;
   font-size: 24px;
-  /*width: 50%;*/
   width: 100%;
   border-bottom: 4px solid #fff;
-  color: red;
+  color: red
 }
-.rxsq-procedures ul.procedures-files li.procedures-files-tip{
-  /*color: red;*/
+
+.rxsq-procedures ul.procedures-files li.procedures-files-tip {
   color: #820000;
-  font-size: 14px;
+  font-size: 14px
 }
-.rxsq-procedures .procedures-timeline{
+
+.rxsq-procedures .procedures-timeline {
   width: 50%;
-  margin: 50px auto 30px;
-  /*margin-top: -10px;*/
+  margin: 50px auto 30px
 }
-.rxsq-procedures .procedures-timeline .timeline-total{
+
+.rxsq-procedures .procedures-timeline .timeline-total {
   width: 200px;
   line-height: 3;
-  /*background: #fff;*/
-  /*color: #b27524;*/
   background: #000;
   color: #fff;
   text-align: center;
   margin-left: -100px;
-  /*border-top: 4px solid #b27524;*/
   margin-top: 4px;
-  font-weight: bold;
+  font-weight: bold
 }
-.rxsq-procedures .procedures-timeline ul li{
+
+.rxsq-procedures .procedures-timeline ul li {
   position: relative;
-  padding:40px 20px 10px;
+  padding: 40px 20px 10px
 }
-.rxsq-procedures .procedures-timeline ul li i.glyphicon-backward,
-.rxsq-procedures .procedures-timeline ul li i.glyphicon-forward{
+
+.rxsq-procedures .procedures-timeline ul li i.glyphicon-backward, .rxsq-procedures .procedures-timeline ul li i.glyphicon-forward {
   position: absolute;
   color: #fff;
   bottom: 0px;
   left: 50%;
   width: 20px;
   height: 20px;
-  margin-left: -10px;
+  margin-left: -10px
 }
 
-.rxsq-procedures .procedures-timeline ul li p{
+.rxsq-procedures .procedures-timeline ul li p {
   padding: 0px;
   margin: 0;
   font-size: 16px;
-  padding-bottom: 6px;
+  padding-bottom: 6px
 }
-.rxsq-procedures .procedures-timeline ul li p.timeline-item-title{
+
+.rxsq-procedures .procedures-timeline ul li p.timeline-item-title {
   font-size: 24px;
   color: #b27524;
-  font-weight: bold;
+  font-weight: bold
 }
-.rxsq-procedures .procedures-timeline ul li.timeline-left{
+
+.rxsq-procedures .procedures-timeline ul li.timeline-left {
   border-left: 4px solid #000;
   border-bottom: 4px solid #000;
   text-align: left;
-  position: relative;
+  position: relative
 }
-.rxsq-procedures .procedures-timeline ul li.timeline-right{
+
+.rxsq-procedures .procedures-timeline ul li.timeline-right {
   border-right: 4px solid #000;
   border-bottom: 4px solid #000;
-  text-align: right;
+  text-align: right
 }
-.rxsq-procedures .procedures-timeline ul li .timeline-title{
+
+.rxsq-procedures .procedures-timeline ul li .timeline-title {
   position: absolute;
-  top: 14px;
+  top: 14px
 }
-.rxsq-procedures .procedures-timeline ul li.timeline-left span.glyphicon-adjust{
+
+.rxsq-procedures .procedures-timeline ul li.timeline-left span.glyphicon-adjust {
   position: absolute;
   left: -17px;
   top: 35px;
-  font-size: 30px;
+  font-size: 30px
 }
-.rxsq-procedures .procedures-timeline ul li.timeline-right span.glyphicon-adjust{
+
+.rxsq-procedures .procedures-timeline ul li.timeline-right span.glyphicon-adjust {
   position: absolute;
   right: -17px;
   top: 35px;
-  font-size: 30px;
+  font-size: 30px
 }
 
-@media (max-width: 990px) {
-  .rxsq-procedures ul.procedures-steps{
-    margin: 20px auto;
+@media (max-width:990px) {
+  .rxsq-procedures ul.procedures-steps {
+    margin: 20px auto
   }
-  .rxsq-procedures ul.procedures-files{
-    margin-top: 0px;
+
+  .rxsq-procedures ul.procedures-files {
+    margin-top: 0px
   }
-  .rxsq-procedures ul.procedures-files li.procedures-files-title,
-  .rxsq-procedures ul.procedures-steps li.procedures-steps-title{
-    font-size: 20px;
+
+  .rxsq-procedures ul.procedures-files li.procedures-files-title, .rxsq-procedures ul.procedures-steps li.procedures-steps-title {
+    font-size: 20px
   }
-  .rxsq-procedures ul.procedures-top li.procedures-top-address{
-    font-size: 18px;
+
+  .rxsq-procedures ul.procedures-top li.procedures-top-address {
+    font-size: 18px
   }
-  .rxsq-procedures .procedures-timeline ul li p{
-    font-size: 14px;
+
+  .rxsq-procedures .procedures-timeline ul li p {
+    font-size: 14px
   }
-  .rxsq-procedures .procedures-timeline ul li p.timeline-item-title{
+
+  .rxsq-procedures .procedures-timeline ul li p.timeline-item-title {
+    font-size: 16px
+  }
+
+}
+
+@media (max-width:768px) {
+  .rxsq-procedures .procedures-timeline {
+    width: 71%
+  }
+
+  .rxsq-procedures .procedures-timeline .timeline-total {
+    margin-left: 0
+  }
+
+  .rxsq-procedures ul.procedures-steps {
+    margin: 0
+  }
+
+}
+
+@media (max-width:650px) {
+  .rxsq-procedures .procedures-timeline .timeline-total {
+    margin-left: 0;
     font-size: 16px;
+    width: 160px
   }
+
 }
-@media (max-width: 768px) {
-  .rxsq-procedures .procedures-timeline{
-    width: 71%;
+
+@media (max-width:650px) {
+  .rxsq-procedures ul.procedures-steps li.procedures-steps-title, .rxsq-procedures ul.procedures-files li.procedures-files-title {
+    width: 100%
   }
-  .rxsq-procedures .procedures-timeline .timeline-total{
-    margin-left: 0;
-  }
-  .rxsq-procedures ul.procedures-steps{
-    margin: 0;
-  }
+
 }
-@media (max-width: 650px) {
-  .rxsq-procedures .procedures-timeline .timeline-total{
-    margin-left: 0;
-        font-size: 16px;
-    width: 160px;
+
+@media (max-width:480px) {
+  .rxsq-procedures ul.procedures-files li, .rxsq-procedures ul.procedures-steps li {
+    font-size: 14px
   }
-}
-@media (max-width: 650px) {
-  .rxsq-procedures ul.procedures-steps li.procedures-steps-title,
-  .rxsq-procedures ul.procedures-files li.procedures-files-title{
-    width: 100%;
-  }
-}
-@media (max-width: 480px) {
-  .rxsq-procedures ul.procedures-files li, .rxsq-procedures ul.procedures-steps li{
-    font-size: 14px;
-  }
-  .rxsq-procedures ul.procedures-steps li.procedures-steps-address{
+
+  .rxsq-procedures ul.procedures-steps li.procedures-steps-address {
     font-size: 16px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
   }
-  .rxsq-procedures ul.procedures-top li.procedures-top-title{
+
+  .rxsq-procedures ul.procedures-top li.procedures-top-title {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 24px
   }
-  .rxsq-procedures ul.procedures-top li.procedures-top-address{
+
+  .rxsq-procedures ul.procedures-top li.procedures-top-address {
     font-size: 14px;
-    line-height: 22px;
+    line-height: 22px
   }
-  
-  .rxsq-procedures .procedures-timeline{
-    width: 80%;
+
+  .rxsq-procedures .procedures-timeline {
+    width: 80%
   }
-  .rxsq-procedures .procedures-timeline .timeline-total{
+
+  .rxsq-procedures .procedures-timeline .timeline-total {
     margin-left: 0;
-        font-size: 14px;
-    width: 100px;
-  }
-  .rxsq-procedures .procedures-timeline ul li p.timeline-item-title{
-    font-size: 16px;
-  }
-  .rxsq-procedures .procedures-timeline ul li p{
     font-size: 14px;
+    width: 100px
   }
+
+  .rxsq-procedures .procedures-timeline ul li p.timeline-item-title {
+    font-size: 16px
+  }
+
+  .rxsq-procedures .procedures-timeline ul li p {
+    font-size: 14px
+  }
+
 }
-@media (max-width: 480px) {
-  .rxsq-procedures ul.procedures-steps li.procedures-steps-title,
-  .rxsq-procedures ul.procedures-files li.procedures-files-title{
+
+@media (max-width:480px) {
+  .rxsq-procedures ul.procedures-steps li.procedures-steps-title, .rxsq-procedures ul.procedures-files li.procedures-files-title {
     line-height: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 10px
   }
+
 }
