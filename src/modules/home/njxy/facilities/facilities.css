@@ -57,11 +57,13 @@
 
 @media (max-width:768px) {
   .njxy-facilities .facilities-item p {
-    font-size: 14px
+    font-size: 14px;
+    padding: 10px;
   }
 
   .njxy-facilities .facilities-itemo p {
-    font-size: 14px
+    font-size: 14px;
+    padding: 10px;
   }
 
 }
@@ -69,12 +71,12 @@
 @media (max-width:480px) {
   .njxy-facilities .facilities-item p {
     font-size: 14px;
-    line-height: 16px
+    line-height: 10px
   }
 
   .njxy-facilities .facilities-itemo p {
     font-size: 14px;
-    line-height: 16px
+    line-height: 10px
   }
 
 }

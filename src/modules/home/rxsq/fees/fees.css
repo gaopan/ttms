@@ -91,12 +91,9 @@
     padding-bottom: 20px
   }
 
-  .rxsq-fees .fees-top table.fees-table {
-    margin-top: 10px
-  }
-
   .rxsq-fees .fees-top table.fees-table th {
-    line-height: 3
+    line-height: 3;
+    font-size: 14px;
   }
 
   .rxsq-fees .fees-top table.fees-table td {
@@ -142,7 +139,9 @@
   .rxsq-fees .fees-top .fees-scheme .fees-amount {
     font-size: 30px
   }
-
+  .rxsq-fees .fees-top{
+    padding-top: 0;
+  }
   .rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3 {
     font-size: 18px;
     width: 100%
