@@ -7,7 +7,7 @@
 			<img :src="imgUrl('MTR-station.png')" alt="">
     </div>
     <div class="transportation-item" v-show="currentLang == 'en'">
-      <p><span class="glyphicon glyphicon-stop"></span>There is a parking lot opposite the school.</p>
+      <p><span class="glyphicon glyphicon-stop"></span>There is a parking lot opposite to the school.</p>
       <p><span class="glyphicon glyphicon-stop"></span>Three minutes' walk to the So Uk Bus Terminal.</p>
       <p><span class="glyphicon glyphicon-stop"></span>Seven minutes' walk to Cheung Sha Wan MTR station.</p>
       <img :src="imgUrl('MTR-station.png')" alt="">

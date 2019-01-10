@@ -28,30 +28,36 @@
   -webkit-box-shadow: 0 0 1px #000;
   -moz-box-shadow: 0 0 1px #000;
   box-shadow: 0 0 1px #000;
-  background: #d8ac43
+  /*background: #d8ac43;*/
+  background: #ecd6a1;
 }
-
+.rxsq-fees .fees-top .fees-scheme .fees-amount span{
+  font-size: 14px;
+}
 .rxsq-fees .fees-top .fees-scheme h2 {
   font-weight: 700;
-  background: rgba(255, 255, 255, .5);
-  padding: 20px 20px 10px;
+/*  background: rgba(255, 255, 255, .5);*/
+  padding: 10px;
   font-size: 20px
 }
 
 .rxsq-fees .fees-top .fees-scheme .fees-amount {
-  font-size: 50px;
+  /*font-size: 50px;*/
+  font-size: 40px;
   margin: 0;
   font-weight: 700;
-  background: rgba(255, 255, 255, .5);
-  padding: 20px 20px 16px
+/*  background: rgba(255, 255, 255, .5);*/
+  /*padding: 20px 20px 16px;*/
+  padding:15px 10px;
 }
 
 .rxsq-fees .fees-top .fees-scheme .fees-tip {
   margin: 0;
-  font-weight: 700;
+  /*font-weight: 700;*/
   font-size: 14px;
-  background: rgba(255, 255, 255, .5);
-  padding: 0 20px 2px
+/*  background: rgba(255, 255, 255, .5);*/
+  /*padding: 0 20px 2px*/
+  padding:4px 10px;
 }
 
 .rxsq-fees .fees-bottom {
@@ -66,9 +72,9 @@
 }
 
 .rxsq-fees .fees-bottom .fees-include h3, .rxsq-fees .fees-bottom .fees-notinclude h3 {
-  font-size: 24px;
+  font-size: 18px;
   padding: 10px;
-  width: 100 %;
+  width: 100%;
   border-bottom: 4px solid #fff;
   margin-bottom: 20px;
   font-weight: bold
@@ -85,7 +91,24 @@
 .rxsq-fees .fees-bottom p span.fees-include-red {
   color: red
 }
+@media (max-width:1200px) {
+  .rxsq-fees .fees-top .fees-scheme .fees-amount {
+    font-size: 30px
+  }
+  .rxsq-fees .fees-top .fees-scheme .fees-amount-zh{
+    padding: 16px 10px;
+  }
+  .rxsq-fees .fees-top .fees-scheme .fees-amount-en{
+      padding: 10px 10px 11px;
+  }
+  .rxsq-fees .fees-top .fees-scheme .fees-amount-en span{
+    font-size: 12px;
+  }
+  .rxsq-fees .fees-top .fees-scheme .fees-tip-en{
+    font-size: 12px;
+  }
 
+}
 @media (max-width:990px) {
   .rxsq-fees .fees-top {
     padding-bottom: 20px
@@ -105,7 +128,7 @@
   }
 
   .rxsq-fees .fees-top .fees-scheme .fees-amount {
-    font-size: 40px
+    font-size: 30px
   }
 
   .rxsq-fees .fees-top .fees-scheme h2 {
@@ -158,10 +181,6 @@
 
   .rxsq-fees .fees-bottom p {
     font-size: 14px
-  }
-
-  .rxsq-fees .fees-top .fees-scheme h2 {
-    padding-bottom: 0
   }
 
 }

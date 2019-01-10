@@ -109,7 +109,15 @@
   }
 
 }
-
+@media (max-width:500px) {
+  .honor-honorary-list a {
+    width: 48%;
+    text-align: center;
+  }
+  .honor-honorary-list a+a {
+    margin-left: 10px
+  }
+}
 @media (max-width:480px) {
   .honorary-list-years table {
     width: 99%;
@@ -142,7 +150,11 @@
   }
 
 }
-
+@media (max-width:430px) {
+  .honor-honorary-list a+a {
+    margin-left: 5px
+  }
+}
 @media (max-width:388px) {
   .honor-honorary-list a {
     width: 48%

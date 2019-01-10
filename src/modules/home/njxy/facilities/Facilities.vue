@@ -9,13 +9,13 @@
       </div>
       <div class="col-md-6">
         <div class="facilities-item">
-          <p>一樓緊急救助</p>
+          <p>一樓緊急救助站</p>
           <img :src="imgUrl('rescure-station.png')" alt="">
         </div>
       </div>
       <div class="col-md-6">
         <div class="facilities-item">
-          <p>課室/儲物櫃</p>
+          <p>課室 / 儲物櫃</p>
           <img :src="imgUrl('classroom.png')" alt="">
         </div>
       </div>
@@ -52,19 +52,19 @@
       </div>
       <div class="col-md-6">
         <div class="facilities-item">
-          <p>First-aid comer</p>
+          <p>First-aid corner</p>
           <img :src="imgUrl('rescure-station.png')" alt="">
         </div>
       </div>
       <div class="col-md-6">
         <div class="facilities-item">
-          <p>Classroom/Lockers</p>
+          <p>Classroom / Lockers</p>
           <img :src="imgUrl('classroom.png')" alt="">
         </div>
       </div>
       <div class="col-md-6">
         <div class="facilities-item">
-          <p>Campus Playgroung</p>
+          <p>Campus Playground</p>
           <img :src="imgUrl('playground.png')" alt="">
         </div>
       </div>

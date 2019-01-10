@@ -13,6 +13,9 @@
   line-height: 24px
 }
 
+.njkc-articulation table td p{
+  margin-bottom: 0;
+}
 .njkc-articulation table td.borderleft2 {
   border-left: 4px solid #fff
 }
