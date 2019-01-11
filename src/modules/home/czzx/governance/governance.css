@@ -1,3 +1,4 @@
+
 .school-construction {
     margin-bottom: 40px;
     margin-top: 30px;    
@@ -9,6 +10,11 @@
 .teacher-member .info-list p{
 	margin-bottom: 6px;
 }
+
+.experience-list-two .square{
+    background: #fff;
+}
+
 
 .teacher-introduce {
     display: flex;
@@ -60,6 +66,9 @@
     display: block;
     font-weight: 700;
     margin-bottom: 20px;		
+}
+.sub-list-item{
+    display: block;
 }
 
 .teacher-info{
@@ -180,9 +189,19 @@
 	flex: 1;
 }
 
-.experience-list-two .square{
-    background: #fff;
+.experience-list-four .mark-item,
+.experience-list-two .mark-item{
+    position: relative;
+    display: inline-block;
 }
+.experience-list-four .mark-item .square,
+.experience-list-two .mark-item .square{
+    position: absolute;
+    top: 8px;
+    left: -20px;
+}
+
+
 .experience-list-two.part1-3-2-experience1{
 	direction: rtl;
 	margin-left: 20px;
@@ -642,10 +661,23 @@
         width: 540px;
     }
 }
+
+@media(min-width:992px) and (max-width: 1499px){
+ 
+    .experience-list-one.info-list,     
+    .experience-list-three.info-list{
+        padding-right: 10px; 
+    }
+}
+
 @media(min-width:1500px){
     .stripe-background-two {
         height: 362px;
         width: 300px;
         transform: rotate(90deg) translateX(-32px) translateY(-34px);        
+    }  
+    .experience-list-one.info-list,     
+    .experience-list-three.info-list{
+        padding-right: 90px; 
     }    
 }

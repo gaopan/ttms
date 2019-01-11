@@ -16,7 +16,7 @@ export default {
     eventHub.$on("changed-lang", this.changedLang);
   },
   mounted() {
-    $(".blockGallery .rslides").responsiveSlides({ auto: !0, pager: !1, nav: !1, speed: 800, timeout: 6e3 });
+    // $(".blockGallery .rslides").responsiveSlides({ auto: !0, pager: !1, nav: !1, speed: 800, timeout: 6e3 });
   },
   components: {SearchBox},  
   methods: {

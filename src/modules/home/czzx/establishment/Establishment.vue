@@ -8,9 +8,9 @@
 
 			<li :class = "currentLang"><span class="square"></span>1957年起全心盡意施教勸學：</li>
 
-			<li :class = "currentLang"><span class="square"></span>乃全港唯一不問出身、不計宗教背景、不看“死文憑”，唯重梘學子“自我完善”、“自我超脫”之研學精神的中學</li>
+			<li :class = "currentLang"><span class="square"></span>乃全港唯一不問出身、不計宗教背景、不看“死文憑”，唯重視學子“自我完善”、“自我超脫”之研學精神的中學</li>
 
-			<li :class = "currentLang"><span class="square"></span>—所真正關懷學生“現在與將來”的中學。</li>
+			<li :class = "currentLang"><span class="square"></span>一所真正關懷學生“現在與將來”的中學。</li>
 
 			<!-- <li :class = "currentLang"><span class="square"></span>1926年徐仁苺先生建饑，總會冠以“工商”二字範圍太狭窄，不利於團結廣大客家鄉親，遂決議稱為“香港崇正總會”。</li>
       
@@ -25,9 +25,9 @@
 
       <li :class = "currentLang"><span class="square"></span>A school which has been wholeheartedly educating and teaching students since 1957;</li>
 
-      <li :class = "currentLang"><span class="square"></span>The only school in Hong Kong that only values students"self-improvement" and "self-detachment" spirits instead on rigidly emphasize on family birth, religious background, or "stiff diploma";</li>
+      <li :class = "currentLang"><span class="square"></span>The only school in Hong Kong that only values students' "self-improvement" and "self-detachment" spirits instead on rigidly emphasize on family birth, religious background, or "stiff diploma";</li>
 
-      <li :class = "currentLang"><span class="square"></span>A school that truly cares for the students* present and future.    </li>
+      <li :class = "currentLang"><span class="square"></span>A school that truly cares for the students' present and future.    </li>
     </ul>
     <div class="part1-1-picture">      
       <img :src="imgUrl('cz_bg.png')">      

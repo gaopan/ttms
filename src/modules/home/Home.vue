@@ -15,7 +15,7 @@
     					</a>
               <div class="school-title-wrapper" :class = "currentLang">
                 <p class="school-title" :class = "{'en':currentLang === 'en','zh':currentLang === 'zh_hk'}">{{'schoolName' | translate(translator, currentLang)}}</p>
-                <p class="school-subtitle-en">Tsung Tsin Middle School</p>
+                <p class="school-subtitle-en" v-show = "currentLang === 'zh_hk'">HONG KONG TSUNG TSIN MIDDLE SCHOOL</p>
               </div>
             </div>
             <!--    -->
@@ -128,13 +128,15 @@
             <br/> {{'contact' | translate(translator, currentLang)}}
             <br/> {{'contact_tel' | translate(translator, currentLang)}}
             <br/> {{'contact_fax' | translate(translator, currentLang)}}
-            <br/> {{'contact_phone' | translate(translator, currentLang)}}
+            <!-- <br/> {{'contact_phone' | translate(translator, currentLang)}} -->
+            <br/> {{'admissionOffice' | translate(translator, currentLang)}}
+
             <br/>
             {{'website' | translate(translator, currentLang)}}
             <a href="www.ttms.edu.hk">www.ttms.edu.hk</a>
             <br/>
             {{'email' | translate(translator, currentLang)}}
-            <a href="mailto:info@oxcoll.com">info@ttmsedu.onaliyun.com</a>
+            <a>info@ttms.edu.hk</a>
           </p>
         </div>
         <div id="footer-right">
@@ -151,13 +153,14 @@
             <br/> {{'contact' | translate(translator, currentLang)}}
             <br/> {{'contact_tel' | translate(translator, currentLang)}}
             <br/> {{'contact_fax' | translate(translator, currentLang)}}
-            <br/> {{'contact_phone' | translate(translator, currentLang)}}
+            <!-- <br/> {{'contact_phone' | translate(translator, currentLang)}} -->
+            <br/> {{'admissionOffice' | translate(translator, currentLang)}}
             <br/>
             {{'website' | translate(translator, currentLang)}}
             <a href="www.ttms.edu.hk">www.ttms.edu.hk</a>
             <br/>
             {{'email' | translate(translator, currentLang)}}
-            <a href="mailto:info@oxcoll.com">info@ttmsedu.onaliyun.com</a>
+            <a>info@ttms.edu.hk</a>
           </p>
         </div> 
         <div class="footer-map-wrapper">

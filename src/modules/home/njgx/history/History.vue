@@ -3,12 +3,12 @@
     <div class="part2-1 part2-1-1">
       <div class="part2-1-1-left">
         <div class="history-content" v-show="currentLang=='zh_hk'">
-          <p>英國牛津國際公學在幫助學生成為獨立、積極主劲的學習者並成功入讀英國和世界知名大學上享有盛譽。</p>
+          <p>英國牛津國際公學在幫助學生成為獨立、積極主動的學習者並成功入讀英國和世界知名大學上享有盛譽。</p>
           <p>英國牛津國際公學於2002年由牛津大學的一批學者成立，很快發展為英國名列前茅的牛津風格學院，並歡迎來自世界各地的學生入讀。過去十五年來，從學生到教師員，牛津國際公學創建了一個蓬勃發展的國際化社區。</p>
           <p>在牛津國際公學，學生由來自牛津的最好的老師教授。我們的老師畢業自牛津大學或世界名校，他們都是各自領域的專家，懂得如何幫助學生獲得最佳表現。</p>
         </div>
         <div class="history-content" v-show="currentLang=='en'">
-          <p>Oxford International College has an outstanding reputation for nurturing students to become independent, motivated learners emd successfully gain entry the best British and international universities.</p>
+          <p>Oxford International College has an outstanding reputation for nurturing students to become independent, motivated learners and successfully gain entry the best British and international universities.</p>
           <p>Oxford International College (OIC) was founded in 2002 by a group of experienced scholars from the University of Oxford. It has grown into one of the most successful private colleges in UK, welcoming students from UK and all over the world.Over the past 15 years, the College has created a thriving international community of students and staff.</p>
           <p>Students are taught by some of Oxford's finest tutors. Our teaching staff are graduates from the University of Oxford and top universities worldwide and they are experts in their fields. They know what it takes to achieve top grades and how to help students achieve the best performance.</p>
         </div>
@@ -76,13 +76,13 @@
 
         <ul class="experience-list-four info-list" v-show="currentLang=='en'">
           <li>
-            <p><span class="square"></span>BSC - University College London(UK No.4; world No.1)</p>
+            <p><span class="square"></span>BSc - University College London(UK No.4; World No.1)</p>
           </li>
           <li>
-            <p><span class="square"></span>MSc - Edinburgh (UK No.8; world No.27)</p>
+            <p><span class="square"></span>MSc - Edinburgh (UK No.8; World No.27)</p>
           </li>
           <li>
-            <p><span class="square"></span>DPhil - Oxford (UK No.1; world No. 1)</p>
+            <p><span class="square"></span>DPhil - Oxford (UK No.1; World No. 1)</p>
           </li>
           <li>
             <p><span class="square"></span>Oxford University - Researcher in Space Physics (1989-1999)</p>
@@ -100,7 +100,7 @@
             <p><span class="square"></span>Founder, Youth Leadership Trust (2012)</p>
           </li>
           <li>
-            <p><span class="square"></span>Founder, Plan8 Tennis Academy,Shenzhen (2013)</p>
+            <p><span class="square"></span>Founder, Plan8 Tennis Academy, Shenzhen (2013)</p>
           </li>
         </ul>
       </div>
@@ -113,9 +113,9 @@
 
       <div class="part2-1-3-bottom">
         <div class="part2-1-3-bottomLeft teacher-name-wrapper" v-show="currentLang=='zh_hk'">
-          <span class="teacher-title">金 • 特 拉 爾 女 士</span>
+          <span class="teacher-title">金 • 特拉爾女士</span>
           <span class="teacher-title">牛津國際公學校長</span>
-          <span class="teacher-title">崇正牛津國際課程項目總負貴人</span>
+          <span class="teacher-title">崇正牛津國際課程項目總負責人</span>
         </div>
         <div class="part2-1-3-bottomLeft teacher-name-wrapper" v-show="currentLang=='en'">
           <span class="teacher-title">Ms Kim Terrar</span>
@@ -127,7 +127,7 @@
             <li><span class="square"></span>紐西闌奧塔哥大學</li>
             <li><span class="square"></span>西澳大利亞大學聖喬治學院的住宅地理/地理學導師（擔任多年）</li>
             <li><span class="square"></span>任教於英國海明頓Wycombe Abbey女子學院，並擔任倫敦的獨立中學副院長</li>
-            <li><span class="square"></span>擔任牛津國際公學的校友與首席運營官（2011年10月開始）</li>
+            <li><span class="square"></span>擔任牛津國際公學的校長與首席運營官（2011年10月開始）</li>
           </ul>
           <ul class="info-list" v-show="currentLang=='en'">
             <li><span class="square"></span>Otago University, New Zealand</li>
@@ -152,7 +152,8 @@
 
         <div class="part2-1-4-bottomLeft teacher-name-wrapper" v-show="currentLang=='en'">
           <span class="teacher-title">Ms Yasmin Sarwar</span>
-          <span class="teacher-title">Oxford International College/Chief Education Officer</span>
+          <span class="teacher-title">Oxford International College</span>
+          <span class="teacher-title">Chief Education Officer</span>
         </div>
 
         <div class="part2-1-4-bottomRight">
@@ -168,7 +169,7 @@
             <li><span class="square"></span>UK Science Tutor of the Year 2011</li>
             <li><span class="square"></span>Weish Woman of the year 2015</li>
             <li><span class="square"></span>Interview Panelist for 2 Top UK Medical Schools</li>
-            <li><span class="square"></span>IClaes Nobel Educator of Distinction 2015</li>
+            <li><span class="square"></span>Claes Nobel Educator of Distinction 2015</li>
             <li><span class="square"></span>TEDx Speaker 2016</li>
             <li>
               <span class="square"></span>

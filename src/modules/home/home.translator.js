@@ -1,12 +1,13 @@
 
 let en = {
-  schoolName: "Tsung Tsin Middle School",
+  schoolName: "HONG KONG TSUNG TSIN MIDDLE SCHOOL",
   name: "Hong Kong TTMS Oxford International Programme IGCSE A-Level",
   address: "Address: No.11 Kwong Lee Road, Cheung Sha Wan, Kowloon, Hong Kong",
   contact: "Contact: Tsung Tsin Middle School Admission Department Mrs Liu",
   contact_tel: "Tel: +852 2387 8228",
   contact_fax: "Fax: +852 2360 1293",
-  contact_phone: "Phone: +852 9790 6010/+86 13041218666",
+  admissionOffice: "Admission Office: +852 2728 2473",
+  // contact_phone: "Phone: +852 9790 6010/+86 13041218666",
   website: "Website: ",
   email: "Email: ",
 
@@ -34,7 +35,7 @@ let en = {
         href: '/czzx/governance'
       }]  
     }, {
-      name: "Oxford International College",
+      name: "UK Oxford International College",
       path: '/njgx',
       description: "Mission and Objective",
       subPath:[{
@@ -154,7 +155,8 @@ let zh_hk = {
   contact: "聯系人： 崇正中學入學部 劉老師",
   contact_tel: "電話： +852 2387 8228",
   contact_fax: "傳真： +852 2360 1293",
-  contact_phone: "手機： +852 9790 6010/+86 13041218666",
+  admissionOffice: "招生办公室: +852 2728 2473",  
+  // contact_phone: "手機： +852 9790 6010/+86 13041218666",
   email: "電郵： ",  
   website: "網站： ", 
   navs: 
