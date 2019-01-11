@@ -10,7 +10,7 @@
 					<p class="programme-description">為學生提供了獨特的機會，通過製作作品集，參與科學、實驗項目和其他專業人員的實際工作，讓他們能夠真實地接觸未來的學位課程。</p>
 				</div>
 				<div class="programme-item">
-					<p class="programme-name">爱丁堡公爵（DofE)計劃</p>
+					<p class="programme-name">爱丁堡公爵(DofE)計劃</p>
 					<p class="programme-description">2018年，牛津國際公學啟動了愛丁堡公爵（DofE)計劃。該計劃由愛丁堡公爵菲力浦王子在60多年前創立，這一項世界領先的青年成就獎。包括三個獎項級別，分別是銅獎、銀獎和金獎。學生共同努力完成各種挑戰，包括志願服務、幫助他人、參加體育運動或舞蹈等文體活動、學習演奏樂器或設計網站等新技能、甚至參加探險活動。</p>
 				</div>								
 			</div>
