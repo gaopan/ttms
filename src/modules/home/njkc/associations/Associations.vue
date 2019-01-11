@@ -7,7 +7,7 @@
   			<p class="associations-info">藝術社團旨在幫助學生發展創造力，通過藝術作品放鬆身心。這是一個發展藝術技能的好機會，同時讓學生有機會從學術學習中抽出時間，享受藝術！歡迎所有想希望通過藝術表演體現自我的學生。</p>
   		</div>
   		<div class="col-md-6">
-  			<p class="associations-title">醫學健康社圍</p>
+  			<p class="associations-title">醫學健康社團</p>
   			<p class="associations-info">歡迎醫學方向和非醫學方向的學生參加談話和討論，内容關於影響當前醫學的各類問題（包括國民醫療服務體系、醫學倫理），從醫療、經濟學和工程學等不同角度探索醫療保健。這是開發可遷移技能的絕佳機會，如人際交往、溝通技巧、團隊精神和大學面試準備。</p>
   		</div>
   		<div class="col-md-6">
@@ -19,7 +19,7 @@
   			<p class="associations-info">按照不同年級酌情安排。</p>
   		</div>
   		<p class="col-md-12 associations-foot">
-  			參與社团另行收費。
+  			參與社團另行收費。
   		</p>
   	</div>
     <div class="row associations-content en" v-show="currentLang == 'en'">
