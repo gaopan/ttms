@@ -971,7 +971,7 @@ let en = {
 	},{
 		rank:'7',
 		semester:'1',
-		courseTitle:'Physic Education',
+		courseTitle:'Physical Education',
 		IGCSE:{
 			type:'string',
 			value:''
@@ -1043,7 +1043,7 @@ let en = {
 	},{
 		rank:'7',
 		semester:'2',
-		courseTitle:'Physic Education',
+		courseTitle:'Physical Education',
 		IGCSE:{
 			type:'string',
 			value:''
@@ -1124,7 +1124,7 @@ let en = {
 	},{
 		rank:'7',
 		semester:'1',
-		courseTitle:'Physic Education',
+		courseTitle:'Physical Education',
 		IGCSE:{
 			type:'string',
 			value:''
@@ -1196,7 +1196,7 @@ let en = {
 	},{
 		rank:'7',
 		semester:'2',
-		courseTitle:'Physic Education',
+		courseTitle:'Physical Education',
 		IGCSE:{
 			type:'string',
 			value:''
@@ -1277,7 +1277,7 @@ let en = {
 	},{
 		rank:'7',
 		semester:'1',
-		courseTitle:'Physic Education',
+		courseTitle:'Physical Education',
 		IGCSE:{
 			type:'icon',
 			value:'glyphicon glyphicon-ok'
@@ -1349,7 +1349,7 @@ let en = {
 	},{
 		rank:'7',
 		semester:'2',
-		courseTitle:'Physic Education',
+		courseTitle:'Physical Education',
 		IGCSE:{
 			type:'icon',
 			value:'glyphicon glyphicon-ok'
