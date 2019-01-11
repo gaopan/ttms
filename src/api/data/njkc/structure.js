@@ -528,7 +528,7 @@ let zh_hk = {
 		courseTitle:'Subtotal',
 		IGCSE:{
 			type:'class',
-			value:'7-8'
+			value:'8'
 		}
 	},{
 		rank:'1',
@@ -600,7 +600,7 @@ let zh_hk = {
 		courseTitle:'Subtotal',
 		IGCSE:{
 			type:'class',
-			value:'7-8'
+			value:'8'
 		}
 	},{
 		rank:'',
@@ -1449,7 +1449,7 @@ let en = {
 		courseTitle:'Subtotal',
 		IGCSE:{
 			type:'class',
-			value:'7-8'
+			value:'8'
 		}
 	},{
 		rank:'1',
@@ -1521,7 +1521,7 @@ let en = {
 		courseTitle:'Subtotal',
 		IGCSE:{
 			type:'class',
-			value:'7-8'
+			value:'8'
 		}
 	},{
 		rank:'',

@@ -1,4 +1,5 @@
 let zh_cn = {
+	njSchoolName: "英国牛津国际公学",
 	schoolName: "Tsung Tsin Middle School",
   name: "Hong Kong Tsung Tsin Middle School",
 	search: "搜索",
@@ -10,6 +11,7 @@ let zh_cn = {
 };
 
 let zh_hk = {
+	njSchoolName: "英國牛津國際公學",
 	schoolName: "香港崇正中學",
   name: "崇正牛津国际中学课程",
 	search: "搜索",
@@ -21,6 +23,7 @@ let zh_hk = {
 };
 
 let en = {
+	njSchoolName: "Oxford International College",
 	search: "Search",
 	schoolName: "Tsung Tsin Middle School",
 	latestImagesAndVideos: "Latest images and videos",

@@ -16,7 +16,7 @@
         <li><span class="glyphicon glyphicon-stop"></span>The location is very convenient which is close to "So Uk Bus Terminus"</li>
         <li><span class="glyphicon glyphicon-stop"></span>The 1st floor has a 3,000-foot auditorium and meeting room</li>
         <li><span class="glyphicon glyphicon-stop"></span>There is one multi-functional room on each floor, from 2nd to 4th</li>
-        <li><span class="glyphicon glyphicon-stop"></span>The 2nd floor to 5th floor is classrooms with a total of 12 classrooms</li>
+        <li><span class="glyphicon glyphicon-stop"></span>The 2nd floor to 5th floor has 12 classrooms in total</li>
         <li><span class="glyphicon glyphicon-stop"></span>There is a platform garden on the 5th floor</li>
         <li><span class="glyphicon glyphicon-stop"></span>There are toilets and shower rooms in each floor</li>
       </ul>

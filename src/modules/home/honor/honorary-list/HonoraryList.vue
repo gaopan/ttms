@@ -1,8 +1,8 @@
 <template>
   <main class="content-main" role="main">
   	<div class="honor-honorary-list" v-show="currentLang == 'zh_hk'">
-     <a :class="{'honorary-list-active':active == 2017}" @click="turnYear('2017')">2017屆牛津國際公學畢業生</a> 
-     <a :class="{'honorary-list-active':active == 2018}" @click="turnYear('2018')">2018屆牛津國際公學畢業生</a> 
+     <a :class="{'honorary-list-active':active == 2017}" @click="turnYear('2017')">牛津國際公學2017屆畢業生</a> 
+     <a :class="{'honorary-list-active':active == 2018}" @click="turnYear('2018')">牛津國際公學2018屆畢業生</a> 
     </div>
 
     <div class="honor-honorary-list" v-show="currentLang == 'en'">

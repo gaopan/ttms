@@ -48,8 +48,14 @@
   			<td><i class="glyphicon glyphicon-arrow-up"></i></td>
   		</tr>
   		<tr>
-  			<td colspan="3">英國高考成績：三科及格達B級或以上，和英文科達C級或上校内成績：二至四科及格</td>
-  			<td colspan="2" class="borderleft2">英國會考成績：中文A級，英文C級或以上及三科達D級或以上**+1科達英國高考達（E級）：中大，理大，城大</td>
+  			<td colspan="3">
+          <p>英國高考成績：三科及格達B級或以上，和英文科達C級或以上</p>
+          <p>校内成績：二至四科及格</p>
+        </td>
+  			<td colspan="2" class="borderleft2">
+          <p>英國會考成績：中文A級，英文C級或以上及三科達D級或以上</p>
+          <p>**+1科達英國高考達（E級）：中大，理大，城大</p>
+        </td>
   		</tr>
   		<tr class="bordernone">
   			<td colspan="3" class="tal"><span>路徑一</span><i class="glyphicon glyphicon-arrow-up"></i></td>
@@ -118,8 +124,14 @@
         <td><i class="glyphicon glyphicon-arrow-up"></i></td>
       </tr>
       <tr>
-        <td colspan="3">AL score : Passed 3 subjects] with B grade or above, and English Subject with C or above Some School score : Passed 2-4 subjects</td>
-        <td colspan="2" class="borderleft2">IGCSE score : Chinese at grade A, English at grade C or above and 3 subjects at grade D or above ** +1 AL (E grade): CU, PolyU, CityU</td>
+        <td colspan="3">
+          <p>AL score : Passed 3 subjects with B grade or above, and English Subject with C or above</p>
+          <p>Some School score : Passed 2-4 subjects</p>
+        </td>
+        <td colspan="2" class="borderleft2">
+          <p>IGCSE score : Chinese at grade A, English at grade C or above and 3 subjects at grade D or above</p>
+          <p>** +1 AL (E grade): CU, PolyU, CityU</p>
+         </td>
       </tr>
       <tr class="bordernone">
         <td colspan="3" class="tal"><span>Pathway 1</span><i class="glyphicon glyphicon-arrow-up"></i></td>

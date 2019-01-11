@@ -18,7 +18,7 @@
         <li><span class="glyphicon glyphicon-stop"></span>身份證副本及護照副本</li>
         <li><span class="glyphicon glyphicon-stop"></span>最近三年學歷證明副本</li>
         <li><span class="glyphicon glyphicon-stop"></span>相關證明檔副本（請參考入學申請表）</li>
-        <li><span class="glyphicon glyphicon-stop"></span>報名費繳款證明：接受郵寄劃線支票拾頭為「星光88有限公司」或轉帳到中國銀行（香港）戶口 ： 012-611-0-013044-8</li>
+        <li><span class="glyphicon glyphicon-stop"></span>報名費繳款證明：接受郵寄劃線支票抬頭為「星光88有限公司」或轉帳到中國銀行（香港）戶口 ： 012-611-0-013044-8</li>
         <li class="procedures-files-tip">申請人因退學或其他原因不能入學，報名費及按金將不獲退款。</li>
       </ul>
       <div class="procedures-timeline">
@@ -95,7 +95,7 @@
       <ul class="procedures-steps">
         <li class="procedures-steps-title">Process</li>
         <li>a. After receiving admissions application, the school will check the relevant documents submitted by the applicant and arrange an interview. The notice of interview will be sent within 7 working days.</li>
-        <li>b. The interview is divided into two parts: admission test and interview test.</li>
+        <li>b. The interview is divided into two parts: admission test and interview.</li>
         <li>c. The interview results will be announced within 14 working days after the interview.</li>
         <li>d. Applicants who have obtained the admissions will pay a deposit of HK$10,000*(non-refundable) for place reservation.</li>
         <li>e. The Programme Fee of the 1st semester, the 2nd semester and related payments must be paid by the specified date in the Offer Letter.</li>

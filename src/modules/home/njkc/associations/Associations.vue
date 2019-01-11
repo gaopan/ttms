@@ -8,7 +8,7 @@
   		</div>
   		<div class="col-md-6">
   			<p class="associations-title">醫學健康社圍</p>
-  			<p class="associations-info">歡迎醫學方向和非醫學方向的學生參加談話和討論，内容關於影響當前醫學的各類問題（包括備受爭議的國民醫療服務體系、醫學倫理，從醫療、經濟學和工程學等不同角度探索醫療保健。這是開發可遷移技能的絕佳機會，如人際交往、溝通技巧、團隊精神和大學面試準備。</p>
+  			<p class="associations-info">歡迎醫學方向和非醫學方向的學生參加談話和討論，内容關於影響當前醫學的各類問題（包括國民醫療服務體系、醫學倫理），從醫療、經濟學和工程學等不同角度探索醫療保健。這是開發可遷移技能的絕佳機會，如人際交往、溝通技巧、團隊精神和大學面試準備。</p>
   		</div>
   		<div class="col-md-6">
   			<p class="associations-title">金融經濟社團</p>
@@ -30,7 +30,7 @@
       </div>
       <div class="col-md-6">
         <p class="associations-title">Medical And Health Association</p>
-        <p class="associations-info">Students in the medical and non-medical fields are welcome to participate in conversations and discussions on various issues affecting current medicine (including the controversial national medical service system and medical ethics), from different perspectives such as medical, economics and engineering, medical insurance. This is a great opportunity to develop transferable skills such as interpersonal skills, communication skills, teamwork and college interview preparation.</p>
+        <p class="associations-info">Students in the medical and non-medical fields are welcome to participate in conversations and discussions on various issues affecting current medicine (including the national medical service system and medical ethics), from different perspectives such as medical, economics and engineering, medical insurance. This is a great opportunity to develop transferable skills such as interpersonal skills, communication skills, teamwork and college interview preparation.</p>
       </div>
       <div class="col-md-6">
         <p class="associations-title">Financial and Economical Association</p>

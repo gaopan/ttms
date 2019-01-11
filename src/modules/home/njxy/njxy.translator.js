@@ -2,7 +2,7 @@ let zh_hk = {
   search: "搜索",
   section_content: "本節內容",
   navs: [{
-    name: "場地與設施",
+    name: "校舍與結構",
     path: '/njxy/structure',
     href: '/njxy/structure'
   },{

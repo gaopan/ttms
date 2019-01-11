@@ -1,91 +1,112 @@
-.njkc-articulation table{
-	width: 60%;
-	margin: 0 auto 30px;
+.njkc-articulation table {
+  width: 60%;
+  margin: 0 auto 30px
 }
-.njkc-articulation table td{
-	text-align: center;
-	border: 2px solid #fff;
-	border-top: 0px;
-	border-bottom: 0px;
-	padding: 10px;
-	background: #dcb454;
-  line-height: 24px;
+
+.njkc-articulation table td {
+  text-align: center;
+  border: 2px solid #fff;
+  border-top: 0px;
+  border-bottom: 0px;
+  padding: 10px;
+  background: #dcb454;
+  line-height: 24px
 }
-.njkc-articulation table td.borderleft2{
-  /*border-left: 30px solid #fff;*/
-	border-left: 4px solid #fff;
+
+.njkc-articulation table td p{
+  margin-bottom: 0;
 }
-.njkc-articulation table td.articulation-final{
-	background: #b27524;
-	font-size: 18px;
-	color: #fff;
+.njkc-articulation table td.borderleft2 {
+  border-left: 4px solid #fff
 }
-.njkc-articulation table tr.bordernone td{
-	border: none;
-	background: #fff;
+
+.njkc-articulation table td.articulation-final {
+  background: #b27524;
+  font-size: 18px;
+  color: #fff
 }
-.njkc-articulation table tr.bordernone i{
-	font-size: 40px;
-	color: #edecfb;
+
+.njkc-articulation table tr.bordernone td {
+  border: none;
+  background: #fff
 }
-.njkc-articulation table tr.bordernone td.tal{
-	text-align: left
+
+.njkc-articulation table tr.bordernone i {
+  font-size: 40px;
+  color: #edecfb
 }
-.njkc-articulation table tr.bordernone td.tar{
-	text-align: right
+
+.njkc-articulation table tr.bordernone td.tal {
+  text-align: left
 }
-@media (max-width: 990px) {
-  .njkc-articulation table td{
+
+.njkc-articulation table tr.bordernone td.tar {
+  text-align: right
+}
+
+@media (max-width:990px) {
+  .njkc-articulation table td {
     line-height: 22px;
-    font-size: 14px;
+    font-size: 14px
   }
-  .njkc-articulation table td.articulation-final{
-    font-size: 16px;
-  }
-}
-@media (max-width: 768px) {
-  .njkc-articulation table{
-    width: 90%;
-  }
-  .njkc-articulation table td{
-    line-height: 22px;
-    font-size: 12px;
-  }
-  .njkc-articulation table td.articulation-final{
-    font-size: 14px;
-  }
-  .njkc-articulation table td.fontsize10{
-    font-size: 8px;
-  }
-  .njkc-articulation table tr.bordernone i{
-    font-size: 20px;
+
+  .njkc-articulation table td.articulation-final {
+    font-size: 16px
   }
 
 }
-@media (max-width: 480px) {
-  .njkc-articulation table{
-    width: auto;
+
+@media (max-width:768px) {
+  .njkc-articulation table {
+    width: 90%
   }
-  .njkc-articulation table tr.bordernone i{
-    font-size: 18px;
+
+  .njkc-articulation table td {
+    line-height: 22px;
+    font-size: 12px
+  }
+
+  .njkc-articulation table td.articulation-final {
+    font-size: 14px
+  }
+
+  .njkc-articulation table td.fontsize10 {
+    font-size: 12px
+  }
+
+  .njkc-articulation table tr.bordernone i {
+    font-size: 20px
   }
 
 }
-@media (max-width: 420px) {
-  .njkc-articulation table td.transform_td{
+
+@media (max-width:480px) {
+  .njkc-articulation table {
+    width: auto
+  }
+
+  .njkc-articulation table tr.bordernone i {
+    font-size: 18px
+  }
+
+}
+
+@media (max-width:420px) {
+  .njkc-articulation table td.transform_td {
     height: 200px;
-    position: relative;
+    position: relative
   }
-  .njkc-articulation table td .transform90{
+
+  .njkc-articulation table td .transform90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    /*width: 130px;*/
     width: 330%;
-    /*height: 22px;*/
     height: 14%;
     position: absolute;
     top: 80px;
-    /*left: -34px;*/
-    left:-120%;
+    left: -120%
   }
-}
 
+}

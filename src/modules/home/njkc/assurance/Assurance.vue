@@ -20,7 +20,7 @@
         <p>
           Teachers are all taught in their mother tongue and have achieved outstanding achievements in their respective fields. Senior foreign teachers in English-language subjects, are native English speaker and come from the United Kingdom, the United States, Canada, and other countries;The Chinese language teacher is native Chinese speaker herself and has more than 20 years of teaching experience. She has published more than 60 Chinese books and won numerous awards. She is also the editor of various Chinese competitions in Hong Kong and Chief Editor from publisher.</p>
         <p>
-          Teachers will regularly write study reports to assess the progress of students. The report will be submitted to the school's teaching committee and will be report to parents to ensure students 1 improvement.
+          Teachers will regularly write study reports to assess the progress of students. The report will be submitted to the school's teaching committee and will be report to parents to ensure students' improvement.
         </p>
         <p>
           Holding the mission of integrate Chinese culture and the Western education, the school invites Ms Terry Wan, the Wing Chun coach originates from Master Yip Man to open a master class for students to learn Wing Chun. Ms Wan is a university lecturer herself in Interior Architectural Design and graduated from top university in USA and HK as well.</p>

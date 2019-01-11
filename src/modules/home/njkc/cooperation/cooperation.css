@@ -1,105 +1,122 @@
-.njkc-cooperation p.cooperation-title{
-  /*width: 70%;*/
+.njkc-cooperation p.cooperation-title {
   color: #b27524;
   line-height: 3;
-  /*border-bottom: 4px solid #b27524;*/
   font-weight: bold;
-  font-size: 22px;
+  font-size: 22px
 }
-.njkc-cooperation .zh_hk p.cooperation-info{
+
+.njkc-cooperation .zh_hk p.cooperation-info {
   text-indent: 2em;
-  margin-bottom: 40px;
-  /*width: 80%;*/
+  margin-bottom: 40px
 }
-.njkc-cooperation .en p.cooperation-info{
-  /*text-indent: 2em;*/
-  margin-bottom: 40px;
-  /*width: 80%;*/
+
+.njkc-cooperation .en p.cooperation-info {
+  margin-bottom: 40px
 }
-.njkc-cooperation .cooperation-foot{
-  color: red;
+
+.njkc-cooperation .cooperation-foot {
+  color: red
 }
-.njkc-cooperation .cooperation-school img{
-  border-radius: 13px;
+
+.njkc-cooperation .cooperation-school img {
+  -moz-border-radius: 13px;
+  border-radius: 13px
 }
- .njkc-cooperation .cooperation-school{
+
+.njkc-cooperation .cooperation-school {
   margin: 0 auto;
-  /*width: 1117px;*/
-  /*width: 90.1%;*/
-  width: 100%;
+  width: 100%
 }
-.njkc-cooperation .cooperation-school:after{
+
+.njkc-cooperation .cooperation-school:after {
   display: block;
   content: '';
   height: 0;
   visibility: hidden;
-  clear: both;
+  clear: both
 }
-.njkc-cooperation .cooperation-school .cooperation-school-item{
+
+.njkc-cooperation .cooperation-school .cooperation-school-item {
   float: left;
   height: 99px;
-  /*border: 2px solid #b27524;*/
+  -moz-border-radius: 12px;
   border-radius: 12px;
   margin-left: 8px;
-  margin-bottom: 4px;
+  margin-bottom: 4px
 }
-.njkc-cooperation .cooperation-school img{
-  border-radius: 10px; 
-  box-shadow: 0 0 1px #000;
-} 
 
-.cooperation-en{
-  min-height: 260px;
+.njkc-cooperation .cooperation-school img {
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 1px #000;
+  -moz-box-shadow: 0 0 1px #000;
+  box-shadow: 0 0 1px #000
 }
-@media (max-width: 1200px) {
-  .cooperation-en{
-  min-height: 300px;
+
+.cooperation-en {
+  min-height: 280px
 }
+
+@media (max-width:1200px) {
+  .cooperation-en {
+    min-height: 320px
+  }
+
 }
-@media (max-width: 990px) {
-  .njkc-cooperation p.cooperation-title{
+
+@media (max-width:990px) {
+  .njkc-cooperation p.cooperation-title {
     width: 94%;
     font-size: 16px;
     margin: 0 auto
   }
-  .njkc-cooperation .zh_hk p.cooperation-info{
+
+  .njkc-cooperation .zh_hk p.cooperation-info {
     font-size: 14px;
     width: 94%;
-    margin: 0 auto;
+    margin: 0 auto
   }
-  .njkc-cooperation .en p.cooperation-info{
+
+  .njkc-cooperation .en p.cooperation-info {
     font-size: 14px;
     width: 94%;
-    margin: 0 auto;
+    margin: 0 auto
   }
-  .njkc-cooperation p.cooperation-foot{
+
+  .njkc-cooperation p.cooperation-foot {
     font-size: 14px;
     width: 94%;
-    margin: 20px auto 0;
+    margin: 20px auto 0
   }
-  .cooperation-en, .cooperation-zh{
-    height: auto;
+
+  .cooperation-en, .cooperation-zh {
+    height: auto
   }
-  .cooperation-en, .cooperation-zh{
-    min-height: auto;
+
+  .cooperation-en, .cooperation-zh {
+    min-height: auto
   }
-  
+
 }
 
-@media (max-width: 480px) {
-  .njkc-cooperation p.cooperation-title{
+@media (max-width:480px) {
+  .njkc-cooperation p.cooperation-title {
     width: 100%;
-    font-size: 16px;
+    font-size: 16px
   }
-  .njkc-cooperation .zh_hk p.cooperation-info{
+
+  .njkc-cooperation .zh_hk p.cooperation-info {
     width: 100%;
-    font-size: 14px;
+    font-size: 14px
   }
-  .njkc-cooperation .en p.cooperation-info{
+
+  .njkc-cooperation .en p.cooperation-info {
     width: 100%;
-    font-size: 14px;
+    font-size: 14px
   }
-  .njkc-cooperation .cooperation-school{
-    width: 100%;
+
+  .njkc-cooperation .cooperation-school {
+    width: 100%
   }
+
 }

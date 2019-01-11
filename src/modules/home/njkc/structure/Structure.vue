@@ -1,9 +1,9 @@
 <template>
   <main class="content-main njkc-structure" role="main">
     <div class="structure-content" v-show="currentLang == 'zh_hk'">
-      <p class="structure-title">八年級至十一年級英國舍考</p>
+      <p class="structure-title">八年級至十一年級 英國會考</p>
       <p class="structure-info">IGCSE與O Level是世界公認的成熟體系，是基於選科的初中教育體系。</p>
-      <p class="structure-title">十二至十三年級英國高考</p>
+      <p class="structure-title">十二至十三年級 英國高考</p>
       <p class="structure-info">英國高中課程，簡稱A level，歷史悠久，認受性廣泛，被幾乎所有英語授課的大學作為招生的入學標準。</p>
     </div>
   	<div class="structure-content" v-show="currentLang == 'en'">
@@ -18,19 +18,23 @@
         <p class="requirements-total">報讀大學要求</p>
         <div class="col-md-6">
           <p class="requirements-title">英國大學</p>
-          <p class="requirements-info">3-4個中學高級水準考試（A-Level）學科英國高校招生服務準備課程</p>
+          <p class="requirements-info">3-4個中學高級水準考試（A-Level）學科</p>
+          <p class="requirements-info">英國高校招生服務準備課程</p>
         </div>
         <div class="col-md-6">
           <p class="requirements-title">美國大學</p>
-          <p class="requirements-info">3-4個中學高級水準考試（A-Level）學科美國高等院校考試/美國學業能力傾向測験準備課程</p>
+          <p class="requirements-info">3-4個中學高級水準考試（A-Level）學科</p>
+          <p class="requirements-info">美國高等院校考試/美國學業能力傾向測験準備課程</p>
         </div>
         <div class="col-md-6">
           <p class="requirements-title">香港/新加坡大學</p>
-          <p class="requirements-info">4個中學高級水準考試（A-Level）學科英文授課</p>  
+          <p class="requirements-info">4個中學高級水準考試（A-Level）學科</p>  
+          <p class="requirements-info">英文授課</p>
         </div>
         <div class="col-md-6">
           <p class="requirements-title">全球其他國家及地區</p>
-          <p class="requirements-info">4個中學高級水準考試（A-Level）學科母語授課（如需要）</p>
+          <p class="requirements-info">4個中學高級水準考試（A-Level）學科</p>
+          <p class="requirements-info">母語授課（如需要）</p>
         </div>
       </div>
     </div>
@@ -40,19 +44,23 @@
         <p class="requirements-total">Requirements for Higher Education</p>
         <div class="col-md-6">
           <p class="requirements-title">UK Universities</p>
-          <p class="requirements-info">3-4 A-level subjects UCAS preparation</p>
+          <p class="requirements-info">3-4 A-level subjects </p>
+          <p class="requirements-info">UCAS preparation</p>
         </div>
         <div class="col-md-6">
           <p class="requirements-title">US Universities</p>
-          <p class="requirements-info">3-4 A-level subjects ACT/SAT preparation</p>
+          <p class="requirements-info">3-4 A-level subjects </p>
+          <p class="requirements-info">ACT/SAT preparation</p>
         </div>
         <div class="col-md-6">
           <p class="requirements-title">Universities of Hong Kong/Singapore</p>
-          <p class="requirements-info">4 A-Level subjects, English as Teaching Language</p>  
+          <p class="requirements-info">4 A-Level subjects, </p>  
+          <p class="requirements-info">English as Teaching Language</p>
         </div>
         <div class="col-md-6">
           <p class="requirements-title">Rest of the world</p>
-          <p class="requirements-info">4 A-level subjects, plus native language if required</p>
+          <p class="requirements-info">4 A-level subjects, </p>
+          <p class="requirements-info">plus native language if required</p>
         </div>
       </div>
     </div>

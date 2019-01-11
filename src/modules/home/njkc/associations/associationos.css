@@ -1,64 +1,71 @@
-.njkc-associations img{
-	display: block;
-	margin: 0 auto;
+.njkc-associations img {
+  display: block;
+  margin: 0 auto
 }
-.njkc-associations p.associations-title{
-	/*width: 70%;*/
-	color: #b27524;
-	line-height: 3;
-	/*border-bottom: 4px solid #b27524;*/
-	font-weight: bold;
-	font-size: 18px;
+
+.njkc-associations p.associations-title {
+  color: #b27524;
+  line-height: 3;
+  font-weight: bold;
+  font-size: 18px
 }
-.njkc-associations .zh_hk p.associations-info{
+
+.njkc-associations .zh_hk p.associations-info {
   text-indent: 2em;
+  margin-bottom: 40px
+}
+
+.njkc-associations .en p.associations-info {
   margin-bottom: 40px;
-  /*width: 80%;*/
+  width: 80%
 }
-.njkc-associations .en p.associations-info{
-	/*text-indent: 2em;*/
-	margin-bottom: 40px;
-	width: 80%;
+
+.njkc-associations .associations-foot {
+  color: red
 }
-.njkc-associations .associations-foot{
-	color: red;
-}
-@media (max-width: 990px) {
-  .njkc-associations p.associations-title{
+
+@media (max-width:990px) {
+  .njkc-associations p.associations-title {
     width: 94%;
     font-size: 16px;
     margin: 10px auto;
-    line-height: 30px;
+    line-height: 30px
   }
-  .njkc-associations .zh_hk p.associations-info{
+
+  .njkc-associations .zh_hk p.associations-info {
     font-size: 14px;
     width: 94%;
-    margin: 0 auto ;
+    margin: 0 auto
   }
-  .njkc-associations .en p.associations-info{
+
+  .njkc-associations .en p.associations-info {
     font-size: 14px;
     width: 94%;
-    margin: 0 auto ;
+    margin: 0 auto
   }
-  .njkc-associations p.associations-foot{
+
+  .njkc-associations p.associations-foot {
     font-size: 14px;
     width: 94%;
-    margin: 20px auto 20px;
+    margin: 20px auto 20px
   }
-  
+
 }
-@media (max-width: 480px) {
-  .njkc-associations p.associations-title{
+
+@media (max-width:480px) {
+  .njkc-associations p.associations-title {
     width: 100%;
-    font-size: 16px;
+    font-size: 16px
   }
-  .njkc-associations .zh_hk p.associations-info{
+
+  .njkc-associations .zh_hk p.associations-info {
     font-size: 14px;
-    width: 100%;
+    width: 100%
   }
-  .njkc-associations .en p.associations-info{
+
+  .njkc-associations .en p.associations-info {
     font-size: 14px;
-    width: 100%;
+    width: 100%
   }
-  
+
 }
