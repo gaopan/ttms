@@ -102,8 +102,8 @@
           <div class="row picture-row picture-row-2">
             <div class="col-xs-12">
               <div class="index-school-title">
-                <div class="school-logo"><img :src="imgUrl('czzx-logo.png')"/></div>
-                  <div class="school-name">
+                <div class="school-logo" :class = "currentLang"><img :src="imgUrl('czzx-logo.png')"/></div>
+                  <div class="school-name" :class = "currentLang">
                     {{'schoolName' | translate(translator, currentLang)}}
                   </div>
                 </div>
@@ -129,9 +129,9 @@
                     </div>
                     <div class="row picture-row">
                       <div class="col-xs-12">
-                        <div class="index-school-title text-right">
-                          <div class="school-logo"><img :src="imgUrl('logo.png')"/></div>
-                            <div class="school-name">{{'njSchoolName' | translate(translator, currentLang)}}</div>
+                        <div class="index-school-title text-align-right-or-center">
+                          <div class="school-logo" :class = "currentLang"><img :src="imgUrl('logo.png')"/></div>
+                            <div class="school-name" :class = "currentLang">{{'njSchoolName' | translate(translator, currentLang)}}</div>
                           </div>
                         </div>
                         <div class="col-xs-12">

@@ -828,6 +828,7 @@ footer img {
   margin-left: -15px
 }
 
+
 .index-school-title {
   display: block;
   width: 100%;
@@ -835,6 +836,9 @@ footer img {
   color: #fff;
   background-color: #0f1a38;
   white-space: nowrap;
+}
+.text-align-right-or-center{
+  text-align:right;
 }
 
 .school-logo {
@@ -857,6 +861,7 @@ footer img {
   line-height: 1;
   vertical-align: middle;
 }
+
 
 /* <480px */
 @media(max-width:480px){
@@ -941,7 +946,20 @@ footer img {
   .nav-name-tip{
     font-size: 14px;
   } 
- 
+
+  .school-name {
+    font-size: 16px;
+    letter-spacing: 1px;
+  } 
+
+  .index-school-title {
+    padding: 10px 4px;
+    text-align: center;
+  } 
+  .text-align-right-or-center{
+    text-align:center;
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -953,6 +971,13 @@ footer img {
   .school-title-wrapper.en {
     width: 200px;
   }   
+  .school-logo.en{
+    display: none;
+  }
+
+  .school-name.en {
+    font-size:12px
+  }  
  
 }
 @media(min-width: 500px) and (max-width: 767px){
@@ -1087,6 +1112,12 @@ footer img {
   }  
 }
 
+@media(min-width:500px) and (max-width: 679px){
+    .school-name.en {
+        letter-spacing: 2px;
+        font-size: 20px;
+    }  
+}
 @media(min-width:480px) and (max-width: 679px){
   p.welcome-p1{
     font-size: 24px;
