@@ -34,7 +34,7 @@
           <h2>獎學金計劃</h2>
           <p class="fees-amount fees-amount-zh">$ 1000<span>（崇正牛津獎學金）</span></p>
           <p class="fees-amount fees-amount-zh">$ 800<span>（總監嘉賞計劃）</span></p>
-          <p class="fees-tip fees-tip-zh">經由學校評選，每學期2位學生可獲得以上獎學金計耋</p>
+          <p class="fees-tip fees-tip-zh">經由學校評選，每學期2位學生可獲得以上獎學金計劃</p>
         </div>
       </div>
     </div>

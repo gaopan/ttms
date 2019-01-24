@@ -30,6 +30,7 @@
   box-shadow: 0 0 1px #000;
   /*background: #d8ac43;*/
   background: #ecd6a1;
+  height: 212px;
 }
 .rxsq-fees .fees-top .fees-scheme .fees-amount span{
   font-size: 14px;
@@ -92,6 +93,9 @@
   color: red
 }
 @media (max-width:1200px) {
+  .rxsq-fees .fees-top .fees-scheme{
+    height: auto;
+  }
   .rxsq-fees .fees-top .fees-scheme .fees-amount {
     font-size: 30px
   }

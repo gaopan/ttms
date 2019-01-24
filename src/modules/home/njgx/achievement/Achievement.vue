@@ -2,7 +2,7 @@
   <main class="content-main" role="main">
   	<div class="part2-4">
 			<p class="part2-4-sentence-1" :class = "currentLang" v-show = "currentLang=='zh_hk'">
-				英國牛津國際公學在獨立學院的中學高级水準考試成績上名列前茅。根據2018年的中學高级水準考試評定結果，牛津國際公學的成结達到A*/A為83.5%,當中佔A等级成績有58.2%。去年成績逹到A*/A為71%,逭個成績比較起來有著令人藉得鼓舞的進步，讓牛津國際學校成為英格藺地區高级水準考試成級最佳的學校之一。
+				英國牛津國際公學在獨立學院的中學高级水準考試成績上名列前茅。根據2018年的中學高级水準考試評定結果，牛津國際公學的成績達到A*/A為83.5%,當中佔A等級成績有58.2%。去年成績逹到A*/A為71%,逭個成績比較起來有著令人藉得鼓舞的進步，讓牛津國際學校成為英格藺地區高級水準考試成級最佳的學校之一。
 			</p>
 
 
@@ -17,7 +17,7 @@
 							<th>排序</th>
 							<th>英國</th>
 							<th>2018 A-Level A*/A 成绩</th>
-							<th>相对2017的成绩(變化百分比)</th>
+							<th>相对2017的成績(變化百分比)</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -231,14 +231,14 @@
 				
 				<div class="course-item-wrapper">
 					<p class="course-teacher">貝司國先生</p>
-					<p class="teacher-introduce">■   曾在摩根大通集團，法國外贸銀行，富通集團等機構擔任要職</p>
+					<p class="teacher-introduce">■   曾在摩根大通集團，法國外貿銀行，富通集團等機構擔任要職</p>
 					<p class="teacher-introduce">■   從2010年開始從事教學，持有英文語言教學一等榮譽資格證，任教香港英皇書院同學會小學二校、聖方濟各英文小學、聖若瑟小學等學校</p>
-					<p class="teacher-introduce">■   教學時鼓勵學生積極提問，強調幫助學生養成閱讀的好習惯，對提高學生英語能力經驗充足</p>
+					<p class="teacher-introduce">■   教學時鼓勵學生積極提問，強調幫助學生養成閱讀的好習慣，對提高學生英語能力經驗充足</p>
 				</div>
 
 				<div class="course-item-wrapper">
 					<p class="course-teacher">左韋女士</p>
-					<p class="teacher-introduce">■   知名青少年文學作家，獲獎無數之外，多篇作品编入香港内地小學語文及香港小學語文教科書；</p>
+					<p class="teacher-introduce">■   知名青少年文學作家，獲獎無數之外，多篇作品編入香港内地小學語文及香港小學語文教科書；</p>
 					<p class="teacher-introduce">■   有二十多年的豐富教學經験，任職過香港大學SPACE、香港科技大學、香港公開大學、香港城市大學、香港中文大學、香港演藝學院中文課導師；</p>
 					<p class="teacher-introduce">■   香港21世紀人文出版社主編，編寫中文教材之餘，多年獲邀擔任香港藝術發展局文學評審員、香港“中文文學獎”、“青年文學獎”評委，香港“文學雙年獎”、“香港書獎”的評審委員等職。</p>
 				</div>
@@ -260,12 +260,12 @@
 					<p class="teacher-introduce">■  中國香港健美總會/香港棒球總會/香港欖球總會教練</p>
 				</div>				
 
-				<p class="teacher-category">世界常識及藝術科主教老师</p>
+				<p class="teacher-category">世界常識及藝術科主教老師</p>
 				
 				<div class="course-item-wrapper">
 					<p class="course-teacher">謝柏梁教授</p>
-					<p class="teacher-introduce">■  北京市高創計晝軍人物</p>
-					<p class="teacher-introduce" style="margin-left: 20px;">國務院政府特殊津貼专家</p>
+					<p class="teacher-introduce">■  北京市高創計劃領軍人物</p>
+					<p class="teacher-introduce" style="margin-left: 20px;">國務院政府特殊津貼專家</p>
 					<p class="teacher-introduce">■  中國戲曲學院戲文系主任</p>
 					<p class="teacher-introduce" style="margin-left: 20px;">中國文藝評論基地主任</p>
 					<p class="teacher-introduce">■  中國戯曲學會常務理事</p>
@@ -276,15 +276,15 @@
 					<p class="course-teacher">張紫伶博士</p>
 					<p class="teacher-introduce">■  出身梨園世家，為粤劇宗師白駒榮孫女，名伶白雪梅之女，獲多項音樂國際比赛獎項</p>
 					<p class="teacher-introduce">■  英屬哥倫比亞大學學士，香港中文大學文化管理碩士，中國藝術研究院（北京）王文章院長博士研究生</p>
-					<p class="teacher-introduce">■  港澳非物質文化遗產發展研究會秘書長</p>
+					<p class="teacher-introduce">■  港澳非物質文化遺產發展研究會秘書長</p>
 					<p class="teacher-introduce">■  中國戯曲學院客席教授，香港演藝學院講師，香港公開大學課程主任</p>
 				</div>
 
-				<p class="teacher-category">中國傳統文化客席老师</p>
+				<p class="teacher-category">中國傳統文化客席老師</p>
 				
 				<div class="course-item-wrapper">
 					<p class="course-teacher">白雪梅女士</p>
-					<p class="teacher-introduce">■   梨国世家粤剧名伶</p>
+					<p class="teacher-introduce">■   梨国世家粵劇名伶</p>
 				</div>
 
 				<div class="course-item-wrapper">
@@ -393,7 +393,7 @@
       		<!-- 1 -->
       		<div class="part244-course-item">
       			<p class="part244-course-name">化學課程</p>
-      			<p class="part244-teacher-name">喬纳森貝克特先生</p>
+      			<p class="part244-teacher-name">喬納森貝克特先生</p>
       			<p class="part244-teacher-experience">■   牛津大學化學榮譽碩士畢業</p>
       		</div>
 

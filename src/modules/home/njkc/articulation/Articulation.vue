@@ -68,7 +68,7 @@
   			<td colspan="5"><i class="glyphicon glyphicon-arrow-up"></i></td>
   		</tr>
   		<tr>
-  			<td colspan="5">八年级至九年级（預前英國會考課程）</td>
+  			<td colspan="5">八年級至九年級（預前英國會考課程）</td>
   		</tr>
   	</table>
     <table v-show="currentLang == 'en'">

@@ -10,7 +10,7 @@
 					<p class="programme-description">為學生提供了獨特的機會，通過製作作品集，參與科學、實驗項目和其他專業人員的實際工作，讓他們能夠真實地接觸未來的學位課程。</p>
 				</div>
 				<div class="programme-item">
-					<p class="programme-name">爱丁堡公爵(DofE)計劃</p>
+					<p class="programme-name">愛丁堡公爵(DofE)計劃</p>
 					<p class="programme-description">2018年，牛津國際公學啟動了愛丁堡公爵（DofE)計劃。該計劃由愛丁堡公爵菲力浦王子在60多年前創立，這一項世界領先的青年成就獎。包括三個獎項級別，分別是銅獎、銀獎和金獎。學生共同努力完成各種挑戰，包括志願服務、幫助他人、參加體育運動或舞蹈等文體活動、學習演奏樂器或設計網站等新技能、甚至參加探險活動。</p>
 				</div>								
 			</div>
@@ -27,12 +27,12 @@
 					<p class="programme-description">對於所有學生來說，無論將來他要成為醫療人員、律師還是工程師，哲學都是一個永恆的課題。我們的課堂上充滿了對倫理問題甚至是人類存在問題的爭論。學生們被鼓勵去用他們以前從未想過的方式思考，涉及的主題可能包括：人類是否自由？電腦能否思考？我們如何明辨是非？</p>
 				</div>
 				<div class="programme-item mR">
-					<p class="programme-name">辩諭</p>
+					<p class="programme-name">辯論</p>
 					<p class="programme-description">辯論俱樂部對所有學生而言都是一次令人興奮的機會。學生將學會分析案例，並就現實關聯性及頂尖大學非常重視的技能問題進行研究和討論。學生還將參加牛津和劍橋學校的辯論賽。</p>
 				</div>
 				<div class="programme-item">
-					<p class="programme-name">编程</p>
-					<p class="programme-description">由牛津大學博士生開設的編程課，教授寶貴的技能，無論學生未來選擇哪种職業道路，這門技術都將十分有用。</p>
+					<p class="programme-name">編程</p>
+					<p class="programme-description">由牛津大學博士生開設的編程課，教授寶貴的技能，無論學生未來選擇那種職業道路，這門技術都將十分有用。</p>
 				</div>
 				<div class="programme-item mR">
 					<p class="programme-name">企業模擬</p>

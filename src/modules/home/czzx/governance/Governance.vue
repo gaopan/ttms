@@ -150,7 +150,7 @@
 	        <p class="name">林絢琛博士</p>
 	        <p class = "motto">“質素保證 個性發展”</p>
 
-	        <p class="sentence">從历史發展來看，香港在提供跨地域的國際教育課程上是世界上做的最好的地區。它能夠在適應當地文化的同時，保證教學質量，這是跨地域的國際教育課程面對的最嚴峻挑戰。我們不僅重視智慧,還重視毎位學生個別的智慧、體力和文化發展。我們相信保證“個性發展”是人生成功的唯一途徑。</p>
+	        <p class="sentence">從歷史發展來看，香港在提供跨地域的國際教育課程上是世界上做的最好的地區。它能夠在適應當地文化的同時，保證教學質量，這是跨地域的國際教育課程面對的最嚴峻挑戰。我們不僅重視智慧,還重視毎位學生個別的智慧、體力和文化發展。我們相信保證“個性發展”是人生成功的唯一途徑。</p>
 	      </div>
 
 				<div class="teacher-info" v-show = "currentLang=='en'">
@@ -314,7 +314,7 @@
 
 	      <ul class="experience-list-three info-list"  v-show = "currentLang=='zh_hk'">
 	        <li>
-	            <p><span class="square"></span>北京市高創計晝领軍人物</p>
+	            <p><span class="square"></span>北京市高創計劃領軍人物</p>
 	            <p class="sub-list-item">國務院政府特殊津貼專家</p>
 	        </li>
 
