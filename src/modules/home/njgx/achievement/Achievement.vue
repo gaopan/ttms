@@ -16,8 +16,8 @@
 						<tr>
 							<th>排序</th>
 							<th>英國</th>
-							<th>2018 A-Level A*/A 成绩</th>
-							<th>相对2017的成績(變化百分比)</th>
+							<th>2018 A-Level A*/A 成績</th>
+							<th>相比2017的成績(變化百分比)</th>
 						</tr>
 					</thead>
 					<tbody>
