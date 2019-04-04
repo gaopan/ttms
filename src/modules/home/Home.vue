@@ -138,6 +138,7 @@
             {{'email' | translate(translator, currentLang)}}
             <a>info@ttms.edu.hk</a>
           </p>
+          <p class="provider-info">&lt;Content provided by Oxford International (Hong Kong) Education Group&gt;</p>
         </div>
         <div id="footer-right">
           <img :src="imgUrl('address.png')" />
@@ -171,6 +172,7 @@
             <img :src="imgUrl('address.png')" />
           </div>               
         </div>
+        <div class="provider-info">&lt;Content provided by Oxford International (Hong Kong) Education Group&gt;</div>
       </div>
     </footer>
     <div class="footer-sub">
