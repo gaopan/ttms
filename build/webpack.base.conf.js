@@ -42,9 +42,15 @@ module.exports = {
       loader: 'vue-loader',
       options: vueLoaderConfig
     }, {
+      test: /\.(mov|mp4)$/,
+      loader: 'file-loader',
+      options: {
+        name: '[name].[ext]'
+      }
+    }, {
       test: /\.js$/,
       loader: 'babel-loader',
-      include: [resolve('src'), resolve('test'), resolve('node_modules/vue-awesome'),resolve('node_modules/rich-text-editor')]
+      include: [resolve('src'), resolve('test'), resolve('node_modules/vue-awesome'), resolve('node_modules/rich-text-editor')]
     }, {
       test: /\.(png|jpe?g|gif|svg|ico)(\?.*)?$/,
       loader: 'url-loader',

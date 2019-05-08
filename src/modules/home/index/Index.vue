@@ -59,7 +59,9 @@
             <div class="index-picture-middle">
               <div>{{'schoolName' | translate(translator, currentLang)}}</div>
               <div class="video-container" ref="videoWrapper">
-                <iframe src="https://player.vimeo.com/video/309814563" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <video width="640" height="360" controls>
+                  <source :src="videoUrl('czzx.mp4')" type="video/mp4"></source>
+                </video>
               </div>
             </div>
           </div>

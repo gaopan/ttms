@@ -10,3 +10,4 @@ selenium-debug.log
 .jsbeautifyrc
 .vscode
 package-lock.json
+src/assets/videos/*.mp4

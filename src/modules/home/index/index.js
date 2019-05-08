@@ -4,6 +4,7 @@ import SearchBox from '@/components/search-box/SearchBox.vue'
 
 
 let images = require.context('@/assets/imgs/', false, /\.(png|jpg|gif)$/)
+let videos = require.context('@/assets/videos/', false, /\.(mp4|mov)$/)
 let eventHub = shared.eventHub
 export default {
   data() {
@@ -22,6 +23,9 @@ export default {
   methods: {
     imgUrl: function(path) {
       return images('./' + path);
+    },
+    videoUrl: function(path){
+      return videos('./' + path);
     },
     changedLang(lang) {
       this.currentLang = lang;
