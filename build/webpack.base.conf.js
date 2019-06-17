@@ -44,8 +44,8 @@ module.exports = {
     }, {
       test: /\.(mov|mp4)$/,
       loader: 'file-loader',
-      options: {
-        name: '[name].[ext]'
+      query: {
+        name: utils.assetsPath('video/[name].[hash:7].[ext]')
       }
     }, {
       test: /\.js$/,
