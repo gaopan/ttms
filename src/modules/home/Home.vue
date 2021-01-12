@@ -129,7 +129,6 @@
             <br/> {{'contact_tel' | translate(translator, currentLang)}}
             <br/> {{'contact_fax' | translate(translator, currentLang)}}
             <!-- <br/> {{'contact_phone' | translate(translator, currentLang)}} -->
-            <br/> {{'admissionOffice' | translate(translator, currentLang)}}
 
             <br/>
             {{'website' | translate(translator, currentLang)}}
@@ -155,7 +154,6 @@
             <br/> {{'contact_tel' | translate(translator, currentLang)}}
             <br/> {{'contact_fax' | translate(translator, currentLang)}}
             <!-- <br/> {{'contact_phone' | translate(translator, currentLang)}} -->
-            <br/> {{'admissionOffice' | translate(translator, currentLang)}}
             <br/>
             {{'website' | translate(translator, currentLang)}}
             <a href="www.ttms.edu.hk">www.ttms.edu.hk</a>
